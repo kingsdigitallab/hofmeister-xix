@@ -34,5 +34,3 @@ replay_pid*
 volumes/media/
 !volumes/webapps/ROOT/2008/source/redist/zip/*.zip
 compose/.cache
-
-*.cfs

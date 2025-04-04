@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_5"><teiHeader><fileDesc><titleStmt><title>A sample page</title></titleStmt><publicationStmt><p></p></publicationStmt><sourceDesc><p></p></sourceDesc></fileDesc><revisionDesc><change><date>2004-06-18</date><respStmt><name>JG</name></respStmt><item>encoded from html source</item></change></revisionDesc></teiHeader><text><body><head>A sample page</head>
+
+<p><figure url="hofm002"></figure></p>
+
+</body></text></TEI.2>

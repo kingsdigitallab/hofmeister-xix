@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE A_list SYSTEM "../../dtd/alist/A_list.dtd">
+<A_list>
+    <countryCode id="Austria">
+        <codeISO>AT</codeISO>
+        <internal>AU</internal>
+        <full>Austria</full>
+    </countryCode>
+    <countryCode id="Belgium">
+        <codeISO>BE</codeISO>
+        <internal>BE</internal>
+        <full>Belgium</full>
+    </countryCode>
+    <countryCode id="Bosnia">
+        <codeISO>BA</codeISO>
+        <internal>BK</internal>
+        <full>Bosnia and Herzegovina</full>
+    </countryCode>
+    <countryCode id="Bulgaria">
+        <codeISO>BG</codeISO>
+        <internal>BU</internal>
+        <full>Bulgaria</full>
+    </countryCode>
+    <countryCode id="Denmark">
+        <codeISO>DK</codeISO>
+        <internal>DA</internal>
+        <full>Denmark</full>
+    </countryCode>
+    <countryCode id="Estonia">
+        <codeISO>EE</codeISO>
+        <internal>EN</internal>
+        <full>Estonia</full>
+    </countryCode>
+    <countryCode id="CzechRepublic">
+        <codeISO>CZ</codeISO>
+        <internal>EZ</internal>
+        <full>Czech Republic</full>
+    </countryCode>
+    <countryCode id="France">
+        <codeISO>FR</codeISO>
+        <internal>FR</internal>
+        <full>France</full>
+    </countryCode>
+    <countryCode id="Germany">
+        <codeISO>DE</codeISO>
+        <internal>GM</internal>
+        <full>Germany</full>
+    </countryCode>
+    <countryCode id="Croatia">
+        <codeISO>HR</codeISO>
+        <internal>HR</internal>
+        <full>Croatia</full>
+    </countryCode>
+    <countryCode id="Finland">
+        <codeISO>FI</codeISO>
+        <internal>FI</internal>
+        <full>Finland</full>
+    </countryCode>
+    <countryCode id="Hungary">
+        <codeISO>HU</codeISO>
+        <internal>HU</internal>
+        <full>Hungary</full>
+    </countryCode>
+    <countryCode id="India">
+        <codeISO>IN</codeISO>
+        <internal>IN</internal>
+        <full>India</full>
+    </countryCode>
+    <countryCode id="Italy">
+        <codeISO>IT</codeISO>
+        <internal>IT</internal>
+        <full>Italy</full>
+    </countryCode>
+    <countryCode id="Latvia">
+        <codeISO>LV</codeISO>
+        <internal>LG</internal>
+        <full>Latvia</full>
+    </countryCode>
+    <countryCode id="Lithuania">
+        <codeISO>LT</codeISO>
+        <internal>LH</internal>
+        <full>Lithuania</full>
+    </countryCode>
+    <countryCode id="Slovakia">
+        <codeISO>SK</codeISO>
+        <internal>LO</internal>
+        <full>Slovakia</full>
+    </countryCode>
+    <countryCode id="Luxembourg">
+        <codeISO>LU</codeISO>
+        <internal>LU</internal>
+        <full>Luxembourg</full>
+    </countryCode>
+    <countryCode id="Mexico">
+        <codeISO>MX</codeISO>
+        <internal>MX</internal>
+        <full>Mexico</full>
+    </countryCode>
+    <countryCode id="Netherlands">
+        <codeISO>NL</codeISO>
+        <internal>NL</internal>
+        <full>Netherlands</full>
+    </countryCode>
+    <countryCode id="Norway">
+        <codeISO>NO</codeISO>
+        <internal>NO</internal>
+        <full>Norway</full>
+    </countryCode>
+    <countryCode id="Poland">
+        <codeISO>PL</codeISO>
+        <internal>PL</internal>
+        <full>Poland</full>
+    </countryCode>
+    <countryCode id="Romania">
+        <codeISO>RO</codeISO>
+        <internal>RO</internal>
+        <full>Romania</full>
+    </countryCode>
+    <countryCode id="RussianFederation">
+        <codeISO>RU</codeISO>
+        <internal>RS</internal>
+        <full>Russian Federation</full>
+    </countryCode>
+    <countryCode id="Serbia">
+        <codeISO>RS</codeISO>
+        <internal>SR</internal>
+        <full>Serbia</full>
+    </countryCode>
+    <countryCode id="SouthAfrica">
+        <codeISO>ZA</codeISO>
+        <internal>SF</internal>
+        <full>South Africa</full>
+    </countryCode>
+    <countryCode id="Spain">
+        <codeISO>ES</codeISO>
+        <internal>SP</internal>
+        <full>Spain</full>
+    </countryCode>
+    <countryCode id="Sweden">
+        <codeISO>SE</codeISO>
+        <internal>SW</internal>
+        <full>Sweden</full>
+    </countryCode>
+	<countryCode id="Switzerland">
+        <codeISO>CH</codeISO>
+        <internal>SZ</internal>
+        <full>Switzerland</full>
+    </countryCode>
+    <countryCode id="Turkey">
+        <codeISO>TR</codeISO>
+        <internal>TU</internal>
+        <full>Turkey</full>
+    </countryCode>
+    <countryCode id="UnitedKingdom">
+        <codeISO>UK</codeISO>
+        <internal>UK</internal>
+        <full>United Kingdom</full>
+    </countryCode>
+    <countryCode id="Ukraine">
+        <codeISO>UA</codeISO>
+        <internal>UP</internal>
+        <full>Ukraine</full>
+    </countryCode>
+    <countryCode id="UnitedStates">
+        <codeISO>US</codeISO>
+        <internal>US</internal>
+        <full>United States</full>
+    </countryCode>
+	<countryCode id="Slovenia">
+        <codeISO>SL</codeISO>
+        <internal>SI</internal>
+        <full>Slovenia</full>
+    </countryCode>
+</A_list>
+

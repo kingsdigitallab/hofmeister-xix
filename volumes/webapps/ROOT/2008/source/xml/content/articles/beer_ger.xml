@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="beer_ger">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hofmeister biography (German)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Hofmeister, Friedrich</head>
+
+                <p>
+                    <hi rend="italic">This article is reproduced from Die Musik in Geschichte und
+                        Gegenwart by kind permission of Bärenreiter-Verlag, Kassel. Click <xref
+                            type="internal" from="beer_eng">here</xref> for an English translation
+                        by Liz Robinson.</hi>
+                </p>
+
+
+                <p> *24. Jan. 1782 in Strehla bei Riesa (Elbe), †30. Sept. 1864 in Reudnitz bei
+                    Leipzig, Musikverleger. Frühzeitig verwaist, erhielt Hofmeister seine
+                    Schulbildung in Leipzig und trat 1797 als Lehrling bei Breitkopf &amp;
+                    Härtel ein. Im Jan. 1801 wurde er Gehilfe im neugegründeten Bureau de musique
+                    von F. A. Hoffmeister und A. Kühnel, ging 1802 nach Riesa, wo er als
+                    Kolonialwarenhändler arbeitete, kehrte 1805 nach Leipzig zurück und trat im Juni
+                    1806 erneut bei Kühnel, diesmal als Buchhalter, ein. Bereits am 19. März 1807
+                    begründete Hofmeister einen Musikverlag mit Leihanstalt, der sich mit seinem
+                    eigenständigen Profil gegen die ortsansässige Konkurrenz behaupten konnte und
+                    der in Familienbesitz bis heute besteht. Hofmeister, der sich in seiner Freizeit
+                    mit naturwissenschaftlichen Fragen beschäftigte (er verlegte auch Schriften aus
+                    diesem Bereich) und dessen Wohnhaus in Reudnitz mit botanischem Garten
+                    Treffpunkt eines wissenschaftlich und künstlerisch tätigen Freundeskreises (u.a.
+                    Gustav Freytag, Salomon Hirzel, Heinrich von Treitschke) wurde, war intensiv
+                    bestrebt, die Grundstrukturen seines Gewerbezweigs zu verbessern. So übernahm er
+                    1819 von Carl Friedrich Whistling das <title level="m">Handbuch der
+                        musikalischen Litteratur</title> als erste umfassende Musikbibliographie und
+                    war einer derjenigen, die das Zustandekommen der Konvention der deutschen
+                    Musikverleger gegen den Nachdruck vom 23. Mai 1829 (ergänzt am 12. Mai 1830)
+                    maßgeblich betrieben hatten; als Sekretär der Vereinigung wirkte Hofmeister von
+                    1829 bis 1852. Im gleichen Jahr übergab er den Verlag seinen Söhnen Adolph
+                    (1802-1870) und Wilhelm (aus zweiter Ehe, 1824-1877, seit 1863 Lehrstuhlinhaber
+                    für Botanik in Heidelberg, später Tübingen), die bereits seit langem an der
+                    Führung des Unternehmens beteiligt waren; den naturwissenschaftlichen Verlag
+                    erhielt sein Schwiegersohn Ambrosius Abel. Von 1877 bis 1905 leitete der
+                    ehemalige Prokurist Albert Röthing den Musikverlag, anschließend Carl Wilhelm
+                    Günther (1878-1956, ein Enkel Wilhelm Hofmeisters), der 1952 nach Frankfurt am
+                    Main übersiedelte. In Leipzig bestand seit 1952 der <title level="m">VEB
+                        Friedrich Hofmeister Musikverlag</title>. 1956 übernahm Günthers Witwe Eva
+                    die Leitung des Frankfurter Hauses, später gemeinsam mit ihrem Adoptivsohn
+                    Karlheinz Schwarze, der seit ihrem Tod (1964) alleiniger Inhaber war und den
+                    Firmensitz nach Hofheim/Taunus verlegte. Nach der Restitution der Leipziger
+                    Firma an Schwarze (1992) kehrte der Verlag an den Gründungsort zurück (1996);
+                    alleinige Inhaberin ist seit 2002 Stefanie Schwarze. </p>
+                <p>Hofmeister erwarb u.a. die Verlage Whistling in Leipzig (1829), Laue und
+                    Christiani in Berlin (1832 bzw. 1840) sowie Brüggemann in Halberstadt (1832). In
+                    neuerer Zeit gingen die Rechte zahlreicher Verlagswerke von Ernst Challier und
+                    Carl Merseburger an Hofmeister über. </p>
+            </div>
+
+            <div>
+                <head>Schriften</head>
+                <div>
+                    <head type="sub">I. Spezielle Verzeichnisse</head>
+                    <listBibl>
+                        <bibl>><hi rend="italic">Thematisches Verzeichniss der Compositionen für
+                                Instrumentalmusik welche von den berühmtesten Tonsetzern unsersers
+                                [sic] Zeitalters erschienen sind. Seitenstück zu dem Handbuche der
+                                musikal. Literatur. 1s Heft Louis van Beethoven,</hi> Lpz. 1819
+                            (mehr nicht ersch.).</bibl>
+                        <bibl><hi rend="italic">Thematisches Verzeichniss von CLXXII vorzüglichen
+                                Sinfonien und Ouverturen für Orchester welche von berühmten
+                                Tonsetzern unseres Zeitalters gedruckt erschienen sind,</hi> ebd.
+                            1831 </bibl>
+                    </listBibl>
+                </div>
+                <div>
+                    <head type="sub">II. Bibliographien</head>                    
+                    <p><title level="m">Handbuch der musikalischen Litteratur [seit 1821: Literatur]
+                            oder Allgemeines systematisch geordnetes Verzeichniss gedruckter
+                            Musikalien auch musikalischer Schriften, mit Anzeige der Verleger und
+                            Preise</title>, 2. bis 8. Nachtrag, Lpz. 1819-1825 (jeweils mit Vorrede
+                        Hofmeisters; die 1. Aufl. [1817] sowie die Nachträge 1, 9 und 10 wurden von
+                        C. Fr. Whistling herausgegeben, der auch unter Hofmeister die Redaktion
+                        innehatte); Repr. hrsg. von N. Ratliff 1975 (s. Lit.); A. Hofmeister gab das
+                        Werk ab dem 2. Erg.Bd. zur 2. Aufl. (1834) im Verlag des Vaters heraus sowie
+                        seit 1834 den von Whistling 1829 begründeten Musikalisch-literarischen
+                        Monatsbericht neuer Musikalien, musikalischer Schriften und Abbildungen </p>
+                    <p>Hofmeisters Name wird identifiziert mit der konsequenten, systematischen und
+                        vollständigen Bibliographie musikalischer Werke (selbst solcher, deren Preis
+                            <title level="m">„auch nur 4 Groschen oder geringer angesezt
+                        wäre“</title>; Vorrede zum 2. Nachtrag, 1819, S. [III]); die von ihm
+                        geschaffenen Grundlagen sind bis in die Gegenwart hinein von Bedeutung,
+                        indem sie im Bewußtsein die Notwendigkeit musikbibliographischer Arbeiten
+                        verankerten. Auch in den Jahren, in denen er nicht als Herausgeber und
+                        Verleger des <title level="m">Handbuchs</title> fungierte, unterstützte er,
+                        später gemeinsam mit seinem Sohn Adolph, die Arbeit nachdrücklich (Whistling
+                        spricht in der Vorrede zur 2. Aufl., S. VII, vom <title level="m"
+                            >„fortwährenden Beistand der Herren Hofmeister“</title>). Adolph
+                        Hofmeister übernahm das Werk im Jahre 1834 und setzte es im Sinne seines
+                        Vaters und Whistlings fort (zur weiteren Entwicklung vgl. <title level="m"
+                            >Tradition und Gegenwart</title>, 1957, S. 37-39).</p>
+                    <p>Der Anteil Friedrich Hofmeisters am Zustandekommen der Vereinbarungen der
+                        deutschen Musikverleger aus den Jahren 1829 und 1830 war zweifellos nicht
+                        unerheblich. Bereits 1823 hatte er angesichts des immer weiter um sich
+                        greifenden Nachdrucks fremden Verlagseigentums ein <title level="m"
+                            >„freiwilliges, stillschweigendes Uibereinkommen Aller“</title>
+                        vorgeschlagen (<title level="m">Handbuch</title>, 6. Nachtrag von 1823,
+                        Vorrede, S. IV-V), doch war es allen voran A. M. Schlesinger, der von Berlin
+                        aus die Leipziger Verlage, unter ihnen insb. C. F. Peters, zum Handeln
+                        aufforderte (vgl. A. Beer 2000, S. 67f.); als langjähriger Sekretär der
+                        Vereinigung hat sich Hofmeister bleibende Verdienste um das
+                        Musikverlagswesen erworben.</p>
+                    <p>Den Schwerpunkt des Verlagsprogramms bildeten von Beginn an Klavier- und
+                        Gitarrenmusik sowie Lieder und Unterrichtsliteratur. Neben Werken der
+                        seinerzeit namhaftesten Komponisten veröffentlichte Hofmeister auch solche
+                        junger, noch wenig bekannter Autoren. Es erschienen Originalausgaben u.a.
+                        von H. Marschner (fast das gesamte kompositorische Schaffen), R. Schumann
+                        (op. 3-5, 7, 10, 105), Cl. Wieck (op. 1-7), F. Mendelssohn Bartholdy (op.
+                        12), C. M. von Weber (op. 10), weiterhin von C. Czerny, A. B. Fürstenau, A.
+                        Henselt, Th. Kirchner, Fr. Liszt, C. Löwe, A. Methfessel, B. Romberg, Joh.
+                        Chr. Fr. Schneider. Zu den wichtigsten Veröffentlichungen der späteren Zeit
+                        zählen die 2. Symphonie G. Mahlers (1897) sowie Hans Breuers <title
+                            level="m">Zupfgeigenhansl</title> (1909). Gegenwärtig (2002) erscheinen
+                        innerhalb eines umfangreichen Verlagsprogramms u.a. neben quellenkritischen
+                        Erst- und Neuausgaben auch didaktische Titel, Spielmusik, Chorliteratur,
+                        zunehmend Werke zeitgenössischer Komponisten sowie Buchreihen. Ein
+                        vollständiges Verlagsverzeichnis für das 19. Jh. bereitet Hans Rheinfurth
+                        vor.</p>
+                </div>
+                <div>
+                    <head type="sub">Dokumente</head>
+                    <p>D-LEsta, Bestand Musikverlag Friedrich Hofmeister (Archivmaterial 1800 bis
+                        1923, Schwerpunkt 1830-1850; vgl. auch Beer 2000, S. 486)</p>
+                </div>
+                <div>
+                    <head type="sub">Literatur (Auswahl)</head>
+                    <listBibl>
+                        <bibl><title level="m">Tradition und Gegenwart, Fs. zum 150jährigen Bestehen
+                                des Musikverlages Friedrich Hofmeister</title>, Lpz. 1957. </bibl>
+                        <bibl>H.-M. PLESSKE, <title level="m">Bibliographie des Schrifttums zur
+                                Gesch. deutscher und österreichischer Musikverlage, in: Beiträge zur
+                                Gesch. des Buchwesens</title> 3, 1968, 135-232, hier: 178f. (weitere
+                            Lit.). </bibl>
+                        <bibl>R. ELVERS/C. HOPKINSON, <title level="m">A Survey of the Music
+                                Catalogues of Whistling and Hofmeister</title>, in: <title level="m"
+                                >FAM</title> 19, 1972, 1-7. </bibl>
+                        <bibl>N. RATLIFF, <title level="m">Handbuch der musikalischen Litteratur: a
+                                Reprint of the 1817 Edition and the Ten Supplements,
+                            1817-1827</title>, N.Y. 1975. </bibl>
+                        <bibl>D. W. KRUMMEL, <title level="m">The Beginnings of Current National
+                                Bibliography for German Music</title>, in: <title level="m">Fs. R.
+                                S. Hill</title>, hrsg. von C. S. Bradley, Detroit 1987, 307-329. </bibl>
+                        <bibl>L. WEINHOLD/A. WEINMANN, <title level="m">Kataloge von Musikverlegern
+                                und Musikalienhändlern im deutschsprachigen Raum 1700-1850</title>,
+                            Kassel u.a. 1995, 51f. </bibl>
+                        <bibl>T. WIDMAIER, <title level="m">Der dt. Musikalienleihhandel. Funktion,
+                                Bedeutung und Topographie einer Form gewerblicher Musikdistribution
+                                vom späten 18. bis zum frühen 20. Jh.</title>, Saabrücken 1998. </bibl>
+                        <bibl>A. BEER, <title level="m">Musik zwischen Komponist, Verlag und
+                                Publikum</title>, Tutzing 2000. </bibl>
+                        <bibl>FR. KAWOHL, <title level="m">Urheberrecht der Musik in Preußen
+                                (1820-1840)</title>, ebd. 2002 </bibl>
+                    </listBibl>
+                    <p>AXEL BEER</p>
+                </div>
+
+            </div>
+
+        </body>
+    </text>
+</TEI.2>

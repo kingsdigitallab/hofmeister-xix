@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_5_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Basic search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links, title, content)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <p>Basic search allows straightforward searching using one or two fields, selectable
+                through drop-down lists. It is also possible to limit results to a given range of
+                years; if you wish to select just one year, enter it in the 'From' field and leave
+                'To' blank. Searching is based on <xref type="internal" from="p3_8">thesauri</xref>
+                for all fields other than title; to select a search term click on the thesaurus icon.
+                Where two fields are used they are linked by AND (for instance results
+                might be limited to just the works of a specified composer published in a specified
+                place); if you do not want your searching to be limited in this way, use Advanced
+                search instead. When typing in a title, note that searching is neither case nor
+                accent sensitive: this means for example that 'marsche' will find 'Märsche'.</p>
+            <p>Clicking on 'Search' will generate a list of individual bibliographic items; where
+                there are more than ten, use the 'Next' button to see more results, or choose a
+                specific range. (Be careful of choosing 'All' if there is likely to be a very large
+                number of results.) From any individual item there are links to the <title level="m"
+                    >Monatsbericht</title> page in which it is found, in the form of either
+                transcription or facsimile; these will open in a new window. If you wish to amend
+                your search rather than start a new one, select 'Back to search' on the results
+                page. </p>
+        </body>
+    </text>
+</TEI.2>

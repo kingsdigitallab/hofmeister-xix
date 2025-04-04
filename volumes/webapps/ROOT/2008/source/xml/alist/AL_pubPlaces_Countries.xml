@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+   <country>
+      <name>Germany</name>
+      <places>
+         <place>Aachen</place>
+         <place>Alsleben &lt;Saale&gt;</place>
+         <place>Altenburg &lt;Thüringen&gt;</place>
+         <place>Altona &lt;Hamburg&gt;</place>
+         <place>Alzey</place>
+         <place>Amberg &lt;Oberpfalz&gt;</place>
+         <place>Andernach</place>
+         <place>Anklam</place>
+         <place>Annaberg &lt;Erzgebirge&gt;</place>
+         <place>Ansbach</place>
+         <place>Apolda</place>
+         <place>Arnsberg</place>
+         <place>Arnstadt</place>
+         <place>Arolsen</place>
+         <place>Aschaffenburg</place>
+         <place>Aschersleben &lt;Halle, Saale&gt;</place>
+         <place>Augsburg</place>
+         <place>Aurich</place>
+         <place>Bad Kreuznach</place>
+         <place>Baden-Baden</place>
+         <place>Ballenstedt</place>
+         <place>Bamberg</place>
+         <place>Barmen</place>
+         <place>Bautzen</place>
+         <place>Bayreuth</place>
+         <place>Bensheim</place>
+         <place>Bergedorf</place>
+         <place>Berlin</place>
+         <place>Berlin-Köpenick</place>
+         <place>Berlin-Lichterfelde</place>
+         <place>Berlin-Rixdorf</place>
+         <place>Berlin-Schöneberg</place>
+         <place>Berlin-Zehlendorf</place>
+         <place>Bernburg</place>
+         <place>Berum</place>
+         <place>Bethel bei Bielefeld</place>
+         <place>Biberach &lt;Riss&gt;</place>
+         <place>Bielefeld</place>
+         <place>Bingen &lt;Rhein&gt;</place>
+         <place>Birkenfeld</place>
+         <place>Bitterfeld</place>
+         <place>Blankenburg</place>
+         <place>Blasewitz &lt;Dresden&gt;</place>
+         <place>Bochum</place>
+         <place>Bockenheim &lt;Frankfurt, Main&gt;</place>
+         <place>Bonn</place>
+         <place>Bonndorf</place>
+         <place>Boppard</place>
+         <place>Borna &lt;Leipziger Land&gt;</place>
+         <place>Brandenburg &lt;Havel&gt;</place>
+         <place>Braunschweig</place>
+         <place>Bremen</place>
+         <place>Bremerhaven</place>
+         <place>Bruchsal</place>
+         <place>Brück bei Potsdam</place>
+         <place>Buchholz &lt;Erzgebirge&gt;</place>
+         <place>Burg &lt;Magdeburg&gt;</place>
+         <place>Burgdorf</place>
+         <place>Burgstädt</place>
+         <place>Butzbach</place>
+         <place>Bärenthal</place>
+         <place>Bühl</place>
+         <place>Büren &lt;Paderborn&gt;</place>
+         <place>Carlsfeld</place>
+         <place>Celle</place>
+         <place>Charlottenburg &lt;Berlin&gt;</place>
+         <place>Chemnitz</place>
+         <place>Clausthal</place>
+         <place>Coburg</place>
+         <place>Coesfeld</place>
+         <place>Cosel</place>
+         <place>Cottbus</place>
+         <place>Crimmitzschau</place>
+         <place>Daaden</place>
+         <place>Darmstadt</place>
+         <place>Delitzsch</place>
+         <place>Demmin</place>
+         <place>Dessau</place>
+         <place>Detmold</place>
+         <place>Dillenburg</place>
+         <place>Dillingen &lt;Donau&gt;</place>
+         <place>Dinslaken</place>
+         <place>Donaueschingen</place>
+         <place>Donauwörth</place>
+         <place>Dortmund</place>
+         <place>Drebkau</place>
+         <place>Dresden</place>
+         <place>Dresden-Gruna</place>
+         <place>Dresden-Neustadt</place>
+         <place>Dresden-Pieschen</place>
+         <place>Duderstedt</place>
+         <place>Duisburg</place>
+         <place>Döbeln</place>
+         <place>Dölzig</place>
+         <place>Dülmen</place>
+         <place>Düren</place>
+         <place>Düsseldorf</place>
+         <place>Ebersbach &lt;Sachsen&gt;</place>
+         <place>Eberswalde</place>
+         <place>Eckartsberga</place>
+         <place>Eckernförde</place>
+         <place>Edinburgh</place>
+         <place>Eggenfelden</place>
+         <place>Eichstätt</place>
+         <place>Eimbeck</place>
+         <place>Eisenach</place>
+         <place>Eisenberg &lt;Thüringen&gt;</place>
+         <place>Eisleben</place>
+         <place>Elberfeld</place>
+         <place>Ellwangen</place>
+         <place>Elmshorn</place>
+         <place>Emden</place>
+         <place>Emmerich</place>
+         <place>Ems &lt;Rhein-Lahn-Kreis&gt;</place>
+         <place>Erding</place>
+         <place>Erfurt</place>
+         <place>Erlangen</place>
+         <place>Essen</place>
+         <place>Esslingen &lt;Neckar&gt;</place>
+         <place>Eutin</place>
+         <place>Eutritzsch</place>
+         <place>Eythra</place>
+         <place>Falkenhagen</place>
+         <place>Finsterwalde</place>
+         <place>Flensburg</place>
+         <place>Forst &lt;Lausitz&gt;</place>
+         <place>Frankenberg &lt;Mittweida&gt;</place>
+         <place>Frankenhausen</place>
+         <place>Frankfurt</place>
+         <place>Frankfurt &lt;Main&gt;</place>
+         <place>Frankfurt &lt;Oder&gt;</place>
+         <place>Freiberg &lt;Sachsen&gt;</place>
+         <place>Freiburg &lt;Breisgau&gt;</place>
+         <place>Freienwalde &lt;Oder&gt;</place>
+         <place>Freising</place>
+         <place>Friedberg &lt;Hessen&gt;</place>
+         <place>Friedland &lt;Mecklenburg-Strelitz&gt;</place>
+         <place>Friedrichroda</place>
+         <place>Friedrichshafen</place>
+         <place>Fulda</place>
+         <place>Fürstenwalde</place>
+         <place>Fürth &lt;Bayern&gt;</place>
+         <place>Geestemünde</place>
+         <place>Gelsenkirchen</place>
+         <place>Gera</place>
+         <place>Giessen</place>
+         <place>Gladbuch</place>
+         <place>Glauchau</place>
+         <place>Glückstadt</place>
+         <place>Godesberg</place>
+         <place>Goldberg</place>
+         <place>Goslar</place>
+         <place>Gotha</place>
+         <place>Greifenhain</place>
+         <place>Greifswald</place>
+         <place>Greiz</place>
+         <place>Grimma</place>
+         <place>Grossenhain</place>
+         <place>Guben</place>
+         <place>Gummersbach</place>
+         <place>Göppingen</place>
+         <place>Görlitz</place>
+         <place>Göttingen</place>
+         <place>Güstrow</place>
+         <place>Gütersloh</place>
+         <place>Haardt &lt;Weinstrasse&gt;</place>
+         <place>Hadamar</place>
+         <place>Hagen</place>
+         <place>Hainichen</place>
+         <place>Halberstadt</place>
+         <place>Halle &lt;Saale&gt;</place>
+         <place>Hamburg</place>
+         <place>Hameln</place>
+         <place>Hamm</place>
+         <place>Hanau</place>
+         <place>Hannover</place>
+         <place>Hannover-Linden</place>
+         <place>Harzburg</place>
+         <place>Hechingen</place>
+         <place>Heidelberg</place>
+         <place>Heilbronn</place>
+         <place>Heiligenstadt &lt;Eichsfeld&gt;</place>
+         <place>Helgoland</place>
+         <place>Helmstedt</place>
+         <place>Herford</place>
+         <place>Hermannsburg</place>
+         <place>Hersfeld</place>
+         <place>Herzberg</place>
+         <place>Hilchenbach</place>
+         <place>Hildburghausen</place>
+         <place>Hildesheim</place>
+         <place>Hindelang</place>
+         <place>Hof &lt;Saale&gt;</place>
+         <place>Hoheneggelsen</place>
+         <place>Hohenstein-Ernstthal</place>
+         <place>Holzminden</place>
+         <place>Homberg</place>
+         <place>Homburg</place>
+         <place>Horb &lt;Neckar&gt;</place>
+         <place>Horn bei Hamburg</place>
+         <place>Horst</place>
+         <place>Hoyerswerda</place>
+         <place>Höchst</place>
+         <place>Ilfeld &lt;Harz&gt;</place>
+         <place>Illingen</place>
+         <place>Ilmenau</place>
+         <place>Ilsenburg</place>
+         <place>Iserlohn</place>
+         <place>Jena</place>
+         <place>Jever</place>
+         <place>Jüchen</place>
+         <place>Jülich</place>
+         <place>Jüterbog</place>
+         <place>Kaiserslautern</place>
+         <place>Kaiserswerth</place>
+         <place>Karlsruhe</place>
+         <place>Kassel</place>
+         <place>Kempen</place>
+         <place>Kempten &lt;Allgäu&gt;</place>
+         <place>Kiel</place>
+         <place>Kirchheimbolanden</place>
+         <place>Kirn</place>
+         <place>Kissingen</place>
+         <place>Kitzingen</place>
+         <place>Kleve</place>
+         <place>Koblenz</place>
+         <place>Kolberg</place>
+         <place>Konstanz</place>
+         <place>Krefeld</place>
+         <place>Kreuznach</place>
+         <place>Kronach</place>
+         <place>Kropp</place>
+         <place>Kulmbach</place>
+         <place>Köln</place>
+         <place>Köln-Ehrenfeld</place>
+         <place>Köthen</place>
+         <place>Kötzschenbroda</place>
+         <place>Lahr &lt;Schwarzwald&gt;</place>
+         <place>Landau &lt;Pfalz&gt;</place>
+         <place>Landshut</place>
+         <place>Langensalza</place>
+         <place>Lausigk</place>
+         <place>Leipzig</place>
+         <place>Leipzig-Eutritzsch</place>
+         <place>Leipzig-Gohlis</place>
+         <place>Leipzig-Lindenau</place>
+         <place>Leipzig-Neureudnitz</place>
+         <place>Leipzig-Neuschleussig</place>
+         <place>Leipzig-Neustadt</place>
+         <place>Leipzig-Reudnitz</place>
+         <place>Lemgo</place>
+         <place>Lengenfeld</place>
+         <place>Leuchtenberg</place>
+         <place>Leutkirch</place>
+         <place>Limburg</place>
+         <place>Lindau &lt;Bodensee&gt;</place>
+         <place>Lingen &lt;Ems&gt;</place>
+         <place>Lippstadt</place>
+         <place>Luckenwalde</place>
+         <place>Ludwigsburg</place>
+         <place>Ludwigshafen</place>
+         <place>Ludwigslust</place>
+         <place>Löbau &lt;Sachsen&gt;</place>
+         <place>Lössnitz</place>
+         <place>Lübben &lt;Spreewald&gt;</place>
+         <place>Lübeck</place>
+         <place>Lüneburg</place>
+         <place>Magdeburg</place>
+         <place>Mainz</place>
+         <place>Malchin</place>
+         <place>Mannheim</place>
+         <place>Mansfeld</place>
+         <place>Marburg &lt;Lahn&gt;</place>
+         <place>Markneukirchen</place>
+         <place>Mehlis</place>
+         <place>Meiningen</place>
+         <place>Meissen</place>
+         <place>Meldorf</place>
+         <place>Memmingen</place>
+         <place>Mergentheim</place>
+         <place>Merseburg</place>
+         <place>Meuselbach</place>
+         <place>Michelstadt</place>
+         <place>Miesbach</place>
+         <place>Minden &lt;Westfalen&gt;</place>
+         <place>Mittweida</place>
+         <place>Mosbach</place>
+         <place>Mölln</place>
+         <place>Mühlhausen &lt;Thüringen&gt;</place>
+         <place>Mülheim &lt;Ruhr&gt;</place>
+         <place>München</place>
+         <place>München-Gladbach</place>
+         <place>Münster &lt;Westfalen&gt;</place>
+         <place>Naumburg &lt;Saale&gt;</place>
+         <place>Neu-Ulm</place>
+         <place>Neubrandenburg</place>
+         <place>Neuburg &lt;Donau&gt;</place>
+         <place>Neuhaldensleben</place>
+         <place>Neuruppin</place>
+         <place>Neuss</place>
+         <place>Neustadt &lt;Orla&gt;</place>
+         <place>Neustedt, bei Eckartsberga</place>
+         <place>Neustrelitz</place>
+         <place>Neuwied</place>
+         <place>Nieder-Schönhausen</place>
+         <place>Norden</place>
+         <place>Nordhausen</place>
+         <place>Nossen</place>
+         <place>Nördlingen</place>
+         <place>Nürnberg</place>
+         <place>Oberhausen</place>
+         <place>Oberneudorf-Buchen</place>
+         <place>Oberstein</place>
+         <place>Oelsnitz</place>
+         <place>Offenbach &lt;Main&gt;</place>
+         <place>Offenburg</place>
+         <place>Oldenburg</place>
+         <place>Oldenburg &lt;Oldenburg&gt;</place>
+         <place>Oppenheim</place>
+         <place>Oranienburg</place>
+         <place>Oschersleben</place>
+         <place>Osnabrück</place>
+         <place>Osterburg</place>
+         <place>Osterwieck</place>
+         <place>Paderborn</place>
+         <place>Parchim</place>
+         <place>Pasewalk</place>
+         <place>Passau</place>
+         <place>Pfahlheim</place>
+         <place>Pforzheim</place>
+         <place>Pirna</place>
+         <place>Plauen</place>
+         <place>Potschappel</place>
+         <place>Potsdam</place>
+         <place>Prenzlau</place>
+         <place>Pritzwalk</place>
+         <place>Pössneck</place>
+         <place>Quedlinburg</place>
+         <place>Querfurt</place>
+         <place>Radebeul</place>
+         <place>Rastatt</place>
+         <place>Rathenow</place>
+         <place>Ratzeburg</place>
+         <place>Ravensburg</place>
+         <place>Regensburg</place>
+         <place>Reichenbach &lt;Vogtland&gt;</place>
+         <place>Remscheid</place>
+         <place>Rendsburg</place>
+         <place>Reutlingen</place>
+         <place>Rheinbach</place>
+         <place>Rheydt</place>
+         <place>Riesa</place>
+         <place>Rinteln</place>
+         <place>Rixdorf</place>
+         <place>Rochlitz</place>
+         <place>Rodach</place>
+         <place>Ronneburg</place>
+         <place>Rostock</place>
+         <place>Rothenburg &lt;Tauber&gt;</place>
+         <place>Rottenburg &lt;Neckar&gt;</place>
+         <place>Rudolstadt</place>
+         <place>Ruhrort</place>
+         <place>Rödelheim</place>
+         <place>Saalfeld &lt;Saale&gt;</place>
+         <place>Saarbrücken</place>
+         <place>Saarlouis</place>
+         <place>Salzungen</place>
+         <place>Salzwedel</place>
+         <place>Sangerhausen</place>
+         <place>Sankt Goar</place>
+         <place>Sankt Ingbert</place>
+         <place>Saulgau</place>
+         <place>Schandau</place>
+         <place>Schleiz</place>
+         <place>Schleswig</place>
+         <place>Schleusingen</place>
+         <place>Schloss-Chemnitz</place>
+         <place>Schmalkalden</place>
+         <place>Schneeberg &lt;Aue-Schwarzenberg&gt;</place>
+         <place>Schwabach</place>
+         <place>Schweinfurt</place>
+         <place>Schwelm</place>
+         <place>Schwerin</place>
+         <place>Schwäbisch Gmünd</place>
+         <place>Schwäbisch Hall</place>
+         <place>Schönebeck &lt;Elbe&gt;</place>
+         <place>Segeberg</place>
+         <place>Siegen</place>
+         <place>Soest</place>
+         <place>Solingen</place>
+         <place>Sondershausen</place>
+         <place>Spandau</place>
+         <place>Speyer</place>
+         <place>Spremberg</place>
+         <place>Stade</place>
+         <place>Stassfurt</place>
+         <place>Staufen</place>
+         <place>Stendal</place>
+         <place>Stolberg</place>
+         <place>Stralsund</place>
+         <place>Straubing</place>
+         <place>Stuttgart</place>
+         <place>Sulza</place>
+         <place>Tangermünde</place>
+         <place>Tauberbischofsheim</place>
+         <place>Teterow</place>
+         <place>Thalbürgel</place>
+         <place>Thale</place>
+         <place>Torgau</place>
+         <place>Trier</place>
+         <place>Tölz</place>
+         <place>Tübingen</place>
+         <place>Türkheim</place>
+         <place>Uetersen</place>
+         <place>Ulm</place>
+         <place>Unna</place>
+         <place>Verden</place>
+         <place>Wabern</place>
+         <place>Waiblingen</place>
+         <place>Waldheim</place>
+         <place>Waldsee</place>
+         <place>Warburg</place>
+         <place>Warendorf</place>
+         <place>Wasserburg</place>
+         <place>Weida</place>
+         <place>Weilburg</place>
+         <place>Weimar</place>
+         <place>Weinheim</place>
+         <place>Weissenfels</place>
+         <place>Werdau</place>
+         <place>Werl</place>
+         <place>Wernigerode</place>
+         <place>Wesel</place>
+         <place>Wiesbaden</place>
+         <place>Wilhelmshaven</place>
+         <place>Wismar</place>
+         <place>Witten</place>
+         <place>Wittenberg</place>
+         <place>Wittstock</place>
+         <place>Wolfenbüttel</place>
+         <place>Worbis</place>
+         <place>Worms</place>
+         <place>Wriezen</place>
+         <place>Wurzen</place>
+         <place>Würzburg</place>
+         <place>Zeitz</place>
+         <place>Zerbst</place>
+         <place>Zeulenroda</place>
+         <place>Zittau</place>
+         <place>Zschopau</place>
+         <place>Zweibrücken</place>
+         <place>Zwickau</place>
+      </places>
+   </country>
+   <country>
+      <name>Switzerland</name>
+      <places>
+         <place>Aarau</place>
+         <place>Baden &lt;Aargau&gt;</place>
+         <place>Basel</place>
+         <place>Belle-Vue</place>
+         <place>Bern</place>
+         <place>Biel &lt;Bern&gt;</place>
+         <place>Binningen</place>
+         <place>Chur</place>
+         <place>Davos</place>
+         <place>Einsiedeln</place>
+         <place>Flawyl</place>
+         <place>Frauenfeld</place>
+         <place>Fribourg</place>
+         <place>Genf</place>
+         <place>Herisau</place>
+         <place>La Chaux-de-Fonds</place>
+         <place>Lausanne</place>
+         <place>Liestal</place>
+         <place>Locle</place>
+         <place>Luzern</place>
+         <place>Rorschach</place>
+         <place>Sankt Gallen</place>
+         <place>Schaffhausen</place>
+         <place>Solothurn</place>
+         <place>Thun</place>
+         <place>Vevey</place>
+         <place>Winterthur</place>
+         <place>Wädensweil</place>
+         <place>Yverdon</place>
+         <place>Zofingen</place>
+         <place>Zürich</place>
+         <place>Zürich-Oberstrass</place>
+      </places>
+   </country>
+   <country>
+      <name>Poland</name>
+      <places>
+         <place>Allenstein</place>
+         <place>Arnswalde</place>
+         <place>Arys</place>
+         <place>Bielitz</place>
+         <place>Bochnia</place>
+         <place>Braunsberg &lt;Ostpreussen&gt;</place>
+         <place>Breslau</place>
+         <place>Brieg</place>
+         <place>Bromberg</place>
+         <place>Bunzlau</place>
+         <place>Buslar</place>
+         <place>Cammin &lt;Pommern&gt;</place>
+         <place>Crossen &lt;Oder&gt;</place>
+         <place>Czarnków</place>
+         <place>Danzig</place>
+         <place>Deutsch Krone</place>
+         <place>Dramburg</place>
+         <place>Elbing</place>
+         <place>Fraustadt</place>
+         <place>Freiwaldau &lt;Nordmährisches Gebiet&gt;</place>
+         <place>Friedeberg</place>
+         <place>Glatz</place>
+         <place>Gleiwitz</place>
+         <place>Glogau</place>
+         <place>Graudenz</place>
+         <place>Gross Strehlitz</place>
+         <place>Grünberg &lt;Schlesien&gt;</place>
+         <place>Guhrau</place>
+         <place>Habelschwerdt</place>
+         <place>Haynau</place>
+         <place>Hirschberg</place>
+         <place>Inowrazlaw</place>
+         <place>Jauer &lt;Liegnitz&gt;</place>
+         <place>Kalisch</place>
+         <place>Konitz</place>
+         <place>Krakau</place>
+         <place>Kulm</place>
+         <place>Königsberg &lt;Neumark&gt;</place>
+         <place>Köslin</place>
+         <place>Landsberg &lt;Warthe&gt;</place>
+         <place>Langenbielau</place>
+         <place>Lauban</place>
+         <place>Leobschütz</place>
+         <place>Liegnitz</place>
+         <place>Lissa</place>
+         <place>Lyck</place>
+         <place>Löwenberg &lt;Schlesien&gt;</place>
+         <place>Lüben</place>
+         <place>Marienburg &lt;Westpreussen&gt;</place>
+         <place>Marienwerder</place>
+         <place>Münsterberg &lt;Schlesien&gt;</place>
+         <place>Naugard</place>
+         <place>Neisse</place>
+         <place>Neudamm</place>
+         <place>Neusalz &lt;Oder&gt;</place>
+         <place>Neusandez</place>
+         <place>Neustadt &lt;Oberschlesien&gt;</place>
+         <place>Neustettin</place>
+         <place>Oberglogau</place>
+         <place>Oels &lt;Niederschlesien&gt;</place>
+         <place>Ohlau</place>
+         <place>Oppeln</place>
+         <place>Ostrowo</place>
+         <place>Peiskretscham</place>
+         <place>Pless</place>
+         <place>Posen</place>
+         <place>Przemysl</place>
+         <place>Ratibor</place>
+         <place>Rogasen</place>
+         <place>Sagan</place>
+         <place>Schweidnitz</place>
+         <place>Schwiebus</place>
+         <place>Sommerfeld</place>
+         <place>Sorau &lt;Lausitz&gt;</place>
+         <place>Stargard</place>
+         <place>Stettin</place>
+         <place>Stolp</place>
+         <place>Strehlen</place>
+         <place>Striegau</place>
+         <place>Swinemünde</place>
+         <place>Tarnow</place>
+         <place>Tarnowitz</place>
+         <place>Teschen</place>
+         <place>Thorn</place>
+         <place>Treptow &lt;Rega&gt;</place>
+         <place>Wadowice</place>
+         <place>Waldenburg &lt;Schlesien&gt;</place>
+         <place>Warmbrunn</place>
+         <place>Warschau</place>
+         <place>Ziegenhals</place>
+         <place>Züllichau</place>
+         <place>Zülz</place>
+      </places>
+   </country>
+   <country>
+      <name>United States</name>
+      <places>
+         <place>Allentown &lt;Pa.&gt;</place>
+         <place>Boston</place>
+         <place>Cannelton</place>
+         <place>Chicago</place>
+         <place>Cincinnati &lt;Ohio&gt;</place>
+         <place>Cleveland</place>
+         <place>Milwaukee</place>
+         <place>Nashville, Tenn</place>
+         <place>New York</place>
+         <place>Philadelphia &lt;Pa.&gt;</place>
+         <place>Port Huron &lt;Michigan&gt;</place>
+         <place>St. Louis, Mo</place>
+         <place>Wellesley, Mass</place>
+      </places>
+   </country>
+   <country>
+      <name/>
+      <places>
+         <place>Altdorf</place>
+         <place>Elbogen</place>
+         <place>Falkenberg</place>
+         <place>Freiberg</place>
+         <place>Kirchberg</place>
+         <place>Neuenburg</place>
+         <place>Neustadt</place>
+         <place>Osterode</place>
+         <place>Waldenburg</place>
+         <place>Weiden</place>
+      </places>
+   </country>
+   <country>
+      <name>Netherlands</name>
+      <places>
+         <place>Amsterdam</place>
+         <place>Arnheim</place>
+         <place>Dordrecht</place>
+         <place>Gröningen</place>
+         <place>Haag</place>
+         <place>Haarlem</place>
+         <place>Hengelo</place>
+         <place>Herzogenbusch</place>
+         <place>Leiden</place>
+         <place>Middelburg</place>
+         <place>Rotterdam</place>
+         <place>Tilburg</place>
+         <place>Utrecht</place>
+         <place>Zwolle</place>
+      </places>
+   </country>
+   <country>
+      <name>Belgium</name>
+      <places>
+         <place>Antwerpen</place>
+         <place>Brüssel</place>
+         <place>Gent</place>
+         <place>Lüttich</place>
+      </places>
+   </country>
+   <country>
+      <name>Czech Republic</name>
+      <places>
+         <place>Aussig</place>
+         <place>Brünn</place>
+         <place>Budweis</place>
+         <place>Böhmisch-Leipa</place>
+         <place>Eger</place>
+         <place>Elnbogen</place>
+         <place>Freudenthal</place>
+         <place>Friedek</place>
+         <place>Gablonz &lt;Neisse&gt;</place>
+         <place>Jägerndorf</place>
+         <place>Karlsbad</place>
+         <place>Komotau</place>
+         <place>Leitmeritz</place>
+         <place>Moštěnitz-Prerau</place>
+         <place>Mährisch-Ostrau</place>
+         <place>Mährisch-Trübau</place>
+         <place>Neutitschein</place>
+         <place>Nikolsburg</place>
+         <place>Olmütz</place>
+         <place>Pilsen</place>
+         <place>Prag</place>
+         <place>Prag-Weinberge</place>
+         <place>Reichenberg</place>
+         <place>Saaz</place>
+         <place>Schönbach b/Eger</place>
+         <place>Schönlinde</place>
+         <place>Teplitz</place>
+         <place>Tirnau</place>
+         <place>Trautenau</place>
+         <place>Trebitsch</place>
+         <place>Troppau</place>
+         <place>Weipert</place>
+         <place>Znaim</place>
+      </places>
+   </country>
+   <country>
+      <name>Serbia</name>
+      <places>
+         <place>Belgrad</place>
+         <place>Werschetz</place>
+      </places>
+   </country>
+   <country>
+      <name>France</name>
+      <places>
+         <place>Bercy</place>
+         <place>Colmar</place>
+         <place>Diedenhofen</place>
+         <place>Metz</place>
+         <place>Mülhausen</place>
+         <place>Nizza</place>
+         <place>Paris</place>
+         <place>Rouen</place>
+         <place>Strassburg</place>
+         <place>Zabern</place>
+      </places>
+   </country>
+   <country>
+      <name>Norway</name>
+      <places>
+         <place>Bergen &lt;Norwegen&gt;</place>
+         <place>Christiania</place>
+      </places>
+   </country>
+   <country>
+      <name>Austria</name>
+      <places>
+         <place>Bezau</place>
+         <place>Bregenz</place>
+         <place>Gaschurn</place>
+         <place>Gmunden</place>
+         <place>Graz</place>
+         <place>Innsbruck</place>
+         <place>Klagenfurt</place>
+         <place>Korneuburg</place>
+         <place>Krems</place>
+         <place>Leoben</place>
+         <place>Lienz</place>
+         <place>Linz</place>
+         <place>Ried &lt;Innkreis&gt;</place>
+         <place>Salzburg</place>
+         <place>Sankt Pölten</place>
+         <place>Schreibersdorf</place>
+         <place>Sonneberg</place>
+         <place>Steyr</place>
+         <place>Wels</place>
+         <place>Wien</place>
+         <place>Wien-Währing</place>
+         <place>Wiener-Neustadt</place>
+         <place>Zwettl</place>
+      </places>
+   </country>
+   <country>
+      <name>Italy</name>
+      <places>
+         <place>Bologna</place>
+         <place>Bozen</place>
+         <place>Brixen</place>
+         <place>Florenz</place>
+         <place>Genua</place>
+         <place>Görz</place>
+         <place>Mailand</place>
+         <place>Meran</place>
+         <place>Neapel</place>
+         <place>Rom</place>
+         <place>Triest</place>
+         <place>Turin</place>
+         <place>Venedig</place>
+         <place>Verona</place>
+      </places>
+   </country>
+   <country>
+      <name>United Kingdom</name>
+      <places>
+         <place>Bradford</place>
+         <place>Glasgow</place>
+         <place>London</place>
+      </places>
+   </country>
+   <country>
+      <name>Romania</name>
+      <places>
+         <place>Bucarest</place>
+         <place>Hermannstadt</place>
+         <place>Jassy</place>
+         <place>Klausenburg</place>
+         <place>Kronstadt &lt;Siebenbürgen&gt;</place>
+         <place>Mediasch</place>
+         <place>Oravicza</place>
+         <place>Perjámos</place>
+         <place>Temesvar</place>
+      </places>
+   </country>
+   <country>
+      <name>Hungary</name>
+      <places>
+         <place>Budapest</place>
+         <place>Debreczin</place>
+         <place>Erlau</place>
+         <place>Gran</place>
+         <place>Grosskanizsa</place>
+         <place>Güns</place>
+         <place>Oedenburg</place>
+         <place>Pest</place>
+         <place>Stuhlweissenburg</place>
+         <place>Szegedin</place>
+         <place>Veszprim</place>
+      </places>
+   </country>
+   <country>
+      <name>India</name>
+      <places>
+         <place>Calcutta</place>
+      </places>
+   </country>
+   <country>
+      <name>Ukraine</name>
+      <places>
+         <place>Czernowitz</place>
+         <place>Kamenez-Podolski</place>
+         <place>Kieff</place>
+         <place>Lemberg</place>
+         <place>Odessa</place>
+         <place>Tarnopol</place>
+      </places>
+   </country>
+   <country>
+      <name>Estonia</name>
+      <places>
+         <place>Dorpat</place>
+         <place>Reval</place>
+      </places>
+   </country>
+   <country>
+      <name>Croatia</name>
+      <places>
+         <place>Fiume</place>
+         <place>Warasdin</place>
+         <place>Zagreb</place>
+         <place>Zara</place>
+      </places>
+   </country>
+   <country>
+      <name>Sweden</name>
+      <places>
+         <place>Gothenburg</place>
+         <place>Stockholm</place>
+      </places>
+   </country>
+   <country>
+      <name>Russian Federation</name>
+      <places>
+         <place>Gumbinnen</place>
+         <place>Königsberg</place>
+         <place>Königsberg &lt;Preussen&gt;</place>
+         <place>Moskau</place>
+         <place>Sankt Petersburg</place>
+         <place>Stallupönen</place>
+         <place>Tilsit</place>
+      </places>
+   </country>
+   <country>
+      <name>Denmark</name>
+      <places>
+         <place>Hadersleben</place>
+         <place>Kopenhagen</place>
+         <place>Tondern</place>
+      </places>
+   </country>
+   <country>
+      <name>Finland</name>
+      <places>
+         <place>Helsinki</place>
+      </places>
+   </country>
+   <country>
+      <name>Spain</name>
+      <places>
+         <place>Huelva</place>
+         <place>Madrid</place>
+      </places>
+   </country>
+   <country>
+      <name>Slovakia</name>
+      <places>
+         <place>Iglo</place>
+         <place>Kaschau</place>
+         <place>Pressburg</place>
+         <place>Tyrnau</place>
+      </places>
+   </country>
+   <country>
+      <name>Belarus</name>
+      <places>
+         <place>Insterburg</place>
+      </places>
+   </country>
+   <country>
+      <name>South Africa</name>
+      <places>
+         <place>Kapstadt</place>
+      </places>
+   </country>
+   <country>
+      <name>Turkey</name>
+      <places>
+         <place>Konstantinopel</place>
+      </places>
+   </country>
+   <country>
+      <name>Slovenia</name>
+      <places>
+         <place>Laibach</place>
+      </places>
+   </country>
+   <country>
+      <name>Latvia</name>
+      <places>
+         <place>Libau</place>
+         <place>Mitau</place>
+      </places>
+   </country>
+   <country>
+      <name>Luxembourg</name>
+      <places>
+         <place>Luxemburg</place>
+      </places>
+   </country>
+   <country>
+      <name>Mexico</name>
+      <places>
+         <place>Mexiko</place>
+      </places>
+   </country>
+   <country>
+      <name>Bosnia</name>
+      <places>
+         <place>Mostar</place>
+      </places>
+   </country>
+   <country>
+      <name>Lithuania</name>
+      <places>
+         <place>Riga</place>
+         <place>Wilna</place>
+      </places>
+   </country>
+   <country>
+      <name>Bulgaria</name>
+      <places>
+         <place>Sofia</place>
+      </places>
+   </country>
+</list>

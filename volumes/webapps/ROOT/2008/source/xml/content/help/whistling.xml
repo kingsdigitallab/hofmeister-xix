@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_1_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Whistling's Handbuch der musikalischen Litteratur: title page and
+                foreword</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Whistling's Handbuch der musikalischen Litteratur: title page and foreword </head>
+            <p>Handbook <lb/> of musical literature<lb/> or general systematically arranged<lb/>
+                Catalogue<lb/> of printed music,<lb/> also writings on music and illustrations<lb/>
+                up to the end of the year 1815<lb/> also listing publishers and prices.<lb/></p>
+            <p> Leipzig,<lb/> commissioned by Anton Meysel<lb/> 1817.<lb/>
+            </p>
+            <p>Foreword</p>
+            <p>The desire to contribute to the promotion and dissemination of music has led us to
+                publish this catalogue, originally intended for private use. We of course hoped
+                then, when we announced it in advance publicly and invited contributions for it from
+                the publishing trade, to list in it all musical items published up to the end of the
+                year 1815 which are still obtainable in the shops. Only because several businesses,
+                despite repeated urgent requests, did not fully support our wish with notices and
+                contributions did we feel compelled to give up our first plan, which was too
+                difficult to realise. Therefore we are providing a 'Handbuch der musikalischen
+                Litteratur' [Handbook of musical literature] for the friends of music here which
+                contains the vast majority and the most noteworthy items from the present-day music
+                trade (partly also up to this year) and primarily intended for use in Germany, but
+                which may also be used by foreigners because of the chosen orthography and Latin
+                alphabet.</p>
+            <p>The surnames, first names, titles, prices and publishers are given as clearly as the
+                original material and the necessary abbreviations used here permitted. The chosen
+                classification, (which is principally based on the number of instruments,) seemed to
+                us the most appropriate for general use. The overlapping of individual classes could
+                not be entirely avoided here (and indeed probably also couldn't with any other
+                classification system used). With frequent use, one will easily learn to use the
+                classes which are related to others, and, for example, when one searches for solos
+                for one instrument, to search for items under duets for this instrument which have
+                an optional accompaniment. An asterisk (*) at the beginning of the line in the first
+                64 classes and in 74 and 75 indicate dances, and a dagger (†) indicates variations.
+                For various reasons we only wanted to indicate these genres under Solos for the
+                Pianoforte in particular classes, but nevertheless to make them easily noticeable
+                for enthusiasts. In the 72nd class, a dagger at the beginning of the line indicates
+                those pieces which can also be played on the pianoforte; and which have therefore
+                been omitted in the 65th class. In the 81st class, the asterisks at the beginning of
+                lines indicate those opera excerpts which are incomplete, rather contain just
+                individual arias (sometimes fewer, sometimes more) together with the overture.
+                Finally, in the 83rd class, those songs which can also be accompanied by guitar are
+                indicated with an asterisk before; and those which can be accompanied by harp
+                instead of fortepiano have a dagger before, this being omitted later on to save
+                space. Further, it should be noted, that in the instrumental music, all works which
+                include a guitar part (whether it is the main part or an accompaniment), can only be
+                found in the guitar music class. </p>
+            <p>The prices are mostly stated in the currency as given on the titles of the printed
+                music. Prices set in guldens [guilders/florins] and kreuzers by a few Austrian
+                publishers should be understood in Viennese currency, and should by no means be
+                regarded as reliable and fixed, as they are frequently changed. The folio size, as
+                the most commonly now used for sheet music, is not unusual, however mostly the other
+                sizes, when they are known to us, are mainly given before the publication place in
+                numbers – 4, 8, 12 or gr. 4, gr. 8 etc. [quarto, octavo, duodecimo or large quarto,
+                large octavo, etc.] (or with books, before the publication date).</p>
+            <p>In order to avoid increasing the size and price of the publication unnecessarily, we
+                have subjected ourselves to certain restrictions, and also made appropriate brevity
+                a duty. Namely, in the 'Songs for the pianoforte and for the guitar', we have
+                omitted all individual items, those which are too short or too unimportant, likewise
+                those in foreign languages, which have been published abroad and are not of prime
+                interest to Germans. Furthermore, the 86th class does not contain all the best and
+                most important writings, rather just a selection of these, because our main aim was
+                to produce a guide with information about printed music of our time such as does not
+                exist at the present; and because Herr Dr. Forkel's 'Litteratur der Musik' covering
+                the period up to 1792 is excellently suited for information about publications on
+                the theory of music and is already well-known to most people who wish to study this
+                branch thoroughly. – As regards the abbreviations used here, these are principally
+                because 1) we have altered and shortened long and long-winded titles with care. 2)
+                Words which occur extremely frequently (e.g. Alto, Basse, Pianoforte, Oeuvre, Opus,
+                Violon, Orchestre, pour, avec, Begleitung, Thaler, fuer, das und mit) and names of
+                cities and publishers <note>In order to avoid an easy misunderstanding relating to
+                    the renowned publishing house of Hummel in Amsterdam, we must note here that
+                    this firm is also in Berlin, and despatches its publications from there for most
+                    of the German lands and the other countries outside Holland. </note> have been
+                abbreviated in an easily understood way already in common use. 3) In some of the
+                classes which contain pieces scored for several parts, the accompanying instruments,
+                if they are the most commonly found in such genres, have not been listed in every
+                entry; users should therefore take into consideration, for example, in the duets for
+                pianoforte the entries without listing the accompaniment for pianoforte and violin,
+                and in the quartets, the entries without listing the accompaniment for violin, viola
+                and violoncello. 4) Entries which have identical titles and are different editions
+                of the same work are often typeset in one or more lines running on, particularly
+                when the opus number varies from one edition to another, whereby we cannot, however,
+                verify whether such editions with identically worded titles are really always the
+                same, and not, perhaps, different from each other. For the benefit of those who are
+                submitting information about artistic items or wish to have entries listed
+                advertising forthcoming publications, most of the opinions contained in the most
+                notable, well-known 'Leipziger musikalische Zeitung' [Leipzig Musical Journal] are
+                included here in notes under the text, with the addition of the year and page
+                number, which readers can refer to, and the asterisks or daggers in the middle or at
+                the end of lines (not those at the beginning of lines) indicate these remarks. </p>
+            <p>Although we were happy to indicate precisely in every case the original edition under
+                the various editions of the same work in accordance with the wishes of several most
+                respected gentlemen, we very much regret that because of several difficulties, this
+                is now no longer possible. We have, however, mostly placed first those editions
+                which seemed to us to be the most legitimate or earliest, but without guarantee. At
+                the same time, we should like to point out that in the case of several editions of a
+                work, the additional information contained in brackets (e.g. alteration to the opus
+                number or the entire title) relate to the edition by the following publisher and
+                remain in force until a new bracket occurs. </p>
+            <p>We will publish supplements annually which will contain older entries previously
+                passed over which belong here, and furthermore and indeed principally,
+                newly-published works, and finally notifications of mistakes discovered, and thus
+                the Handbuch will become more complete, more useful and more correct. </p>
+            <p>While we wish to express our sincere gratitude to all those who have supported us by
+                providing reports and contributions, we humbly also ask all those who are able to
+                play a role in the perfecting of this work to send us reports, contributions,
+                instructions and corrections in future!</p>
+            <p>Finally, we ask the reader to forgive any omissions when using this incomplete
+                handbook (which – by the way – was compiled in the few leisure hours left after a
+                busy working life). Please make allowances for this work, which is the first of its
+                kind.</p>
+            <p><date>Leipzig, March 1817</date>. </p>
+            <p>The Editor. </p>
+
+
+            
+
+        </body>
+    </text>
+</TEI.2>

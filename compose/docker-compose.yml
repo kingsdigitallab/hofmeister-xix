@@ -1,0 +1,43 @@
+name: hofmeister-xix
+
+x-var: &VIRTUAL_HOST "hofmeister.rhul.ac.uk,hofmeister-os.kdl.kcl.ac.uk,hofmeister.app.cch.kcl.ac.uk,localhost,127.0.0.1"
+
+services:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:1.4
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  tomcat:
+    image: tomcat:9-jdk11
+    restart: unless-stopped
+    expose:
+      - 8080
+    volumes:
+      - ../volumes/webapps:/usr/local/tomcat/webapps
+    environment:
+      CATALINA_OPTS: "-Xmx2048m"
+      VIRTUAL_HOST: *VIRTUAL_HOST
+      VIRTUAL_PATH: "/"
+      VIRTUAL_PROTO: http
+      VIRTUAL_PORT: 8080
+
+  nginx:
+    build:
+      context: ..
+      dockerfile: ./compose/nginx/Dockerfile
+    restart: unless-stopped
+    expose:
+      - 8001
+    volumes:
+      - ../volumes/webapps/ROOT/2008/Assets:/usr/share/nginx/Assets:ro
+      - ../volumes/webapps/ROOT/2008/source/images:/usr/share/nginx/images:ro
+      - ../volumes/webapps/ROOT/2008/source/redist:/usr/share/nginx/redist:ro
+    environment:
+      VIRTUAL_HOST: *VIRTUAL_HOST
+      VIRTUAL_PATH: "~^/(2008/Assets/|Assets/|2008/images/|images/|2008/redist/|redist/|robots.txt)"
+      VIRTUAL_PROTO: http
+      VIRTUAL_PORT: 8001

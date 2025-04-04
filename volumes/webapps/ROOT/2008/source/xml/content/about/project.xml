@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The project</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links, title)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>In 1829 the Leipzig music publisher <xref type="internal" from="p1_2">Friedrich
+                    Hofmeister</xref> began publishing a series of monthly or bi-monthly catalogues
+                of printed music, largely but not exclusively based on the products of publishers in
+                the German-speaking world. These <title level="m">Monatsberichte</title> at first
+                comprised about 2,000 records per year, but by 1900 the annual total had risen to
+                13,000, yielding a total of over 330,000 records for the period 1829-1900.</p>
+
+            <p>This constitutes the single most important bibliographical source for the publication
+                of music during this period; not only do the <title level="m">Monatsberichte</title>
+                permit the dating to within approximately eight weeks of any piece of printed music
+                listed, but they include books, music periodicals, illustrations, portraits and
+                busts of composers, so enabling a comprehensive assessment of the nature and extent
+                of music publication at any particular time and place. They are in this way an
+                indispensable resource for the study of musical taste and publishing trends in the
+                nineteenth century. Further information on the <title level="m"
+                >Monatsberichte</title> may be found in '<xref type="redist" from="pdf/elvers.pdf">A
+                    survey of the Music Catalogues of Whistling and Hofmeister</xref>' by Rudolf
+                Elvers and Cecil Hopkinson, as well as other items listed in the <xref
+                    type="internal" from="p5_3">Bibliography</xref>.</p>
+            <p>Hofmeister XIX makes this key resource available on the web in a fully searchable
+                form; all textual material from the <title level="m">Monatsberichte</title> is
+                included apart from title pages and advertisements, and the records are linked to
+                the high-quality facsimile images of the original <title level="m"
+                >Monatsberichte</title> on the website of the <xref type="external"
+                    url="http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref>.</p>
+            <p>The origins of the project date back to the late 1980s, when the <xref
+                    type="external" url="http://www.iaml.info/">International Association of Music
+                    Libraries</xref> established a Hofmeister XIX Working Group, but implementation
+                began only in 2004, with a grant of £294,784 from the <xref type="external"
+                    url="http://www.ahrc.ac.uk/">Arts and Humanities Research Council</xref> under
+                its Resource Enhancement scheme. The project was developed and managed by the Music
+                Department at <xref type="external" url="http://www.rhul.ac.uk/music/">Royal
+                    Holloway, University of London</xref> in association with the <xref
+                    type="external" url="http://www.kcl.ac.uk/schools/humanities/cch/">Centre for
+                    Computing in the Humanities</xref>, King's College, London</p>
+            <p>Funded development of Hofmeister XIX has now finished. It is possible that there will
+                at some point be a further phase of development, which would add the predecessors of
+                the <title level="m">Monatsberichte</title> (the Whistling <title level="m"
+                >Handbuch</title> and the <title level="m">Nachträge</title>), so extending the
+                resource back to 1817; add the <title level="m">Monatsberichte</title> up to 1945
+                (by which time they had become part of the <xref type="external"
+                    url="http://www.d-nb.de/eng/service/zd/dnb.htm">Deutsche
+                Nationalbibliografie</xref>); and provide enhanced facilities for extracting
+                statistical information.</p>
+            <p><hi rend="bold">Please note that Hofmeister XIX is not the catalogue of a physical collection of
+                music publications, nor is it a list of items for sale. To locate copies of items
+                included in it, we suggest you consult the <xref type="external"
+                    url="http://www.rhul.ac.uk/Music/Golden-pages/library.html">Karlsruher
+                    Virtueller Katalog</xref>, or the list of international music <xref
+                    type="external" url="http://www.ubka.uni-karlsruhe.de/kvk/kvk/kvk_en.html"
+                    >libraries</xref> on the Royal Holloway Golden Pages.</hi></p>
+
+        </body>
+    </text>
+</TEI.2>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Browse</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11/14</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Browse</head>
+            <p>This is effectively an on-line version of working with the original printed
+                publication, providing a transcription of all the contents of the original <title
+                    level="m">Monatsberichte</title> (with the exception of title pages and
+                advertisements). Selecting 'Browse' opens a page from which you can successively
+                select the decade, year, and month (or months, in the case of a double issue) you
+                wish to browse. When a specific <title
+                    level="m">Monatsbericht</title> has been selected you have a choice of
+                three ways of viewing it:</p>
+            <list>
+                <item>by page: select a specific page of the <title level="m">Monatsbericht</title>,
+                    which will open as a single page in your browser.</item>
+                <item>by month: the entire <title level="m">Monatsbericht</title> will open as a
+                    single page in your browser.</item>
+                <item>by class: except for the earliest <title level="m">Monatsbericht</title>
+                    (1829-30), which were organized in a different way, you can use a drop down menu
+                    ('Select a class') to go directly to a particular <xref type="redist"
+                        from="pdf/HofmeisterMonatsberichteClasses.pdf">Hofmeister classification</xref> (music for orchestra, for
+                    piano, etc). To access the contents of the 1829-30 <title level="m"
+                        >Monatsberichte</title> by class, use Search.</item>
+            </list>
+            <p>In all cases, you have the option of selecting 'View facsimile'. This will open the
+                corresponding facsimile page on the <xref type="external"
+                    url=" http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref> website, in a separate browser window.</p>
+
+            <!--<p>This is effectively an on-line version of working with the original printed
+                publication, providing a transcription of all the contents of the original <title
+                    level="m">Monatsberichte</title> (with the exception of title pages and
+                advertisements). Selecting 'Browse' opens a page from which you can successively
+                select the decade, year, and month (or months, in the case of a double issue) you
+                wish to browse. When a specific Monatsbericht has been selected you have a choice of
+                three ways of viewing it:</p>
+            <list>
+                <item>by page: you can select a specific page of the <title level="m"
+                    >Monatsbericht</title>, which will open as a single page in your browser.</item>
+                <item>by month: the entire <title level="m">Monatsbericht</title> will open as a
+                    single page in your browser.</item>
+                <item>by class: except for the earliest <title level="m">Monatsberichte</title>
+                    (1829-30), which were organized in a different way, you can use a drop down menu
+                    ('Select a class') to go directly to a particular <xref type="internal"
+                        from="p5_5">Hofmeister classification</xref> (music for
+                    orchestra, for piano, etc). To access the contents of the 1929-30 <title
+                        level="m">Monatsberichte</title> by class, use Search.</item>
+            </list>
+            <p>In all cases, you have the option of selecting 'View facsimile'. This will open the
+                corresponding facsimile page on the <xref
+                    url=" http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref> (Austrian National Library) website, in a separate
+                browser window.</p>-->
+
+        </body>
+    </text>
+</TEI.2>

@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<!-- 
+hofmeister sitemap. 
+SVN: $Id: mainSitemap.xmap 203 2006-11-09 15:36:15Z jvieira $
+-->
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+
+  <!-- =========================== Components ================================ -->
+
+  <map:components>
+    <map:generators default="file" />
+  </map:components>
+
+  <!-- =========================== Pipelines ================================= -->
+
+  <map:pipelines>
+    <map:pipeline internal-only="false" type="noncaching">
+      <!-- Search pages -->
+      <!-- Basic search -->
+      <map:match pattern="content/database/search/basic.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="basic" />
+          <map:parameter name="context-id" value="search_basic" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- Thesaurus -->
+      <map:match pattern="content/database/search/display-thesaurus.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/thesaurus-xsp" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="thesaurus" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="thesaurus-xsp">
+        <map:generate src="xsp/search/thesaurus.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Executes searches -->
+      <map:match pattern="content/database/search/do-*">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/{1}-search-xsp" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="results" />
+          <map:parameter name="context-id" value="search_results" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="*-search-xsp">
+        <map:generate src="xsp/search/do-{1}-search.xsp" type="serverpages" />
+        <map:transform label="content" src="cocoon:/search-results.pagesheet" type="paginate">
+          <map:parameter name="page" value="1" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Pagination -->
+      <map:match pattern="search-results.pagesheet">
+        <map:generate src="xsp/search/pagesheets/search-results-pagesheet.xsp" type="serverpages" />
+        <map:transform src="xsp/search/pagesheets/remove-xsp-namespace.xsl" type="xslt" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Page navigation -->
+      <map:match pattern="content/database/search/page(*)">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/page-xsp-{1}" type="serverpages" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="results" />
+          <map:parameter name="context-id" value="search_results" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="page-xsp-*">
+        <map:generate src="xsp/search/page.xsp" type="serverpages">
+          <map:parameter name="page" value="{1}" />
+        </map:generate>
+        <map:transform label="content" src="cocoon:/search-results.pagesheet" type="paginate">
+          <map:parameter name="page" value="{1}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Page navigation: all results -->
+      <map:match pattern="content/database/search/page-all">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/page-all-xsp" type="serverpages" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="all-results" />
+          <map:parameter name="context-id" value="search_results" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="page-all-xsp">
+        <map:generate src="xsp/search/page-all.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Refines search -->
+      <map:match pattern="content/database/search/refine-*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/refine-{1}-xsp" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="{1}" />
+          <map:parameter name="context-id" value="search_{1}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="refine-*-xsp">
+        <map:generate src="xsp/search/refine.xsp" type="serverpages">
+          <map:parameter name="search" value="{1}" />
+        </map:generate>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Advanced search -->
+      <map:match pattern="content/database/search/advanced.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="advanced" />
+          <map:parameter name="context-id" value="search_advanced" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- Free text search -->
+      <map:match pattern="content/database/search/free_text.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="free_text" />
+          <map:parameter name="context-id" value="search_free_text" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- List search -->
+      <map:match pattern="content/database/search/list.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="list" />
+          <map:parameter name="context-id" value="search_list" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- List search: page navigation -->
+      <map:match pattern="content/database/search/listPage(*)">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/list-page-xsp-{1}" type="serverpages" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="results" />
+          <map:parameter name="context-id" value="search_results" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="list-page-xsp-*">
+        <map:generate src="xsp/search/list-page.xsp" type="serverpages">
+          <map:parameter name="page" value="{1}" />
+        </map:generate>
+        <map:transform label="content" src="cocoon:/search-results.pagesheet" type="paginate">
+          <map:parameter name="page" value="{1}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- List search: page navigation: all results -->
+      <map:match pattern="content/database/search/listPage-all">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/list-page-all-xsp" type="serverpages" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="index" value="search" />
+          <map:parameter name="view" value="all-results" />
+          <map:parameter name="context-id" value="search_results" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      <map:match pattern="list-page-all-xsp">
+        <map:generate src="xsp/search/list-page-all.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Redistributables -->
+      <map:match pattern="redist/**/*.*">
+        <map:read src="{global:hofmeister-redist}/{1}/{2}.{3}" />
+      </map:match>
+
+      <!-- Images -->
+      <map:match pattern="Assets/**/i/*">
+        <map:read src="{global:hofmeister-assets}/{1}/i/{2}" />
+      </map:match>
+      <map:match pattern="**/Assets/**/i/*">
+        <map:read src="{global:hofmeister-assets}/{2}/i/{3}"/>
+      </map:match>
+      <map:match pattern="images/**">
+        <map:read src="{global:hofmeister-images}/{1}" />
+      </map:match>
+      <map:match pattern="**/images/**">
+        <map:read src="{global:hofmeister-images}/{2}" />
+      </map:match>
+
+      <!-- JavaScript -->
+      <map:match pattern="Assets/**/*.js">
+        <map:read src="{global:hofmeister-assets}/{1}/{2}.js" />
+      </map:match>
+      <map:match pattern="**/Assets/**/*.js">
+        <map:read src="{global:hofmeister-assets}/{2}/{3}.js"/>
+      </map:match>
+
+      <!-- Cascading stylesheets -->
+      <map:match pattern="Assets/**/*.css">
+        <map:read src="{global:hofmeister-assets}/{1}/{2}.css" />
+      </map:match>
+      <map:match pattern="**/Assets/**/*.css">
+        <map:read src="{global:hofmeister-assets}/{2}/{3}.css"/>
+      </map:match>
+    </map:pipeline>
+
+    <map:pipeline type="noncaching">
+      <map:match pattern="">
+        <!-- Redirect request to the root path to the index page -->
+        <map:redirect-to uri="index.html" />
+      </map:match>
+      <map:match pattern="xmlqa/">
+        <!-- Redirect request to the root path to the index page -->
+        <map:redirect-to uri="filelist/AL_docsite.html" />
+      </map:match>
+
+      <!-- Popup window -->
+      <map:match pattern="popup.htm">
+        <map:read src="{global:hofmeister-js}/popup.htm" />
+      </map:match>
+      <map:match pattern="**/popup.htm">
+        <map:read src="{global:hofmeister-js}/popup.htm" />
+      </map:match>
+      <!-- End popup window -->
+
+      <!-- Type02 pages -->
+      <!-- By page -->
+      <map:match pattern="content/monatshefte/*/*.html">
+        <map:aggregate element="aggregation">
+          <map:part element="monatdir" src="cocoon:/monatdir" />
+          <map:part src="cocoon:/filenav" />
+          <map:part element="main" src="{global:hofmeister-materials}/monatshefte/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type02/proj_page_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="monat-pb" value="{2}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- By month -->
+      <map:match pattern="content/monatshefte/*.html">
+        <map:aggregate element="aggregation">
+          <map:part element="monatdir" src="cocoon:/monatdir" />
+          <map:part src="cocoon:/filenav" />
+          <map:part element="ALhofclass" src="{global:hofmeister-thesaurus}/AL_hofclasses.xml" />
+          <map:part element="main" src="{global:hofmeister-materials}/monatshefte/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type02/proj_type02_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- By hofclass -->
+      <map:match pattern="content/monatshefte/hofclass/*/*.html">
+        <map:aggregate element="aggregation">
+          <map:part element="monatdir" src="cocoon:/monatdir" />
+          <map:part src="cocoon:/filenav" />
+          <map:part element="ALhofclass" src="{global:hofmeister-thesaurus}/AL_hofclasses.xml" />
+          <map:part element="main" src="{global:hofmeister-materials}/monatshefte/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type02/proj_hofclass_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="hofclass" value="{2}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- Map page -->
+      <map:match pattern="pubPlaces_maps.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part element="ALpubplaces" src="{global:hofmeister-thesaurus}/AL_pubPlaces.xml" />
+          <map:part element="ALcountries" src="{global:hofmeister-thesaurus}/AL_countries.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/map/proj_map_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="map" />
+          <map:parameter name="view" value="map" />
+          <map:parameter name="site-id" value="{request-param:site-id}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- Type01 pages -->
+      <map:match pattern="index.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-xml}/index.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="home" value="true" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/reference/statistics.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-materials}/statistics/statistics.xml" />
+          <map:part src="{global:hofmeister-thesaurus}/AL_hofclasses.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/stats/proj_stats_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-thesaurus" value="{global:hofmeister-thesaurus}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-stats" value="{global:hofmeister-stats}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="p5_1" />
+          <map:parameter name="index" value="Statistics" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="alpha-list-xsp">
+        <map:generate src="xsp/search/alpha-list.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+      <map:match pattern="index-xsp">
+        <map:generate src="xsp/search/index.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/countries.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-thesaurus}/AL_pubPlaces.xml" />
+          <map:part element="ALcountries" src="{global:hofmeister-thesaurus}/AL_countries.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_country_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_countries" />
+          <map:parameter name="index" value="countries" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/countries/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-thesaurus}/AL_pubPlaces.xml" />
+          <map:part element="ALcountries" src="{global:hofmeister-thesaurus}/AL_countries.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_country_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_countries" />
+          <map:parameter name="index" value="countries" />
+          <map:parameter name="item-id" value="{1}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/hofclasses/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-thesaurus}/AL_hofclasses.xml" element="hofclasses" />
+          <map:part src="cocoon:/alpha-list-xsp?fieldTxt=hofclasses" />
+          <map:part src="cocoon:/index-xsp?fieldTxt=hofclasses&amp;startTxt={1}" />
+        </map:aggregate>
+        <map:transform type="xslt" src="xslt/indices/proj_indices_DR.xsl">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}"/>
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}"/>
+          <map:parameter name="hofmeister-thesaurus" value="{global:hofmeister-thesaurus}"/>
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}"/>
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}"/>
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_hofclasses"/>
+          <map:parameter name="index" value="hofclasses"/>
+          <map:parameter name="view" value="{1}"/>
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/*/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/alpha-list-xsp?fieldTxt={1}" />
+          <map:part src="cocoon:/index-xsp?fieldTxt={1}&amp;startTxt={2}" />
+        </map:aggregate>
+        <map:transform type="xslt" src="xslt/indices/proj_indices_DR.xsl">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}"/>
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}"/>
+          <map:parameter name="hofmeister-thesaurus" value="{global:hofmeister-thesaurus}"/>
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}"/>
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}"/>
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_{1}"/>
+          <map:parameter name="index" value="{1}"/>
+          <map:parameter name="view" value="{2}"/>
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/hofclasses/hofClass/*_sub*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part element="alist-index" src="{global:hofmeister-thesaurus}/AL_hofclasses.xml" />
+          <map:part src="cocoon:/index-sublevel-xsp?field1Sel=hofclass&amp;thesaurus1Txt={1}_sub{2}" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_result_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-thesaurus" value="{global:hofmeister-thesaurus}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_hofclasses" />
+          <map:parameter name="index" value="hofsubclasses" />
+          <map:parameter name="view" value="hofClass" />
+          <map:parameter name="item-id" value="{1}_sub{2}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="index-sublevel-xsp">
+        <map:generate src="xsp/search/index-sublevel.xsp" type="serverpages" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <map:match pattern="content/database/indices/*/*/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="cocoon:/index-al" />
+          <map:part src="cocoon:/index-sublevel-xsp?field1Sel={2}&amp;thesaurus1Txt={3}" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_result_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-thesaurus" value="{global:hofmeister-thesaurus}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="hofmeister-db-index" value="{global:hofmeister-db-index}" />
+          <map:parameter name="context-path" value="/2008" />
+          <map:parameter name="context-id" value="index_{1}" />
+          <map:parameter name="index" value="{1}" />
+          <map:parameter name="view" value="{2}" />
+          <map:parameter name="item-id" value="{3}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="content/database/browse.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part element="monatdir" src="cocoon:/monatshefte-monatdir" />
+          <map:part element="xml-decade" src="{global:hofmeister-preprocess}/decade.xml" />
+          <map:part element="main" src="{global:hofmeister-materials}/database/browse.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-preprocess" value="{global:hofmeister-preprocess}" />
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <map:match pattern="**/*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/filenav" />
+          <map:part src="{global:hofmeister-xml}/{1}/{2}.xml" />
+        </map:aggregate>
+        <map:transform type="cinclude" />
+        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="xslt">
+          <map:parameter name="hofmeister-alist" value="{global:hofmeister-alist}" />
+          <map:parameter name="hofmeister-materials" value="{global:hofmeister-materials}" />
+          <map:parameter name="context-path" value="/2008" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- ========================= Automount ============================= -->
+      <map:match pattern="**">
+        <map:mount check-reload="yes" src="aggregationSitemap.xmap" uri-prefix="" />
+      </map:match>
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>

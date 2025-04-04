@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_navbar.dtd">
+<authorityList month="mar" day="18" resp="JG" year="2003" id="AL_navbar">
+  <header>
+    <title>Navbar XML for Hofmeister</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body>
+    <layout id="main">
+      <navGroup>
+        <level01 id="NOT_NECESSARY">
+          <label>Home</label>
+          <default ref="p0"/>
+        </level01>
+        <level01>
+          <label>About</label>
+          <default ref="p1"/>
+          <active>
+            <file start="p1"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Project</label>
+              <default ref="p1_1"/>
+            </level02>
+            <level02>
+              <label>Friedrich Hofmeister</label>
+              <default ref="p1_2"/>
+              <active>
+                <file start="beer"/>
+                <file start="p1_2"/>
+              </active>
+              <sub03>
+                <level03>
+                  <label>Biography (German)</label>
+                  <default ref="beer_ger"/>
+                </level03>
+                <level03>
+                  <label>Biography (English)</label>
+                  <default ref="beer_eng"/>
+                </level03>
+              </sub03>
+            </level02>
+            <level02>
+              <label>Project team</label>
+              <default ref="p1_3"/>
+            </level02>
+            <level02>
+              <label>Copyright</label>
+              <default ref="p1_4"/>
+            </level02>
+            <level02>
+              <label>Citation</label>
+              <default ref="p1_5"/>
+            </level02>
+          </sub02>
+        </level01>
+        <level01>
+          <label>Database</label>
+          <default ref="p2"/>
+          <active>
+            <file start="p2"/>
+            <file start="index"/>
+            <file start="hofm_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Browse</label>
+              <default ref="p2_1"/>
+            </level02>
+            <level02>
+              <label>Indices</label>
+              <default ref="p2_2"/>
+              <active>
+                <file start="index"/>
+                <file ref="p2_2"/>
+              </active>
+              <sub03>
+                <level03>
+                  <label>Composers</label>
+                  <default ref="index_composers"/>
+                </level03>
+                <level03>
+                  <label>Publishers</label>
+                  <default ref="index_publishers"/>
+                </level03>
+                <level03>
+                  <label>Publication places</label>
+                  <default ref="index_pubPlaces"/>
+                </level03>
+                <level03>
+                  <label>Classes</label>
+                  <default ref="index_hofclasses"/>
+                </level03>
+                <level03>
+                  <label>Countries</label>
+                  <default ref="index_countries"/>
+                </level03>
+              </sub03>
+            </level02>
+            <level02>
+              <label>Search</label>
+              <default ref="p2_3"/>
+              <active>
+                <file start="search"/>
+                <file ref="p2_3"/>
+              </active>
+              <sub03>
+                <level03>
+                  <label>Basic Search</label>
+                  <default ref="search_basic"/>
+                </level03>
+                <level03>
+                  <label>Advanced Search</label>
+                  <default ref="search_advanced"/>
+                </level03>
+                <level03>
+                  <label>Free Text Search</label>
+                  <default ref="search_free_text"/>
+                </level03>
+                <level03>
+                  <label>List Search</label>
+                  <default ref="search_list"/>
+                </level03>
+              </sub03>
+            </level02>
+          </sub02>
+        </level01>
+        <level01>
+          <label>Help</label>
+          <default ref="p3"/>
+          <active>
+            <file start="p3"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Browse</label>
+              <default ref="p3_3"/>
+            </level02>
+              <level02>
+              <label>Indices</label>
+              <default ref="p3_4"/>
+              </level02>
+            <level02>
+              <label>Search</label>
+              <default ref="p3_5"/>
+              <active>
+                <file start="p3_5"/>
+              </active>
+              <sub03>
+                <level03>
+                  <label>Basic Search</label>
+                  <default ref="p3_5_1"/>
+                </level03>
+                <level03>
+                  <label>Advanced Search</label>
+                  <default ref="p3_5_2"/>
+                </level03>
+                <level03>
+                  <label>Free Text Search</label>
+                  <default ref="p3_5_3"/>
+                </level03>
+                <level03>
+                  <label>List Search</label>
+                  <default ref="p3_5_4"/>
+                </level03>
+              </sub03>
+            </level02>
+            <level02>
+              <label>Thesauri</label>
+              <default ref="p3_8"/>
+            </level02>
+              <level02>
+              <label>Classes</label>
+              <default ref="p3_2"/>
+            </level02>
+            <level02>
+              <label>Browsers</label>
+              <default ref="p3_6"/>
+            </level02>
+          </sub02>
+        </level01>
+        <level01>
+          <label>Map</label>
+          <default ref="map"/>
+        </level01>
+        <level01>
+          <label>Reference</label>
+          <default ref="p5"/>
+          <active>
+            <file start="p5"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Statistics</label>
+              <default ref="p5_1"/>
+            </level02>
+            <level02>
+              <label>Download</label>
+              <default ref="p5_2"/>
+            </level02>
+            <level02>
+              <label>Bibliography</label>
+              <default ref="p5_3"/>
+            </level02>
+            <level02>
+              <label>Technical</label>
+              <default ref="p5_7"/>
+            </level02>
+          </sub02>
+        </level01>
+        <level01>
+          <label>Contact Us</label>
+          <default ref="p6"/>
+        </level01>
+      </navGroup>
+    </layout>
+  </body>
+</authorityList>

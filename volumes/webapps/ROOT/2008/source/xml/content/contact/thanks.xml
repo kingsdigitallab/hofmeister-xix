@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6_3">		
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thank you</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Thank you</head>
+            
+            <p>Thank you for your feedback. We will deal with you request as soon as possible.</p>
+           
+            
+        </body>
+    </text>
+</TEI.2>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!-- 
+    hofmeister aggregation sitemap. 
+    SVN: $Id: aggregationSitemap.xmap 187 2006-11-07 17:07:47Z jvieira $
+-->
+
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+
+  <!-- =========================== Pipelines ================================= -->
+
+  <map:pipelines>
+
+    <map:pipeline>
+
+      <!-- Patterns for aggregation -->
+      <!-- Filebase and navbar -->
+      <map:match pattern="filenav">
+        <map:aggregate element="filenav">
+          <map:part src="{global:hofmeister-alist}/AL_navbar.xml" element="navbar"/>
+          <map:part src="{global:hofmeister-alist}/AL_fileBase.xml" element="filebase"/>
+          <map:part src="{global:hofmeister-alist}/AL_imageBase.xml" element="imagebase"/>
+          <map:part src="{global:hofmeister-alist}/AL_process.xml" element="ALprocess"/>
+        </map:aggregate>
+        <map:serialize type="xml"/>
+      </map:match>
+
+      <!-- XML Directory pages -->
+      <map:match pattern="monatdir">
+        <map:generate type="directory" src="{global:hofmeister-type02}">
+          <map:parameter name="xmlFiles" value="^1.+\.xml"/>
+        </map:generate>
+        <map:serialize type="xml"/>
+      </map:match>
+      <map:match pattern="*-monatdir">
+        <map:generate type="xpathdirectory" src="{global:hofmeister-materials}/{1}">
+          <map:parameter name="xpath" value="//TEI.2/@id|//titleStmt/title"/>
+          <map:parameter name="xmlFiles" value="^1.+\.xml"/>
+        </map:generate>
+        <map:serialize type="xml"/>
+      </map:match>
+
+      <map:match pattern="*-monat-teiheader">
+        <map:generate type="xpathdirectory" src="{global:hofmeister-materials}/{1}">
+          <map:parameter name="xpath" value="//TEI.2/@id|//teiHeader"/>
+          <map:parameter name="xmlFiles" value="^1.+\.xml"/>
+        </map:generate>
+        <map:serialize type="xml"/>
+      </map:match>
+
+
+      <!-- Checking page navigation -->
+      <map:match pattern="docsite">
+        <map:generate src="{global:hofmeister-alist}/AL_docsite.xml"/>
+        <map:serialize type="xml"/>
+      </map:match>
+
+      <!-- xMod generic Checking pages -->
+      <!--<map:match pattern="filelist(*)">
+                <map:generate src="{global:hofmeister-alist}/{1}.xml"/>
+                <map:serialize type="xml"/>
+            </map:match>
+            <map:match pattern="master-content">
+                <map:generate type="xquery" src="xquery/master.xquery">
+                    <map:parameter name="collection" value="{global:hofmeister-xmldb}/content"/>
+                    <map:parameter name="includes" value="" />
+                    <map:parameter name="excludes" value="" />
+                </map:generate>
+                <map:serialize type="xml"/>
+            </map:match>
+            <map:match pattern="master-type01">
+                <map:generate type="xquery" src="xquery/master.xquery">
+                    <map:parameter name="collection" value="{global:hofmeister-xmldb}/content"/>
+                    <map:parameter name="includes" value="" />
+                    <map:parameter name="excludes" value="cons\d+\.xml" />
+                </map:generate>
+                <map:serialize type="xml"/>
+            </map:match>
+            <map:match pattern="master-conserv">
+                <map:generate type="xquery" src="xquery/master.xquery">
+                    <map:parameter name="collection" value="{global:hofmeister-xmldb}/content"/>
+                    <map:parameter name="includes" value="cons\d+\.xml" />
+                    <map:parameter name="excludes" value="" />
+                </map:generate>
+                <map:serialize type="xml"/>
+            </map:match>
+            <map:match pattern="xref-*">
+                <map:generate type="xquery" src="xquery/xref.xquery">
+                    <map:parameter name="collection" value="{global:hofmeister-xmldb}/content"/>
+                </map:generate>
+                <map:serialize type="xml"/>
+            </map:match>-->
+      <!-- End checking pages -->
+      <!-- End patterns for aggregation -->
+
+      <!-- Index -->
+      <map:match pattern="index-al">
+        <map:aggregate element="index-al">
+          <map:part src="{global:hofmeister-alist}/AL_countries.xml" element="countries"/>
+          <map:part src="{global:hofmeister-alist}/AL_pubPlaces.xml" element="pub-places"/>
+        </map:aggregate>
+        <map:serialize type="xml"/>
+      </map:match>
+
+      <!-- XSP -->
+      <!-- Generates a XSP file from a type03 XML. The XSP accesses the db to get information about photos -->
+      <map:match pattern="db-photo/**.xsp">
+        <map:generate src="{global:hofmeister-materials}/{1}.xml"/>
+        <map:transform type="xslt" src="xslt/generate-xsp.xsl"/>
+        <map:serialize type="xml"/>
+      </map:match>
+      <!-- End XSP -->
+
+      <!-- ========================= Automount ============================= -->
+      <map:match pattern="*/**">
+        <map:mount check-reload="yes" src="{1}/" uri-prefix="{1}"/>
+      </map:match>
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p2_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Browse</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2004-06-18</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>encoded from html source</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+            <divGen id="browse"/>
+        </body>
+    </text>
+</TEI.2>

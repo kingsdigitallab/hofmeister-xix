@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Database</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Database access</head>
+            <list>
+                <item><xref type="internal" from="p2_1">Browse</xref>. This is effectively an
+                    on-line version of working with the original printed publication, except that a
+                    number of alternative views are available: you can view individual pages, a
+                    whole month at a time, or a particular <xref type="redist" from="pdf/HofmeisterMonatsberichteClasses.pdf"
+                        >Hofmeister classification</xref> (music for strings etc).</item>
+                <item><xref type="internal" from="p2_2">Indices</xref>. Here you access the
+                    information through an alphabetical listing. Indices are available for
+                    Composers, Publishers, Places (i.e. places of publication), Class
+                    (i.e.Hofmeister classification), and Country. In the case of Place you have the
+                    further option of identifying the location on a map.</item>
+                <item><xref type="internal" from="p2_3">Search</xref>. This is the most powerful
+                    means of accessing data, using one or more different fields, together where
+                    desired with a date range. Four types of search are available: Basic search,
+                    Advanced search, Free text search, and List search. They are described on the
+                    Search start page.</item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

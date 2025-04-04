@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p2_2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Indices</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-20</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2004-06-18</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>encoded from html source</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Indices</head>
+            <p>Indices provide simple access to the information in Hofmeister XIX through
+                alphabetical listings, and are a good way of discovering the extent and range of
+                what it contains. They are available for Composers, Publishers, Places (i.e. places
+                of publication), Class (i.e. Hofmeister classification), and Country (based on 2006
+                boundaries). In the case of Place you have the further option of identifying the
+                location on a map. All indices make use of <xref type="internal" from="p3_8">thesauri</xref>, the
+                purpose of which is to bring together equivalent entries (J. S. Bach, Bach J. S.,
+                Sebastian Bach, etc); where, exceptionally, you wish to access information without
+                using thesauri, use Search instead.</p>
+            <p>Available indices (based on thesauri):</p>
+            <list>
+                <item>
+                    <xref type="internal" from="index_composers">Composers</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="index_publishers">Publishers</xref>
+                </item>
+                <item> Publication places (<xref type="internal" from="index_pubPlaces">list</xref>
+                    or <xref type="internal" from="map">map</xref>) </item>
+                <item>
+                    <xref type="internal" from="index_hofclasses">Classes</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="index_countries">Countries</xref>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

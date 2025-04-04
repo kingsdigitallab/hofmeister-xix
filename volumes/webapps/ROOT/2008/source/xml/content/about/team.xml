@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Project team</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>change id</item>
+            </change>
+            <change>
+                <date>2004-06-22</date>
+                <respStmt>
+                    <name>Arianna Ciula</name>
+                </respStmt>
+                <item>creation of p5</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div>
+                <head>Department of Music, Royal Holloway, University of London</head>
+                <div>
+                    <head>Project director</head>
+                    <list>
+                        <item>Nicholas Cook</item>
+                    </list>
+                    <p/>
+                </div>
+                <div>
+                    <head>Project manager</head>
+                    <list>
+                        <item>Elizabeth Robinson</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Data encoders</head>
+                    <list>
+                        <item>Sarah Jaysmith</item>
+                        <item>Phillip Money</item>
+                        <item>Mekala Padmanabhan</item>
+                    </list>
+                </div>
+            </div>
+            <div>
+                <head>Centre for Computing in the Humanities, King's College London, University of
+                    London</head>
+                <div>
+                    <head>Technical directors</head>
+                    <list>
+                        <item>Harold Short</item>
+                        <item>Paul Spence</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Current project team</head>
+                    <list>
+                        <item>Zaneta Au</item>
+                        <item>Eleonora Litta Modignani</item>
+                        <item>Elena Pierazzo (lead analyst)</item>
+                        <item>Mark Stewart (database development)</item>
+                        <item>Paul Vetch (lead interface development)</item>
+                        <item>José Miguel Vieira (lead web application development)</item>
+                        <item>Raffaele Viglianti</item>
+                        <item>Hafed Walda</item>
+                    </list>
+                    <div>
+                        <head>Also</head>
+                        <list>
+                            <item>John Bradley, (consultancy at various times)</item>
+                            <item>Damien Doherty (visual design)</item>
+                            <item>Richard Palmer (server setup)</item>
+                            <item>Juan Garcés (XML analysis)</item>
+                            <item>Velumailum Mohanaraj (programming)</item>
+                        </list>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <head>Advisory panel</head>
+                <list>
+                    <item>Chris Banks</item>
+                    <item>Paul Banks</item>
+                    <item>Armin Brinzing</item>
+                    <item>Alison Hall</item>
+                    <item>Thomas Leibnitz</item>
+                </list>
+            </div>
+            <div>
+                <head>Special thanks to</head>
+                <list>
+                    <item> Robert Balchin</item>
+                    <item>Mark Everist</item>
+                    <item>Lars Franke</item>
+                    <item>Marion Hamm</item>
+                    <item>Christoph Koop</item>
+                    <item>Geoff Laycock</item>
+                    <item>Tim Neighbour</item>
+                    <item>Nigel Simeone</item>
+                    <item>Carola Staniek</item>
+                    <item>Diana Turner</item>
+                    <item>Jane Wainwright</item>
+                </list>
+                <p>Our thanks also to Axel Beer, Bärenreiter-Verlag, and the International
+                    Association of Music Libraries for permission to reproduce copyright materials
+                    on this website.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI.2>

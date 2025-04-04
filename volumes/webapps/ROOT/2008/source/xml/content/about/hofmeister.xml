@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Friedrich Hofmeister</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Friedrich Hofmeister</head>
+            <p>
+                <figure url="hofmeister"/>
+            </p>
+            <p> The Hofmeister <title level="m">Monatsberichte</title> take their name from
+                Friedrich Hofmeister (1782 -1864), who established them 1829. They were issued by
+                Hofmeister's own publishing house, which he founded in 1807. The business, located
+                in Leipzig, still exists as <xref type="external"
+                    url="http://www.friedrich-hofmeister.de/">Friedrich Hofmeister
+                Musikverlag</xref>, on whose website a history of the firm may be found; it remains
+                in family ownership. Hofmeister was also active in the establishment and enforcement
+                of copyright for music publications within Germany. This represents one aspect of
+                Hofmeister's programme to set music publishing on a firmer business footing, another
+                aspect of which was the <title level="m">Monatsberichte</title> themselves. </p>
+
+            <p>The November 1864 issue of the <title level="m">Monatsberichte</title> contained an
+                informative <xref type="external"
+                    url="http://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=1000001&amp;teil=0203&amp;bd=0001864&amp;zoom=1&amp;seite=00000235&amp;ues=0&amp;x=14&amp;y=14"
+                    >announcement</xref> of Hofmeister's death, translated <xref type="internal" from="p1_6"
+                >here</xref> by Elizabeth Robinson. The standard biographical outline, by Axel Beer,
+                is available on this website in both the <xref type="internal" from="beer_ger"
+                    >German original</xref> and an <xref type="internal" from="beer_eng">English
+                    translation</xref> by Elizabeth Robinson. Click <xref type="internal" from="p1_7">here</xref>
+                for a list of some individuals known to have been involved with the <title level="m"
+                    >Monatsberichte</title>.</p>
+
+
+        </body>
+    </text>
+</TEI.2>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lucene-document id="key-thesaurus">
+   <header>
+      <tei/>
+   </header>
+   <fields>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">–#–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a#A#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a–#A–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a+#A+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a♭#A♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a♭–#A♭–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">a♭+#A♭+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b#B#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b–#B–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b+#B+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b♭#B♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b♭–#B♭–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">b♭+#B♭+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c#C#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c–#C–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c+#C+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c♭#C♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c♯#C♯#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">c♯–#C♯–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d#D#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d–#D–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d+#D+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d♭#D♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f#F#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d♭+#D♭+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d♯#D♯#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">d♯–#D♯–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e#E#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e–#E–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e+#E+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e♭#E♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e♭–#E♭–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">e♭+#E♭+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f–#F–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f+#F+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f♯#F♯#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f♯–#F♯–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">f♯+#F♯+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g#G#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g–#G–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g+#G+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g♭#G♭#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g♭+#G♭+#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g♯#G♯#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">g♯–#G♯–#</field>
+      <field indexed="un-tokenized" name="key-thesaurus" stored="yes" vector="no">+#+#</field>
+   </fields>
+</lucene-document>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="idcs"><teiHeader><fileDesc><titleStmt><title>Indices</title></titleStmt><publicationStmt><p></p></publicationStmt><sourceDesc><p></p></sourceDesc></fileDesc><revisionDesc><change><date>2004-06-18</date><respStmt><name>JG</name></respStmt><item>encoded from html source</item></change></revisionDesc></teiHeader><text><body> <p>The following indices are currently available:</p>
+<list>
+	<item><xref type="internal" from="index_composers">Composers</xref></item>
+	<item><xref type="internal" from="index_pubublishers">Publishers</xref></item>
+	<item><xref type="internal" from="index_pubPlaces">Publisher places</xref></item>
+    <item><xref type="internal" from="index_hofClasses">Hofmeister classification</xref></item>
+    <item><xref type="internal" from="index_countries">Countries</xref></item>
+</list>
+</body></text></TEI.2>

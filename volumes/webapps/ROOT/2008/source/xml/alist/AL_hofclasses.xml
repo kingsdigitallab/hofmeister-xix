@@ -1,0 +1,5136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE A_list SYSTEM "../../dtd/alist/A_list.dtd">
+<A_list>
+  <hofClass id="hofCl_0001">
+    <regName />
+    <variants>
+      <variant>
+        <name />
+        <instances>NaN</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0002">
+    <regName>Abbildungen.</regName>
+    <variants>
+      <variant>
+        <name>Abbildungen.</name>
+        <instances>118</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>includes views of buildings, so can't go at Portraits</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0003">
+    <regName>Anweisungen zum Singen.</regName>
+    <variants>
+      <variant>
+        <name>CC</name>
+        <instances>11</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0004">
+    <regName>Blechmusik.</regName>
+    <variants>
+      <variant>
+        <name>Blechmusik.</name>
+        <instances>58</instances>
+      </variant>
+      <variant>
+        <name>Für Blechmusik.</name>
+        <instances>134</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0005">
+    <regName>Bücher und Schriften über Musik.</regName>
+    <variants>
+      <variant>
+        <name>Schriften von musikalischem Interesse.</name>
+        <instances>227</instances>
+      </variant>
+      <variant>
+        <name>Schriften von musikalischen Interesse.</name>
+        <instances>227</instances>
+      </variant>
+      <variant>
+        <name>Werke von musikalischem Interesse.</name>
+        <instances>227</instances>
+      </variant>
+      <variant>
+        <name>Bücher u. Schriften über Musik.</name>
+        <instances>223</instances>
+      </variant>
+      <variant>
+        <name>Bücher und Schriften über Musik</name>
+        <instances>223</instances>
+      </variant>
+      <variant>
+        <name>Bücher und Schriften über Musik.</name>
+        <instances>319</instances>
+      </variant>
+      <variant>
+        <name>Bücher und Schriften von musikalischem Interesse.</name>
+        <instances>223</instances>
+      </variant>
+      <variant>
+        <name>Bücher und Schriften von musikalischen Interesse.</name>
+        <instances>223</instances>
+      </variant>
+      <variant>
+        <name>Bücher und Schriften üben Musik.</name>
+        <instances>96</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0006">
+    <regName>Chöre, einstimmige.</regName>
+    <variants>
+      <variant>
+        <name>Einstimmige Chöre mit Begleitung.</name>
+        <instances>24</instances>
+      </variant>
+      <variant>
+        <name>Einstimmige Chöre.</name>
+        <instances>24</instances>
+      </variant>
+      <variant>
+        <name>Ėinstimmige Chöre.</name>
+        <instances>24</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>just 2 entries - but in fact most of the others are with acc. So have decided to bring together…</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0007">
+    <regName>Chöre, zweistimmige.</regName>
+    <variants>
+      <variant>
+        <name>Zweistimmige Chöre.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0008">
+    <regName>Concertanten mit Orchester oder Streichquartett.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Orchester oder Streichquartett.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Concertanten mit Orchester oder Streich-Quartett.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0009">
+    <regName>Concertanten mit Orchester oder Streichquintett oder Streichquartett.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Orchester. (Streichquintett, Streichquartett).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>Note: is this 'with' or 'or' string quintet / string quartet? LF. Either orchestra OR quintet OR quartet. Liz</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0010">
+    <regName>Concertanten mit Orchester oder Streichquintett.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Orchester (oder Quintett).</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Concertanten mit Orchester od. Quintett.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>the quintets are strings</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0011">
+    <regName>Concertanten mit Orchester.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Orchester.</name>
+        <instances>78</instances>
+      </variant>
+      <variant>
+        <name>Concertanten für Orchester.</name>
+        <instances>48</instances>
+      </variant>
+      <variant>
+        <name>Concertanten mit Orchester</name>
+        <instances>48</instances>
+      </variant>
+      <variant>
+        <name>Musik für Concertanten mit Orchester.</name>
+        <instances>48</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0012">
+    <regName>Concertanten mit Streichquartett.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Streichquartett.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0013">
+    <regName>Concertanten mit Streichquintett.</regName>
+    <variants>
+      <variant>
+        <name>Concertanten mit Quintett.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Concertanten mit Streichquintett.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0014">
+    <regName>Deklamatorische Musik.</regName>
+    <variants>
+      <variant>
+        <name>Declamation mit Begleitung des Pianoforte.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Deklamatorische Musik.</name>
+        <instances>64</instances>
+      </variant>
+      <variant>
+        <name>Für Declamation mit Begleitung des Pianoforte.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Für Declamation mit Pianoforte-Begleitung.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Für Deklamation mit Pianoforte.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Für Deklamation mit und ohne Pianoforte.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Chöre mit Begleitung und Deklamation.</name>
+        <instances>43</instances>
+      </variant>
+      <variant>
+        <name>Chöre mit verbindender Deklamation.</name>
+        <instances>43</instances>
+      </variant>
+      <variant>
+        <name>Chorwerke mit verbindender Deklamation.</name>
+        <instances>43</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0015">
+    <regName>Dramatische Concertmusik im Klavierauszuge.</regName>
+    <variants>
+      <variant>
+        <name>Dramatische Concertmusik im Klavierauszuge.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0016">
+    <regName>Dramatische Musik.</regName>
+    <variants>
+      <variant>
+        <name>Dramatische Musik.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0017">
+    <regName>Ein- und mehrstimmige Gesänge mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Ein- u. mehrstimmige Gesänge m. Orchester oder mehreren Instrumenten.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0018">
+    <regName>Gesangstücke für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesangsstücke für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester-Begleitung oder mehrerer Instrumente.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung oder mehrerer Instrumente.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Gesungstücke für Concertmusik mit Orchester oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>4</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0019">
+    <regName>Gesangstücke für Concertmusik mit Begleitung des Orchesters und eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesangstücke für Concert-Musik mit Orchester-Begleitung, sowie mit Begleitung eines anderen Instrumentes.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung sowie mit Begleitung eines anderen instrumentes.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung und eines anderen Instrumentes.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung, sowie mit Begleitung eines anderen Instruments.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>22</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertgebrauch mit Orchesterbegleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitung des Orchesters sowie mit einem Instrumente.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung, sowie mit Begleitung eines anderen Instrumentes.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung, sowie mit Begleitung eines andern Instrumentes.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester-Begleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester-begleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester-Begleitung, sowie mit Begleitung eines audern Instruments.</name>
+        <instances>16</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>3</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0020">
+    <regName>Gesangstücke für Concertmusik mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitung des Orchesters.</name>
+        <instances>49</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Gesangsstücke für Concert-Musik mit Orchester-Begleitung.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concert-Musik mit Orchester-Begleitung.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchester-Begleitung.</name>
+        <instances>31</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Orchesterbegleitung.</name>
+        <instances>31</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertgebrauch mit Orchesterbegleitung.</name>
+        <instances>13</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>1</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0021">
+    <regName>Gesangstücke für Concertmusik mit Begleitung mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesangsstücke für Concertmusik mit Begleitung mehrerer Instrumente.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke f. Concertmusik mit Begleitung mehrerer Instrumente.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concermusik mit Begleitung mehrerer Instrument.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitang mehrerer Instrumente.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitung mehrerer Instrumente.</name>
+        <instances>225</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concert-Musik mit Begleitung mehrerer Instrumente.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke für Concertmusik mit Begleitung mchrerer Instrumente.</name>
+        <instances>12</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>2</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0022">
+    <regName>Gesangstücke für eine Stimme mit Begleitung des Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Für eine Singstimme mit Begleitung des Pianoforte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0023">
+    <regName>Gesangstücke mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesangstücke mit Orchester oder mit Begleitung mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0024">
+    <regName>Gesangstücke mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Gesangstücke mit Begleitung des Orchesters.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke mit Orchesterbegleitung.</name>
+        <instances>22</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke mit Orchester.</name>
+        <instances>20</instances>
+      </variant>
+      <variant>
+        <name>Gesangsstücke mit Orchester.</name>
+        <instances>18</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0025">
+    <regName>Gesangstücke mit Begleitung des Pianoforte und anderer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesangstücke mit Begleitung des Pfte und anderer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0026">
+    <regName>Gesangstücke mit Begleitung mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesangsstücke mit Begleitung mehrerer Instrumente.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Gesangstücke mit Begleitung mehrerer Instrumente.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0027">
+    <regName>Gesänge für Concertmusik mit Begleitung des Orchesters, sowie eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für Concertmusik mit Orchesterbegleitung sowie mit Begleitung eines andern Instruments.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für Concertmusik mit Orchesterbegleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0028">
+    <regName>Gesänge für Concertmusik mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für Concertmusik mit Orchesterbegleitung.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0029">
+    <regName>Gesänge für eine Stimme mit Begleitung der Guitarre.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Stimme mit Begleitung der Guitarre.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Guitarre.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0030">
+    <regName>Gesänge für eine Stimme mit Begleitung der Orgel oder des Harmoniums.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orgel oder Harmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0031">
+    <regName>Gesänge für eine Stimme mit Begleitung der Orgel.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orgel.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0032">
+    <regName>Gesänge für eine Stimme mit Begleitung der Zither.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Zither.</name>
+        <instances>14</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Zitherbegleitung.</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Zither-Begleitung.</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Lieder für I Singstimme mit Zitherbegleitung.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0033">
+    <regName>Gesänge für eine Stimme mit Begleitung des Harmoniums.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Harmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0034">
+    <regName>Gesänge für eine Stimme mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orchester oder mehreren Instrumenten.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orchester oder mit mehreren Instrumenten.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0035">
+    <regName>Gesänge für eine Stimme mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Einstimmige Gesänge mit Begleitung des Orchesters.</name>
+        <instances>33</instances>
+      </variant>
+      <variant>
+        <name>Einstimmige Gesänge mit Orchester.</name>
+        <instances>33</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orchester.</name>
+        <instances>33</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Orchesterbegleitung.</name>
+        <instances>33</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0036">
+    <regName>Gesänge für eine Stimme mit Begleitung des Pianoforte und Streichinstrumenten.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und Streichinstrumenten.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0037">
+    <regName>Gesänge für eine Stimme mit Begleitung des Pianoforte und anderen Instrumenten.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte und mehrerer Instrumente.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und anderen Instrumenten.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0038">
+    <regName>Gesänge für eine Stimme mit Begleitung des Pianoforte und eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begl. des Pianoforte und eines anderen Instruments.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte u. eines anderen Instrumentes.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte u. eines anderen Instruments.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte und eines anderen Instrumentes.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte und eines anderen Instruments.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte und eines andern Instrumentes.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianofortes und eines andern Instruments.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte u. einem anderen Instrument.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte u. einem anderen Instrumente.</name>
+        <instances>159</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und einem anderen Instrumente.</name>
+        <instances>159</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und eines anderen Instrumentes.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und mit Begleitung eines anderen Instrumentes.</name>
+        <instances>96</instances>
+      </variant>
+      <variant>
+        <name>Gesänge f. eine Singstimme mit Pianoforte u. einem anderen Instrumente.</name>
+        <instances>63</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0039">
+    <regName>Gesänge für eine Stimme mit Begleitung des Pianoforte und mehreren Instrumenten.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte und mehreren Instrumenten.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0040">
+    <regName>Gesänge für eine Stimme mit Begleitung des Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>AA</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pfte,</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianofortbegleitung.</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte.</name>
+        <instances>698</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Stimme mit Begleitung des Pianforte.</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Stimme mit Begleitung des Pianoforte.</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Stimme mit Begleitung des Pianofortes.</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Stimme mit Pianofortebegleitung.</name>
+        <instances>331</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianofortes.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianofortebegfeitung.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianofortebegleitung</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianofortebegleitung.</name>
+        <instances>461</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Piánofortebegleitung.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Stimme mit Begleitung. des Pianoforte.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begl. des Pianoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung des Pianoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Panoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte. begleitung.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Pianoforte-Begleitung.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit-Pianoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Lieder und Gesänge für eine Singstimme mit Begleitung des Pianoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Lieder und Gesänge für eine Singstimme mit Pianoforte.</name>
+        <instances>271</instances>
+      </variant>
+      <variant>
+        <name>Lieder für eine Singstimme mit Pianoforte.</name>
+        <instances>96</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0041">
+    <regName>Gesänge für eine Stimme mit Begleitung eines Streichinstrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit einem Streichinstrumente.</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für eine Singstimme mit einem Streichinstrumente allein.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0042">
+    <regName>Gesänge für eine Stimme mit Begleitung eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit Begleitung eines andern Instruments.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0043">
+    <regName>Gesänge für eine Stimme mit Begleitung mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für eine Singstimme mit mehreren Instrumenten.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Lieder für eine Singstimme mit mehreren Instrumenten.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0044">
+    <regName>Gesänge für eine Stimme ohne Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Einstimmige Gesänge ohne Begleitung.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0045">
+    <regName>Gesänge mit Begleitung der Akkord-Zither.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Akkord-Zither.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0046">
+    <regName>Gesänge mit Begleitung der Guitarre oder Zither.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Guitarre oder Zither.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0047">
+    <regName>Gesänge mit Begleitung der Guitarre.</regName>
+    <variants>
+      <variant>
+        <name>BB</name>
+        <instances>174</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung der Guitarre.</name>
+        <instances>190</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Beleitung der Guitarre.</name>
+        <instances>174</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Guitarre.</name>
+        <instances>208</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Guitarrebegleitung.</name>
+        <instances>210</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Guitarre-Begleitung.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Lieder mit Guitarrebegleitung.</name>
+        <instances>36</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0048">
+    <regName>Gesänge mit Begleitung der Harfe.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Harfe.</name>
+        <instances>7</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0049">
+    <regName>Gesänge mit Begleitung der Orgel oder des Harmoniums.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Orgel (Harmonium).</name>
+        <instances>67</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orgel (oder Harmonium).</name>
+        <instances>31</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orgel oder Harmonium.</name>
+        <instances>67</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Harmonium od. Orgel.</name>
+        <instances>36</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0050">
+    <regName>Gesänge mit Begleitung der Orgel.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Orgel.</name>
+        <instances>25</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0051">
+    <regName>Gesänge mit Begleitung der Schlag-Zither.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Schlag-Zither.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0052">
+    <regName>Gesänge mit Begleitung der Zither oder Guitarre.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Zither (oder Guitarre).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0053">
+    <regName>Gesänge mit Begleitung der Zither.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Begleitung der Zither.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Zitherbegleitung.</name>
+        <instances>108</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Zither.</name>
+        <instances>146</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Zither-begleitung.</name>
+        <instances>98</instances>
+      </variant>
+      <variant>
+        <name>Lieder mit Zither.</name>
+        <instances>98</instances>
+      </variant>
+      <variant>
+        <name>Lieder mit Zitherbegleitung.</name>
+        <instances>98</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0054">
+    <regName>Gesänge mit Begleitung des Bandoneon.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Bandoneon.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0055">
+    <regName>Gesänge mit Begleitung des Harmonium.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Harmonium.</name>
+        <instances>24</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Harmoniumbegleitung.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge für Harmonium.</name>
+        <instances>14</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0056">
+    <regName>Gesänge mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge m. Orchester oder mehreren Instrumenten.</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Orchesters oder mit Begleitung mehrerer Instrumente.</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orchester oder mehreren Instrumenten.</name>
+        <instances>43</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orchester oder mit Begleitung mehrerer Instrumente.</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orchester oder mit mehreren Instrumenten.</name>
+        <instances>43</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0057">
+    <regName>Gesänge mit Begleitung des Orchesters und mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Orchester u. mit Begleitung mehrerer Instrumente.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orchester und mit Begleitung mehrerer Instrumente.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0058">
+    <regName>Gesänge mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Orchester.</name>
+        <instances>116</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Orchesterbegleitung.</name>
+        <instances>110</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0059">
+    <regName>Gesänge mit Begleitung des Pianoforte und eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte und eines andern Instruments.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianofortes und eines anderen Instrumentes.</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte u. eines anderen Instrumentes.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte u. eines andern Instrumentes.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte und eines anderen Instrumentes.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte und eines anderen Instruments.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Begleitung des Pianoforte und eines andern Instrumentes.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Gesänge mit Pianoforte und einem anderen Instrumente.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0060">
+    <regName>Gesänge ohne Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge ohne Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0061">
+    <regName>Grössere Gesangsstücke mit Begleitung des Orchesters, eines oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Grössere Gesangsstücke m. Begl. des Orchesters, eines od. mehrerer Instrumente.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0062">
+    <regName>Grössere Gesangsstücke zu Concert-Aufführungen.</regName>
+    <variants>
+      <variant>
+        <name>Grössere Gesangsstücke etc. zu Concert-Auführungen.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Grössere Gesangswerke zu Concert-Aufführungen.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0063">
+    <regName>Grössere Gesangstücke mit Begleitung des Orchesters oder eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Grössere Gesangsstücke mit Begl. des Orchesters od. eines anderen Instruments.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Grössere Gesangstücke m. Begl. des Orchesters od. eines anderen Instruments.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Grössere Gesangstücke mit Begleitung des Orchester oder eines anderen Instrumentes.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Grösseres Gesangstücke mit Begleitung des Orchester oder eines anderen Instrumentes.</name>
+        <instances>9</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0064">
+    <regName>Grössere Gesangstücke mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Grössere Gesangstücke mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0065">
+    <regName>Grössere Gesangstücke mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Grössere Gesangstücke mit Orchester.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0066">
+    <regName>Harmoniemusik (Militär) für Blasinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Für Harmonie- (Militär-) Musik.</name>
+        <instances>141</instances>
+      </variant>
+      <variant>
+        <name>Für Harmonie-(Militär-) Musik.</name>
+        <instances>141</instances>
+      </variant>
+      <variant>
+        <name>Für Harmonie-(Militär-)Musik.</name>
+        <instances>141</instances>
+      </variant>
+      <variant>
+        <name>Für Militär-(Harmonie-)Musik.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Militärmusik.</name>
+        <instances>46</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0067">
+    <regName>Harmoniemusik für Blasinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>B</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Harmoniemusik für Blasinstrumente.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Harmonien.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Für Harmoniemusik.</name>
+        <instances>92</instances>
+      </variant>
+      <variant>
+        <name>Harmoniemusik.</name>
+        <instances>92</instances>
+      </variant>
+      <variant>
+        <name>Harmonie-Musik.</name>
+        <instances>92</instances>
+      </variant>
+      <variant>
+        <name>Harmonien für Blasinstrumente.</name>
+        <instances>92</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0068">
+    <regName>Kirchenmusik.</regName>
+    <variants>
+      <variant>
+        <name>Kirchenmusik.</name>
+        <instances>NaN</instances>
+      </variant>
+      <variant>
+        <name>Kirchen-Musik.</name>
+        <instances>337</instances>
+      </variant>
+      <variant>
+        <name>Ua</name>
+        <instances>337</instances>
+      </variant>
+      <variant>
+        <name>Ub</name>
+        <instances>337</instances>
+      </variant>
+      <variant>
+        <name>Ue</name>
+        <instances>337</instances>
+      </variant>
+      <variant>
+        <name>Choralbücher.</name>
+        <instances>95</instances>
+      </variant>
+      <variant>
+        <name>Choralsammlungen.</name>
+        <instances>NaN</instances>
+      </variant>
+      <variant>
+        <name>Choralsammlungen und Liturgien.</name>
+        <instances>97</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0069">
+    <regName>Lehrbücher für das Flageolet.</regName>
+    <variants>
+      <variant>
+        <name>Mc</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0070">
+    <regName>Lehrbücher für das Harmonium.</regName>
+    <variants>
+      <variant>
+        <name>Lehrbücher für Harmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0071">
+    <regName>Lehrbücher für das Horn.</regName>
+    <variants>
+      <variant>
+        <name>Lf</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0072">
+    <regName>Lehrbücher für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Lehrbücher für das Pianoforte.</name>
+        <instances>235</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher für Pianoforte.</name>
+        <instances>549</instances>
+      </variant>
+      <variant>
+        <name>Qq</name>
+        <instances>235</instances>
+      </variant>
+      <variant>
+        <name>Schulen für das Pianoforte.</name>
+        <instances>235</instances>
+      </variant>
+      <variant>
+        <name>Lehrbucher für Pianoforte.</name>
+        <instances>69</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher und Uebungen für Pianoforte.</name>
+        <instances>201</instances>
+      </variant>
+      <variant>
+        <name>Uebungen für Pianoforte.</name>
+        <instances>201</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0073">
+    <regName>Lehrbücher für das Violoncell und den Bass.</regName>
+    <variants>
+      <variant>
+        <name>Ee</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Ef</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0074">
+    <regName>Lehrbücher für den Contrabass.</regName>
+    <variants>
+      <variant>
+        <name>Lehrbücher für den Contrabass.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0075">
+    <regName>Lehrbücher für den Csakan.</regName>
+    <variants>
+      <variant>
+        <name>Nc</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0076">
+    <regName>Lehrbücher für den Fagott.</regName>
+    <variants>
+      <variant>
+        <name>Ke</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0077">
+    <regName>Lehrbücher für den Gesang.</regName>
+    <variants>
+      <variant>
+        <name>Anweisung zum Singen.</name>
+        <instances>231</instances>
+      </variant>
+      <variant>
+        <name>Anweisungen zum Singen.</name>
+        <instances>231</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher für den Gesang.</name>
+        <instances>231</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher für Gesang.</name>
+        <instances>604</instances>
+      </variant>
+      <variant>
+        <name>Singübungen.</name>
+        <instances>231</instances>
+      </variant>
+      <variant>
+        <name>Lehrbucher für Gesang.</name>
+        <instances>69</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher und Uebungen für Gesang.</name>
+        <instances>373</instances>
+      </variant>
+      <variant>
+        <name>Uebungen für Gesang.</name>
+        <instances>373</instances>
+      </variant>
+      <variant>
+        <name>Lehrbcher für den Gesang.</name>
+        <instances>229</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher u. Uebungen für Gesang.</name>
+        <instances>229</instances>
+      </variant>
+      <variant>
+        <name>Schulen und Uebungen für Gesang.</name>
+        <instances>229</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0078">
+    <regName>Lehrbücher für die Clarinette.</regName>
+    <variants>
+      <variant>
+        <name>Gg</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0079">
+    <regName>Lehrbücher für die Concertina.</regName>
+    <variants>
+      <variant>
+        <name>Lehrbücher für Concertina.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0080">
+    <regName>Lehrbücher für die Flöte.</regName>
+    <variants>
+      <variant>
+        <name>Fg</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0081">
+    <regName>Lehrbücher für die Guitarre.</regName>
+    <variants>
+      <variant>
+        <name>Pf</name>
+        <instances>7</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0082">
+    <regName>Lehrbücher für die Harfe.</regName>
+    <variants>
+      <variant>
+        <name>Sf</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0083">
+    <regName>Lehrbücher für die Orgel.</regName>
+    <variants>
+      <variant>
+        <name>Rb</name>
+        <instances>5</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher für Orgel.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0084">
+    <regName>Lehrbücher für die Violine.</regName>
+    <variants>
+      <variant>
+        <name>Ch</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Lehrbücher für Violine.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0085">
+    <regName>Lehrbücher für die Zither.</regName>
+    <variants>
+      <variant>
+        <name>Lehrbücher für Zither.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0086">
+    <regName>Lieder- und Textbücher.</regName>
+    <variants>
+      <variant>
+        <name>Lieder- und Textbücher.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0087">
+    <regName>Liederbücher.</regName>
+    <variants>
+      <variant>
+        <name>Liederbücher.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0088">
+    <regName>Liedersammlungen für Schulen etc.</regName>
+    <variants>
+      <variant>
+        <name>Liedersammlungen für Schulen etc.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0089">
+    <regName>Liedersammlungen für Schulen.</regName>
+    <variants>
+      <variant>
+        <name>Liedersammlungen für Schulen.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Lieder-Sammlungen für Schulen.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0090">
+    <regName>Liedersammlungen.</regName>
+    <variants>
+      <variant>
+        <name>Liedersammlungen.</name>
+        <instances>NaN</instances>
+      </variant>
+      <variant>
+        <name>Lieder-Sammlungen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0091">
+    <regName>Mehrstimmige Gesänge mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>54</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Orchester oder mehreren Instrumenten.</name>
+        <instances>54</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge m. Begleitung des Orchesters oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge m. Orchester oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung des Orchesters Oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung des Orchesters oder mehreren Instrumenten.</name>
+        <instances>46</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0092">
+    <regName>Mehrstimmige Gesänge mit Begleitung des Orchesters und mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Orchester und mit mehreren Instrumenten.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0093">
+    <regName>Mehrstimmige Gesänge mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Orchester.</name>
+        <instances>36</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0094">
+    <regName>Mehrstimmige Gesänge mit Begleitung des Pianoforte und einem Streichinstrument.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Pianoforte u. einem Streichinstrumente.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Pianoforte und einem Streichinstrumente.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0095">
+    <regName>Mehrstimmige Gesänge mit Begleitung des Pianoforte und eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung des Pianaforte und eines anderen Instrumentes.</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung des Pianoforte und eines anderen Instrumentes.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Pianoforte und einem anderen Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0096">
+    <regName>Mehrstimmige Gesänge mit Begleitung eines Blasinstrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung eines Blasinstrumentes.</name>
+        <instances>14</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0097">
+    <regName>Mehrstimmige Gesänge mit Begleitung eines Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung eines Instrumentes.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0098">
+    <regName>Mehrstimmige Gesänge mit Begleitung eines Streichinstrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung eines Streichinstrumentes.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0099">
+    <regName>Mehrstimmige Gesänge mit Begleitung eines oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung eines oder mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0100">
+    <regName>Mehrstimmige Gesänge mit Begleitung mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge mit Begleitung mehrerer Instrumente.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit Begleitung mehrerer Instrumente.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0101">
+    <regName>Mehrstimmige Gesänge mit oder ohne Begleitung des Orchesters, eines oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit od. ohne Begl. des Orchesters, eines od. mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0102">
+    <regName>Mehrstimmige Gesänge mit oder ohne Begleitung des Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit ohne Pianoforte.</name>
+        <instances>309</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Pfte.</name>
+        <instances>309</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Pianoforte.</name>
+        <instances>754</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit od. ohne Begleitung des Pianoforte.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit oder ohne Begleitung des Pianoforte.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit oder ohne’Begleitung des Pianoforte.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit u. ohne Pianoforte.</name>
+        <instances>360</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit u. Ohne Pianoforte.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Begleitung des Pianoforte.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Pianofortebegleitung.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Pianoforte-begleitung.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Pianoforte-Begleitung.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit oder ohne Pianoforte.</name>
+        <instances>96</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0103">
+    <regName>Mehrstimmige Gesänge mit oder ohne Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge mit und ohne Begleitung.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Y</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Mehrstimmige Gesänge mit oder ohne Begleitung.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0104">
+    <regName>Mehrstimmige Gesänge.</regName>
+    <variants>
+      <variant>
+        <name>Mehrstimmige Gesänge.</name>
+        <instances>9</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0105">
+    <regName>Melodramatische Musik.</regName>
+    <variants>
+      <variant>
+        <name>Melodramatische Musik.</name>
+        <instances>65</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0106">
+    <regName>Melodramen mit Begleitung des Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Melodramen mit Pianoforte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0107">
+    <regName>Melodramen.</regName>
+    <variants>
+      <variant>
+        <name>Melodramen.</name>
+        <instances>5</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0108">
+    <regName>Messen, Cantaten, Hymnen mit Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Messen, Cantaten, Hymnen mit Pianoforte.</name>
+        <instances>15</instances>
+      </variant>
+      <variant>
+        <name>V</name>
+        <instances>15</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0109">
+    <regName>Messen, Oratorien im Klavierauszuge.</regName>
+    <variants>
+      <variant>
+        <name>Messen, Oratorien im Klavierauszuge.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0110">
+    <regName>Musik für 2 Pianoforte mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte mit Begleitung.</name>
+        <instances>7</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0111">
+    <regName>Musik für 2 Pianoforte mit und ohne Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte mit u. ohne Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0112">
+    <regName>Musik für 2 Pianoforte und für 2 Pianoforte zu 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte und für zwei Pianoforte zu 8 Händen.</name>
+        <instances>10</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und für zwei Pianoforte zu acht Händen.</name>
+        <instances>10</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0113">
+    <regName>Musik für 2 Pianoforte und für Pianoforte zu 3 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für 2 Pianoforte u. f. ein Pianoforte zu 3 Händen.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Musik für 2 Pianoforte und Pianoforte zu 3 Händen.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und für Pianoforte zu drei Händen.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0114">
+    <regName>Musik für 2 Pianoforte und für Pianoforte zu 3, 5 und 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Qf</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0115">
+    <regName>Musik für 2 Pianoforte und für Pianoforte zu 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für 2 Pfte und für Pfte zu 6 Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für 2 Pianoforte u. f. ein Pianoforte zu 6 Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für 2 Pianoforte und für Pfte zu 6 Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und für das Pianoforte zu 6 Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und für das Pianoforte zu sechs Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und für Pianoforte zu sechs Händen.</name>
+        <instances>40</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte und Pianoforte zu sechs Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte, und für Pianoforte zu sechs Händen.</name>
+        <instances>30</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte, sowie für Pianoforte zu sechs Händen.</name>
+        <instances>8</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0116">
+    <regName>Musik für 2 Pianoforte und für Pianoforte zu 6 und 3 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte und für Pianoforte zu sechs und drei Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0117">
+    <regName>Musik für 2 Pianoforte zu 4 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier Händen.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0118">
+    <regName>Musik für 2 Pianoforte zu 4 und zu 8 Händen und für Pianoforte zu 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte zu 4 und 8 Händen und für Pianoforte zu 6 Händen.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und acht Händen und für Pianoforte zu sechs Händen.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und zu acht Händen und für Pianoforte zu sechs Händen.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0119">
+    <regName>Musik für 2 Pianoforte zu 4 und zu 8 Händen, sowie für Pianoforte zu 4 Händen mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und zu acht Händen, sowie für Pianoforte zu vier Händenmit Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0120">
+    <regName>Musik für 2 Pianoforte zu 4 und zu 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte zu 4 und zu 8 Händen.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und zu acht Händen.</name>
+        <instances>29</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier od. acht Hände.</name>
+        <instances>27</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier od. acht Händen.</name>
+        <instances>27</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier u. acht Händen.</name>
+        <instances>27</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und acht Händen</name>
+        <instances>27</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu vier und acht Händen.</name>
+        <instances>27</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0121">
+    <regName>Musik für 2 Pianoforte zu 8 Händen und für Pianoforte zu 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte zu acht Händen und für Pianoforte zu sechs Händen.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu 8 Händen und für Pianoforte zu 6 Händen.</name>
+        <instances>5</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0122">
+    <regName>Musik für 2 Pianoforte zu 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für 2 Pianoforte zu 8 Händen.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu 8 Händen.</name>
+        <instances>27</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte zu acht Händen.</name>
+        <instances>36</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0123">
+    <regName>Musik für 2 Pianoforte, und für Pianoforte zu 4 Händen mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei Pianoforte, sowie für Pianoforte zu vier Händen mit Begleitung</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0124">
+    <regName>Musik für 2 Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für 2 Pianoforte.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pianoforte.</name>
+        <instances>409</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwei Pinoforte.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Musik für Zwei Pianoforte.</name>
+        <instances>265</instances>
+      </variant>
+      <variant>
+        <name>Musik für zwel Pianoforte.</name>
+        <instances>181</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0125">
+    <regName>Musik für 2 und 3 Pianoforte und für Pianoforte zu 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei und drei Pianoforte und für Pianoforte zu acht Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0126">
+    <regName>Musik für 2 und 3 Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei und drei Pianoforte.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0127">
+    <regName>Musik für 2 und 4 Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für zwei und vier Pianoforte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0128">
+    <regName>Musik für 3 Pianoforte mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für drei Pianoforte mit Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0129">
+    <regName>Musik für 3 Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für drei Pianoforte.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0130">
+    <regName>Musik für 8 Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für acht Pianoforte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0131">
+    <regName>Musik für Blasinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Blasinstrumente.</name>
+        <instances>356</instances>
+      </variant>
+      <variant>
+        <name>Musik für verchiedene Blasinstrumente.</name>
+        <instances>151</instances>
+      </variant>
+      <variant>
+        <name>Musik für verschiedene Blasinstrumente.</name>
+        <instances>151</instances>
+      </variant>
+      <variant>
+        <name>Musik für Blasinstrumente</name>
+        <instances>21</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0132">
+    <regName>Musik für Kinderinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Kinderinstrumente.</name>
+        <instances>46</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0133">
+    <regName>Musik für Schlaginstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Schlaginstrumente.</name>
+        <instances>63</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0134">
+    <regName>Musik für Streich- und Blasinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Streich- u. Blasinstrumente.</name>
+        <instances>207</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streich- und Blasinstrumente.</name>
+        <instances>207</instances>
+      </variant>
+      <variant>
+        <name>Musik für Blas- und Streichinstrumente.</name>
+        <instances>154</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streich und Blasinstrumente.</name>
+        <instances>154</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streich. u. Blasinstrumente.</name>
+        <instances>154</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streich-und Blasinstrumente.</name>
+        <instances>154</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0135">
+    <regName>Musik für Streich-, Blas- und Schlaginstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Streich-, Blas- und Schlaginstrumente.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0136">
+    <regName>Musik für Streichinstrumente.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Streichinstrumente.</name>
+        <instances>239</instances>
+      </variant>
+      <variant>
+        <name>Für Streichmusik.</name>
+        <instances>115</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0137">
+    <regName>Musik für Streichorchester.</regName>
+    <variants>
+      <variant>
+        <name>Für Streichorchester.</name>
+        <instances>142</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streichorchester.</name>
+        <instances>142</instances>
+      </variant>
+      <variant>
+        <name>Musik für Streich-Orchester.</name>
+        <instances>84</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0138">
+    <regName>Musik für das Accordion (Bandonion).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Accordion (Bandonion).</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Accordion (Bandonion).</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Musik für Akkordeon, Bandoneon.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Musik für Akkordion, Bandoneon.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0139">
+    <regName>Musik für das Accordion (Bandonion, Concertina).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Akkordion (Bandonion, Concertina).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0140">
+    <regName>Musik für das Accordion (Harmonika).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Accordion (Harmonika).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0141">
+    <regName>Musik für das Accordion (Ziehharmonika).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Akkordion (Ziehharmonika).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0142">
+    <regName>Musik für das Accordion und Harmonieflöte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Accordion und Harmoniflöte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0143">
+    <regName>Musik für das Accordion.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Accordion.</name>
+        <instances>26</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Accordion.</name>
+        <instances>24</instances>
+      </variant>
+      <variant>
+        <name>Musik für Akkordeon.</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Musik für Akkordion.</name>
+        <instances>12</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0144">
+    <regName>Musik für das Bandonion (Accordion).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandoneon (Akkordion).</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Musik für Bandoneon, Akkordeon.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Musik für Bandonion (Akkordion).</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0145">
+    <regName>Musik für das Bandonion (Concertina).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandoneon, Concertina.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0146">
+    <regName>Musik für das Bandonion (Concertina, Harmonika).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandonion, Concertina, Harmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0147">
+    <regName>Musik für das Bandonion (Handharmonika, Accordion).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandonion, Hand-Harmonika oder Accordion.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0148">
+    <regName>Musik für das Bandonion (Harmonika).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandoneon, Harmonika.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0149">
+    <regName>Musik für das Bandonion.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bandonion.</name>
+        <instances>49</instances>
+      </variant>
+      <variant>
+        <name>Musik für Bandoneon.</name>
+        <instances>46</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0150">
+    <regName>Musik für das Banjo.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Banjo.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0151">
+    <regName>Musik für das Bassethorn.</regName>
+    <variants>
+      <variant>
+        <name>H</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0152">
+    <regName>Musik für das Cornet à Pistons.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Cornet à Piston.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Musik für Cornet à Pistons.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0153">
+    <regName>Musik für das Cymbal.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Cymbal.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0154">
+    <regName>Musik für das Doppelflageolet.</regName>
+    <variants>
+      <variant>
+        <name>Für das Doppelflageolet.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0155">
+    <regName>Musik für das Enharmonium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Enharmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0156">
+    <regName>Musik für das Flageolet.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Flageolet.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0157">
+    <regName>Musik für das Handharmonium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Handharmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0158">
+    <regName>Musik für das Harmonium (Orgel-Melodium) und Flötenharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmonium (Orgel-Melodium) und Flötenharmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0159">
+    <regName>Musik für das Harmonium (Orgue expressif).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmonium (Orgue expressif).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0160">
+    <regName>Musik für das Harmonium und Flötenharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmonium und Flötenharmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0161">
+    <regName>Musik für das Harmonium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Harmonium.</name>
+        <instances>7</instances>
+      </variant>
+      <variant>
+        <name>Musik für Harmonium.</name>
+        <instances>394</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0162">
+    <regName>Musik für das Horn.</regName>
+    <variants>
+      <variant>
+        <name>La</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Lb</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Lc</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Ld</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Horn.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Musik für Horn.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Für Hornmusik.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0163">
+    <regName>Musik für das Jankó-Klavier.</regName>
+    <variants>
+      <variant>
+        <name>Für das Jankó-Klavier.</name>
+        <instances>8</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Jankó-Klavier.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Jankó-Klaviatur.</name>
+        <instances>8</instances>
+      </variant>
+      <variant>
+        <name>Für die Jankó-Klaviatur.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0164">
+    <regName>Musik für das Orchester.</regName>
+    <variants>
+      <variant>
+        <name>Aa</name>
+        <instances>345</instances>
+      </variant>
+      <variant>
+        <name>Ab</name>
+        <instances>345</instances>
+      </variant>
+      <variant>
+        <name>Ac</name>
+        <instances>345</instances>
+      </variant>
+      <variant>
+        <name>Ad</name>
+        <instances>345</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Orchester.</name>
+        <instances>345</instances>
+      </variant>
+      <variant>
+        <name>Musik für Orchester.</name>
+        <instances>795</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0165">
+    <regName>Musik für das Pedal-Klavier.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pedal-Klavier.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0166">
+    <regName>Musik für das Pianoforte allein.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte allein.</name>
+        <instances>631</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte allein.</name>
+        <instances>725</instances>
+      </variant>
+      <variant>
+        <name>Qi</name>
+        <instances>361</instances>
+      </variant>
+      <variant>
+        <name>Qk</name>
+        <instances>361</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte zu zwei Händen.</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte.</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu zwei Händen.</name>
+        <instances>366</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu Zwei Händen.</name>
+        <instances>270</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0167">
+    <regName>Musik für das Pianoforte mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte mit Begleitung.</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte mit Begleitung.</name>
+        <instances>830</instances>
+      </variant>
+      <variant>
+        <name>Qa</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Qb</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Qc</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Qd</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Qe</name>
+        <instances>368</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu zwei Händen mit Begleitung.</name>
+        <instances>272</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>this is the most mad category imaginable! E.g. violin and piano acc. Should all be classified differently!</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0168">
+    <regName>Musik für das Pianoforte zu 1 Hand.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu einer Hand.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0169">
+    <regName>Musik für das Pianoforte zu 3 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte zu 3 Händen.</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu drei Händen</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0170">
+    <regName>Musik für das Pianoforte zu 4 Händen mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte zu vier Händen mit Begleitung.</name>
+        <instances>136</instances>
+      </variant>
+      <variant>
+        <name>Musik f. Pianoforte zu vier Händen m. Begleitung.</name>
+        <instances>37</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu vier Händen mit Begleitung.</name>
+        <instances>213</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte zu vier Händen mit Begl.</name>
+        <instances>134</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu 4 Händen mit Begleitung.</name>
+        <instances>134</instances>
+      </variant>
+      <variant>
+        <name>Für Pianoforte zu vier Händen mit Begleitung.</name>
+        <instances>42</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0171">
+    <regName>Musik für das Pianoforte zu 4 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte zu 4 Händen.</name>
+        <instances>333</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte zu rier Händen.</name>
+        <instances>333</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte zu vier Händen.</name>
+        <instances>603</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu vier Händen.</name>
+        <instances>793</instances>
+      </variant>
+      <variant>
+        <name>Qg</name>
+        <instances>333</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu 4 Händen.</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianofote zu vier Händen.</name>
+        <instances>270</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0172">
+    <regName>Musik für das Pianoforte zu 4 und 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu vier und acht Händen.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0173">
+    <regName>Musik für das Pianoforte zu 6 Händen mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu sechs Händen mit Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0174">
+    <regName>Musik für das Pianoforte zu 6 Händen und für 2 Pianoforte zu 4 und 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu 6 Händen u. für 2 Pianoforte zu 4 u. 8 Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0175">
+    <regName>Musik für das Pianoforte zu 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte zu 6 Händen.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Pianoforte zu sechs Händen.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu sechs Händen.</name>
+        <instances>82</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pianoforte zu Sechs Händen.</name>
+        <instances>54</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0176">
+    <regName>Musik für das Pianoforte zu 6 und zu 3 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu sechs und zu drei Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0177">
+    <regName>Musik für das Pianoforte zu 8 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Pianoforte zu acht Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0178">
+    <regName>Musik für das Pianoforte zu 8 und 6 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Pianoforte zu acht und sechs Händen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0179">
+    <regName>Musik für das Pianoforte, linke Hand allein.</regName>
+    <variants>
+      <variant>
+        <name>Musik für eine Hand.</name>
+        <instances>39</instances>
+      </variant>
+      <variant>
+        <name>Musik für die linke Hand.</name>
+        <instances>20</instances>
+      </variant>
+      <variant>
+        <name>Werke für die linke Hand allein.</name>
+        <instances>20</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>all pieces for LH only</note>
+      <note>all pieces for LH only</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0180">
+    <regName>Musik für das Posthorn.</regName>
+    <variants>
+      <variant>
+        <name>Oe</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0181">
+    <regName>Musik für das Salon-Orchester (Pariser oder Amerikanische Besetzung).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Salon-Orchester. (Pariser [amerikanische] Besetzung.)</name>
+        <instances>22</instances>
+      </variant>
+      <variant>
+        <name>Musik für Salon-Orchester. (Pariser od. amerikan. Besetzung.)</name>
+        <instances>22</instances>
+      </variant>
+      <variant>
+        <name>Musik für Salon-Orchester.(Pariser [amerikanische] Besetzung.)</name>
+        <instances>22</instances>
+      </variant>
+      <variant>
+        <name>Musik für Salon-Orchester.(Pariser od. amerikan. Besetzung.)</name>
+        <instances>22</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0182">
+    <regName>Musik für das Salon-Orchester.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Salon-Orchester.</name>
+        <instances>22</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0183">
+    <regName>Musik für das Violoncell und den Contrabass.</regName>
+    <variants>
+      <variant>
+        <name>Musik für das Violoncell und den Contrabass.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0184">
+    <regName>Musik für das Violoncell.</regName>
+    <variants>
+      <variant>
+        <name>Ea</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Eb</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Ec</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Ed</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Violoncell.</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Violoncelle.</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Violoncello.</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Musik für das Violoucell.</name>
+        <instances>237</instances>
+      </variant>
+      <variant>
+        <name>Musik für Violoncell.</name>
+        <instances>238</instances>
+      </variant>
+      <variant>
+        <name>Musik für Violoncelle.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0185">
+    <regName>Musik für das Xylophon.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Xylophon.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0186">
+    <regName>Musik für den Contrabass.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Contrabass.</name>
+        <instances>7</instances>
+      </variant>
+      <variant>
+        <name>Musik für den Contrabass.</name>
+        <instances>7</instances>
+      </variant>
+      <variant>
+        <name>Musik für den Contra-Bass.</name>
+        <instances>7</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0187">
+    <regName>Musik für den Csakan.</regName>
+    <variants>
+      <variant>
+        <name>Musik für den Csakan.</name>
+        <instances>23</instances>
+      </variant>
+      <variant>
+        <name>Na</name>
+        <instances>23</instances>
+      </variant>
+      <variant>
+        <name>Nb</name>
+        <instances>23</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0188">
+    <regName>Musik für den Fagott.</regName>
+    <variants>
+      <variant>
+        <name>Ka</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Kc</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Musik für den Fagott.</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Musik für Fagott.</name>
+        <instances>12</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0189">
+    <regName>Musik für die Akkord-Zither.</regName>
+    <variants>
+      <variant>
+        <name>Für Akkord-Zither.</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Für die Akkordzither.</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Für die Akkord-Zither.</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Musik für Akkord-Zither.</name>
+        <instances>13</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0190">
+    <regName>Musik für die Aura.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Aura.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0191">
+    <regName>Musik für die Autoharp (Akkord-Zither).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Autoharp (Akkordzither).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0192">
+    <regName>Musik für die Autoharp.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Autoharp.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0193">
+    <regName>Musik für die Bratsche (Viola).</regName>
+    <variants>
+      <variant>
+        <name>Da</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Db</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Bratsche (Viola).</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Bratsche.</name>
+        <instances>12</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0194">
+    <regName>Musik für die Bratsche und das Violoncell.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Bratsche und Violoncell.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Bratsche und das Violoncell.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0195">
+    <regName>Musik für die Bratsche, Violoncell und Bass.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Bratsche, Violoncell und Bass.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0196">
+    <regName>Musik für die Clarinette.</regName>
+    <variants>
+      <variant>
+        <name>Ga</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gb</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gc</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Ge</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Gf</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Musik für Clarinette.</name>
+        <instances>36</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Clarinette.</name>
+        <instances>36</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0197">
+    <regName>Musik für die Concertina.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Concertina.</name>
+        <instances>9</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0198">
+    <regName>Musik für die Davidsharfe.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Davidsharfe.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0199">
+    <regName>Musik für die Flöte und Clarinette.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Flöte und Clarinette.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0200">
+    <regName>Musik für die Flöte.</regName>
+    <variants>
+      <variant>
+        <name>Fa</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Fb</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Fc</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Fd</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Fe</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Ff</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Flöte.</name>
+        <instances>321</instances>
+      </variant>
+      <variant>
+        <name>Musik für Flöte.</name>
+        <instances>327</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0201">
+    <regName>Musik für die Flötenharmonika (Armoniflauto).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Flötenharmonika (Armoniflauto).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0202">
+    <regName>Musik für die Flötenharmonika (Harmoniflöte).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Flötenharmonika (Harmoniflùte).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0203">
+    <regName>Musik für die Flötenharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Flötenharmonika.</name>
+        <instances>4</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0204">
+    <regName>Musik für die Guitarre-Zither.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Guitarre-Zither.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Musik für Guitarrzither.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0205">
+    <regName>Musik für die Guitarre.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Guitarre.</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Musik für Guitarre.</name>
+        <instances>423</instances>
+      </variant>
+      <variant>
+        <name>Pa</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Pb</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Pc</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Pd</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Pe</name>
+        <instances>306</instances>
+      </variant>
+      <variant>
+        <name>Für Guitarre.</name>
+        <instances>34</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0206">
+    <regName>Musik für die Handharmonika (Accordion).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Handharmonika (Accordion).</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Musik für Handharmonika (Akkordion).</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0207">
+    <regName>Musik für die Handharmonika (Bandonion).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Handharmonika (Bandonion).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0208">
+    <regName>Musik für die Handharmonika (Bandonion, Concertina).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Handharmonika (Bandonion, Concertina).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0209">
+    <regName>Musik für die Handharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Handharmonica.</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Musik für Handharmonika.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0210">
+    <regName>Musik für die Harfe.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Harfe.</name>
+        <instances>122</instances>
+      </variant>
+      <variant>
+        <name>Musik für Harfe.</name>
+        <instances>293</instances>
+      </variant>
+      <variant>
+        <name>Sa</name>
+        <instances>122</instances>
+      </variant>
+      <variant>
+        <name>Sb</name>
+        <instances>122</instances>
+      </variant>
+      <variant>
+        <name>Sc</name>
+        <instances>122</instances>
+      </variant>
+      <variant>
+        <name>Sd</name>
+        <instances>122</instances>
+      </variant>
+      <variant>
+        <name>Se</name>
+        <instances>122</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0211">
+    <regName>Musik für die Harmonieflöte und Handharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmonieflöte und Handharmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0212">
+    <regName>Musik für die Harmonieflöte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmoniflùte.</name>
+        <instances>5</instances>
+      </variant>
+      <variant>
+        <name>Musik für Harmoniflûte.</name>
+        <instances>5</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0213">
+    <regName>Musik für die Harmonika (Accordion).</regName>
+    <variants>
+      <variant>
+        <name>Für Harmonika (Accordeon).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0214">
+    <regName>Musik für die Harmonika (Concertina).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Harmonika, Concertina.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0215">
+    <regName>Musik für die Harmonika.</regName>
+    <variants>
+      <variant>
+        <name>T</name>
+        <instances>1</instances>
+      </variant>
+      <variant>
+        <name>Musik für Harmonika.</name>
+        <instances>18</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0216">
+    <regName>Musik für die Laute.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Laute.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0217">
+    <regName>Musik für die Mandoline.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Mandoline.</name>
+        <instances>93</instances>
+      </variant>
+      <variant>
+        <name>Für Mandoline.</name>
+        <instances>75</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0218">
+    <regName>Musik für die Mundharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Für Mundharmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0219">
+    <regName>Musik für die Oboe.</regName>
+    <variants>
+      <variant>
+        <name>Ia</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Ib</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Ic</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Ja</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Jb</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Jc</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Hoboe.</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Oboe.</name>
+        <instances>13</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0220">
+    <regName>Musik für die Ocarina.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Ocarina.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Musik für Okarina.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0221">
+    <regName>Musik für die Orgel mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Orgel mit Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0222">
+    <regName>Musik für die Orgel mit oder ohne Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Orgel mit od. ohne Begleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0223">
+    <regName>Musik für die Orgel und Harmonium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Orgel und Harmonium.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0224">
+    <regName>Musik für die Orgel und Physharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Orgel und Physharmonika.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0225">
+    <regName>Musik für die Orgel.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Orgel.</name>
+        <instances>309</instances>
+      </variant>
+      <variant>
+        <name>Musik für Orgel.</name>
+        <instances>748</instances>
+      </variant>
+      <variant>
+        <name>Ra</name>
+        <instances>309</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0226">
+    <regName>Musik für die Orgelmelodium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Orgelmelodium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0227">
+    <regName>Musik für die Pauken.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Pauken.</name>
+        <instances>4</instances>
+      </variant>
+      <variant>
+        <name>Musik für Pauken.</name>
+        <instances>5</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0228">
+    <regName>Musik für die Physharmonika (Harmonium) und Flötenharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika (Harmonium) und Flötenharmonika.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0229">
+    <regName>Musik für die Physharmonika (Harmonium).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika (Harmonium).</name>
+        <instances>14</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0230">
+    <regName>Musik für die Physharmonika (Harmonium, Orgue expressif).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika (Harmonium, Orgue expressif).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0231">
+    <regName>Musik für die Physharmonika (Orgue moderne).</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika (Orgue moderne).</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0232">
+    <regName>Musik für die Physharmonika und Harmonieflöte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonica und Harmonieflöte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0233">
+    <regName>Musik für die Physharmonika und Harmonium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika und Harmonium.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0234">
+    <regName>Musik für die Physharmonika und Orgel-Melodium.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonica und Orgel-Melodium.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Musik für Physharmonika und Orgel-Melodium.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0235">
+    <regName>Musik für die Physharmonika, Harmonieflöte und Accordion.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika, Harmonieflöte und Accordion.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0236">
+    <regName>Musik für die Physharmonika, Harmonium und Flötenharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika, Harmonium und Flötenharmonika.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0237">
+    <regName>Musik für die Physharmonika, Harmonium und Harmonieflöte.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Physharmonika, Harmonium und Harmonieflöte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0238">
+    <regName>Musik für die Physharmonika.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Physharmonica.</name>
+        <instances>76</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Phys-Harmonica.</name>
+        <instances>76</instances>
+      </variant>
+      <variant>
+        <name>Musik fur die Physharmonica.</name>
+        <instances>76</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Physharmonika.</name>
+        <instances>76</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Physhormonika.</name>
+        <instances>76</instances>
+      </variant>
+      <variant>
+        <name>Musik für Physharmonica.</name>
+        <instances>79</instances>
+      </variant>
+      <variant>
+        <name>Musik für Physharmonika.</name>
+        <instances>79</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0239">
+    <regName>Musik für die Posaune.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Posaune.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Ob</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0240">
+    <regName>Musik für die Tamburitza.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Tamburitza.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0241">
+    <regName>Musik für die Thüringer Zither.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Thüringer Zither.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0242">
+    <regName>Musik für die Tischharfe.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Tischharfe.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0243">
+    <regName>Musik für die Trommel.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Trommel.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0244">
+    <regName>Musik für die Trompete.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Trompete.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Trompette.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Musik für Trompete.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Oc</name>
+        <instances>9</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0245">
+    <regName>Musik für die Violine.</regName>
+    <variants>
+      <variant>
+        <name>Ca</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Cb</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Cc</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Cd</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Ce</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Cf</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Cg</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Musik für die Violine.</name>
+        <instances>394</instances>
+      </variant>
+      <variant>
+        <name>Musik für Violine.</name>
+        <instances>408</instances>
+      </variant>
+      <variant>
+        <name>Musik für Violiue</name>
+        <instances>13</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0246">
+    <regName>Musik für die Volks-Zither.</regName>
+    <variants>
+      <variant>
+        <name>Musik für Volks-Zither.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0247">
+    <regName>Musik für die Zither.</regName>
+    <variants>
+      <variant>
+        <name>Musik für die Zither.</name>
+        <instances>413</instances>
+      </variant>
+      <variant>
+        <name>Musik für Zither.</name>
+        <instances>600</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0248">
+    <regName>Musikalische Zeitschriften.</regName>
+    <variants>
+      <variant>
+        <name>Musikaliscke Zeitschriften.</name>
+        <instances>25</instances>
+      </variant>
+      <variant>
+        <name>Musikalische Zeitschriften.</name>
+        <instances>169</instances>
+      </variant>
+      <variant>
+        <name>Zeitschriften über Musik.</name>
+        <instances>92</instances>
+      </variant>
+    </variants>
+    <notes />
+    <sublevel id="hofCl_0248_sub001">
+      <regName>Literatur der Musik.</regName>
+      <variants>
+        <variant>
+          <name>Literatur der Musik.</name>
+          <instances>3</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub002">
+      <regName>Musikalische Zeitschriften für 1853.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1853.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub003">
+      <regName>Musikalische Zeitschriften für 1854.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1854.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub004">
+      <regName>Musikalische Zeitschriften für 1855.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1855.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub005">
+      <regName>Musikalische Zeitschriften für 1856.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1856.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub006">
+      <regName>Musikalische Zeitschriften für 1857.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1857.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub007">
+      <regName>Musikalische Zeitschriften für 1858.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1858.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub008">
+      <regName>Musikalische Zeitschriften für 1859.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1859.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub009">
+      <regName>Musikalische Zeitschriften für 1860.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1860.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of 240</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub010">
+      <regName>Theoretische Werke und Zeitschriften.</regName>
+      <variants>
+        <variant>
+          <name>Theoretische Werke und Zeitschriften.</name>
+          <instances>2</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub011">
+      <regName>Musikalische Zeitschriften für 1861.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1861.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of line 122 'Musikalische Zeitschriften'.</note>
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub012">
+      <regName>Musikalische Zeitschriften für 1862.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1862.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub013">
+      <regName>Musikalische Zeitschriften für 1863.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1863.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub014">
+      <regName>Musikalische Zeitschriften für 1864.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1864.</name>
+          <instances>2</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub015">
+      <regName>Musikalische Zeitschriften für 1865.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1865.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <sublevel id="hofCl_0248_sub016">
+      <regName>Musikalische Zeitschriften für 1866.</regName>
+      <variants>
+        <variant>
+          <name>Musikalische Zeitschriften für 1866.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note />
+      </notes>
+    </sublevel>
+    <!-- <sublevel id="hofCl_0248_sub017">
+<regName>Theoretische Werke und Zeitschriften.</regName>
+<variants>
+<variant>
+<name>Theoretische Werke und Zeitschriften.</name>
+<instances>1</instances>
+</variant>
+</variants>
+<notes>
+<note/>
+</notes>
+</sublevel> -->
+    <sublevel id="hofCl_0248_sub018">
+      <regName>Zeitschriften.</regName>
+      <variants>
+        <variant>
+          <name>Zeitschriften.</name>
+          <instances>1</instances>
+        </variant>
+      </variants>
+      <notes>
+        <note>also sub-category of line 122 'Musikalische Zeitschriften'.</note>
+      </notes>
+    </sublevel>
+    <!-- <sublevel id="hofCl_0248_sub019">
+<regName>Zeitschriften.</regName>
+<variants>
+<variant>
+<name>Zeitschriften.</name>
+<instances>3</instances>
+</variant>
+</variants>
+<notes>
+<note>also sub-category of line 122 'Musikalische Zeitschriften'.</note>
+</notes>
+</sublevel> -->
+  </hofClass>
+  <hofClass id="hofCl_0249">
+    <regName>Männerchöre mit Begleitung eines Blasinstrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Gesänge für Männerchor mit Begleitung eines Blasinstruments.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Männerchöre m. Begleitung eines Blasinstrumentes.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Männerchöre mit Begleitung eines Blasinstrumentes.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0250">
+    <regName>Märsche für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Märsche für das Pianoforte.</name>
+        <instances>579</instances>
+      </variant>
+      <variant>
+        <name>Märsche für Pianoforte.</name>
+        <instances>769</instances>
+      </variant>
+      <variant>
+        <name>Qp</name>
+        <instances>311</instances>
+      </variant>
+      <variant>
+        <name>Märsch für das Pianoforte.</name>
+        <instances>268</instances>
+      </variant>
+      <variant>
+        <name>Märsche für das Pianoforte zu zwei Händen.</name>
+        <instances>268</instances>
+      </variant>
+      <variant>
+        <name>Märsche für Pianoforte zu zwei Händen.</name>
+        <instances>268</instances>
+      </variant>
+      <variant>
+        <name>Märsche Für Pianoforte.</name>
+        <instances>96</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0251">
+    <regName>Opern im Klavierauszuge.</regName>
+    <variants>
+      <variant>
+        <name>Opern im Klavierauszuge.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Opern im Klavier-Auszuge.</name>
+        <instances>21</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0252">
+    <regName>Opern und Concertstücke für Concertmusik mit Begleitung des Orchesters (oder eines anderen Instrumentes).</regName>
+    <variants>
+      <variant>
+        <name>Opern und Concertstücke für Concertmusik mit Begleitung des Orchesters (oder eines andern Instruments).</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0253">
+    <regName>Opern und Concertstücke mit Orchester.</regName>
+    <variants>
+      <variant>
+        <name>Concertmusik mit Begleitung des Orchesters.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Opern- und Concertmusik mit Orchester.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Opern und Concertstücke mit Orchester.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Opern und Concertstücke mit Orchestre.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik mit Begleitung des Orchesters.</name>
+        <instances>19</instances>
+      </variant>
+      <variant>
+        <name>X</name>
+        <instances>19</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0254">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertgebrauch mit Orchesterbegleitung.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Opern und Gesangstücke für Concertmusik mit Orchesterbegleitung.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0255">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters (oder eines anderen Instrumentes).</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters (oder eines andern Instruments).</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Opern und Gesangstücke zu Concert-Aufführungen mit Begleitung des Orchesters (oder eines andern Instruments).</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0256">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0257">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters und Gesänge mit Begleitung des Pianoforte und eines anderen
+      Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertmusik mit Orchester, sewie Gesänge mit Begleitung des Pianoforte und eines andern Instruments.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0258">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters und eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertgebrauch mit Orchesterbegleitung, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0259">
+    <regName>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0260">
+    <regName>Opern und Gesangstücke für Concertmusik mit oder ohne Begleitung des Pianoforte oder eines anderen Instrumentes.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke zu Concert-Aufführungen mit oder ohne Begleitung des Pianoforte oder eines anderen Instruments.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Opern und Gesangstücke zu Concert-Aufführungen mit oder ohne Begleitung des Pianoforte oder eines andern Instruments.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0261">
+    <regName>Opern und Gesangstücke mit Begleitung des Orchesters</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesangstücke mit Orchesterbegleitung.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0262">
+    <regName>Opern und Gesänge für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Opern und Gesänge für Concertmusik mit Begleitung des Orchesters oder mehrerer Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0263">
+    <regName>Opern- und Ballettmusik.</regName>
+    <variants>
+      <variant>
+        <name>Opern- und Ballettmusik.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0264">
+    <regName>Opern- und Concertmusik mit Orchesterbegleitung oder mehrere Instrumente.</regName>
+    <variants>
+      <variant>
+        <name>Opern- und Concertmusik mit Orchesterbegleitung oder mehrere Instrumente.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0265">
+    <regName>Operngesänge.</regName>
+    <variants>
+      <variant>
+        <name>Operngesänge.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0266">
+    <regName>Opernmusik im Klavierauszuge.</regName>
+    <variants>
+      <variant>
+        <name>Opernmusik im Klavierauszuge.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik im Klavier-Auszuge.</name>
+        <instances>16</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0267">
+    <regName>Opernmusik mit Begleitung des Orchesters.</regName>
+    <variants>
+      <variant>
+        <name>Opernmusik mit Orchesterbegleitung.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0268">
+    <regName>Opernmusik mit Pianofortebegleitung.</regName>
+    <variants>
+      <variant>
+        <name>Opernmusik mit Pianoforte Begleitung.</name>
+        <instances>319</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik mit Pianoforte.</name>
+        <instances>319</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik mit Pianofortebegleitung.</name>
+        <instances>451</instances>
+      </variant>
+      <variant>
+        <name>Z</name>
+        <instances>319</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik mit Pianofortebegleitnng.</name>
+        <instances>91</instances>
+      </variant>
+      <variant>
+        <name>Opermusik mit Pianofortebegleitung.</name>
+        <instances>41</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0269">
+    <regName>Opernmusik.</regName>
+    <variants>
+      <variant>
+        <name>Opernmusik</name>
+        <instances>131</instances>
+      </variant>
+      <variant>
+        <name>Opernmusik.</name>
+        <instances>137</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0270">
+    <regName>Ouvertüren für das Pianoforte allein und mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Ouverturen für das Pianoforte (mit und ohne Begl.)</name>
+        <instances>20</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pianoforte allein und mit Begleitung.</name>
+        <instances>20</instances>
+      </variant>
+      <variant>
+        <name>Qn</name>
+        <instances>20</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoferte und mit Begleitung.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte allein und mit Begleitung eines anderen Instrumentes.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte allein und mit Begleitung eines andern Instrumentes.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte allein, sowie mit Begleitung eines anderen Instrumentes.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte allein, sowie mit Begleitung eines andern Instruments.</name>
+        <instances>16</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte und mit Begleitung eines anderen Instrumentes.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte und mit Begleitung.</name>
+        <instances>9</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte allein, sowie mit Begleitung eines andern instruments.</name>
+        <instances>7</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0271">
+    <regName>Ouvertüren für das Pianoforte mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Ouverturen für Pianoforte mit Begleitung.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte mit Begleitung.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0272">
+    <regName>Ouvertüren für das Pianoforte zu 4 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Ouverture für das Pianoforte zu vier Händen.</name>
+        <instances>238</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pianoforte zu 4 Händen.</name>
+        <instances>442</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pianoforte zu vier Händen.</name>
+        <instances>442</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte zu vier Händen.</name>
+        <instances>581</instances>
+      </variant>
+      <variant>
+        <name>Qh</name>
+        <instances>238</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für das Pianoforte zu vier Händen.</name>
+        <instances>79</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte zu vier Händen.</name>
+        <instances>343</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pionoforte zu vier Händen.</name>
+        <instances>79</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte zu 4 Händen.</name>
+        <instances>204</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte zu 4 Händen.</name>
+        <instances>264</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte zu vier Händen</name>
+        <instances>204</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte zu vier Händen</name>
+        <instances>204</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0273">
+    <regName>Ouvertüren für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Ouverture für das Pianoforte.</name>
+        <instances>253</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für da&amp;#8217;s Pianoforte.</name>
+        <instances>253</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pfte.</name>
+        <instances>253</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pianoforte.</name>
+        <instances>435</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für das Pianoforte.</name>
+        <instances>253</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte.</name>
+        <instances>554</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte allein.</name>
+        <instances>53</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte.</name>
+        <instances>301</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für das Pianoforte zu 2 Händen.</name>
+        <instances>182</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte</name>
+        <instances>182</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte</name>
+        <instances>182</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte allein.</name>
+        <instances>182</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen für Pianoforte zu zwei Händen.</name>
+        <instances>248</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren für Pianoforte zu zwei Händen.</name>
+        <instances>66</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0274">
+    <regName>Ouvertüren und Entre-Actes für das Pianoforte zu 4 Händen.</regName>
+    <variants>
+      <variant>
+        <name>Ouverturen und Zwischenakte für Pianoforte zu vier Händen.</name>
+        <instances>3</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren und Entr’acts für Pianoforte zu vier Händen.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0275">
+    <regName>Ouvertüren und Entre-Actes für das Pianoforte, und mit Begleitung.</regName>
+    <variants>
+      <variant>
+        <name>Ouvertüren und Zwischenacte für Pianoforte, sowie mit Begleitung eines andern Instrumentes.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0276">
+    <regName>Ouvertüren und Entre-Actes für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Ouverturen u. Entre-Acte für Pianoforte.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen und Entre-Actes für das Pianoforte.</name>
+        <instances>2</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen und Zwischenakte für Pianoforte.</name>
+        <instances>5</instances>
+      </variant>
+      <variant>
+        <name>Ouvertüren und Zwischenakte für Pianoforte.</name>
+        <instances>5</instances>
+      </variant>
+      <variant>
+        <name>Ouverturen und Zwischenakte für Pianoforte allein.</name>
+        <instances>3</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0277">
+    <regName>Photographien in Visitenkartenformat.</regName>
+    <variants>
+      <variant>
+        <name>Photographein in Visitenkartenformat.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Photographien in Visitenkarten-Format.</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Photographien in Visitenkartenformat</name>
+        <instances>21</instances>
+      </variant>
+      <variant>
+        <name>Photographien in Visitenkartenformat.</name>
+        <instances>30</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0278">
+    <regName>Plastische Darstellungen.</regName>
+    <variants>
+      <variant>
+        <name>Büsten (aus der königl. Porzellan-Niederlage in München).</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Büsten in Lebensgrösse.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Büsten.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Plastische Darstellungen.</name>
+        <instances>13</instances>
+      </variant>
+      <variant>
+        <name>Plastische Abbildungen.</name>
+        <instances>6</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0279">
+    <regName>Portraits und Büsten.</regName>
+    <variants>
+      <variant>
+        <name>Portraits und Büsten.</name>
+        <instances>2</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0280">
+    <regName>Portraits und andere Abbildungen.</regName>
+    <variants>
+      <variant>
+        <name>FF</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Portraits und Abbildungen.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Portraits und andere Abbildungen.</name>
+        <instances>18</instances>
+      </variant>
+      <variant>
+        <name>Bildnisse und Abbildungen.</name>
+        <instances>12</instances>
+      </variant>
+      <variant>
+        <name>Bilder und Abbildungen.</name>
+        <instances>11</instances>
+      </variant>
+      <variant>
+        <name>Bildnisse und Adilbbungen.</name>
+        <instances>11</instances>
+      </variant>
+      <variant>
+        <name>Bildnisse und andere Abbildungen.</name>
+        <instances>11</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>need TWO reference points. Asked MS 2.10.06</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0281">
+    <regName>Portraits.</regName>
+    <variants>
+      <variant>
+        <name>Bildnisse.</name>
+        <instances>203</instances>
+      </variant>
+      <variant>
+        <name>Portrait.</name>
+        <instances>175</instances>
+      </variant>
+      <variant>
+        <name>Portraits.</name>
+        <instances>203</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0282">
+    <regName>Sammlungen vermischter Werke.</regName>
+    <variants>
+      <variant>
+        <name>EE</name>
+        <instances>8</instances>
+      </variant>
+      <variant>
+        <name>Sammlungen vermischter musikalischer Werke.</name>
+        <instances>8</instances>
+      </variant>
+      <variant>
+        <name>Sammlungen vermischter Werke.</name>
+        <instances>40</instances>
+      </variant>
+      <variant>
+        <name>Sammlungen von musikalischen Werken.</name>
+        <instances>8</instances>
+      </variant>
+    </variants>
+    <notes>
+      <note>2 of the 3 are 'complete works'</note>
+    </notes>
+  </hofClass>
+  <hofClass id="hofCl_0283">
+    <regName>Sammlungen.</regName>
+    <variants>
+      <variant>
+        <name>Sammlungen.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0284">
+    <regName>Textbücher.</regName>
+    <variants>
+      <variant>
+        <name>Textbuch.</name>
+        <instances>95</instances>
+      </variant>
+      <variant>
+        <name>Textbücher.</name>
+        <instances>396</instances>
+      </variant>
+      <variant>
+        <name>Textbücher</name>
+        <instances>93</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0285">
+    <regName>Theatralische Musik.</regName>
+    <variants>
+      <variant>
+        <name>Theatralische Musik.</name>
+        <instances>145</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0286">
+    <regName>Theoretische Werke und Schriften von musikalischem Interesse.</regName>
+    <variants>
+      <variant>
+        <name>Theoretische Werke u. Schriften von musikalischem Interesse.</name>
+        <instances>34</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke und Schriften musikalischem Interesse.</name>
+        <instances>6</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke und Schriften von musikalischem Interesse.</name>
+        <instances>34</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke und Schriften von musikalischem interesse.</name>
+        <instances>28</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke und Schrilten von musikalischem Interesse.</name>
+        <instances>28</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0287">
+    <regName>Theoretische Werke.</regName>
+    <variants>
+      <variant>
+        <name>DD</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke etc.</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Theoretische Werke.</name>
+        <instances>346</instances>
+      </variant>
+      <variant>
+        <name>Theorie.</name>
+        <instances>270</instances>
+      </variant>
+      <variant>
+        <name>Theorètische Werke.</name>
+        <instances>73</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0288">
+    <regName>Tänze für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Tänze für das Pfte.</name>
+        <instances>311</instances>
+      </variant>
+      <variant>
+        <name>Tänze für das Pianoforte.</name>
+        <instances>578</instances>
+      </variant>
+      <variant>
+        <name>Tänze für Pianoforte.</name>
+        <instances>745</instances>
+      </variant>
+      <variant>
+        <name>Tänze für Pianoforte</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Tänze für Piänoforte.</name>
+        <instances>94</instances>
+      </variant>
+      <variant>
+        <name>Tänze für Pianoforte allein.</name>
+        <instances>267</instances>
+      </variant>
+      <variant>
+        <name>Tänze für Pianoforte zu zwei Händen.</name>
+        <instances>267</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0289">
+    <regName>Tänze und Balletmusik für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Qo</name>
+        <instances>29</instances>
+      </variant>
+      <variant>
+        <name>Tänze und Balletmusik für Pianoforte.</name>
+        <instances>26</instances>
+      </variant>
+      <variant>
+        <name>Tänze u. Balletmusik für Pianoforte.</name>
+        <instances>23</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0290">
+    <regName>Tänze und Märsche für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Tänze und Märsche für Pianoforte.</name>
+        <instances>1</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0291">
+    <regName>Variationen für Pianoforte und Violine (oder ein anderes begleitendes Instrument).</regName>
+    <variants>
+      <variant>
+        <name>Ql</name>
+        <instances>12</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0292">
+    <regName>Variationen für das Pianoforte.</regName>
+    <variants>
+      <variant>
+        <name>Qm</name>
+        <instances>112</instances>
+      </variant>
+      <variant>
+        <name>Variationen für das Pfte.</name>
+        <instances>112</instances>
+      </variant>
+      <variant>
+        <name>Variationen für das Pianoforte.</name>
+        <instances>112</instances>
+      </variant>
+      <variant>
+        <name>Variationen für das Pianofote.</name>
+        <instances>112</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+  <hofClass id="hofCl_0293">
+    <regName>[Nicht klassifiziert]</regName>
+    <variants>
+      <variant>
+        <name>[Nicht klassifiziert]</name>
+        <instances>9</instances>
+      </variant>
+    </variants>
+    <notes />
+  </hofClass>
+</A_list>

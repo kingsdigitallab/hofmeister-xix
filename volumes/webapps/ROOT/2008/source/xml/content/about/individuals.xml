@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_7">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Individuals involved in the Hofmeister Monatsberichte</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Individuals involved in the Hofmeister Monatsberichte</head>
+
+            
+                
+              <list>
+
+                
+                <item>
+                    <hi rend="bold">Alfred Dörffel</hi>
+                    1821-1905
+                    musician, writer on music, librarian. Worked at Breitkopf
+                        &amp; Härtel where he prepared piano arrangements of Schumann’s works.
+                        Curator of the music library in the Leipzig Stadtbibliothek 1860. Editor of
+                        the <hi>Monatsberichte</hi> in 1873</item>
+                  <item> <hi rend="bold">Adolph Hofmeister</hi> (1802-70): elder son of Friedrich and editor of the <hi>Monatsberichte</hi> to 1870</item>
+                  <item> <hi rend="bold">Friedrich Hofmeister</hi> (1782-1864): music publisher and main publisher of the <hi>Monatsberichte</hi></item>
+                  <item><hi rend="bold">Friedrich Hofmeister Jr</hi>: editor of the <hi>Monatsberichte</hi> in 1872</item>
+                  <item><hi rend="bold">Alfred Hunger</hi>: editor of the <hi>Monatsberichte</hi> in 1875</item>
+                                  <item> <hi rend="bold">Franz Jost</hi>: editor of the <hi>Monatsberichte</hi> in 1871</item>
+                  <item><hi rend="bold">Friedrich Kistner</hi> (1797-1844): Leipzig publisher who represented music publishers in the Buchhändlerverein. Published the <hi>Monatsberichte</hi> from 1836-9</item>
+                  <item><hi rend="bold">Richard Noske</hi>: editor of the <hi>Monatsberichte</hi> in 1874</item>
+                  <item><hi rend="bold">Carl Friedrich Whistling</hi> (1788-1849): bookseller in Leipzig; devised, compiled, edited and published the <hi>Handbuch der musikalischen Litteratur</hi>, the predecessor of the <hi>Monatsberichte</hi></item>
+                  
+                </list>
+
+            
+
+
+        </body>
+    </text>
+</TEI.2>

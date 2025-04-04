@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_5_3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Free Text Search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (title)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>Free text search allows the location of specific words regardless of the field(s) in
+                which they appear, or if they have not been separately coded. This might for example
+                apply to dedicatees, librettists, the subjects of illustrations, names or places
+                that appear in titles, instruments not included in the Classification lists, prices,
+                or any number of technical terms that appear in the <hi rend="italic">Monatsberichte</hi>, such as
+                Lichtdruck (a printing technique) or Leporello (a type of binding) All the text in
+                the database is searched, including for example Classification headings as well as
+                bibliographic items. Thesauri are not used.</p>
+            <p>It is possible to search for just one or all of the search terms, and in the latter
+                case in the specified sequence or in any sequence. Searching is neither case nor
+                accent sensitive (thus 'marsche' will find 'Märsche'), and wildcard characters (?,
+                *) may be used: ? substitutes for a single character, while * substitutes for any
+                number of characters. Other non-alphanumerical characters (e.g. ', +, -) are
+                ignored. For cyrillic entries it is possible to paste cyrillic characters into the
+                search box, but it is more reliable to use the thesaurus when searching for
+                composers, and transliterations for titles (the system adopted is that used in the
+                    <title level="m">New Grove Dictionary of Music and Musicians</title>). Results
+                may be limited to a specified range of months and years: to select just one year,
+                enter it in the 'From' field and leave 'To' blank. If the 'Month' field is not
+                filled in, the whole of the relevant year will be searched.</p>
+            <p>Results may be sorted by up to three keys selected from the drop-down lists near the
+                bottom of the screen (Composer, Date, Opus, Publication place, Publisher, Title; note that
+                sorting does not use thesauri but is based on what is in the actual entries). You
+                may also specify the maximum total of results to be returned, and the maximum number
+                of results to be displayed per page; be careful of choosing 'All' if there is likely
+                to be a very large number of results. Results may include both bibliographic and
+                other items (e.g. Hofmeister classification headings); in either case there are
+                links to the <title level="m">Monatsbericht</title> page in which the item is found,
+                in the form of either transcription or facsimile. If you wish to amend your search
+                rather than start a new one, select 'Back to search' on the results page. </p>
+
+
+        </body>
+    </text>
+</TEI.2>

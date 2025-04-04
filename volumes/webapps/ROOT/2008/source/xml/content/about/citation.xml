@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Citation</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Guidelines on citation</head>
+            <p>Citations of Hofmeister XIX and the materials contained within it should fulfil two
+                purposes:provide due acknowledgement of the resource, and permit readers to verify
+                the information contained in the citation.</p>
+            <p>The first purpose may be fulfilled by a citation as follows:</p>
+            <p>
+                <q>Hofmeister XIX &lt;http://www.hofmeister.rhul.ac.uk&gt;</q>
+            </p>
+            <p>In the case of individual citations, the second purpose is best fulfilled by
+                reference to the original printed document, for instance 'July 1884, p. 12'. This
+                has the advantage that readers who are accessing the Monatsbericht other than by
+                means of Hofmeister XIX will be able to follow the reference. This might give rise
+                to a citation as follows:</p>
+            <p>
+                <q>Hofmeister XIX &lt;http://www.hofmeister.rhul.ac.uk&gt;, July 1884, p.
+                    12.</q>
+            </p>
+            <p>Where statistical information is presented, such as the result of list searches,
+                version information should be provided. This might give rise to a citation as
+                follows:</p>
+            <p>
+                <q>Hofmeister XIX &lt;http://www.hofmeister.rhul.ac.uk&gt;, version 1.0.</q>
+            </p>
+        </body>
+    </text>
+</TEI.2>

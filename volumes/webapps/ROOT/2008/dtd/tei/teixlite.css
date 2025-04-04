@@ -1,0 +1,460 @@
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+ab {
+  display: block;
+}
+
+address {
+  display: block;
+}
+
+addrLine {
+  display: block;
+}
+
+argument {
+  display: block;
+}
+
+author {
+  display: block;
+}
+
+authority {
+  display: block;
+}
+
+availability {
+  display: block;
+}
+
+back {
+  display: block;
+}
+
+bibl {
+  display: block;
+}
+
+biblFull {
+  display: block;
+}
+
+biblScope {
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+byline {
+  display: block;
+}
+
+catDesc {
+  display: block;
+}
+
+category {
+  display: block;
+}
+
+cell {
+  display: block;
+}
+
+change {
+  display: block;
+}
+
+cit {
+  display: block;
+}
+
+classCode {
+  display: block;
+}
+
+classDecl {
+  display: block;
+}
+
+closer {
+  display: block;
+}
+
+creation {
+  display: block;
+}
+
+date {
+  display: block;
+}
+
+dateline {
+  display: block;
+}
+
+distributor {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+div0 {
+  display: block;
+}
+
+div1 {
+  display: block;
+}
+
+div2 {
+  display: block;
+}
+
+div3 {
+  display: block;
+}
+
+div4 {
+  display: block;
+}
+
+div5 {
+  display: block;
+}
+
+div6 {
+  display: block;
+}
+
+div7 {
+  display: block;
+}
+
+docAuthor {
+  display: block;
+}
+
+docDate {
+  display: block;
+}
+
+docEdition {
+  display: block;
+}
+
+docImprint {
+  display: block;
+}
+
+docTitle {
+  display: block;
+}
+
+edition {
+  display: block;
+}
+
+editionStmt {
+  display: block;
+}
+
+editor {
+  display: block;
+}
+
+editorialDecl {
+  display: block;
+}
+
+eg {
+  display: block;
+}
+
+encodingDesc {
+  display: block;
+}
+
+epigraph {
+  display: block;
+}
+
+extent {
+  display: block;
+}
+
+figDesc {
+  display: block;
+}
+
+figure {
+  display: block;
+}
+
+fileDesc {
+  display: block;
+}
+
+front {
+  display: block;
+}
+
+funder {
+  display: block;
+}
+
+group {
+  display: block;
+}
+
+head {
+  display: block;
+}
+
+idno {
+  display: block;
+}
+
+imprint {
+  display: block;
+}
+
+interpGrp {
+  display: block;
+}
+
+item {
+  display: block;
+}
+
+keywords {
+  display: block;
+}
+
+l {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+language {
+  display: block;
+}
+
+langUsage {
+  display: block;
+}
+
+lg {
+  display: block;
+}
+
+list {
+  display: block;
+}
+
+listBibl {
+  display: block;
+}
+
+name {
+  display: block;
+}
+
+note {
+  display: block;
+}
+
+notesStmt {
+  display: block;
+}
+
+opener {
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+principal {
+  display: block;
+}
+
+profileDesc {
+  display: block;
+}
+
+projectDesc {
+  display: block;
+}
+
+publicationStmt {
+  display: block;
+}
+
+publisher {
+  display: block;
+}
+
+pubPlace {
+  display: block;
+}
+
+q {
+  display: block;
+}
+
+ref {
+  display: block;
+}
+
+refsDecl {
+  display: block;
+}
+
+rendition {
+  display: block;
+}
+
+resp {
+  display: block;
+}
+
+respStmt {
+  display: block;
+}
+
+revisionDesc {
+  display: block;
+}
+
+row {
+  display: block;
+}
+
+salute {
+  display: block;
+}
+
+samplingDecl {
+  display: block;
+}
+
+seg {
+  display: block;
+}
+
+seriesStmt {
+  display: block;
+}
+
+signed {
+  display: block;
+}
+
+sourceDesc {
+  display: block;
+}
+
+sp {
+  display: block;
+}
+
+speaker {
+  display: block;
+}
+
+sponsor {
+  display: block;
+}
+
+stage {
+  display: block;
+}
+
+table {
+  display: block;
+}
+
+tagsDecl {
+  display: block;
+}
+
+tagUsage {
+  display: block;
+}
+
+taxonomy {
+  display: block;
+}
+
+TEI\.2 {
+  display: block;
+}
+
+teiHeader {
+  display: block;
+}
+
+term {
+  display: block;
+}
+
+text {
+  display: block;
+}
+
+textClass {
+  display: block;
+}
+
+title {
+  display: block;
+}
+
+titlePage {
+  display: block;
+}
+
+titlePart {
+  display: block;
+}
+
+titleStmt {
+  display: block;
+}
+
+trailer {
+  display: block;
+}
+
+xref {
+  display: block;
+}
+

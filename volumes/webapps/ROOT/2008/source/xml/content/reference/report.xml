@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_2_">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reports</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-05-11</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added link to key pdf</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Commented file links for a provisionary time</item>
+            </change>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <p>The following reports provide information extracted from Hofmeister XIX.</p>
+            <list>
+                <!--<item><xref type="internal" from="p5_6">Page analysis of Hofmeister <title level="m">Monatsberichte</title>, 1829-1900</xref></item>-->
+                <item>Key codes with correspondences in different languages in <xref type="redist"
+                        from="pdf/key_codes.pdf">pdf</xref> and <xref type="redist"
+                        from="xls/key_codes.xls">Excel</xref> format</item>
+                <item>Registration numbers in <xref type="redist"
+                        from="pdf/Registration_Numbers.pdf">pdf</xref> and <xref type="redist"
+                        from="xls/Registration_numbers.xls">Excel</xref> format</item>
+                <item>Publication places per Countries in <xref from="pdf/countriesPlaces.pdf"
+                        type="redist">pdf</xref> and <xref type="redist"
+                        from="xls/countriesPlaces.xls">Excel</xref> format</item>
+                <item>Hofmeister Classification with English translation in <xref type="redist"
+                        from="pdf/HofmeisterMonatsberichteClasses.pdf">pdf</xref> and <xref
+                        type="redist" from="xls/HofmeisterMonatsberichteClasses.xls">Excel</xref>
+                    format.</item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

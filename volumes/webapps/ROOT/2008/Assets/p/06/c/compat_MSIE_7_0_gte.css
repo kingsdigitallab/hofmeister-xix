@@ -1,0 +1,30 @@
+#mainContent form fieldset.s03 fieldset.f12 fieldset.s01 ol li label {  padding: 3px 0 0 0; margin-left: -3px;}
+#mainContent form select { float: left; padding: 3px 2px 3px 4px; margin: 2px 5px 0 0; border: 1px solid #efe3d6;}
+#mainContent form fieldset.s01 fieldset.n04 div,
+#mainContent form fieldset.s03 fieldset.n07 div,
+#mainContent form fieldset.s02 fieldset.n04 div { width: 14em; }
+
+fieldset.s02 fieldset.f06 select.f03 {border: 1px solid #a98f70 !important; height: 200px;}
+
+#content {  width: 100%; }
+
+#mainContent .table .t04 td.rs17 div.bracket span { padding: 0.35em 0 0.5em 0; margin-top: -3.9em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs16 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs15 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs14 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs13 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs12 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs11 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs10 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs9 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs8 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs7 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.1em; }
+#mainContent .table .t04 td.rs6 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.05em; }
+#mainContent .table .t04 td.rs5 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; margin-left: -0.05em; }
+#mainContent .table .t04 td.rs4 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.3em; }
+#mainContent .table .t04 td.rs3 div.bracket span { padding: 0.2em 0 0.4em 0; margin-top: -0.8em; }
+#mainContent .table .t04 td.rs2 div.bracket span { padding: 0.1em 0 0.3em 0; margin-top: -0.65em; }
+
+#mainContent { zoom:1 }
+
+#footer .s02 .cc  b {display:inline-block;cursor:pointer}

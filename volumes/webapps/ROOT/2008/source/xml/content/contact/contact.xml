@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Contact Us</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Contact us</head>
+            <p>The funded stage of the Hofmeister XIX project has now ended. It may however be
+                possible to correct minor errors on an occasional basis, and it is possible that
+                there may be a further stage of funded development in the future. We will therefore
+                be glad to receive reports of errors which will be logged for future action.</p>
+            <p>Both error reports and other enquiries should be directed to Nicholas Cook, Professor
+                of Music, University of Cambridge (njc69 [at] cam.ac.uk). <hi rend="bold">Please
+                    note that Hofmeister XIX is not the catalogue of a physical collection of music
+                    publications, nor a list of items for sale, and Professor Cook is not able to
+                    respond to questions about locating items in it</hi>. To locate copies of items
+                included in it, we suggest you consult the <xref type="external"
+                    url="http://www.rhul.ac.uk/Music/Golden-pages/library.html">Karlsruher
+                    Virtueller Katalog</xref>, or the list of international music <xref
+                    type="external" url="http://www.ubka.uni-karlsruhe.de/kvk/kvk/kvk_en.html"
+                    >libraries</xref> on the Royal Holloway Golden Pages. </p>
+        </body>
+    </text>
+</TEI.2>

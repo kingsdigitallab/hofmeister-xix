@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-13</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2004-06-18</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>encoded from html source</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Biographical information on Friedrich Hofmeister, and on the publishing firm which he
+                founded (Friedrich Hofmeister Verlag, Leipzig), may be found in Axel Beer's article
+                    '<xref type="internal" from="beer_ger">Friedrich Hofmeister</xref>' in
+                    <title>Die Musik in Geschichte und Gegenwart</title>. Click <xref
+                    type="internal" from="beer_eng">here</xref> for an English translation by
+                Elizabeth Robinson.</p>
+            <p>Details of the history of the Hofmeister <title level="m">Monatsberichte</title> (and
+                the Whistling <hi rend="italic">Handbuch</hi> which preceded them) may be found in</p>
+            <listBibl>
+                <bibl><xref type="redist" from="pdf/elvers.pdf"
+                    >Rudolf Elvers and Cecil Hopkinson, 'A survey of the Music Catalogues of
+                    Whistling and Hofmeister, <title>Fontes Artis Musicae</title> 19 (1972), 1-7</xref> </bibl>
+
+                <bibl>Neil Ratliff, 'The Whistling-Hofmeister Catalogues' in D. W. Krummel,
+                        <title>Guide for Dating Early Published Music: A Manual of Bibliographical
+                        Practices</title> (Kassel, 1974), 193-195</bibl>
+                <bibl>Neil Ratliff, Introduction to Carl Friedrich Whistling and Friedrich
+                    Hofmeister, <title>Handbuch der musikalischen Litteratur: Reprint of the 1817
+                        Edition and the Ten Nachträge</title> (1818-1827) (New York, Garland, 1975),
+                    iii-xxv </bibl>
+
+            </listBibl>
+            <p>For reports on the work of the IAML Hofmeister XIX Working Group during the 1980s see</p>
+            <listBibl>
+                <bibl>Joachim Jaenecke, ‘Bibliographische Kommission’, <title>Fontes Artis
+                    Musicae</title> 35/1 (1988), 34</bibl>
+                <bibl>Mary Kay Duggan, ‘Project Group on Hofmeister XIX’ <title>Fontes Artis
+                    Musicae</title> 36/1 (1989), 18</bibl>
+            </listBibl>
+            <p> The following are useful sources for nineteenth-century German music publishing: </p>
+
+            <listBibl>
+                <bibl><title>Allgemeines Adreßbuch für den deutschen Buchhandel, den Antiquar-,
+                        Colportage-, Kunst- Landkarten- und Musikalien-Handel sowie verwandte
+                        Geschäftszweige.</title> Leipzig, 1839-1945</bibl>
+                <bibl><title>Verzeichniss der in der Bibliothek des Börsenvereins der Deutschen
+                        Buchhändler vorhandenen Geschäftsrundschreiben über Gründung, Kauf, Verkauf
+                        usw. buchhändlerischer Geschäfte.</title> Leipzig, 1897 (Verzeichniss der
+                    Sammlungen des Börsenvereins der Deutschen Buchhändler. Bd. 2). <hi
+                        rend="italic">See also</hi> 'Buchhändlerische Geschäftsrundschreiben aus der
+                    ehemaligen Bibliothek des Börsenvereins der Deutschen Buchhändler zu Leipzig',
+                        <xref type="external" url="http://bermudix.ddb.de/dbsm/cgi-bin/gr.pl"
+                        >http://bermudix.ddb.de/dbsm/cgi-bin/gr.pl</xref></bibl>
+                <bibl>Ernst Challier, <title>Verlags-Nachweis im Musikalienhandel.</title> Giessen,
+                    1908</bibl>
+                <bibl>Robert Eitner, <title>Buch- und Musikalienhändler, Buch-und Musikaliendrucker
+                        nebst</title></bibl>
+                <bibl><title>Notenstecher, nur die Musik betreffend, nach den
+                    Originaldrucken.</title> Leipzig, 1904</bibl>
+                <bibl>Wilhelm Freystätter, <title>Die Musikalischen Zeitschriften seit ihrer
+                        Entstehung bis zur Gegenwart. Chronologisches Verzeichnis der periodischen
+                        Schriften über Musik von Wilhelm Freystätter.</title> München, 1884 (repr.
+                    Amsterdam, 1963)</bibl>
+                <bibl>Hans-Martin Plesske, 'Bibliographie des Schrifttums zur Geschichte Deutscher
+                    &amp; Österreichischer Musikverlage'. In <title>Beiträge zur Geschichte des
+                        Buchwesens 3</title> (1968), 135-222 </bibl>
+                <bibl>Liesbeth Weinhold and Alexander Weinmann, <title>Kataloge von Musikverlegern
+                        und Musikalienhändlern 1700-1850.</title> Kassel, 1995</bibl>
+                <bibl>Tobias Widmaier, <title>Der deutsche Musikalienleihhandel. Funktion, Bedeutung
+                        und Topographie einer Form gewerblicher Musikaliendistribution vom späten
+                        18. bis zum frühen 20. Jahrhundert.</title> Saarbrücken, 1998</bibl>
+            </listBibl>
+
+
+
+        </body>
+    </text>
+</TEI.2>

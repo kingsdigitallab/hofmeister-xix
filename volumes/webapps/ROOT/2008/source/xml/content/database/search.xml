@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p2_3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2004-03-14</date>
+                <respStmt>
+                    <name>PJS</name>
+                </respStmt>
+                <item>created dummy content</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Search</head>
+            <p>Searching is the most powerful means of accessing the information in Hofmeister XIX,
+                using one or more different fields, together where desired with a date range. Four
+                types of search are available:</p>
+            <list>
+                <item>
+                    <xref type="internal" from="search_basic">Basic search</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="search_advanced">Advanced search</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="search_free_text">Free text search</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="search_list">List search</xref>
+                </item>
+            </list>
+           <p>The purpose of the first three is to locate individual bibliographical items. List
+                search is for extracting information about the items, such as a listing of all
+                composers published at a particular time and place.</p>
+            <!-- <p>Searching is the most powerful means of accessing the information in Hofmeister XIX,
+                using one or more different fields, together where desired with a date range. Four
+                types of search are available: <xref type="internal" from="search_basic">Basic
+                    search</xref>, <xref type="internal" from="search_advanced">Advanced
+                search</xref>, <xref type="internal" from="search_free_text">Free text
+                search</xref>, and <xref type="internal" from="search_list">List search</xref>. The
+                purpose of the first three is to locate individual bibliographical items, and in
+                each case you can follow a link to the relevant facsimile page on the <xref
+                    url=" http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref> website; the last (List search) is for extracting
+                information about the items, such as a listing of all composers published at a
+                particular time and place.</p>
+            <list>
+                <item><xref type="internal" from="search_basic">Basic search</xref> allows
+                    straightforward searching using one or two fields, with an optional date range.
+                    Searching is based on <xref type="internal" from="p3_5">thesauri</xref> for all
+                    fields other than title, and where two fields are used they are linked by AND
+                    (for instance results might be limited to just the works of a specified composer
+                    published in a specified place). For textual input, searching is neither case
+                    nor accent sensitive (thus 'marsche' will find 'Märsche').</item>
+                <item><xref type="internal" from="search_advanced">Advanced search</xref> provides
+                    the same functionality as Basic search, but with many more options: additional
+                    fields with the possibilities of searching on three at once and of specifying
+                    the logical relations between them, the option in the case of most fields of
+                    performing either thesaurus or literal searches, and the ability to sort the
+                    results by specified fields. For textual input, searching is neither case nor
+                    accent sensitive (thus 'marsche' will find 'Märsche'), and wildcard characters
+                    (?, *) may be used.</item>
+                <item><xref type="internal" from="search_free_text">Free text search</xref> makes it
+                    possible to search for specific words regardless of the field(s) in which they
+                    appear. As in the case of Advanced search, it is possible to search for just one
+                    or all of the search terms, and in the latter case in the specified sequence or
+                    in any sequence. Results may be sorted by specified fields. Searching is neither
+                    case nor accent sensitive (thus 'marsche' will find 'Märsche'), and wildcard
+                    characters (?, *) may be used.</item>
+                <item><xref type="internal" from="search_list">List search</xref> does not find
+                    individual bibliographical items: as its name indicates, it creates lists of
+                    terms appearing in certain fields under certain conditions, such as all the
+                    composers published in a particular place within certain dates. It is also
+                    possible to exclude certain results (e.g. list composers published in Leipzig
+                    between 1830 and 1849, except those published by Hofmeister). Thesauri may used.
+                    For textual input, searching is neither case nor accent sensitive (thus
+                    'marsche' will find 'Märsche').</item>
+            </list>
+            <p>More details of these four types of search may be found on the <xref type="internal"
+                    from="p3_5">Seach help page</xref>.</p>-->
+            <!--<divGen id="searchform"/>-->
+        </body>
+    </text>
+</TEI.2>

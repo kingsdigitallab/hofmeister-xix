@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2004-06-18</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>encoded from html source</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>About Hofmeister XIX</head>
+            <p>These pages contain background information on Hofmeister XIX, the on-line, searchable
+                version of the Hofmeister Monatsberichte for the years 1829-1900.</p>
+<list>
+           <item><xref type="internal" from="p1_1">Introduction to the project</xref></item>
+           <item><xref type="internal" from="p1_2">Friedrich Hofmeister</xref></item>
+ 	<item><xref type="internal" from="p1_3">The project team</xref></item>
+ 	<item><xref type="internal" from="p1_4">Copyright information</xref></item>
+ 	<item><xref type="internal" from="p1_5">Guidelines on citation</xref></item>
+</list>
+        </body>
+    </text>
+</TEI.2>

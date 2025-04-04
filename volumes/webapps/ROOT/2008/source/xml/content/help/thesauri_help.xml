@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Thesauri</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Help -Thesauri</head>
+            <p>An important feature of the indices, and of Basic, Advanced, and List searches, is
+                the use of thesauri. The purpose of a thesaurus is to establish equivalences between
+                different terms corresponding to the same person or thing, so that, for example, 'C
+                moll' corresponds to 'Ut mineur': the terms are different but the meanings are the
+                same, so normally you will want to find pieces in a given key regardless of whether
+                the original publication—and hence the Hofmeister XIX listing—is in German, French,
+                or another language. When you use the indices or carry out a thesaurus search, you
+                select one thesaurus term, which automatically activates the other, equivalent terms
+                in the original <title level="m">Monatsberichte</title>. Thesauri are available for
+                Composer, Key, Opus, Publisher, Publication place, Country, and Class, and they are
+                automatically used for indices and for Basic search. For Advanced and List search
+                you must use thesauri for Key and Country (otherwise you will get misleading
+                results), but you can choose whether or not to use them for Composer, Opus,
+                Publisher, Publication place, and Class. There are no thesauri for Title or
+                Registration number.</p>
+
+            <p>There is a common interface for all thesaurus searches. When you click on the
+                'Thesaurus' icon, the relevant thesaurus window opens; enlarge the window if you
+                cannot see 'Submit search' at the bottom. This window will contain a complete
+                listing of thesaurus terms from which you can select one or more. In the smaller
+                thesauri, use the scroll bar to find the term(s) you want; in the larger ones, first
+                use the alphabetical index at the top, or type the first few letters into the
+                'Starting with' box and click on View. To select a search term, highlight it and
+                then click on the 'Insert' button at the bottom of the window; to select multiple
+                terms hold down the Control key, or to select a range hold down the Shift key. It is
+                not necessary to close the thesaurus window after use; be aware however that if you
+                leave a thesaurus window open, you cannot open another. Therefore, if it seems
+                impossible to open a thesaurus window, check whether another is already open, and if
+                so, close it.</p>
+
+            <p>Certain thesauri require additional explanation. The <hi rend="bolditalic">Opus</hi>
+                thesaurus consists of an opus number, followed where appropriate by subdivisions
+                within that opus number. The most convenient way to use it is to type the opus
+                number into the 'Starting with' box, at which point only entries beginning with that
+                number will be displayed. If necessary the process of narrowing down the field can
+                continue (e.g. '81a', '5 No. 2'); note that some entries involve ranges, so that you
+                might also find Op. 5 No. 2 under '5 No. 1-3'. Posthumous works are identified by
+                'posth'. The <hi rend="bolditalic">Key</hi> thesaurus uses a simple code according
+                to which 'C+' means C major, and 'C-' means C minor, in each case including the
+                equivalents in other languages. 'C' means that the mode is not specified in the
+                Monatsbericht entry, which probably means that it is in fact C major. (It follows
+                that if you want to search for music in either C major or minor, do not just select
+                'C': select C, C+, and C-. Similarly, if you want to be sure of finding all music in
+                C major, search for C as well as C+.) In the case of <hi rend="bolditalic"
+                >Country</hi>, note that the thesaurus is based on 2006, not historical, boundaries;
+                country information is not present in the original Monatsberichte, but has been
+                generated by us based on the places of publication. <hi rend="bolditalic">Class</hi>
+                refers to Hofmeister classification; this is a sufficiently complex topic to require
+                a <xref type="internal" from="p3_2">page</xref> of its own.</p>
+
+            <p>The extent to which we have grouped different terms as equivalent varies from one
+                field to another, according to the degree of interpretation involved. In the case of
+                key designations there is little difficulty in establishing equivalent terms in
+                different languages. In the <hi rend="bolditalic">Publisher</hi> thesaurus we have
+                grouped what we believe to be equivalent terms but left names followed by 'in
+                Commission' as separate entries: this <xref type="redist" from="pdf/breitkopf.pdf"
+                    >extract</xref> from the Publisher thesaurus, showing how we have grouped
+                together forty variants of 'Breitkopf &amp; Härtel' and two 'in Comm.', is a
+                good illustration of why thesauri are necessary. In the the case of <hi rend="bolditalic">Publication 
+                    place</hi> we have grouped terms we believe to be equivalent (e.g. 'Berlin', 'Berl'). For
+                both Publisher and Publication place, coding limitations mean that we cannot
+                disambiguate entries with identical names even when this information is available
+                (thus 'Beadeker' may refer to one of several different publishers, while 'Frankfurt'
+                can mean either Frankfurt &lt;Main> or Frankfurt &lt;Oder>). In creating
+                these thesauri we have made extensive use of the <xref
+                    type="external" url="http://bermudix.ddb.de/dbsm/cgi-bin/gr.pl">Deutsches Buch-
+                    und Schriftmuseum</xref> (DBSM) website. 
+               </p>
+
+            <p>Because of the sheer numbers involved, it is the <hi rend="bolditalic">Composer</hi>
+                thesaurus that presents the worst problems. Sometimes you will see separate
+                thesaurus entries for what you feel sure are the same person, for instance, 'Bach,
+                C.P.E.', 'Bach, C.Ph.E.', and 'Bach, Carl Philllip Emanuel'. We could have linked
+                all of these as being the same person. But what about 'Adam, A.', 'Adam, A.C.',
+                'Adam, A.Ch', and 'Adam, Ad.'? There's no simple way to establish whether <hi
+                    rend="italic">Monatsberichte</hi> items bearing these names are by the same
+                person, and there's no clear dividing line between where we can and where we can't
+                be sure of people's identity. We have therefore adopted a conservative policy: <hi
+                    rend="bold">the composer thesaurus links those entries which differ in
+                    orthography</hi> (such as 'Adam, A.C.', 'Adam, A C', 'Adam, A. C.', 'Adam,
+                (A.C.)' or 'A.C. Adam'), <hi rend="bold">but not those entries where substantive
+                    interpretation or research would be needed to establish whether or not they are
+                    equivalent.</hi> This makes Hofmeister XIX less convenient to use than a modern,
+                specifically-researched bibliographical database, but that is one of the limitations
+                of using a nineteenth-century publisher's catalogue for a purpose it was never
+                designed for. The inconvenience of selecting a number of thesaurus entries to search
+                for one composer can however be minimised, though not eliminated, by using the
+                facility to select multiple items from the thesaurus window, and the 'Back to
+                search' button for repeated searches (which means you do not have to re-enter the
+                same search terms each time).</p>
+            <p>The complete thesaurus listings can be downloaded from the <xref type="internal"
+                    from="p5_2">Download</xref> page. In addition to documenting the equivalences
+                built into Hofmeister XIX, these constitute a record of the many variant forms found
+                in the <title level="m">Monatsberichte</title>.</p>
+        </body>
+    </text>
+</TEI.2>

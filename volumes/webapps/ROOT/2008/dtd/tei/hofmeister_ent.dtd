@@ -1,0 +1,139 @@
+<!--  The following declarations define new extensions    -->
+<!--    (element and attlist specifications for new tags  -->
+<!--    introduced in part 3 of the ent file go here)     -->
+
+<!ELEMENT album %om.RO; (%paraContent;)*> 
+
+<!ATTLIST album  
+      %a.global;
+      %a.declarable;
+      TEIform CDATA "bibl">
+
+<!ELEMENT wip %om.RO; (%paraContent;)*> 
+<!ATTLIST wip  
+      %a.global;
+      %a.declarable;
+      TEIform CDATA "bibl">
+
+<!ELEMENT artist %om.RO; %phrase.seq;> 
+<!ATTLIST artist  
+      %a.global;
+      TEIform CDATA "name">
+
+
+<!ELEMENT composer %om.RO; %phrase.seq;> 
+<!ATTLIST composer  
+      %a.global;
+      TEIform CDATA "name">
+
+
+<!ELEMENT subject %om.RR; %phrase.seq;> 
+<!ATTLIST subject  
+      %a.global;
+      %a.names;
+      type CDATA #IMPLIED
+      TEIform CDATA "rs">
+
+      
+<!ELEMENT hofClass %om.RR;  %paraContent;> 
+<!ATTLIST hofClass  
+      %a.global;
+      %a.seg;
+      key CDATA #IMPLIED
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT key %om.RR;  %paraContent;> 
+<!ATTLIST key  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT opus %om.RR;  %paraContent;> 
+<!ATTLIST opus  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT regNumber %om.RR;  %paraContent;> 
+<!ATTLIST regNumber  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+
+<!ELEMENT recontrolNumber %om.RR;  %paraContent;> 
+<!ATTLIST recontrolNumber  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT format %om.RR;  %paraContent;> 
+<!ATTLIST format  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT seriesInfo %om.RR;  %paraContent;> 
+<!ATTLIST seriesInfo  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+<!ELEMENT price %om.RR;  %paraContent;> 
+<!ATTLIST price  
+      %a.global;
+      %a.seg;
+      subtype CDATA #IMPLIED
+      TEIform CDATA "seg">
+
+
+<!--  The following declarations define revised tags      -->
+<!--    (element and attlist specifications for tags      -->
+<!--    mentioned in part 4 of the ent file go here       -->
+<!--  ...                                                 -->
+
+
+<!ELEMENT foreign %om.RR; %paraContent;> 
+<!ATTLIST foreign  
+      %a.global;
+      translit CDATA #IMPLIED
+      TEIform CDATA "foreign">
+
+<!ELEMENT xref %om.RR; %paraContent;> 
+<!ATTLIST xref  
+      %a.global;
+      %a.xPointer;
+      url CDATA #IMPLIED
+      TEIform CDATA "xref">
+
+
+<!ELEMENT figure %om.RR; ((%m.Incl;)*, 
+                              (head, (%m.Incl;)*)?, 
+                              (p, (%m.Incl;)*)*,
+                              (figDesc, (%m.Incl;)*)?, 
+                              (text, (%m.Incl;)*)?) > 
+<!ATTLIST figure  
+      %a.global;
+      entity ENTITY #IMPLIED
+      url CDATA #IMPLIED>
+
+<!ELEMENT bibl %om.RO; (%paraContent;)*> 
+<!ATTLIST bibl  
+      %a.global;
+      %a.declarable;>
+      
+      <!ELEMENT listBibl %om.RR; ((%m.Incl;)*, (head, (%m.Incl;)*)?,
+                   (%m.bibl;),
+                   (%m.bibl; | %m.Incl;)*,
+                   (trailer, (%m.Incl;)*)?)> 
+<!ATTLIST listBibl  
+      %a.global;
+      %a.declarable;>
+

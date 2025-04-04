@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SVN $Id -->
+<xsp:page create-session="true" language="java" xmlns:xsp="http://apache.org/xsp" xmlns:xsp-session="http://apache.org/xsp/session/2.0">
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.HofmeisterIndexConstants</xsp:include>
+  </xsp:structure>
+  <page>
+    <xsp:logic>
+      Integer rpp = (Integer) request.getSession(false).getAttribute(HofmeisterIndexConstants.RESULTS_PER_PAGE); 
+      int resperPage = HofmeisterIndexConstants.RESULTS_PER_PAGE_DEFAULT; 
+      
+      if (rpp != null) { 
+        resperPage = rpp.intValue();
+      }
+    </xsp:logic>
+    <page-size><xsp:expr>resperPage</xsp:expr></page-size>
+  </page>
+</xsp:page>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Introduction</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Help - Introduction</head>
+            <p>While Hofmeister XIX is an indispensable resource for the bibliography of
+                nineteenth-century printed music, it is essential to remember that it is a series of
+                publisher's catalogues placed online, not a purpose-designed musicological database
+                based on independent research. In order to use Hofmeister XIX effectively, it is
+                necessary to be aware of the limitations that result from this, as well as the
+                inherent complexity of the material.</p>
+            <p>Here is a sample Monatsbericht entry:</p>
+
+          <p><figure url="annoshow-buch"></figure></p>
+            <p>This may be divided into the following elements:</p>
+            <table rend="highlight">
+                <row>
+                    <cell>
+                        <hi rend="bold">Roth (C.)</hi>
+                    </cell>
+                    <cell>Auswahl guter Orgelcompositionen der vorzüglichsten Componisten.</cell>
+                    <cell>Stettin,</cell>
+                    <cell>Heerbrandt und Thämel </cell>
+                    <cell>1 Thlr. 7½ Ngr. n.</cell>
+                </row>
+            </table>
+            <p>In this simple example, the elements are composer, title, place of publication,
+                publisher, and price. (Other entries may include additional elements such as opus
+                number and key.) Each of these fields, except price, is individually identified in the Hofmeister
+                XIX database, and this is what makes it possible to access works by a particular
+                composer, and/or published in a particular place, and/or by a particular publisher.
+                Sometimes entries include text that does not fall into any of these categories, in
+                which case it is not specifically identified in the database, but may still be
+                acessed through a free text search. The first of the following two examples
+                illustrates this: </p>
+            
+            
+            <p><figure url="annoshow-buch_2"></figure></p>
+            
+            
+            <list>
+                <item><hi rend="bold">Kodelski (C.M.)</hi> 2e Concertino p. Violon av. Acc.
+                    d’Orchestre. Oe. 2, in D. (Déd. à Mr. Ch. Möser.) Berlin, Trautwein 1 Thlr.</item>
+                <item>– Idem av. Acc. de Quatuor. Ebend. 12 Gr.</item>
+            </list>
+            <p>In the first example, 'Oe. 2' is the opus number ('Oeuvre') and 'in D' is the key,
+                while '(Déd. à Mr. Ch. Möser.)' is free text. The second example is typical of the
+                abbreviations used in the <title level="m">Monatsberichte</title>. 'Idem' means that
+                this item is also Kodelski's Second Concertino for Violin, but this time for quartet
+                rather than orchestral accompaniment; 'Ebend.' (short for Ebenda) means that it is
+                also Opus 2 in D, and published by Trautwein in Berlin. An important consequence
+                follows from this: if you search for 'Kodelski' and 'Concertino', you will find the
+                first entry but not the second. <hi rend="bold">You need therefore to check as a
+                    matter of course whether the entry you find is followed by one or more which are
+                    also relevant to you, but use these abbreviations</hi>. It should also be
+                understood that <hi rend="bold">this is a significant limitation of Hofmeister XIX,
+                    in its current form, as a source of statistics.</hi></p>
+            <p>Understanding the information in the <title level="m">Monatsberichte</title> is the
+                key to effective use of Hofmeister XIX, and it is strongly recommended that you look
+                closely at some sample pages, using the Browse function in Hofmeister and/or the
+                facsimile pages on the <xref type="external"
+                    url="http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref> website (to which the Browse pages are linked). It is
+                also important to remember that the information in the <title level="m"
+                    >Monatsberichte</title> is not invariably accurate. Adolph Hofmeister
+                (Friedrich's son) remarked in 1845 that 'printing errors are almost unavoidable in a
+                work of this size', while Carl Friedrich Whistling wrote in the preface of the
+                second edition of his <title level="m">Handbuch der musikalischen Litteratur</title>
+                (the predecessor of Hofmeister's <title level="m">Monatsberichte</title>, published
+                in 1817) that</p>
+
+            <p>
+                <q>It is unfortunately well enough known that many music publishers’ catalogues,
+                    irrespective of printing errors, are rather incomplete and impractically
+                    arranged. Here, a first name is missing, there, an opus number; here, the
+                    accompanying instruments, there, the number of voices or other important points.
+                    Many of the names are wrong; the classification is frequently ludicrous and
+                    hinders use; some items are incomprehensibly missing; others, in contrast, which
+                    were never published, or have long been out-of-print, are included, etc. Would
+                    that this improves in the future.</q>
+            </p>
+            <p>It is also helpful to read the Foreword to Whistling's <title level="m"
+                >Handbuch</title>, which clearly sets out the purpose of his catalogue, the criteria
+                governing what was and what was not included in it, and the thinking underlying its
+                classifications, as well as providing some tips for how to use it. The details had
+                changed by the time Hofmeister's <title level="m">Monatsberichte</title> appeared,
+                but the basic issues remained unchanged. The Foreword may be found on pp. v-viii of
+                the original publication (reprinted in facsimile by Garland Publishing, 1975); click
+                <xref type="internal" from="p3_1_1">here</xref> for an English translation by Elizabeth Robinson.</p>
+           
+        </body>
+    </text>
+</TEI.2>

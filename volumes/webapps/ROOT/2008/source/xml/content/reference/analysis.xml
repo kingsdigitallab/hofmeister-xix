@@ -1,0 +1,926 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_6">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hofmeister XIX: Analysis of contents</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2004-06-18</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>encoded from html source</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Hofmeister XIX: Analysis of contents 1829-1900</head>
+
+            
+                <table>
+                    <row>
+                        <cell role="label">Year</cell>
+                        <cell role="label">No. of issues</cell>
+                        <cell role="label">Pages of catalogue</cell>
+                        <cell role="label">Est. no. of entries</cell>
+                        <cell role="label">Est. no. of words</cell>
+                        <cell role="label">Pages of adverts</cell>
+                        <cell role="label">Imperfections</cell>
+                        <cell role="label">Library sigla</cell>
+                    </row>
+
+
+
+
+                    <row>
+                        <cell>1829</cell>
+                        <cell>8</cell>
+                        <cell>76</cell>
+                        <cell>1748</cell>
+                        <cell>34048</cell>
+                        <cell>16</cell>
+                        <cell>None</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1830</cell>
+                        <cell>6</cell>
+                        <cell>81</cell>
+                        <cell>2106</cell>
+                        <cell>32688</cell>
+                        <cell>15</cell>
+                        <cell>None</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1831</cell>
+                        <cell>6</cell>
+                        <cell>94</cell>
+                        <cell>2444</cell>
+                        <cell>43008</cell>
+                        <cell>10</cell>
+                        <cell>None</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1832</cell>
+                        <cell>6</cell>
+                        <cell>88</cell>
+                        <cell>2288</cell>
+                        <cell>39424</cell>
+                        <cell>8</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1833</cell>
+                        <cell>6</cell>
+                        <cell>?88</cell>
+                        <cell>1760</cell>
+                        <cell>38192</cell>
+                        <cell>12</cell>
+                        <cell>"9,10. lacking pp. 81-4?"</cell>
+                        <cell>?ÖNB</cell>
+                    </row>
+
+
+                    <row>
+                        <cell>1834</cell>
+                        <cell>6</cell>
+                        <cell>98</cell>
+                        <cell>2450</cell>
+                        <cell>42630</cell>
+                        <cell>10</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1835</cell>
+                        <cell>8</cell>
+                        <cell>100</cell>
+                        <cell>1800</cell>
+                        <cell>43400</cell>
+                        <cell>26</cell>
+                        <cell>"12, illegible register numbers"</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1836</cell>
+                        <cell>9</cell>
+                        <cell>131</cell>
+                        <cell>2620</cell>
+                        <cell>58688</cell>
+                        <cell>13</cell>
+                        <cell>"12, lacking title-page"</cell>
+                        <cell>ÖNB 396 390-B M.S.</cell>
+                    </row>
+
+
+                    <row>
+                        <cell>1837</cell>
+                        <cell>9</cell>
+                        <cell>125</cell>
+                        <cell>2500</cell>
+                        <cell>56000</cell>
+                        <cell>19</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1838</cell>
+                        <cell>11</cell>
+                        <cell>153</cell>
+                        <cell>3060</cell>
+                        <cell>68544</cell>
+                        <cell>41</cell>
+                        <cell>11 ends on p.160. 12 begins on [177]</cell>
+                        <cell>ÖNB 396 390-B M.S.</cell>
+                    </row>
+
+
+                    <row>
+                        <cell>1839</cell>
+                        <cell>10</cell>
+                        <cell>134</cell>
+                        <cell>2680</cell>
+                        <cell>60032</cell>
+                        <cell>26</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1840</cell>
+                        <cell>11</cell>
+                        <cell>149</cell>
+                        <cell>2673</cell>
+                        <cell>66752</cell>
+                        <cell>27</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1841</cell>
+                        <cell>12</cell>
+                        <cell>170</cell>
+                        <cell>2983</cell>
+                        <cell>76160</cell>
+                        <cell>30</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1842</cell>
+                        <cell>12</cell>
+                        <cell>160</cell>
+                        <cell>2960</cell>
+                        <cell>71680</cell>
+                        <cell>40</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1843</cell>
+                        <cell>12</cell>
+                        <cell>162</cell>
+                        <cell>2997</cell>
+                        <cell>72576</cell>
+                        <cell>34</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1844</cell>
+                        <cell>12</cell>
+                        <cell>162</cell>
+                        <cell>2997</cell>
+                        <cell>72576</cell>
+                        <cell>30</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1845*</cell>
+                        <cell>12</cell>
+                        <cell>167</cell>
+                        <cell>3090</cell>
+                        <cell>74816</cell>
+                        <cell>37</cell>
+                        <cell>Some bad quality print &amp; damaged pages</cell>
+                        <cell>ÖNB 396 390-B M.S.</cell>
+                    </row>
+
+
+                    <row>
+                        <cell>1846</cell>
+                        <cell>12</cell>
+                        <cell>177</cell>
+                        <cell>3276</cell>
+                        <cell>79296</cell>
+                        <cell>29</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1847</cell>
+                        <cell>12</cell>
+                        <cell>175</cell>
+                        <cell>3234</cell>
+                        <cell>78400</cell>
+                        <cell>31</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1848</cell>
+                        <cell>12</cell>
+                        <cell>170</cell>
+                        <cell>3145</cell>
+                        <cell>76160</cell>
+                        <cell>26</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1849</cell>
+                        <cell>9</cell>
+                        <cell>132</cell>
+                        <cell>2442</cell>
+                        <cell>59136</cell>
+                        <cell>28</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1850</cell>
+                        <cell>11</cell>
+                        <cell>169</cell>
+                        <cell>3126</cell>
+                        <cell>75712</cell>
+                        <cell>39</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1851</cell>
+                        <cell>12</cell>
+                        <cell>195</cell>
+                        <cell>3608</cell>
+                        <cell>87360</cell>
+                        <cell>57</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1852</cell>
+                        <cell>12</cell>
+                        <cell>204</cell>
+                        <cell>3774</cell>
+                        <cell>91392</cell>
+                        <cell>32</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1853</cell>
+                        <cell>12</cell>
+                        <cell>195</cell>
+                        <cell>3608</cell>
+                        <cell>87360</cell>
+                        <cell>45</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1854</cell>
+                        <cell>12</cell>
+                        <cell>174</cell>
+                        <cell>3219</cell>
+                        <cell>77952</cell>
+                        <cell>27</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1855</cell>
+                        <cell>12</cell>
+                        <cell>189</cell>
+                        <cell>3497</cell>
+                        <cell>84672</cell>
+                        <cell>37</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1856</cell>
+                        <cell>11</cell>
+                        <cell>187</cell>
+                        <cell>3460</cell>
+                        <cell>83776</cell>
+                        <cell>22</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1857</cell>
+                        <cell>11</cell>
+                        <cell>171</cell>
+                        <cell>3164</cell>
+                        <cell>76608</cell>
+                        <cell>33</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1858</cell>
+                        <cell>11</cell>
+                        <cell>175</cell>
+                        <cell>3238</cell>
+                        <cell>78400</cell>
+                        <cell>29</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1859</cell>
+                        <cell>11</cell>
+                        <cell>178</cell>
+                        <cell>3293</cell>
+                        <cell>79744</cell>
+                        <cell>38</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1860</cell>
+                        <cell>11</cell>
+                        <cell>200</cell>
+                        <cell>4000</cell>
+                        <cell>89600</cell>
+                        <cell>22</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1861*</cell>
+                        <cell>11</cell>
+                        <cell>211</cell>
+                        <cell>5486</cell>
+                        <cell>84400</cell>
+                        <cell>29</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1862</cell>
+                        <cell>12</cell>
+                        <cell>194</cell>
+                        <cell>5432</cell>
+                        <cell>83536</cell>
+                        <cell>62</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1863</cell>
+                        <cell>12</cell>
+                        <cell>217</cell>
+                        <cell>6510</cell>
+                        <cell>86800</cell>
+                        <cell>31</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1864</cell>
+                        <cell>12</cell>
+                        <cell>222</cell>
+                        <cell>6216</cell>
+                        <cell>97680</cell>
+                        <cell>42</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1865</cell>
+                        <cell>11</cell>
+                        <cell>208</cell>
+                        <cell>5200</cell>
+                        <cell>91520</cell>
+                        <cell>28</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1866</cell>
+                        <cell>12</cell>
+                        <cell>?170</cell>
+                        <cell>?4760</cell>
+                        <cell>?74800</cell>
+                        <cell>?38</cell>
+                        <cell>8 lacking</cell>
+                        <cell>ÖNB 396 390-B M.S.</cell>
+                    </row>
+
+
+                    <row>
+                        <cell>1867</cell>
+                        <cell>12</cell>
+                        <cell>187</cell>
+                        <cell>4675</cell>
+                        <cell>84150</cell>
+                        <cell>31</cell>
+                        <cell>"Duplicated pages: 1 ends on 24, 2 begins on [18]. 1, pp. 22-3 filmed
+                            twice. 7, pp. 121-2 mis-bound after 104. "</cell>
+                        <cell/>
+                    </row>
+
+
+
+
+                    <row>
+                        <cell>1868</cell>
+                        <cell>12</cell>
+                        <cell>190</cell>
+                        <cell>4750</cell>
+                        <cell>85500</cell>
+                        <cell>32</cell>
+                        <cell>2 pages numbered 200</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1869</cell>
+                        <cell>12</cell>
+                        <cell>199</cell>
+                        <cell>4975</cell>
+                        <cell>89550</cell>
+                        <cell>23</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1870*</cell>
+                        <cell>11</cell>
+                        <cell>174</cell>
+                        <cell>4002</cell>
+                        <cell>87000</cell>
+                        <cell>36</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1871</cell>
+                        <cell>12</cell>
+                        <cell>241</cell>
+                        <cell>6507</cell>
+                        <cell>108450</cell>
+                        <cell>55</cell>
+                        <cell>4 apparently lacking pp.77-80</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1872</cell>
+                        <cell>10</cell>
+                        <cell>226</cell>
+                        <cell>5650</cell>
+                        <cell>101700</cell>
+                        <cell>36</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1873</cell>
+                        <cell>12</cell>
+                        <cell>399</cell>
+                        <cell>9177</cell>
+                        <cell>199500</cell>
+                        <cell>21</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1874</cell>
+                        <cell>12</cell>
+                        <cell>245</cell>
+                        <cell>6125</cell>
+                        <cell>122500</cell>
+                        <cell>28</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1875</cell>
+                        <cell>12</cell>
+                        <cell>289</cell>
+                        <cell>7725</cell>
+                        <cell>144500</cell>
+                        <cell>31</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1876*</cell>
+                        <cell>11</cell>
+                        <cell>309</cell>
+                        <cell>7725</cell>
+                        <cell>135960</cell>
+                        <cell>19</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1877</cell>
+                        <cell>12</cell>
+                        <cell>338</cell>
+                        <cell>8450</cell>
+                        <cell>148720</cell>
+                        <cell>26</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1878</cell>
+                        <cell>11</cell>
+                        <cell>375</cell>
+                        <cell>9375</cell>
+                        <cell>165000</cell>
+                        <cell>25</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1879</cell>
+                        <cell>12</cell>
+                        <cell>367</cell>
+                        <cell>9175</cell>
+                        <cell>161480</cell>
+                        <cell>25</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1880</cell>
+                        <cell>12</cell>
+                        <cell>367</cell>
+                        <cell>9175</cell>
+                        <cell>161480</cell>
+                        <cell>19</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1881*</cell>
+                        <cell>11</cell>
+                        <cell>309</cell>
+                        <cell>6798</cell>
+                        <cell>139050</cell>
+                        <cell>15</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1882</cell>
+                        <cell>12</cell>
+                        <cell>397</cell>
+                        <cell>8734</cell>
+                        <cell>178650</cell>
+                        <cell>13</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1883</cell>
+                        <cell>11</cell>
+                        <cell>332</cell>
+                        <cell>7304</cell>
+                        <cell>149400</cell>
+                        <cell>20</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1884</cell>
+                        <cell>12</cell>
+                        <cell>354</cell>
+                        <cell>7788</cell>
+                        <cell>159300</cell>
+                        <cell>14</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1885</cell>
+                        <cell>12</cell>
+                        <cell>361</cell>
+                        <cell>7942</cell>
+                        <cell>162450</cell>
+                        <cell>23</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1886*</cell>
+                        <cell>11</cell>
+                        <cell>389</cell>
+                        <cell>8558</cell>
+                        <cell>175050</cell>
+                        <cell>136</cell>
+                        <cell>"3,4 incorrectly paginated"</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1887</cell>
+                        <cell>12</cell>
+                        <cell>422</cell>
+                        <cell>9268</cell>
+                        <cell>189563</cell>
+                        <cell>194</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1888</cell>
+                        <cell>12</cell>
+                        <cell>461</cell>
+                        <cell>10142</cell>
+                        <cell>207450</cell>
+                        <cell>123</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1889</cell>
+                        <cell>12</cell>
+                        <cell>449</cell>
+                        <cell>9878</cell>
+                        <cell>202050</cell>
+                        <cell>119</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1890*</cell>
+                        <cell>12</cell>
+                        <cell>496</cell>
+                        <cell>7440</cell>
+                        <cell>223200</cell>
+                        <cell>88</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1891</cell>
+                        <cell>12</cell>
+                        <cell>492</cell>
+                        <cell>7380</cell>
+                        <cell>221400</cell>
+                        <cell>72</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1892</cell>
+                        <cell>12</cell>
+                        <cell>493</cell>
+                        <cell>7395</cell>
+                        <cell>221850</cell>
+                        <cell>50</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1893</cell>
+                        <cell>12</cell>
+                        <cell>485</cell>
+                        <cell>7275</cell>
+                        <cell>218250</cell>
+                        <cell>53</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1894*</cell>
+                        <cell>12</cell>
+                        <cell>500</cell>
+                        <cell>6500</cell>
+                        <cell>225000</cell>
+                        <cell>68</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1895</cell>
+                        <cell>12</cell>
+                        <cell>491</cell>
+                        <cell>6383</cell>
+                        <cell>220950</cell>
+                        <cell>61</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1896</cell>
+                        <cell>12</cell>
+                        <cell>606</cell>
+                        <cell>7878</cell>
+                        <cell>272700</cell>
+                        <cell>42</cell>
+                        <cell>pp40 &amp;41 filmed twice</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1897</cell>
+                        <cell>12</cell>
+                        <cell>545</cell>
+                        <cell>7085</cell>
+                        <cell>245250</cell>
+                        <cell>39</cell>
+                        <cell>1-7: some MS Markings</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1898*</cell>
+                        <cell>12</cell>
+                        <cell>607</cell>
+                        <cell>13354</cell>
+                        <cell>273150</cell>
+                        <cell>34</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1899</cell>
+                        <cell>12</cell>
+                        <cell>567</cell>
+                        <cell>13608</cell>
+                        <cell>255150</cell>
+                        <cell>41</cell>
+                        <cell>"12, pp. 593-4 filmed out of sequence between 606-7."</cell>
+                        <cell/>
+                    </row>
+
+
+                    <row>
+                        <cell>1900</cell>
+                        <cell>12</cell>
+                        <cell>657</cell>
+                        <cell>13140</cell>
+                        <cell>295650</cell>
+                        <cell>39</cell>
+                        <cell>"12, pp. 142-3 filmed twice"</cell>
+                        <cell/>
+                    </row>
+
+                    <row>
+                        <cell role="label">Tots:</cell>
+                        <cell role="label">797</cell>
+                        <cell role="label">19370</cell>
+                        <cell role="label">398180</cell>
+                        <cell role="label">8706521</cell>
+                        <cell role="label">2770</cell>
+                        <cell role="label"/>
+                        <cell role="label"/>
+                    </row>
+                </table>
+
+        </body>
+    </text>
+</TEI.2>

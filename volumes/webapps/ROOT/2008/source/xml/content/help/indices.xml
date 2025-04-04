@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Indices</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Indices</head>
+            <p>Selecting 'indices' enables you to access individual bibliographical items by means
+                of an alphabetical listing. Indices are available for Composers, Publishers, Publication places, Classes 
+                 (i.e. <xref type="redist" from="pdf/HofmeisterMonatsberichteClasses.pdf"
+                    >Hofmeister classification</xref>), and Countries (based on 2006 boundaries).
+                Except in the case of Publication place, the procedure is in each case the same: you select
+                which index you want to use, then the initial letter of the name you are looking for
+                (in the larger indices individual letters are also subdivided), and finally the
+                individual index term. In the case of Place, you have the option of doing the same
+                ('list'), but you also have the option of opening a map and selecting the place from
+                there (by either clicking on a marker or using the drop-down menus). At this point a
+                list of bibliographic items corresponding to the specified index term will open;
+                these lists are generated on the fly and can be quite lengthy, so response will not
+                always be immediate. Clicking on an individual bibliographic item will take you to
+                the transcribed <title level="m">Monatsbericht</title> page on which the item is
+                found, as when using <xref type="internal" from="p3_3">Browse</xref>, but with the
+                item in question positioned at the top of the screen. All indices make use of <xref
+                    type="internal" from="p3_8">thesauri</xref>, the purpose of which is to bring
+                together equivalent entries (Bizet, Georges; Bizet, George; Georges Bizet, etc). Where,
+                exceptionally, you wish to access information without using thesauri, use Advanced
+                or Free text Search instead.</p>
+            <p>Please note that the map depends on information accessed from Google Maps and we
+                cannot guarantee its long-term functioning.</p>
+
+
+
+        </body>
+    </text>
+</TEI.2>

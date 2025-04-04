@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links, title)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p> Searching is the most powerful means of accessing the information in Hofmeister XIX,
+                using one or more different fields, together where desired with a date range. Four
+                types of search are available: <xref type="internal" from="p3_5_1">Basic
+                search</xref>, <xref type="internal" from="p3_5_2">Advanced search</xref>, <xref
+                    type="internal" from="p3_5_3">Free text search</xref>, and <xref type="internal"
+                    from="p3_5_4">List search</xref>. The purpose of the first three is to locate
+                individual bibliographical items, and in each case you can follow a link to the
+                relevant facsimile page on the <xref type="external"
+                    url="http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Österreichische
+                    Nationalbibliothek</xref> website; the last (List search) is for extracting
+                information about the items, such as a listing of all composers published at a
+                particular time and place. In each case searching is neither case nor accent
+                sensitive (thus 'marsche' will find 'Märsche'), and wildcard characters (?, *) may
+                be used.</p>
+            <list>
+                <item>
+                    <p><xref type="internal" from="p3_5_1">Basic search</xref> allows
+                        straightforward searching using one or two fields, with an optional date
+                        range. Searching is based on <xref type="internal" from="p3_8">thesauri</xref>
+                        for all fields other than title, and where two fields are used they are
+                        linked by AND (for instance results might be limited to just the works of a
+                        specified composer published in a specified place).</p>
+
+                </item>
+                <item>
+                    <p>
+                        <xref type="internal" from="p3_5_2">Advanced search</xref> provides the same
+                        functionality as Basic search, but with many more options: additional fields
+                        with the possibilities of searching on three at once and of specifying the
+                        logical relations between them, either thesaurus or literal searches, and
+                        sorting results by specified fields. <xref type="internal" from="p3_8">Thesauri</xref> may be used.</p>
+                </item>
+                <item>
+                    <p><xref type="internal" from="p3_5_3">Free text search</xref> enables you to
+                        search for specific words regardless of the field(s) in which they appear.
+                        It is possible to search for just one or all of the search terms, and in the
+                        latter case in the specified sequence or in any sequence. Results may be
+                        sorted by specified fields.</p>
+                </item>
+                <item>
+                    <p><xref type="internal" from="p3_5_4">List search</xref> does not find
+                        individual bibliographical items: it creates lists of terms appearing in
+                        certain fields under certain conditions (e.g. list composers published in
+                        Leipzig between 1830 and 1849, except those published by Hofmeister).
+                        <xref type="internal" from="p3_8">Thesauri</xref> may be used.</p>
+                </item>
+            </list>
+        
+
+        </body>
+    </text>
+</TEI.2>

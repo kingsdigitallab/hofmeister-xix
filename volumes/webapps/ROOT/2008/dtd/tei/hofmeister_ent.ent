@@ -1,0 +1,19 @@
+<!--  The following elements are deleted     -->
+<!ENTITY % docImprint 'IGNORE' >
+
+<!--  The following elements are renamed     -->
+<!--  The following classes are extended     -->
+
+<!ENTITY % x.data 'subject | artist | composer | ' >
+<!ENTITY % x.seg 'hofClass | key | opus| regNumber | recontrolNumber | format | seriesInfo | price |' >
+<!ENTITY % x.bibl 'album| wip|' >
+<!ENTITY % x.biblPart "listBibl|" >
+<!ENTITY % x.phrase "pubPlace| publisher | editor | edition| analytic| author| biblScope | extent| idno | imprint | monogr | respStmt | series |" >
+
+<!--  The following elements are revised     -->
+<!ENTITY % xref 'IGNORE' >
+<!ENTITY % foreign 'IGNORE' >
+<!ENTITY % bibl 'IGNORE' >
+<!ENTITY % figure 'IGNORE' >
+<!ENTITY % listBibl 'IGNORE' >
+

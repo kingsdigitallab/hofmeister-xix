@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_imageBase.dtd">
+<authorityList id="AL_imageBase" month="apr" day="02" resp="Raffaele Viglianti">
+    <header>
+        <title>imageBase for Hofmeister</title>
+        <changeNotes>
+            <changeItem>
+                <name/>
+                <p/>
+            </changeItem>
+        </changeNotes>
+        <comments>
+            <list>
+                <li>
+                    <label>authorityList</label>
+                    <con>dates and resp attributes used to keep track of when file was last
+                    edited.</con>
+                </li>
+                <li>
+                    <label>imgTitle</label>
+                    <con>is our way of identifying each item, it will not be used in output</con>
+                </li>
+                <li>
+                    <label>caption</label>
+                    <con>has been added to output a caption for an image</con>
+                </li>
+            </list>
+            <p>At present a distinction is made between general images, charts and graphs. These
+                images are available for use in any of the XML files that use the TEI DTD. Images
+                used in the web design are not stored here. Prefixes are used in image names for
+                further clarity.</p>
+        </comments>
+    </header>
+    <body>
+        <group id="general">
+            <groupHead>
+                <groupTitle>General images</groupTitle>
+                <groupFolder/>
+            </groupHead>
+            <image id="hofmeister" thm="n">
+                <imgTitle>Friedrich Hofmeister</imgTitle>
+                <caption>Friedrich Hofmeister</caption>
+                <path/>
+                <desc>Friedrich Hofmeister</desc>
+                <width>421</width>
+                <height>400</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name>RV</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by RV, 2007-04-02</p>
+                </internal>
+            </image>
+            <image id="iaml" thm="n">
+                <imgTitle>iaml</imgTitle>
+                <caption>International Association of Music Libraries Logo</caption>
+                <path/>
+                <desc>iaml logo</desc>
+                <width>66</width>
+                <height>99</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="ob" thm="n">
+                <imgTitle>ob</imgTitle>
+                <caption>Österreichische Nationalbibliothek Logo</caption>
+                <path/>
+                <desc>ob logo</desc>
+                <width>200</width>
+                <height>63</height>
+                <ext n="png"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="rhul" thm="n">
+                <imgTitle>rhul</imgTitle>
+                <caption>Royal Holloway, University of London Logo</caption>
+                <path/>
+                <desc>rhul logo</desc>
+                <width>150</width>
+                <height>64</height>
+                <ext n="png"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="cch_logo" thm="n">
+                <imgTitle>cch</imgTitle>
+                <caption>Centre for Computing in the Humanities, King's College Logo</caption>
+                <path/>
+                <desc>cch logo</desc>
+                <width>200</width>
+                <height>92</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="ahrc_logo" thm="n">
+                <imgTitle>ahrc</imgTitle>
+                <caption>Arts and Humanities Research Council Logo</caption>
+                <path/>
+                <desc>ahrc logo</desc>
+                <width>200</width>
+                <height>46</height>
+                <ext n="gif"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="annoshow-buch" thm="n">
+                <imgTitle>annoshow-buch</imgTitle>
+                <caption></caption>
+                <path/>
+                <desc>sample Monatsbericht entry</desc>
+                <width>700</width>
+                <height>66</height>
+                <ext n="png"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="annoshow-buch_2" thm="n">
+                <imgTitle>annoshow-buch_2</imgTitle>
+                <caption></caption>
+                <path/>
+                <desc>sample2 Monatsbericht entry</desc>
+                <width>700</width>
+                <height>68</height>
+                <ext n="png"/>
+                <creator>
+                    <name>LK</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by LK, 2007-11-22</p>
+                </internal>
+            </image>
+            <image id="encoding" thm="n">
+                <imgTitle></imgTitle>
+                <caption>Monatsberichte encoding sample</caption>
+                <desc></desc>
+                <width>586</width>
+                <height>137</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="thesauriWflow" thm="n">
+                <imgTitle></imgTitle>
+                <caption>Thesauri work flow</caption>
+                <desc></desc>
+                <width>700</width>
+                <height>488</height>
+                <ext n="png"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="ereuna" thm="n">
+                <imgTitle></imgTitle>
+                <caption>Ereuna work flow</caption>
+                <desc></desc>
+                <width>530</width>
+                <height>255</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            
+            
+        </group>
+        <group id="charts">
+            <groupHead>
+                <groupTitle>Charts</groupTitle>
+                <groupFolder><?xm-replace_text {groupFolder}?></groupFolder>
+            </groupHead>
+        </group>
+    </body>
+</authorityList>

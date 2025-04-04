@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_7">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hofmeister Technical Introduction </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+            <change>
+                <date>2007-12-19</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>Content provided</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Hofmeister XIX project involved research by a team of musicologists including
+                    Nicholas Cook and Liz Robinson (Department of Music, Royal Holloway, University
+                    of London) and Digital Humanities specialists including Elena Pierazzo, Paul
+                    Vetch, José Miguel Vieira and Paul Spence (Centre for Computing in the
+                    Humanities, King's College London). The project created an on-line publication
+                    of the Hofmeister <hi rend="italic">Monatsberichte</hi> – monthly catalogues of
+                    printed music - for the years 1829-1900. The project’s main research aim was to
+                    create a digital scholarly resource which would enable study of the catalogues;
+                    the principal technical research methodology was based on a text encoding
+                    approach. The major outcomes include a text-based publication which integrates
+                    closely with high-quality facsimile images of the original Monatsberichte on the
+                    website of the <xref type="external"
+                        url="http://www.onb.ac.at/sammlungen/musik/hofmeister1.htm">Austrian
+                        National Library</xref> and which allows semantically encoded concepts
+                    (including composers, publishers and publication places) to be indexed and
+                    searched.</p>
+                <p>This project began with a number of technical research challenges <list
+                        type="ordered">
+                        <item>The <hi rend="bold">size of the data</hi>: well over eight million
+                            words, 330,000 entries and nearly 20,000 pages of text.</item>
+                        <item>The existence of <hi rend="bold">highly structured entries</hi> that
+                            also demonstrate a great variation in form.</item>
+                        <item>The existence of text in different languages and with <hi rend="bold"
+                                >different alphabets</hi> (Cyrillic, for instance) that needed to be
+                            a transliterated in order to enable Cyrillic-aware searching</item>
+                        <item>The requirement that the encoding should support a representation of
+                            the transcription that <hi rend="bold">largely preserves the layout of
+                                the original</hi> in order to meet scholarly expectations.</item>
+                        <item>The need to integrate closely with the Austrian National Library’s web
+                            publication of high-quality facsimile images of the originals</item>
+                    </list>
+                </p>
+                <p>This technical introduction is aimed at the non-specialist and gives a taste of
+                    the technologies used and why we think they were necessary. For those interested
+                    in more information, we will provide a detailed technical report.</p>
+            </div>
+            <div>
+                <head>Facilitating digital publication: ‘text markup’</head>
+                <p>The technology that underpins the project is called XML (<hi rend="italic"
+                        >Extensible Markup Language</hi>), a now ubiquitous international standard
+                    for encoding and exchanging data. Although used nowadays in a wide range of
+                    operations involving data exchange, such as the transmission of information from
+                    one financial database to another, XML has firm roots in the humanities.</p>
+                <p> In fact, in research projects involving textual materials, XML can prove very
+                    useful for modelling humanities knowledge for a number of reasons, including its
+                    independence from any particular computer platform or software, the extremely
+                    robust basis it provides for encoding document-based materials and the fact that
+                    it potentially facilitates the generation of a wide variety of different
+                    representations of the encoded materials afterwards. This is no accident, since
+                    XML developed in part as a technology to facilitate digital publication.</p>
+                <p>One of the core principles in XML is that the representation of the structural
+                    and semantic content of a text should be kept separate from its presentation.
+                    The core information about the text is applied by means of a system of XML
+                    ‘tags’ that encode parts of the text (see figure below), and any ‘visualisation’
+                    of the text that is required for publishing purposes is then produced in a
+                    separate process. This is particularly useful in humanities scholarship, because
+                    it allows academics to concentrate on the structure and content of the source
+                    materials, and issues around scholarly interpretation of the text, leaving
+                    issues of presentation to the later publication processes.</p>
+                <figure url="encoding"/>
+            </div>
+            <div>
+                <head>Text Encoding Initiative: creating ‘added value’ for the core textual
+                    materials</head>
+                <p>In this project we elected to use a particular set of XML specifications called
+                        <xref type="external" url="http://www.tei-c.org">TEI</xref> (Text Encoding
+                    Initiative), an international and interdisciplinary standard that since 1994 has
+                    “been widely used by libraries, museums, publishers, and individual scholars to
+                    present texts for online research, teaching, and preservation.”<note><xref
+                            url="http://www.tei-c.org/index.xml" type="external"
+                            >http://www.tei-c.org/index.xml</xref> (accessed December 15,
+                    2007)</note> TEI XML has the technical rigour which allows computers to carry
+                    out complex processing, while at the same time being flexible and relatively
+                    easy for the average scholar to use, whether or not they have experience in
+                    using computers.</p>
+                <p>TEI allows us to encode scholarly assertions about the source materials in a
+                    complex and fine-grained manner, exposing detail in large repositories of
+                    information. So, in the case of this project, a textual markup scheme was
+                    created (using customised TEI) to include particular aspects of the
+                    bibliographical records (bibliographic entries were distinguished from albums
+                    and 'wips', i.e. 'works in parts'), distinguishing, for instance, authors from
+                    composers or encoding musical keys and opus numbers.</p>
+            </div>
+            <div>
+                <head>The regularizations of names</head>
+                <p>To index and search names of persons, publishing companies or places we decided
+                    at a very early stage that we needed to regularise the instances found in the
+                    source material in order to connect occurrences like “Budapest” and “Budàpest”
+                    or "J.S. Bach" with "Jo. Bach" and "Bach, Johan Sebastian". To regularise names
+                    we created lists of: </p>
+                <list type="unordered">
+                    <item>Composers </item>
+                    <item> Publication places</item>
+                    <item>Publishers etc. </item>
+                    <item>Countries </item>
+                    <item>Hofmeister classifications </item>
+                    <item>Registration numbers </item>
+                    <item>Musical keys </item>
+                    <item>Opus numbers </item>
+                </list>
+                <p>Such lists were intended to store a regularised version and all the forms
+                    retrieved from the encoded source material together with all the instances of a
+                    given entity. </p>
+                <p>Though we chose a simple model for our authority lists (or thesauri), in
+                    Hofmeister XIX the workflow for thesaurus creation and population is rather
+                    complex: <list type="ordered">
+                        <item> core material was encoded using XML- indexable concepts were given
+                            preliminary markup as part of this process</item>
+                        <item> instances of indexable concepts in the XML core material batches were
+                            extracted using XSLT scripts </item>
+                        <item>we performed automatic regularisation for some of the extracted
+                            instances: Perl scripts were used to regularise automatically personal
+                            names from the Name + Surname layout (typical of the source material) to
+                            the Surname + Name layout (necessary for the alphabetical sorting of
+                            indices), while other scripts regularised the musical key and opus
+                            numbers into standard formats </item>
+                        <item>we then processed (and partially regularised) instances,
+                            re-introducing them into spreadsheets (divided per batches) for editing
+                            purposes. The spreadsheet solution was chosen to help scholars in
+                            sorting and easily managing data on their own. </item>
+                        <item>each extracted or revised instance was then matched to the appropriate
+                            regularised form</item>
+                        <item>we then processed several spreadsheets to produce a single XML file
+                            and from this generated a unique identifier for each entry </item>
+                        <item>we added a key attribute based on the identifier of the thesaurus to
+                            the relevant elements in the core material </item>
+                        <item>we indexed both the keyed core material and thesauri into a Ereuna
+                            search framework to be used for the indices and search facilities on the
+                            publication web site. </item>
+                    </list>
+                    <figure url="thesauriWflow"/>
+                </p>
+            </div>
+            <div>
+                <head>Search and Indices</head>
+                <p>Hofmeister’s search facilities and indices were developed using <xref
+                        type="external" url="http://www.cch.kcl.ac.uk/ereuna/">Ereuna</xref>. Ereuna
+                    is a framework, based on <xref type="external"
+                        url="http://lucene.apache.org/java/docs/">Apache Lucene</xref>, whose
+                    purpose is to speed up the development of search facilities for web
+                    applications.</p>
+                <p>The framework can be used with a wide range of source materials (XML and non-XML
+                    bases). It reduces the need for specific programming skills (such as experience
+                    in using Apache Lucene), and is language-independent.</p>
+                <figure url="ereuna"/>
+                <p>Ereuna works in the following way:</p>
+                <list type="ordered">
+                    <item>A stylesheet (written in the XSLT transformation language) is applied to
+                        the XML source documents, and this creates indexable XML documents, one for
+                        each entry (bibl, wip, album, etc) in the XML source documents; </item>
+                    <item>The index XML documents are processed by Apache Lucene to create a
+                        searchable index; </item>
+                    <item>The application uses the index to execute searches and return search
+                        results (arrow 5 in the figure); </item>
+                    <item>Included in the search results is information that was copied directly
+                        from the source XML documents. This allows for a faster display of the
+                        search results. </item>
+                </list>
+                <p>Initially the indices were built with data from a MySQL database together with
+                    data from authority files. For performance reasons the indices were later
+                    rebuilt using Ereuna.</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>

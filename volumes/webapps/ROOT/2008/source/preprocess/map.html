@@ -1,0 +1,3097 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+ <head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+ <title>The Hofmeister XIX project: test Map</title>
+ <script src="https://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA-Wg9qjmj97Lv95Plq3-v5RSvWU6niNmLrsWl4rZDnQU35N4V2xS-xHQ4jw2SJbrcvOEFbtJFzyC32Q"
+      type="text/javascript"> </script>
+ 
+ </head>
+ <body onunload="GUnload()">
+ 		Country: <select id="combo_1" onChange="javascript:updateSites(this.options[this.selectedIndex].value)">
+ 		<option value="-select-" SELECTED>
+ 		</select>
+ 		<table border=1>
+ 		Location: <select id="combo_0" onChange="javascript:myclick(this.options[this.selectedIndex].value)"></select>
+ 		<table border=1>
+ 		
+ <tr>
+ <td>
+ <div id="map" style="width: 800px; height: 600px"></div>
+ </td>
+ </tr>
+ </table>
+ 		<noscript><b>JavaScript must be enabled in order for you to use Google Maps.</b>
+ However, it seems JavaScript is either disabled or not supported by your browser.
+ To view Google Maps, enable JavaScript by changing your browser options, and then try again.
+ </noscript>
+ 
+ 		<script type="text/javascript">
+ //<![CDATA[
+ if (GBrowserIsCompatible()) {
+ // this variable will collect the html which will eventualkly be placed in the side_bar
+ var data_1 = "";
+ var data_2 = "";
+ // arrays to hold copies of the markers and html used by the side_bar
+ // because the function closure trick doesnt work there
+ var gmarkers = [];
+ var htmls = [];
+ var i = 0;
+ var sites=new Array();
+ // A function to create the marker and set up the event window
+ function createMarker(point,icon,country,name,html) {
+ var marker = new GMarker(point,icon);
+ GEvent.addListener(marker, "mouseover", function() {
+ //GEvent.addListener(marker, "click", function() {
+ marker.openInfoWindowHtml(html);
+ });
+ // save the info we need to use later for the side_bar
+ gmarkers[i] = marker;
+ htmls[i] = html;
+ // add a line to the side_bar html
+ var site= '<option value="' + i + '">' + name + '';
+ //data_2 += site;
+ if (!sites[country]){
+ 	sites[country]=new Array();
+ 	data_1 += '<option value="' + country + '">' + country + '';
+ }
+ sites[country][i]=site;
+ i++;
+ return marker;
+ }
+ 
+ // This function picks up the click and opens the corresponding info window
+ function myclick(i) {
+ if (gmarkers[i]){
+ 	gmarkers[i].openInfoWindowHtml(htmls[i]);
+ 	}
+ }
+ 
+ function updateSites(category){
+ 	if (sites[category]){
+ 		var options='<option value="-1" SELECTED> \n';
+ 		//Clears markers
+ 		map.clearOverlays(marker);
+ 		//map.addOverlay(AU);
+ 		//map.addOverlay(BE);
+ 		for (key in sites[category]){
+ 			if (sites[category][key]){
+ 				options+=sites[category][key];
+ 				map.addOverlay(gmarkers[key]);										
+ 			}
+ 
+ 		}
+ 
+ 	} 
+ 	document.getElementById("combo_0").innerHTML=options;
+ 
+ }
+ // create the map
+ var map = new GMap2(document.getElementById("map"));
+ map.addControl(new GLargeMapControl());
+ map.addControl(new GMapTypeControl());
+// map.addGMapType(G_HYBRID_MAP);
+ map.setCenter(new GLatLng(47.0833,15.3667),5,G_HYBRID_MAP);
+ //map.clearOverlays(marker);
+ //Create our "tiny" marker icon
+ 
+ var icon = new GIcon();
+ icon.image = "http://labs.google.com/ridefinder/images/mm_20_yellow.png";
+ //icon.image = "http://www.google.com/mapfiles/markerH.png";
+ icon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+ icon.iconSize = new GSize(12, 20);
+ icon.shadowSize = new GSize(22, 20);
+ icon.iconAnchor = new GPoint(6, 20);
+ icon.infoWindowAnchor = new GPoint(5, 1);
+ // add the points
+ 
+
+var point = new GLatLng (50.7667,6.1000);
+var marker = createMarker(point,icon,"Germany","Aachen","<h4>Germany<BR>Aachen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4000,8.0667);
+var marker = createMarker(point,icon,"Switzerland","Aarau","<h4>Switzerland<BR>Aarau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8000,20.4833);
+var marker = createMarker(point,icon,"Poland","Allenstein","<h4>Poland<BR>Allenstein </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7167,11.6667);
+var marker = createMarker(point,icon,"Undefined Region?","Alsleben Saale","<h4>Undefined Region?<BR>Alsleben Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9833,12.4500);
+var marker = createMarker(point,icon,"Germany","Altenburg Thüringen","<h4>Germany<BR>Altenburg Thüringen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5500,9.9333);
+var marker = createMarker(point,icon,"Germany","Altona Hamburg","<h4>Germany<BR>Altona Hamburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7500,8.1167);
+var marker = createMarker(point,icon,"Germany","Alzey","<h4>Germany<BR>Alzey </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4500,11.8667);
+var marker = createMarker(point,icon,"Germany","Amberg Oberpfalz","<h4>Germany<BR>Amberg Oberpfalz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3500,4.9000);
+var marker = createMarker(point,icon,"Netherlands","Amsterdam","<h4>Netherlands<BR>Amsterdam </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4333,7.4000);
+var marker = createMarker(point,icon,"Germany","Andernach","<h4>Germany<BR>Andernach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8667,13.7000);
+var marker = createMarker(point,icon,"Germany","Anklam","<h4>Germany<BR>Anklam </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5667,13.0000);
+var marker = createMarker(point,icon,"Germany","Annaberg Erzgebirge","<h4>Germany<BR>Annaberg Erzgebirge </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.3000,10.5500);
+var marker = createMarker(point,icon,"Germany","Ansbach","<h4>Germany<BR>Ansbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2167,4.4167);
+var marker = createMarker(point,icon,"Belgium","Antwerpen","<h4>Belgium<BR>Antwerpen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0167,11.5000);
+var marker = createMarker(point,icon,"Germany","Apolda","<h4>Germany<BR>Apolda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0000,5.8833);
+var marker = createMarker(point,icon,"Netherlands","Arnheim","<h4>Netherlands<BR>Arnheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,8.05000);
+var marker = createMarker(point,icon,"Germany","Arnsberg","<h4>Germany<BR>Arnsberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8333,10.9500);
+var marker = createMarker(point,icon,"Germany","Arnstadt","<h4>Germany<BR>Arnstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.1667,15.4000);
+var marker = createMarker(point,icon,"Poland","Arnswalde","<h4>Poland<BR>Arnswalde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,9.0167);
+var marker = createMarker(point,icon,"Germany","Arolsen","<h4>Germany<BR>Arolsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8333,21.9667);
+var marker = createMarker(point,icon,"Poland","Arys","<h4>Poland<BR>Arys </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9833,9.1500);
+var marker = createMarker(point,icon,"Germany","Aschaffenburg","<h4>Germany<BR>Aschaffenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7500,11.4667);
+var marker = createMarker(point,icon,"Germany","Aschersleben Halle, Saale","<h4>Germany<BR>Aschersleben Halle, Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3500,10.9000);
+var marker = createMarker(point,icon,"Germany","Augsburg","<h4>Germany<BR>Augsburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.4667,7.4833);
+var marker = createMarker(point,icon,"Germany","Aurich","<h4>Germany<BR>Aurich </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6833,14.0000);
+var marker = createMarker(point,icon,"Czech Republic","Aussig","<h4>Czech Republic<BR>Aussig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.85,7.8667);
+var marker = createMarker(point,icon,"Germany","Bad Kreuznach","<h4>Germany<BR>Bad Kreuznach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4667,8.3167);
+var marker = createMarker(point,icon,"Switzerland","Baden Aargau","<h4>Switzerland<BR>Baden Aargau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7500,8.2500);
+var marker = createMarker(point,icon,"Germany","Baden-Baden","<h4>Germany<BR>Baden-Baden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7167,11.2500);
+var marker = createMarker(point,icon,"Germany","Ballenstedt","<h4>Germany<BR>Ballenstedt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9000,10.9000);
+var marker = createMarker(point,icon,"Germany","Bamberg","<h4>Germany<BR>Bamberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2833,7.2167);
+var marker = createMarker(point,icon,"Germany","Barmen","<h4>Germany<BR>Barmen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5500,7.6000);
+var marker = createMarker(point,icon,"Switzerland","Basel","<h4>Switzerland<BR>Basel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1833,14.4833);
+var marker = createMarker(point,icon,"Germany","Bautzen","<h4>Germany<BR>Bautzen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4500,11.5833);
+var marker = createMarker(point,icon,"Germany","Bayreuth","<h4>Germany<BR>Bayreuth </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (44.8333,20.5000);
+var marker = createMarker(point,icon,"Serbia and Montenegro","Belgrad","<h4>Serbia and Montenegro<BR>Belgrad </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.267,6.15);
+var marker = createMarker(point,icon,"Switzerland","Belle-Vue","<h4>Switzerland<BR>Belle-Vue </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6833,8.6333);
+var marker = createMarker(point,icon,"Germany","Bensheim","<h4>Germany<BR>Bensheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.4833,10.2167);
+var marker = createMarker(point,icon,"Germany","Bergedorf","<h4>Germany<BR>Bergedorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (60.3833,5.3333);
+var marker = createMarker(point,icon,"Norway","Bergen Norwegen","<h4>Norway<BR>Bergen Norwegen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5333,13.4167);
+var marker = createMarker(point,icon,"Germany","Berlin","<h4>Germany<BR>Berlin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4500,13.5667);
+var marker = createMarker(point,icon,"Germany","Berlin-Köpenick","<h4>Germany<BR>Berlin-Köpenick </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4333,13.3167);
+var marker = createMarker(point,icon,"Germany","Berlin-Lichterfelde","<h4>Germany<BR>Berlin-Lichterfelde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5333,13.4167);
+var marker = createMarker(point,icon,"Germany","Berlin-Rixdorf","<h4>Germany<BR>Berlin-Rixdorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4833,13.3667);
+var marker = createMarker(point,icon,"Germany","Berlin-Schöneberg","<h4>Germany<BR>Berlin-Schöneberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4667,13.3333);
+var marker = createMarker(point,icon,"Germany","Berlin-Zehlendorf","<h4>Germany<BR>Berlin-Zehlendorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.9500,7.4333);
+var marker = createMarker(point,icon,"Switzerland","Bern","<h4>Switzerland<BR>Bern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8000,11.7333);
+var marker = createMarker(point,icon,"Germany","Bernburg","<h4>Germany<BR>Bernburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6,7.3);
+var marker = createMarker(point,icon,"Germany","Berum","<h4>Germany<BR>Berum </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.033,8.533);
+var marker = createMarker(point,icon,"Germany","Bethel bei Bielefeld","<h4>Germany<BR>Bethel bei Bielefeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.385,9.902);
+var marker = createMarker(point,icon,"Austria","Bezau","<h4>Austria<BR>Bezau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.1,9.8);
+var marker = createMarker(point,icon,"Germany","Biberach Riss","<h4>Germany<BR>Biberach Riss </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1500,7.2667);
+var marker = createMarker(point,icon,"Switzerland","Biel Bern","<h4>Switzerland<BR>Biel Bern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0333,8.5333);
+var marker = createMarker(point,icon,"Germany","Bielefeld","<h4>Germany<BR>Bielefeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8333,19.0000);
+var marker = createMarker(point,icon,"Poland","Bielitz","<h4>Poland<BR>Bielitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9667,7.9000);
+var marker = createMarker(point,icon,"Germany","Bingen Rhein","<h4>Germany<BR>Bingen Rhein </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5333,7.5833);
+var marker = createMarker(point,icon,"Switzerland","Binningen","<h4>Switzerland<BR>Binningen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6167,12.3167);
+var marker = createMarker(point,icon,"Germany","Bitterfeld","<h4>Germany<BR>Bitterfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8000,10.9667);
+var marker = createMarker(point,icon,"Germany","Blankenburg","<h4>Germany<BR>Blankenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.7500);
+var marker = createMarker(point,icon,"Germany","Blasewitz Dresden","<h4>Germany<BR>Blasewitz Dresden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9833,20.4167);
+var marker = createMarker(point,icon,"Poland","Bochnia","<h4>Poland<BR>Bochnia </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4667,7.1833);
+var marker = createMarker(point,icon,"Germany","Bochum","<h4>Germany<BR>Bochum </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,8.6833);
+var marker = createMarker(point,icon,"Germany","Bockenheim Frankfurt, Main","<h4>Germany<BR>Bockenheim Frankfurt, Main </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (44.5000,11.3333);
+var marker = createMarker(point,icon,"Italy","Bologna","<h4>Italy<BR>Bologna </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,7.1000);
+var marker = createMarker(point,icon,"Germany","Bonn","<h4>Germany<BR>Bonn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8167,8.3500);
+var marker = createMarker(point,icon,"Germany","Bonndorf","<h4>Germany<BR>Bonndorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2500,7.5833);
+var marker = createMarker(point,icon,"Germany","Boppard","<h4>Germany<BR>Boppard </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1333,12.5000);
+var marker = createMarker(point,icon,"Germany","Borna Leipziger Land","<h4>Germany<BR>Borna Leipziger Land </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (42.358,-71.06);
+var marker = createMarker(point,icon,"United States","Boston","<h4>United States<BR>Boston </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.5167,11.3667);
+var marker = createMarker(point,icon,"Italy","Bozen","<h4>Italy<BR>Bozen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.784,-1.75);
+var marker = createMarker(point,icon,"United Kingdom","Bradford","<h4>United Kingdom<BR>Bradford </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4167,12.5667);
+var marker = createMarker(point,icon,"Germany","Brandenburg Havel","<h4>Germany<BR>Brandenburg Havel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.4000,19.8333);
+var marker = createMarker(point,icon,"Poland","Braunsberg Ostpreussen","<h4>Poland<BR>Braunsberg Ostpreussen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2500,10.5000);
+var marker = createMarker(point,icon,"Germany","Braunschweig","<h4>Germany<BR>Braunschweig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5167,9.7667);
+var marker = createMarker(point,icon,"Austria","Bregenz","<h4>Austria<BR>Bregenz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.0833,8.8000);
+var marker = createMarker(point,icon,"Germany","Bremen","<h4>Germany<BR>Bremen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,17.0000);
+var marker = createMarker(point,icon,"Poland","Breslau","<h4>Poland<BR>Breslau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3500,17.4667);
+var marker = createMarker(point,icon,"Poland","Brieg","<h4>Poland<BR>Brieg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.7167,11.6667);
+var marker = createMarker(point,icon,"Italy","Brixen","<h4>Italy<BR>Brixen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.1500,18.0000);
+var marker = createMarker(point,icon,"Poland","Bromberg","<h4>Poland<BR>Bromberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.1333,8.6000);
+var marker = createMarker(point,icon,"Germany","Bruchsal","<h4>Germany<BR>Bruchsal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2000,12.7667);
+var marker = createMarker(point,icon,"Germany","Brück bei Potsdam","<h4>Germany<BR>Brück bei Potsdam </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.2167,16.6667);
+var marker = createMarker(point,icon,"Czech Republic","Brünn","<h4>Czech Republic<BR>Brünn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8333,4.3333);
+var marker = createMarker(point,icon,"Belgium","Brüssel","<h4>Belgium<BR>Brüssel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (44.4333,26.1000);
+var marker = createMarker(point,icon,"Romania","Bucarest","<h4>Romania<BR>Bucarest </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5667,13.0000);
+var marker = createMarker(point,icon,"Germany","Buchholz Erzgebirge","<h4>Germany<BR>Buchholz Erzgebirge </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5000,19.0500);
+var marker = createMarker(point,icon,"Hungary","Budapest","<h4>Hungary<BR>Budapest </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.9667,14.4833);
+var marker = createMarker(point,icon,"Czech Republic","Budweis","<h4>Czech Republic<BR>Budweis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2667,15.5667);
+var marker = createMarker(point,icon,"Poland","Bunzlau","<h4>Poland<BR>Bunzlau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2667,11.8500);
+var marker = createMarker(point,icon,"Germany","Burg Magdeburg","<h4>Germany<BR>Burg Magdeburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4500,10.0167);
+var marker = createMarker(point,icon,"Germany","Burgdorf","<h4>Germany<BR>Burgdorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,12.8167);
+var marker = createMarker(point,icon,"Germany","Burgstädt","<h4>Germany<BR>Burgstädt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8,16.067);
+var marker = createMarker(point,icon,"Poland","Buslar","<h4>Poland<BR>Buslar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4333,8.6667);
+var marker = createMarker(point,icon,"Germany","Butzbach","<h4>Germany<BR>Butzbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.9833,8.8167);
+var marker = createMarker(point,icon,"Germany","Bärenthal","<h4>Germany<BR>Bärenthal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7167,14.5833);
+var marker = createMarker(point,icon,"Czech Republic","Böhmisch-Leipa","<h4>Czech Republic<BR>Böhmisch-Leipa </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7000,8.1500);
+var marker = createMarker(point,icon,"Germany","Bühl","<h4>Germany<BR>Bühl </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5500,8.5500);
+var marker = createMarker(point,icon,"Germany","Büren Paderborn","<h4>Germany<BR>Büren Paderborn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (22.5000,88.3333);
+var marker = createMarker(point,icon,"India","Calcutta","<h4>India<BR>Calcutta </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9667,14.7667);
+var marker = createMarker(point,icon,"Poland","Cammin Pommern","<h4>Poland<BR>Cammin Pommern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4333,12.5833);
+var marker = createMarker(point,icon,"Germany","Carlsfeld","<h4>Germany<BR>Carlsfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.6167,10.0833);
+var marker = createMarker(point,icon,"Germany","Celle","<h4>Germany<BR>Celle </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5167,13.2667);
+var marker = createMarker(point,icon,"Germany","Charlottenburg Berlin","<h4>Germany<BR>Charlottenburg Berlin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8333,12.9167);
+var marker = createMarker(point,icon,"Germany","Chemnitz","<h4>Germany<BR>Chemnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (41.85,-87.65);
+var marker = createMarker(point,icon,"United States","Chicago","<h4>United States<BR>Chicago </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (59.9333,10.7500);
+var marker = createMarker(point,icon,"Norway","Christiania","<h4>Norway<BR>Christiania </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.8667,9.5333);
+var marker = createMarker(point,icon,"Switzerland","Chur","<h4>Switzerland<BR>Chur </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (39.1500,-84.4500);
+var marker = createMarker(point,icon,"United States","Cincinnati Ohio","<h4>United States<BR>Cincinnati Ohio </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8000,10.3333);
+var marker = createMarker(point,icon,"Germany","Clausthal","<h4>Germany<BR>Clausthal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2500,10.9667);
+var marker = createMarker(point,icon,"Germany","Coburg","<h4>Germany<BR>Coburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9500,7.1667);
+var marker = createMarker(point,icon,"Germany","Coesfeld","<h4>Germany<BR>Coesfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.0833,7.3500);
+var marker = createMarker(point,icon,"France","Colmar","<h4>France<BR>Colmar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.383,13.933);
+var marker = createMarker(point,icon,"Germany","Cosel","<h4>Germany<BR>Cosel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7167,14.3500);
+var marker = createMarker(point,icon,"Germany","Cottbus","<h4>Germany<BR>Cottbus </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8167,12.3833);
+var marker = createMarker(point,icon,"Germany","Crimmitzschau","<h4>Germany<BR>Crimmitzschau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0500,15.0667);
+var marker = createMarker(point,icon,"Poland","Crossen Oder","<h4>Poland<BR>Crossen Oder </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8833,16.5333);
+var marker = createMarker(point,icon,"Poland","Czarnków","<h4>Poland<BR>Czarnków </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3000,25.9333);
+var marker = createMarker(point,icon,"Ukraine","Czernowitz","<h4>Ukraine<BR>Czernowitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,7.9667);
+var marker = createMarker(point,icon,"Germany","Daaden","<h4>Germany<BR>Daaden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.3667,18.6833);
+var marker = createMarker(point,icon,"Poland","Danzig","<h4>Poland<BR>Danzig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8667,8.6500);
+var marker = createMarker(point,icon,"Germany","Darmstadt","<h4>Germany<BR>Darmstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.8000,9.8333);
+var marker = createMarker(point,icon,"Switzerland","Davos","<h4>Switzerland<BR>Davos </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5000,21.6167);
+var marker = createMarker(point,icon,"Hungary","Debreczin","<h4>Hungary<BR>Debreczin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5333,12.3333);
+var marker = createMarker(point,icon,"Germany","Delitzsch","<h4>Germany<BR>Delitzsch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9167,13.0500);
+var marker = createMarker(point,icon,"Germany","Demmin","<h4>Germany<BR>Demmin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8500,12.2500);
+var marker = createMarker(point,icon,"Germany","Dessau","<h4>Germany<BR>Dessau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9167,8.8667);
+var marker = createMarker(point,icon,"Germany","Detmold","<h4>Germany<BR>Detmold </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.2833,16.4833);
+var marker = createMarker(point,icon,"Poland","Deutsch Krone","<h4>Poland<BR>Deutsch Krone </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.3667,6.1833);
+var marker = createMarker(point,icon,"France","Diedenhofen","<h4>France<BR>Diedenhofen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,8.2667);
+var marker = createMarker(point,icon,"Germany","Dillenburg","<h4>Germany<BR>Dillenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5500,10.5000);
+var marker = createMarker(point,icon,"Germany","Dillingen Donau","<h4>Germany<BR>Dillingen Donau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5667,6.7167);
+var marker = createMarker(point,icon,"Germany","Dinslaken","<h4>Germany<BR>Dinslaken </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.9667,8.5000);
+var marker = createMarker(point,icon,"Germany","Donaueschingen","<h4>Germany<BR>Donaueschingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7333,10.8000);
+var marker = createMarker(point,icon,"Germany","Donauwörth","<h4>Germany<BR>Donauwörth </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8000,4.6667);
+var marker = createMarker(point,icon,"Netherlands","Dordrecht","<h4>Netherlands<BR>Dordrecht </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (58.3500,26.7333);
+var marker = createMarker(point,icon,"Estonia","Dorpat","<h4>Estonia<BR>Dorpat </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5167,7.4500);
+var marker = createMarker(point,icon,"Germany","Dortmund","<h4>Germany<BR>Dortmund </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5333,15.8000);
+var marker = createMarker(point,icon,"Poland","Dramburg","<h4>Poland<BR>Dramburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6500,14.2167);
+var marker = createMarker(point,icon,"Germany","Drebkau","<h4>Germany<BR>Drebkau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.7500);
+var marker = createMarker(point,icon,"Germany","Dresden","<h4>Germany<BR>Dresden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.7500);
+var marker = createMarker(point,icon,"Germany","Dresden-Gruna","<h4>Germany<BR>Dresden-Gruna </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.7500);
+var marker = createMarker(point,icon,"Germany","Dresden-Neustadt","<h4>Germany<BR>Dresden-Neustadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.7500);
+var marker = createMarker(point,icon,"Germany","Dresden-Pieschen","<h4>Germany<BR>Dresden-Pieschen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5333,10.2500);
+var marker = createMarker(point,icon,"Germany","Duderstedt","<h4>Germany<BR>Duderstedt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4333,6.7500);
+var marker = createMarker(point,icon,"Germany","Duisburg","<h4>Germany<BR>Duisburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1167,13.1167);
+var marker = createMarker(point,icon,"Germany","Döbeln","<h4>Germany<BR>Döbeln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,7.2833);
+var marker = createMarker(point,icon,"Germany","Dülmen","<h4>Germany<BR>Dülmen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8000,6.5000);
+var marker = createMarker(point,icon,"Germany","Düren","<h4>Germany<BR>Düren </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2167,6.7833);
+var marker = createMarker(point,icon,"Germany","Düsseldorf","<h4>Germany<BR>Düsseldorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0167,14.5833);
+var marker = createMarker(point,icon,"Germany","Ebersbach Sachsen","<h4>Germany<BR>Ebersbach Sachsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8333,13.8333);
+var marker = createMarker(point,icon,"Germany","Eberswalde","<h4>Germany<BR>Eberswalde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1167,11.5667);
+var marker = createMarker(point,icon,"Germany","Eckartsberga","<h4>Germany<BR>Eckartsberga </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.4667,9.8333);
+var marker = createMarker(point,icon,"Germany","Eckernförde","<h4>Germany<BR>Eckernförde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.7833,9.4333);
+var marker = createMarker(point,icon,"Germany","Edinburgh","<h4>Germany<BR>Edinburgh </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1333,12.4667);
+var marker = createMarker(point,icon,"Czech Republic","Eger","<h4>Czech Republic<BR>Eger </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4000,12.7667);
+var marker = createMarker(point,icon,"Germany","Eggenfelden","<h4>Germany<BR>Eggenfelden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,9.8833);
+var marker = createMarker(point,icon,"Germany","Eimbeck","<h4>Germany<BR>Eimbeck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1167,8.75);
+var marker = createMarker(point,icon,"Switzerland","Einsiedeln","<h4>Switzerland<BR>Einsiedeln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9833,10.3167);
+var marker = createMarker(point,icon,"Germany","Eisenach","<h4>Germany<BR>Eisenach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9667,11.9);
+var marker = createMarker(point,icon,"Germany","Eisenberg Thüringen","<h4>Germany<BR>Eisenberg Thüringen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5333,11.5500);
+var marker = createMarker(point,icon,"Germany","Eisleben","<h4>Germany<BR>Eisleben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2667,7.1333);
+var marker = createMarker(point,icon,"Germany","Elberfeld","<h4>Germany<BR>Elberfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.1667,19.4167);
+var marker = createMarker(point,icon,"Poland","Elbing","<h4>Poland<BR>Elbing </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.9500,10.1167);
+var marker = createMarker(point,icon,"Germany","Ellwangen","<h4>Germany<BR>Ellwangen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7500,9.6500);
+var marker = createMarker(point,icon,"Germany","Elmshorn","<h4>Germany<BR>Elmshorn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2000,12.7500);
+var marker = createMarker(point,icon,"Czech Republic","Elnbogen","<h4>Czech Republic<BR>Elnbogen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3833,7.2167);
+var marker = createMarker(point,icon,"Germany","Emden","<h4>Germany<BR>Emden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,6.2667);
+var marker = createMarker(point,icon,"Germany","Emmerich","<h4>Germany<BR>Emmerich </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,7.7167);
+var marker = createMarker(point,icon,"Germany","Ems Rhein-Lahn-Kreis","<h4>Germany<BR>Ems Rhein-Lahn-Kreis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.2833,11.9167);
+var marker = createMarker(point,icon,"Germany","Erding","<h4>Germany<BR>Erding </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9667,11.0500);
+var marker = createMarker(point,icon,"Germany","Erfurt","<h4>Germany<BR>Erfurt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6000,11.0333);
+var marker = createMarker(point,icon,"Germany","Erlangen","<h4>Germany<BR>Erlangen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8833,20.4667);
+var marker = createMarker(point,icon,"Hungary","Erlau","<h4>Hungary<BR>Erlau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4500,6.9500);
+var marker = createMarker(point,icon,"Germany","Essen","<h4>Germany<BR>Essen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7500,9.3167);
+var marker = createMarker(point,icon,"Germany","Esslingen Neckar","<h4>Germany<BR>Esslingen Neckar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.1333,10.6167);
+var marker = createMarker(point,icon,"Germany","Eutin","<h4>Germany<BR>Eutin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Eutritzsch","<h4>Germany<BR>Eutritzsch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2333,12.3000);
+var marker = createMarker(point,icon,"Germany","Eythra","<h4>Germany<BR>Eythra </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6333,13.7167);
+var marker = createMarker(point,icon,"Germany","Finsterwalde","<h4>Germany<BR>Finsterwalde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.3333,14.45);
+var marker = createMarker(point,icon,"Croatia","Fiume","<h4>Croatia<BR>Fiume </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4167,9.2);
+var marker = createMarker(point,icon,"Switzerland","Flawyl","<h4>Switzerland<BR>Flawyl </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.7833,9.4333);
+var marker = createMarker(point,icon,"Germany","Flensburg","<h4>Germany<BR>Flensburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (43.7830,11.2500);
+var marker = createMarker(point,icon,"Italy","Florenz","<h4>Italy<BR>Florenz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7667,14.6500);
+var marker = createMarker(point,icon,"Germany","Forst Lausitz","<h4>Germany<BR>Forst Lausitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,13.0500);
+var marker = createMarker(point,icon,"Germany","Frankenberg Mittweida","<h4>Germany<BR>Frankenberg Mittweida </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,11.1167);
+var marker = createMarker(point,icon,"Germany","Frankenhausen","<h4>Germany<BR>Frankenhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,8.6833);
+var marker = createMarker(point,icon,"Germany","Frankfurt Main","<h4>Germany<BR>Frankfurt Main </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3333,14.5333);
+var marker = createMarker(point,icon,"Germany","Frankfurt Oder","<h4>Germany<BR>Frankfurt Oder </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5667,8.9000);
+var marker = createMarker(point,icon,"Switzerland","Frauenfeld","<h4>Switzerland<BR>Frauenfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,16.2500);
+var marker = createMarker(point,icon,"Poland","Fraustadt","<h4>Poland<BR>Fraustadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,13.35);
+var marker = createMarker(point,icon,"Germany","Freiberg Sachsen","<h4>Germany<BR>Freiberg Sachsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7833,14.0333);
+var marker = createMarker(point,icon,"Germany","Freienwalde Oder","<h4>Germany<BR>Freienwalde Oder </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4000,11.7500);
+var marker = createMarker(point,icon,"Germany","Freising","<h4>Germany<BR>Freising </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4333,15.1000);
+var marker = createMarker(point,icon,"Poland","Freiwaldau Nordmährisches Gebiet","<h4>Poland<BR>Freiwaldau Nordmährisches Gebiet </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0000,17.4500);
+var marker = createMarker(point,icon,"Czech Republic","Freudenthal","<h4>Czech Republic<BR>Freudenthal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.8333,7.1667);
+var marker = createMarker(point,icon,"Switzerland","Fribourg","<h4>Switzerland<BR>Fribourg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,8.7500);
+var marker = createMarker(point,icon,"Germany","Friedberg Hessen","<h4>Germany<BR>Friedberg Hessen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8833,15.5167);
+var marker = createMarker(point,icon,"Poland","Friedeberg","<h4>Poland<BR>Friedeberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.683,18.35);
+var marker = createMarker(point,icon,"Czech Republic","Friedek","<h4>Czech Republic<BR>Friedek </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6833,13.5667);
+var marker = createMarker(point,icon,"Germany","Friedland Mecklenburg-Strelitz","<h4>Germany<BR>Friedland Mecklenburg-Strelitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8500,10.5667);
+var marker = createMarker(point,icon,"Germany","Friedrichroda","<h4>Germany<BR>Friedrichroda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.65,9.5);
+var marker = createMarker(point,icon,"Germany","Friedrichshafen","<h4>Germany<BR>Friedrichshafen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5500,9.6833);
+var marker = createMarker(point,icon,"Germany","Fulda","<h4>Germany<BR>Fulda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3667,14.0667);
+var marker = createMarker(point,icon,"Germany","Fürstenwalde","<h4>Germany<BR>Fürstenwalde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4667,10.9833);
+var marker = createMarker(point,icon,"Germany","Fürth Bayern","<h4>Germany<BR>Fürth Bayern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,15.1667);
+var marker = createMarker(point,icon,"Czech Republic","Gablonz Neisse","<h4>Czech Republic<BR>Gablonz Neisse </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.983,10.033);
+var marker = createMarker(point,icon,"Austria","Gaschurn","<h4>Austria<BR>Gaschurn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.55,8.5833);
+var marker = createMarker(point,icon,"Germany","Geestemünde","<h4>Germany<BR>Geestemünde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5,7.0833);
+var marker = createMarker(point,icon,"Germany","Gelsenkirchen","<h4>Germany<BR>Gelsenkirchen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.2167,6.1500);
+var marker = createMarker(point,icon,"Switzerland","Genf","<h4>Switzerland<BR>Genf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0333,3.7000);
+var marker = createMarker(point,icon,"Belgium","Gent","<h4>Belgium<BR>Gent </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (44.417,8.95);
+var marker = createMarker(point,icon,"Italy","Genua","<h4>Italy<BR>Genua </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8667,12.0833);
+var marker = createMarker(point,icon,"Germany","Gera","<h4>Germany<BR>Gera </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5833,8.7000);
+var marker = createMarker(point,icon,"Germany","Giessen","<h4>Germany<BR>Giessen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (55.8833,-4.2500);
+var marker = createMarker(point,icon,"United Kingdom","Glasgow","<h4>United Kingdom<BR>Glasgow </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4667,16.6667);
+var marker = createMarker(point,icon,"Poland","Glatz","<h4>Poland<BR>Glatz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8000,12.5333);
+var marker = createMarker(point,icon,"Germany","Glauchau","<h4>Germany<BR>Glauchau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,18.6667);
+var marker = createMarker(point,icon,"Poland","Gleiwitz","<h4>Poland<BR>Gleiwitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1500,21.9667);
+var marker = createMarker(point,icon,"Poland","Glogau","<h4>Poland<BR>Glogau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7833,9.4333);
+var marker = createMarker(point,icon,"Germany","Glückstadt","<h4>Germany<BR>Glückstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.9333,13.8000);
+var marker = createMarker(point,icon,"Austria","Gmunden","<h4>Austria<BR>Gmunden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6833,7.1500);
+var marker = createMarker(point,icon,"Germany","Godesberg","<h4>Germany<BR>Godesberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1333,15.9500);
+var marker = createMarker(point,icon,"Germany","Goldberg","<h4>Germany<BR>Goldberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9167,10.4167);
+var marker = createMarker(point,icon,"Germany","Goslar","<h4>Germany<BR>Goslar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9500,10.7167);
+var marker = createMarker(point,icon,"Germany","Gotha","<h4>Germany<BR>Gotha </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (57.7167,11.9667);
+var marker = createMarker(point,icon,"Sweden","Gothenburg","<h4>Sweden<BR>Gothenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7667,18.7000);
+var marker = createMarker(point,icon,"Hungary","Gran","<h4>Hungary<BR>Gran </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.4833,18.7500);
+var marker = createMarker(point,icon,"Poland","Graudenz","<h4>Poland<BR>Graudenz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.0833,15.3667);
+var marker = createMarker(point,icon,"Austria","Graz","<h4>Austria<BR>Graz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.067,12.583);
+var marker = createMarker(point,icon,"Germany","Greifenhain","<h4>Germany<BR>Greifenhain </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.0833,13.3833);
+var marker = createMarker(point,icon,"Germany","Greifswald","<h4>Germany<BR>Greifswald </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6667,12.1833);
+var marker = createMarker(point,icon,"Germany","Greiz","<h4>Germany<BR>Greiz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2333,12.7167);
+var marker = createMarker(point,icon,"Germany","Grimma","<h4>Germany<BR>Grimma </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5333,18.2500);
+var marker = createMarker(point,icon,"Poland","Gross Strehlitz","<h4>Poland<BR>Gross Strehlitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5333,18.2500);
+var marker = createMarker(point,icon,"Poland","Gross-Strehlitz","<h4>Poland<BR>Gross-Strehlitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,13.5500);
+var marker = createMarker(point,icon,"Germany","Grossenhain","<h4>Germany<BR>Grossenhain </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.4500,17.0000);
+var marker = createMarker(point,icon,"Hungary","Grosskanizsa","<h4>Hungary<BR>Grosskanizsa </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.2167,6.5833);
+var marker = createMarker(point,icon,"Netherlands","Gröningen","<h4>Netherlands<BR>Gröningen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9500,15.5000);
+var marker = createMarker(point,icon,"Poland","Grünberg Schlesien","<h4>Poland<BR>Grünberg Schlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9500,14.7167);
+var marker = createMarker(point,icon,"Germany","Guben","<h4>Germany<BR>Guben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6667,16.5333);
+var marker = createMarker(point,icon,"Poland","Guhrau","<h4>Poland<BR>Guhrau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4333,40.5000);
+var marker = createMarker(point,icon,"Russian Federation","Gumbinnen","<h4>Russian Federation<BR>Gumbinnen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0333,7.5667);
+var marker = createMarker(point,icon,"Germany","Gummersbach","<h4>Germany<BR>Gummersbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7167,9.6500);
+var marker = createMarker(point,icon,"Germany","Göppingen","<h4>Germany<BR>Göppingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1500,15.0000);
+var marker = createMarker(point,icon,"Germany","Görlitz","<h4>Germany<BR>Görlitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.9500,13.6333);
+var marker = createMarker(point,icon,"Italy","Görz","<h4>Italy<BR>Görz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5333,9.9500);
+var marker = createMarker(point,icon,"Germany","Göttingen","<h4>Germany<BR>Göttingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3833,16.5333);
+var marker = createMarker(point,icon,"Hungary","Güns","<h4>Hungary<BR>Güns </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8000,12.1833);
+var marker = createMarker(point,icon,"Germany","Güstrow","<h4>Germany<BR>Güstrow </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9000,8.3667);
+var marker = createMarker(point,icon,"Germany","Gütersloh","<h4>Germany<BR>Gütersloh </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0833,4.2667);
+var marker = createMarker(point,icon,"Netherlands","Haag","<h4>Netherlands<BR>Haag </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.35,8.15);
+var marker = createMarker(point,icon,"Germany","Haardt Weinstrasse","<h4>Germany<BR>Haardt Weinstrasse </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3833,4.6333);
+var marker = createMarker(point,icon,"Netherlands","Haarlem","<h4>Netherlands<BR>Haarlem </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3000,16.6500);
+var marker = createMarker(point,icon,"Poland","Habelschwerdt","<h4>Poland<BR>Habelschwerdt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4500,8.0667);
+var marker = createMarker(point,icon,"Germany","Hadamar","<h4>Germany<BR>Hadamar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (55.2500,9.5000);
+var marker = createMarker(point,icon,"Denmark","Hadersleben","<h4>Denmark<BR>Hadersleben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,7.4500);
+var marker = createMarker(point,icon,"Germany","Hagen","<h4>Germany<BR>Hagen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9667,13.1333);
+var marker = createMarker(point,icon,"Germany","Hainichen","<h4>Germany<BR>Hainichen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9000,11.0667);
+var marker = createMarker(point,icon,"Germany","Halberstadt","<h4>Germany<BR>Halberstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4833,11.9667);
+var marker = createMarker(point,icon,"Germany","Halle Saale","<h4>Germany<BR>Halle Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5500,10.0000);
+var marker = createMarker(point,icon,"Germany","Hamburg","<h4>Germany<BR>Hamburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1167,9.3667);
+var marker = createMarker(point,icon,"Germany","Hameln","<h4>Germany<BR>Hameln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,7.0500);
+var marker = createMarker(point,icon,"Germany","Hamm","<h4>Germany<BR>Hamm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1333,8.9333);
+var marker = createMarker(point,icon,"Germany","Hanau","<h4>Germany<BR>Hanau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4000,9.7333);
+var marker = createMarker(point,icon,"Germany","Hannover","<h4>Germany<BR>Hannover </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4000,9.7333);
+var marker = createMarker(point,icon,"Germany","Hannover-Linden","<h4>Germany<BR>Hannover-Linden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8833,10.55);
+var marker = createMarker(point,icon,"Germany","Harzburg","<h4>Germany<BR>Harzburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,15.9667);
+var marker = createMarker(point,icon,"Poland","Haynau","<h4>Poland<BR>Haynau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3500,8.9667);
+var marker = createMarker(point,icon,"Germany","Hechingen","<h4>Germany<BR>Hechingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4167,8.7000);
+var marker = createMarker(point,icon,"Germany","Heidelberg","<h4>Germany<BR>Heidelberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.1333,9.2333);
+var marker = createMarker(point,icon,"Germany","Heilbronn","<h4>Germany<BR>Heilbronn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,10.1500);
+var marker = createMarker(point,icon,"Germany","Heiligenstadt Eichsfeld","<h4>Germany<BR>Heiligenstadt Eichsfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.167,7.883);
+var marker = createMarker(point,icon,"Germany","Helgoland","<h4>Germany<BR>Helgoland </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2333,11.0167);
+var marker = createMarker(point,icon,"Germany","Helmstedt","<h4>Germany<BR>Helmstedt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (60.1333,25.0000);
+var marker = createMarker(point,icon,"Finland","Helsinki","<h4>Finland<BR>Helsinki </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2667,6.7667);
+var marker = createMarker(point,icon,"Netherlands","Hengelo","<h4>Netherlands<BR>Hengelo </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1167,8.6667);
+var marker = createMarker(point,icon,"Germany","Herford","<h4>Germany<BR>Herford </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3833,9.2833);
+var marker = createMarker(point,icon,"Switzerland","Herisau","<h4>Switzerland<BR>Herisau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8167,10.1000);
+var marker = createMarker(point,icon,"Germany","Hermannsburg","<h4>Germany<BR>Hermannsburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.7667,24.1500);
+var marker = createMarker(point,icon,"Romania","Hermannstadt","<h4>Romania<BR>Hermannstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8833,9.7167);
+var marker = createMarker(point,icon,"Germany","Hersfeld","<h4>Germany<BR>Hersfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7000,13.2333);
+var marker = createMarker(point,icon,"Germany","Herzberg","<h4>Germany<BR>Herzberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6833,5.3167);
+var marker = createMarker(point,icon,"Netherlands","Herzogenbusch","<h4>Netherlands<BR>Herzogenbusch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0000,8.1167);
+var marker = createMarker(point,icon,"Germany","Hilchenbach","<h4>Germany<BR>Hilchenbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4167,10.7500);
+var marker = createMarker(point,icon,"Germany","Hildburghausen","<h4>Germany<BR>Hildburghausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1500,9.9667);
+var marker = createMarker(point,icon,"Germany","Hildesheim","<h4>Germany<BR>Hildesheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5167,10.3833);
+var marker = createMarker(point,icon,"Germany","Hindelang","<h4>Germany<BR>Hindelang </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,15.75);
+var marker = createMarker(point,icon,"Poland","Hirschberg","<h4>Poland<BR>Hirschberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3167,11.9333);
+var marker = createMarker(point,icon,"Germany","Hof Saale","<h4>Germany<BR>Hof Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.21667,10.18333);
+var marker = createMarker(point,icon,"Germany","Hoheneggelsen","<h4>Germany<BR>Hoheneggelsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8000,12.7167);
+var marker = createMarker(point,icon,"Germany","Hohenstein-Ernstthal","<h4>Germany<BR>Hohenstein-Ernstthal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,9.4333);
+var marker = createMarker(point,icon,"Germany","Holzminden","<h4>Germany<BR>Holzminden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.05,9.4167);
+var marker = createMarker(point,icon,"Germany","Homberg","<h4>Germany<BR>Homberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2167,8.6167);
+var marker = createMarker(point,icon,"Germany","Homburg","<h4>Germany<BR>Homburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4500,8.6833);
+var marker = createMarker(point,icon,"Germany","Horb Neckar","<h4>Germany<BR>Horb Neckar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5500,10.0000);
+var marker = createMarker(point,icon,"Germany","Horn bei Hamburg","<h4>Germany<BR>Horn bei Hamburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4667,14.2833);
+var marker = createMarker(point,icon,"Germany","Hoyerswerda","<h4>Germany<BR>Hoyerswerda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (37.2500,-6.9333);
+var marker = createMarker(point,icon,"Spain","Huelva","<h4>Spain<BR>Huelva </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.9667,20.5833);
+var marker = createMarker(point,icon,"Slovakia","Iglo","<h4>Slovakia<BR>Iglo </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5833,10.8000);
+var marker = createMarker(point,icon,"Germany","Ilfeld Harz","<h4>Germany<BR>Ilfeld Harz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.9500,8.9167);
+var marker = createMarker(point,icon,"Germany","Illingen","<h4>Germany<BR>Illingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6833,10.9167);
+var marker = createMarker(point,icon,"Germany","Ilmenau","<h4>Germany<BR>Ilmenau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.867,10.683);
+var marker = createMarker(point,icon,"Germany","Ilsenburg","<h4>Germany<BR>Ilsenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.2667,11.4000);
+var marker = createMarker(point,icon,"Austria","Innsbruck","<h4>Austria<BR>Innsbruck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8167,18.2);
+var marker = createMarker(point,icon,"Poland","Inowrazlaw","<h4>Poland<BR>Inowrazlaw </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.6000,21.8000);
+var marker = createMarker(point,icon,"Belarus","Insterburg","<h4>Belarus<BR>Insterburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,7.7000);
+var marker = createMarker(point,icon,"Germany","Iserlohn","<h4>Germany<BR>Iserlohn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.15,27.6333);
+var marker = createMarker(point,icon,"Romania","Jassy","<h4>Romania<BR>Jassy </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0167,16.1833);
+var marker = createMarker(point,icon,"Poland","Jauer Liegnitz","<h4>Poland<BR>Jauer Liegnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9333,11.5833);
+var marker = createMarker(point,icon,"Germany","Jena","<h4>Germany<BR>Jena </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5833,7.9000);
+var marker = createMarker(point,icon,"Germany","Jever","<h4>Germany<BR>Jever </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0833,17.6667);
+var marker = createMarker(point,icon,"Czech Republic","Jägerndorf","<h4>Czech Republic<BR>Jägerndorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,6.5000);
+var marker = createMarker(point,icon,"Germany","Jüchen","<h4>Germany<BR>Jüchen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,6.3500);
+var marker = createMarker(point,icon,"Germany","Jülich","<h4>Germany<BR>Jülich </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9833,13.0833);
+var marker = createMarker(point,icon,"Germany","Jüterbog","<h4>Germany<BR>Jüterbog </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4500,7.7833);
+var marker = createMarker(point,icon,"Germany","Kaiserslautern","<h4>Germany<BR>Kaiserslautern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,6.7167);
+var marker = createMarker(point,icon,"Germany","Kaiserswerth","<h4>Germany<BR>Kaiserswerth </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3000,15.9167);
+var marker = createMarker(point,icon,"Poland","Kalisch","<h4>Poland<BR>Kalisch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.6833,26.6);
+var marker = createMarker(point,icon,"Ukraine","Kamenez-Podolski","<h4>Ukraine<BR>Kamenez-Podolski </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2167,12.8667);
+var marker = createMarker(point,icon,"Czech Republic","Karlsbad","<h4>Czech Republic<BR>Karlsbad </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.0500,8.4000);
+var marker = createMarker(point,icon,"Germany","Karlsruhe","<h4>Germany<BR>Karlsruhe </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7333,21.2500);
+var marker = createMarker(point,icon,"Slovakia","Kaschau","<h4>Slovakia<BR>Kaschau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,9.5000);
+var marker = createMarker(point,icon,"Germany","Kassel","<h4>Germany<BR>Kassel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,6.4167);
+var marker = createMarker(point,icon,"Germany","Kempen","<h4>Germany<BR>Kempen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7333,10.3167);
+var marker = createMarker(point,icon,"Germany","Kempten Allgäu","<h4>Germany<BR>Kempten Allgäu </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4333,30.5167);
+var marker = createMarker(point,icon,"Ukraine","Kieff","<h4>Ukraine<BR>Kieff </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.3333,10.1333);
+var marker = createMarker(point,icon,"Germany","Kiel","<h4>Germany<BR>Kiel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6667,8);
+var marker = createMarker(point,icon,"Germany","Kirchheimbolanden","<h4>Germany<BR>Kirchheimbolanden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7833,7.4667);
+var marker = createMarker(point,icon,"Germany","Kirn","<h4>Germany<BR>Kirn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2000,10.0833);
+var marker = createMarker(point,icon,"Germany","Kissingen","<h4>Germany<BR>Kissingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7500,10.1833);
+var marker = createMarker(point,icon,"Germany","Kitzingen","<h4>Germany<BR>Kitzingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.6333,14.3333);
+var marker = createMarker(point,icon,"Austria","Klagenfurt","<h4>Austria<BR>Klagenfurt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.7833,23.6167);
+var marker = createMarker(point,icon,"Romania","Klausenburg","<h4>Romania<BR>Klausenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7833,6.1833);
+var marker = createMarker(point,icon,"Germany","Kleve","<h4>Germany<BR>Kleve </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3500,7.6000);
+var marker = createMarker(point,icon,"Germany","Koblenz","<h4>Germany<BR>Koblenz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,7.7667);
+var marker = createMarker(point,icon,"Germany","Kolberg","<h4>Germany<BR>Kolberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4500,13.4333);
+var marker = createMarker(point,icon,"Czech Republic","Komotau","<h4>Czech Republic<BR>Komotau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7,17.5333);
+var marker = createMarker(point,icon,"Poland","Konitz","<h4>Poland<BR>Konitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (41.0333,28.9500);
+var marker = createMarker(point,icon,"Turkey","Konstantinopel","<h4>Turkey<BR>Konstantinopel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.6667,9.1667);
+var marker = createMarker(point,icon,"Germany","Konstanz","<h4>Germany<BR>Konstanz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (55.7167,12.5667);
+var marker = createMarker(point,icon,"Denmark","Kopenhagen","<h4>Denmark<BR>Kopenhagen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3667,16.3333);
+var marker = createMarker(point,icon,"Austria","Korneuburg","<h4>Austria<BR>Korneuburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0500,19.9167);
+var marker = createMarker(point,icon,"Poland","Krakau","<h4>Poland<BR>Krakau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,6.5333);
+var marker = createMarker(point,icon,"Germany","Krefeld","<h4>Germany<BR>Krefeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4167,15.6000);
+var marker = createMarker(point,icon,"Austria","Krems","<h4>Austria<BR>Krems </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8500,7.8667);
+var marker = createMarker(point,icon,"Germany","Kreuznach","<h4>Germany<BR>Kreuznach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2333,11.3333);
+var marker = createMarker(point,icon,"Germany","Kronach","<h4>Germany<BR>Kronach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.6500,25.5833);
+var marker = createMarker(point,icon,"Romania","Kronstadt Siebenbürgen","<h4>Romania<BR>Kronstadt Siebenbürgen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.4000,9.5167);
+var marker = createMarker(point,icon,"Germany","Kropp","<h4>Germany<BR>Kropp </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3333,18.4167);
+var marker = createMarker(point,icon,"Poland","Kulm","<h4>Poland<BR>Kulm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,11.4667);
+var marker = createMarker(point,icon,"Germany","Kulmbach","<h4>Germany<BR>Kulmbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9333,6.9500);
+var marker = createMarker(point,icon,"Germany","Köln","<h4>Germany<BR>Köln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9333,6.9500);
+var marker = createMarker(point,icon,"Germany","Köln-Ehrenfeld","<h4>Germany<BR>Köln-Ehrenfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.9667,14.4333);
+var marker = createMarker(point,icon,"Poland","Königsberg Neumark","<h4>Poland<BR>Königsberg Neumark </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.6667,20.5000);
+var marker = createMarker(point,icon,"Russian Federation","Königsberg Preussen","<h4>Russian Federation<BR>Königsberg Preussen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.1667,16.1667);
+var marker = createMarker(point,icon,"Poland","Köslin","<h4>Poland<BR>Köslin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7667,11.9833);
+var marker = createMarker(point,icon,"Germany","Köthen","<h4>Germany<BR>Köthen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1,13.65);
+var marker = createMarker(point,icon,"Germany","Kötzschenbroda","<h4>Germany<BR>Kötzschenbroda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1000,6.8333);
+var marker = createMarker(point,icon,"Switzerland","La Chaux-de-Fonds","<h4>Switzerland<BR>La Chaux-de-Fonds </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3500,7.8667);
+var marker = createMarker(point,icon,"Germany","Lahr Schwarzwald","<h4>Germany<BR>Lahr Schwarzwald </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.0667,14.5000);
+var marker = createMarker(point,icon,"Slovenia","Laibach","<h4>Slovenia<BR>Laibach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.2000,8.1167);
+var marker = createMarker(point,icon,"Germany","Landau Pfalz","<h4>Germany<BR>Landau Pfalz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7000,15.2000);
+var marker = createMarker(point,icon,"Poland","Landsberg Warthe","<h4>Poland<BR>Landsberg Warthe </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5167,12.1667);
+var marker = createMarker(point,icon,"Germany","Landshut","<h4>Germany<BR>Landshut </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6833,16.6167);
+var marker = createMarker(point,icon,"Poland","Langenbielau","<h4>Poland<BR>Langenbielau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,10.6500);
+var marker = createMarker(point,icon,"Germany","Langensalza","<h4>Germany<BR>Langensalza </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1167,15.2833);
+var marker = createMarker(point,icon,"Poland","Lauban","<h4>Poland<BR>Lauban </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.5333,6.6500);
+var marker = createMarker(point,icon,"Switzerland","Lausanne","<h4>Switzerland<BR>Lausanne </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.75,12.083);
+var marker = createMarker(point,icon,"Germany","Lausigk","<h4>Germany<BR>Lausigk </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1667,4.5000);
+var marker = createMarker(point,icon,"Netherlands","Leiden","<h4>Netherlands<BR>Leiden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig","<h4>Germany<BR>Leipzig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Eutritzsch","<h4>Germany<BR>Leipzig-Eutritzsch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Gohlis","<h4>Germany<BR>Leipzig-Gohlis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Lindenau","<h4>Germany<BR>Leipzig-Lindenau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Neuschleussig","<h4>Germany<BR>Leipzig-Neuschleussig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Neustadt","<h4>Germany<BR>Leipzig-Neustadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3333,12.4167);
+var marker = createMarker(point,icon,"Germany","Leipzig-Reudnitz","<h4>Germany<BR>Leipzig-Reudnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5500,14.1667);
+var marker = createMarker(point,icon,"Czech Republic","Leitmeritz","<h4>Czech Republic<BR>Leitmeritz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8333,24.0000);
+var marker = createMarker(point,icon,"Ukraine","Lemberg","<h4>Ukraine<BR>Lemberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0333,8.9);
+var marker = createMarker(point,icon,"Germany","Lemgo","<h4>Germany<BR>Lemgo </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5667,12.3667);
+var marker = createMarker(point,icon,"Germany","Lengenfeld","<h4>Germany<BR>Lengenfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3833,15.1000);
+var marker = createMarker(point,icon,"Austria","Leoben","<h4>Austria<BR>Leoben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2000,17.8167);
+var marker = createMarker(point,icon,"Poland","Leobschütz","<h4>Poland<BR>Leobschütz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6000,12.2667);
+var marker = createMarker(point,icon,"Germany","Leuchtenberg","<h4>Germany<BR>Leuchtenberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8333,10.0333);
+var marker = createMarker(point,icon,"Germany","Leutkirch","<h4>Germany<BR>Leutkirch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (56.5167,21.0167);
+var marker = createMarker(point,icon,"Latvia","Libau","<h4>Latvia<BR>Libau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2000,16.1667);
+var marker = createMarker(point,icon,"Poland","Liegnitz","<h4>Poland<BR>Liegnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.8500,12.8333);
+var marker = createMarker(point,icon,"Austria","Lienz","<h4>Austria<BR>Lienz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4833,7.7167);
+var marker = createMarker(point,icon,"Switzerland","Liestal","<h4>Switzerland<BR>Liestal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3833,8.0667);
+var marker = createMarker(point,icon,"Germany","Limburg","<h4>Germany<BR>Limburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.55,9.6833);
+var marker = createMarker(point,icon,"Germany","Lindau Bodensee","<h4>Germany<BR>Lindau Bodensee </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5333,7.3167);
+var marker = createMarker(point,icon,"Germany","Lingen Ems","<h4>Germany<BR>Lingen Ems </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3167,14.3000);
+var marker = createMarker(point,icon,"Austria","Linz","<h4>Austria<BR>Linz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6667,8.3167);
+var marker = createMarker(point,icon,"Germany","Lippstadt","<h4>Germany<BR>Lippstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8500,16.5833);
+var marker = createMarker(point,icon,"Poland","Lissa","<h4>Poland<BR>Lissa </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.0667,6.7500);
+var marker = createMarker(point,icon,"Switzerland","Locle","<h4>Switzerland<BR>Locle </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5167,-0.0833);
+var marker = createMarker(point,icon,"United Kingdom","London","<h4>United Kingdom<BR>London </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0833,13.1833);
+var marker = createMarker(point,icon,"Germany","Luckenwalde","<h4>Germany<BR>Luckenwalde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.9000,9.1833);
+var marker = createMarker(point,icon,"Germany","Ludwigsburg","<h4>Germany<BR>Ludwigsburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4833,8.45);
+var marker = createMarker(point,icon,"Germany","Ludwigshafen","<h4>Germany<BR>Ludwigshafen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3333,11.5000);
+var marker = createMarker(point,icon,"Germany","Ludwigslust","<h4>Germany<BR>Ludwigslust </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6167,6.1333);
+var marker = createMarker(point,icon,"Luxembourg","Luxemburg","<h4>Luxembourg<BR>Luxemburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.0500,8.2833);
+var marker = createMarker(point,icon,"Switzerland","Luzern","<h4>Switzerland<BR>Luzern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8333,22.3500);
+var marker = createMarker(point,icon,"Poland","Lyck","<h4>Poland<BR>Lyck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,14.6667);
+var marker = createMarker(point,icon,"Germany","Löbau Sachsen","<h4>Germany<BR>Löbau Sachsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6167,12.7333);
+var marker = createMarker(point,icon,"Germany","Lössnitz","<h4>Germany<BR>Lössnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,15.6000);
+var marker = createMarker(point,icon,"Poland","Löwenberg Schlesien","<h4>Poland<BR>Löwenberg Schlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9500,13.9000);
+var marker = createMarker(point,icon,"Germany","Lübben Spreewald","<h4>Germany<BR>Lübben Spreewald </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8667,10.6667);
+var marker = createMarker(point,icon,"Germany","Lübeck","<h4>Germany<BR>Lübeck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,16.1667);
+var marker = createMarker(point,icon,"Poland","Lüben","<h4>Poland<BR>Lüben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.2500,10.4000);
+var marker = createMarker(point,icon,"Germany","Lüneburg","<h4>Germany<BR>Lüneburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6333,5.5833);
+var marker = createMarker(point,icon,"Belgium","Lüttich","<h4>Belgium<BR>Lüttich </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (40.4167,-3.7167);
+var marker = createMarker(point,icon,"Spain","Madrid","<h4>Spain<BR>Madrid </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1333,11.6167);
+var marker = createMarker(point,icon,"Germany","Magdeburg","<h4>Germany<BR>Magdeburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.4667,9.2000);
+var marker = createMarker(point,icon,"Italy","Mailand","<h4>Italy<BR>Mailand </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0000,8.2667);
+var marker = createMarker(point,icon,"Germany","Mainz","<h4>Germany<BR>Mainz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7500,12.7500);
+var marker = createMarker(point,icon,"Germany","Malchin","<h4>Germany<BR>Malchin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.5000,8.4667);
+var marker = createMarker(point,icon,"Germany","Mannheim","<h4>Germany<BR>Mannheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6,11.4667);
+var marker = createMarker(point,icon,"Germany","Mansfeld","<h4>Germany<BR>Mansfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8167,8.7667);
+var marker = createMarker(point,icon,"Germany","Marburg Lahn","<h4>Germany<BR>Marburg Lahn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.0333,19.0500);
+var marker = createMarker(point,icon,"Poland","Marienburg Westpreussen","<h4>Poland<BR>Marienburg Westpreussen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9000,18.9167);
+var marker = createMarker(point,icon,"Poland","Marienwerder","<h4>Poland<BR>Marienwerder </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3000,12.3333);
+var marker = createMarker(point,icon,"Germany","Markneukirchen","<h4>Germany<BR>Markneukirchen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.167,24.35);
+var marker = createMarker(point,icon,"Romania","Mediasch","<h4>Romania<BR>Mediasch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6500,10.6500);
+var marker = createMarker(point,icon,"Germany","Mehlis","<h4>Germany<BR>Mehlis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5500,10.4167);
+var marker = createMarker(point,icon,"Germany","Meiningen","<h4>Germany<BR>Meiningen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1667,13.4167);
+var marker = createMarker(point,icon,"Germany","Meissen","<h4>Germany<BR>Meissen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.0833,9.0833);
+var marker = createMarker(point,icon,"Germany","Meldorf","<h4>Germany<BR>Meldorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.9833,10.1833);
+var marker = createMarker(point,icon,"Germany","Memmingen","<h4>Germany<BR>Memmingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.6667,11.1500);
+var marker = createMarker(point,icon,"Italy","Meran","<h4>Italy<BR>Meran </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.5000,9.7667);
+var marker = createMarker(point,icon,"Germany","Mergentheim","<h4>Germany<BR>Mergentheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,12.0000);
+var marker = createMarker(point,icon,"Germany","Merseburg","<h4>Germany<BR>Merseburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.1167,6.1833);
+var marker = createMarker(point,icon,"France","Metz","<h4>France<BR>Metz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5500,11.0667);
+var marker = createMarker(point,icon,"Germany","Meuselbach","<h4>Germany<BR>Meuselbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6667,9.0000);
+var marker = createMarker(point,icon,"Germany","Michelstadt","<h4>Germany<BR>Michelstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5,3.6);
+var marker = createMarker(point,icon,"Netherlands","Middelburg","<h4>Netherlands<BR>Middelburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7833,11.8333);
+var marker = createMarker(point,icon,"Germany","Miesbach","<h4>Germany<BR>Miesbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (43.0333,-87.9000);
+var marker = createMarker(point,icon,"United States","Milwaukee","<h4>United States<BR>Milwaukee </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3000,8.9000);
+var marker = createMarker(point,icon,"Germany","Minden Westfalen","<h4>Germany<BR>Minden Westfalen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (56.6500,23.6667);
+var marker = createMarker(point,icon,"Latvia","Mitau","<h4>Latvia<BR>Mitau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9833,12.9833);
+var marker = createMarker(point,icon,"Germany","Mittweida","<h4>Germany<BR>Mittweida </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.35,9.15);
+var marker = createMarker(point,icon,"Germany","Mosbach","<h4>Germany<BR>Mosbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (55.7500,37.7000);
+var marker = createMarker(point,icon,"Russian Federation","Moskau","<h4>Russian Federation<BR>Moskau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (43.3333,17.8);
+var marker = createMarker(point,icon,"Bosnia and Herzegovina","Mostar","<h4>Bosnia and Herzegovina<BR>Mostar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4667,17.45);
+var marker = createMarker(point,icon,"Czech Republic","Moštěnitz-Prerau","<h4>Czech Republic<BR>Moštěnitz-Prerau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8333,18.2500);
+var marker = createMarker(point,icon,"Czech Republic","Mährisch-Ostrau","<h4>Czech Republic<BR>Mährisch-Ostrau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7833,16.6667);
+var marker = createMarker(point,icon,"Czech Republic","Mährisch-Trübau","<h4>Czech Republic<BR>Mährisch-Trübau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.633,10.683);
+var marker = createMarker(point,icon,"Germany","Mölln","<h4>Germany<BR>Mölln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2167,10.4667);
+var marker = createMarker(point,icon,"Germany","Mühlhausen Thüringen","<h4>Germany<BR>Mühlhausen Thüringen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4333,6.8833);
+var marker = createMarker(point,icon,"Germany","Mülheim Ruhr","<h4>Germany<BR>Mülheim Ruhr </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.1333,11.5833);
+var marker = createMarker(point,icon,"Germany","München","<h4>Germany<BR>München </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2000,6.4333);
+var marker = createMarker(point,icon,"Germany","München-Gladbach","<h4>Germany<BR>München-Gladbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9667,7.6333);
+var marker = createMarker(point,icon,"Germany","Münster Westfalen","<h4>Germany<BR>Münster Westfalen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6167,17.0167);
+var marker = createMarker(point,icon,"Poland","Münsterberg Schlesien","<h4>Poland<BR>Münsterberg Schlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (36.1667,-86.7500);
+var marker = createMarker(point,icon,"United States","Nashville, Tenn","<h4>United States<BR>Nashville, Tenn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6667,15.1333);
+var marker = createMarker(point,icon,"Poland","Naugard","<h4>Poland<BR>Naugard </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1500,11.8000);
+var marker = createMarker(point,icon,"Germany","Naumburg Saale","<h4>Germany<BR>Naumburg Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (40.8333,14.2500);
+var marker = createMarker(point,icon,"Italy","Neapel","<h4>Italy<BR>Neapel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5000,17.3333);
+var marker = createMarker(point,icon,"Poland","Neisse","<h4>Poland<BR>Neisse </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4000,10.0167);
+var marker = createMarker(point,icon,"Germany","Neu-Ulm","<h4>Germany<BR>Neu-Ulm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5500,13.2667);
+var marker = createMarker(point,icon,"Germany","Neubrandenburg","<h4>Germany<BR>Neubrandenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7333,11.2000);
+var marker = createMarker(point,icon,"Germany","Neuburg Donau","<h4>Germany<BR>Neuburg Donau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7167,14.7);
+var marker = createMarker(point,icon,"Poland","Neudamm","<h4>Poland<BR>Neudamm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.3,11.417);
+var marker = createMarker(point,icon,"Germany","Neuhaldensleben","<h4>Germany<BR>Neuhaldensleben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.9333,12.8167);
+var marker = createMarker(point,icon,"Germany","Neuruppin","<h4>Germany<BR>Neuruppin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,15.6833);
+var marker = createMarker(point,icon,"Poland","Neusalz Oder","<h4>Poland<BR>Neusalz Oder </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.65,20.6667);
+var marker = createMarker(point,icon,"Poland","Neusandez","<h4>Poland<BR>Neusandez </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2000,6.6833);
+var marker = createMarker(point,icon,"Germany","Neuss","<h4>Germany<BR>Neuss </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.317,17.583);
+var marker = createMarker(point,icon,"Poland","Neustadt Oberschlesien","<h4>Poland<BR>Neustadt Oberschlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,11.7500);
+var marker = createMarker(point,icon,"Germany","Neustadt Orla","<h4>Germany<BR>Neustadt Orla </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1167,11.5667);
+var marker = createMarker(point,icon,"Germany","Neustedt, bei Eckartsberga","<h4>Germany<BR>Neustedt, bei Eckartsberga </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7000,16.6833);
+var marker = createMarker(point,icon,"Poland","Neustettin","<h4>Poland<BR>Neustettin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3667,13.0833);
+var marker = createMarker(point,icon,"Germany","Neustrelitz","<h4>Germany<BR>Neustrelitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6167,18);
+var marker = createMarker(point,icon,"Czech Republic","Neutitschein","<h4>Czech Republic<BR>Neutitschein </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4333,7.4667);
+var marker = createMarker(point,icon,"Germany","Neuwied","<h4>Germany<BR>Neuwied </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (40.7000,-74.0000);
+var marker = createMarker(point,icon,"United States","New York","<h4>United States<BR>New York </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5833,13.3833);
+var marker = createMarker(point,icon,"Germany","Nieder-Schönhausen","<h4>Germany<BR>Nieder-Schönhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8000,16.6333);
+var marker = createMarker(point,icon,"Czech Republic","Nikolsburg","<h4>Czech Republic<BR>Nikolsburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (43.7000,7.2667);
+var marker = createMarker(point,icon,"France","Nizza","<h4>France<BR>Nizza </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6,7.2);
+var marker = createMarker(point,icon,"Germany","Norden","<h4>Germany<BR>Norden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5167,10.8000);
+var marker = createMarker(point,icon,"Germany","Nordhausen","<h4>Germany<BR>Nordhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,13.3000);
+var marker = createMarker(point,icon,"Germany","Nossen","<h4>Germany<BR>Nossen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8500,10.5167);
+var marker = createMarker(point,icon,"Germany","Nördlingen","<h4>Germany<BR>Nördlingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4500,11.0667);
+var marker = createMarker(point,icon,"Germany","Nürnberg","<h4>Germany<BR>Nürnberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3500,17.8333);
+var marker = createMarker(point,icon,"Poland","Oberglogau","<h4>Poland<BR>Oberglogau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4667,6.8500);
+var marker = createMarker(point,icon,"Germany","Oberhausen","<h4>Germany<BR>Oberhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.524,9.323);
+var marker = createMarker(point,icon,"Germany","Oberneudorf-Buchen","<h4>Germany<BR>Oberneudorf-Buchen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7167,7.3167);
+var marker = createMarker(point,icon,"Germany","Oberstein","<h4>Germany<BR>Oberstein </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.5000,30.7667);
+var marker = createMarker(point,icon,"Ukraine","Odessa","<h4>Ukraine<BR>Odessa </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.6667,16.5833);
+var marker = createMarker(point,icon,"Hungary","Oedenburg","<h4>Hungary<BR>Oedenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2000,17.3500);
+var marker = createMarker(point,icon,"Poland","Oels Niederschlesien","<h4>Poland<BR>Oels Niederschlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4167,12.1833);
+var marker = createMarker(point,icon,"Germany","Oelsnitz","<h4>Germany<BR>Oelsnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,8.7667);
+var marker = createMarker(point,icon,"Germany","Offenbach Main","<h4>Germany<BR>Offenbach Main </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4833,7.9500);
+var marker = createMarker(point,icon,"Germany","Offenburg","<h4>Germany<BR>Offenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9500,17.3000);
+var marker = createMarker(point,icon,"Poland","Ohlau","<h4>Poland<BR>Ohlau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.0000,8.0000);
+var marker = createMarker(point,icon,"Germany","Oldenburg Oldenburg","<h4>Germany<BR>Oldenburg Oldenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6333,17.2500);
+var marker = createMarker(point,icon,"Czech Republic","Olmütz","<h4>Czech Republic<BR>Olmütz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6667,17.9333);
+var marker = createMarker(point,icon,"Poland","Oppeln","<h4>Poland<BR>Oppeln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8667,8.3667);
+var marker = createMarker(point,icon,"Germany","Oppenheim","<h4>Germany<BR>Oppenheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7667,13.2333);
+var marker = createMarker(point,icon,"Germany","Oranienburg","<h4>Germany<BR>Oranienburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.0333,21.7167);
+var marker = createMarker(point,icon,"Romania","Oravicza","<h4>Romania<BR>Oravicza </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0333,11.2500);
+var marker = createMarker(point,icon,"Germany","Oschersleben","<h4>Germany<BR>Oschersleben </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2833,8.0500);
+var marker = createMarker(point,icon,"Germany","Osnabrück","<h4>Germany<BR>Osnabrück </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8000,11.7500);
+var marker = createMarker(point,icon,"Germany","Osterburg","<h4>Germany<BR>Osterburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9667,10.7167);
+var marker = createMarker(point,icon,"Germany","Osterwieck","<h4>Germany<BR>Osterwieck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.65,17.8167);
+var marker = createMarker(point,icon,"Poland","Ostrowo","<h4>Poland<BR>Ostrowo </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7167,8.7333);
+var marker = createMarker(point,icon,"Germany","Paderborn","<h4>Germany<BR>Paderborn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.4333,11.8500);
+var marker = createMarker(point,icon,"Germany","Parchim","<h4>Germany<BR>Parchim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8667,2.3333);
+var marker = createMarker(point,icon,"France","Paris","<h4>France<BR>Paris </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5000,14.0000);
+var marker = createMarker(point,icon,"Germany","Pasewalk","<h4>Germany<BR>Pasewalk </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5833,13.4667);
+var marker = createMarker(point,icon,"Germany","Passau","<h4>Germany<BR>Passau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4,18.633);
+var marker = createMarker(point,icon,"Poland","Peiskretscham","<h4>Poland<BR>Peiskretscham </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.05,20.867);
+var marker = createMarker(point,icon,"Romania","Perjámos","<h4>Romania<BR>Perjámos </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5000,19.0833);
+var marker = createMarker(point,icon,"Hungary","Pest","<h4>Hungary<BR>Pest </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.967,10.267);
+var marker = createMarker(point,icon,"Germany","Pfahlheim","<h4>Germany<BR>Pfahlheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8833,8.7000);
+var marker = createMarker(point,icon,"Germany","Pforzheim","<h4>Germany<BR>Pforzheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (40.7167,-76.1000);
+var marker = createMarker(point,icon,"United States","Philadelphia Pa.","<h4>United States<BR>Philadelphia Pa. </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7500,13.4167);
+var marker = createMarker(point,icon,"Czech Republic","Pilsen","<h4>Czech Republic<BR>Pilsen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9667,13.9333);
+var marker = createMarker(point,icon,"Germany","Pirna","<h4>Germany<BR>Pirna </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4833,12.1333);
+var marker = createMarker(point,icon,"Germany","Plauen","<h4>Germany<BR>Plauen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9833,18.9);
+var marker = createMarker(point,icon,"Poland","Pless","<h4>Poland<BR>Pless </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (42.9667,-82.4167);
+var marker = createMarker(point,icon,"United States","Port Huron Michigan","<h4>United States<BR>Port Huron Michigan </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4167,16.8833);
+var marker = createMarker(point,icon,"Poland","Posen","<h4>Poland<BR>Posen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0000,13.6667);
+var marker = createMarker(point,icon,"Germany","Potschappel","<h4>Germany<BR>Potschappel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.4000,13.0667);
+var marker = createMarker(point,icon,"Germany","Potsdam","<h4>Germany<BR>Potsdam </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,14.4333);
+var marker = createMarker(point,icon,"Czech Republic","Prag","<h4>Czech Republic<BR>Prag </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0667,14.4667);
+var marker = createMarker(point,icon,"Czech Republic","Prag-Weinberge","<h4>Czech Republic<BR>Prag-Weinberge </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3167,13.8667);
+var marker = createMarker(point,icon,"Germany","Prenzlau","<h4>Germany<BR>Prenzlau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.1667,17.1667);
+var marker = createMarker(point,icon,"Slovakia","Pressburg","<h4>Slovakia<BR>Pressburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.1500,12.1833);
+var marker = createMarker(point,icon,"Germany","Pritzwalk","<h4>Germany<BR>Pritzwalk </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7833,22.7833);
+var marker = createMarker(point,icon,"Poland","Przemysl","<h4>Poland<BR>Przemysl </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7000,11.5000);
+var marker = createMarker(point,icon,"Germany","Pössneck","<h4>Germany<BR>Pössneck </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8000,11.1500);
+var marker = createMarker(point,icon,"Germany","Quedlinburg","<h4>Germany<BR>Quedlinburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3833,11.6000);
+var marker = createMarker(point,icon,"Germany","Querfurt","<h4>Germany<BR>Querfurt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,13.6500);
+var marker = createMarker(point,icon,"Germany","Radebeul","<h4>Germany<BR>Radebeul </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8500,8.2000);
+var marker = createMarker(point,icon,"Germany","Rastatt","<h4>Germany<BR>Rastatt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.6167,12.3500);
+var marker = createMarker(point,icon,"Germany","Rathenow","<h4>Germany<BR>Rathenow </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0833,18.1667);
+var marker = createMarker(point,icon,"Poland","Ratibor","<h4>Poland<BR>Ratibor </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7000,10.7667);
+var marker = createMarker(point,icon,"Germany","Ratzeburg","<h4>Germany<BR>Ratzeburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7833,9.6167);
+var marker = createMarker(point,icon,"Germany","Ravensburg","<h4>Germany<BR>Ravensburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.0167,12.1000);
+var marker = createMarker(point,icon,"Germany","Regensburg","<h4>Germany<BR>Regensburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6000,12.3000);
+var marker = createMarker(point,icon,"Germany","Reichenbach Vogtland","<h4>Germany<BR>Reichenbach Vogtland </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8000,15.0833);
+var marker = createMarker(point,icon,"Czech Republic","Reichenberg","<h4>Czech Republic<BR>Reichenberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1833,7.2000);
+var marker = createMarker(point,icon,"Germany","Remscheid","<h4>Germany<BR>Remscheid </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.3167,9.6500);
+var marker = createMarker(point,icon,"Germany","Rendsburg","<h4>Germany<BR>Rendsburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5000,9.2167);
+var marker = createMarker(point,icon,"Germany","Reutlingen","<h4>Germany<BR>Reutlingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (59.4333,24.7167);
+var marker = createMarker(point,icon,"Estonia","Reval","<h4>Estonia<BR>Reval </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6167,6.9500);
+var marker = createMarker(point,icon,"Germany","Rheinbach","<h4>Germany<BR>Rheinbach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1667,6.45);
+var marker = createMarker(point,icon,"Germany","Rheydt","<h4>Germany<BR>Rheydt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.2167,13.4833);
+var marker = createMarker(point,icon,"Austria","Ried Innkreis","<h4>Austria<BR>Ried Innkreis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3000,13.3000);
+var marker = createMarker(point,icon,"Germany","Riesa","<h4>Germany<BR>Riesa </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (56.8833,24.1333);
+var marker = createMarker(point,icon,"Lithuania","Riga","<h4>Lithuania<BR>Riga </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1833,9.0667);
+var marker = createMarker(point,icon,"Germany","Rinteln","<h4>Germany<BR>Rinteln </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.217,10.417);
+var marker = createMarker(point,icon,"Germany","Rixdorf","<h4>Germany<BR>Rixdorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,12.8167);
+var marker = createMarker(point,icon,"Germany","Rochlitz","<h4>Germany<BR>Rochlitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,10.8000);
+var marker = createMarker(point,icon,"Germany","Rodach","<h4>Germany<BR>Rodach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7833,17);
+var marker = createMarker(point,icon,"Poland","Rogasen","<h4>Poland<BR>Rogasen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (41.8833,12.5000);
+var marker = createMarker(point,icon,"Italy","Rom","<h4>Italy<BR>Rom </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8667,12.1833);
+var marker = createMarker(point,icon,"Germany","Ronneburg","<h4>Germany<BR>Ronneburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4667,9.5000);
+var marker = createMarker(point,icon,"Switzerland","Rorschach","<h4>Switzerland<BR>Rorschach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.1000,12.1500);
+var marker = createMarker(point,icon,"Germany","Rostock","<h4>Germany<BR>Rostock </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.3833,10.2167);
+var marker = createMarker(point,icon,"Germany","Rothenburg Tauber","<h4>Germany<BR>Rothenburg Tauber </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4667,8.9167);
+var marker = createMarker(point,icon,"Germany","Rottenburg Neckar","<h4>Germany<BR>Rottenburg Neckar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9167,4.4833);
+var marker = createMarker(point,icon,"Netherlands","Rotterdam","<h4>Netherlands<BR>Rotterdam </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.4333,1.0833);
+var marker = createMarker(point,icon,"France","Rouen","<h4>France<BR>Rouen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7167,11.3333);
+var marker = createMarker(point,icon,"Germany","Rudolstadt","<h4>Germany<BR>Rudolstadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4333,6.7500);
+var marker = createMarker(point,icon,"Germany","Ruhrort","<h4>Germany<BR>Ruhrort </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.1000,8.6833);
+var marker = createMarker(point,icon,"Germany","Rödelheim","<h4>Germany<BR>Rödelheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6500,11.3667);
+var marker = createMarker(point,icon,"Germany","Saalfeld Saale","<h4>Germany<BR>Saalfeld Saale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,13.5667);
+var marker = createMarker(point,icon,"Czech Republic","Saaz","<h4>Czech Republic<BR>Saaz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6167,15.3333);
+var marker = createMarker(point,icon,"Poland","Sagan","<h4>Poland<BR>Sagan </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8000,13.0500);
+var marker = createMarker(point,icon,"Austria","Salzburg","<h4>Austria<BR>Salzburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8167,10.2500);
+var marker = createMarker(point,icon,"Germany","Salzungen","<h4>Germany<BR>Salzungen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.8,11.1667);
+var marker = createMarker(point,icon,"Germany","Salzwedel","<h4>Germany<BR>Salzwedel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4667,11.3000);
+var marker = createMarker(point,icon,"Germany","Sangerhausen","<h4>Germany<BR>Sangerhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1667,9.1333);
+var marker = createMarker(point,icon,"Switzerland","Sankt Gallen","<h4>Switzerland<BR>Sankt Gallen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.15,7.7167);
+var marker = createMarker(point,icon,"Germany","Sankt Goar","<h4>Germany<BR>Sankt Goar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.2833,7.1167);
+var marker = createMarker(point,icon,"Germany","Sankt Ingbert","<h4>Germany<BR>Sankt Ingbert </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (59.8833,30.2500);
+var marker = createMarker(point,icon,"Russian Federation","Sankt Petersburg","<h4>Russian Federation<BR>Sankt Petersburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.2000,15.6167);
+var marker = createMarker(point,icon,"Austria","Sankt Pölten","<h4>Austria<BR>Sankt Pölten </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.0167,9.5167);
+var marker = createMarker(point,icon,"Germany","Saulgau","<h4>Germany<BR>Saulgau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7000,8.6333);
+var marker = createMarker(point,icon,"Switzerland","Schaffhausen","<h4>Switzerland<BR>Schaffhausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9167,14.1500);
+var marker = createMarker(point,icon,"Germany","Schandau","<h4>Germany<BR>Schandau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5667,11.8167);
+var marker = createMarker(point,icon,"Germany","Schleiz","<h4>Germany<BR>Schleiz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.5167,9.5500);
+var marker = createMarker(point,icon,"Germany","Schleswig","<h4>Germany<BR>Schleswig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5167,10.7667);
+var marker = createMarker(point,icon,"Germany","Schleusingen","<h4>Germany<BR>Schleusingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8333,12.9167);
+var marker = createMarker(point,icon,"Germany","Schloss-Chemnitz","<h4>Germany<BR>Schloss-Chemnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7167,10.4667);
+var marker = createMarker(point,icon,"Germany","Schmalkalden","<h4>Germany<BR>Schmalkalden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5833,12.6333);
+var marker = createMarker(point,icon,"Germany","Schneeberg Aue-Schwarzenberg","<h4>Germany<BR>Schneeberg Aue-Schwarzenberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4,16.15);
+var marker = createMarker(point,icon,"Austria","Schreibersdorf","<h4>Austria<BR>Schreibersdorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.3333,11.0333);
+var marker = createMarker(point,icon,"Germany","Schwabach","<h4>Germany<BR>Schwabach </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.2500,16.4833);
+var marker = createMarker(point,icon,"Poland","Schweidnitz","<h4>Poland<BR>Schweidnitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0500,10.2667);
+var marker = createMarker(point,icon,"Germany","Schweinfurt","<h4>Germany<BR>Schweinfurt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2833,7.2833);
+var marker = createMarker(point,icon,"Germany","Schwelm","<h4>Germany<BR>Schwelm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6333,11.4167);
+var marker = createMarker(point,icon,"Germany","Schwerin","<h4>Germany<BR>Schwerin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2500,15.5167);
+var marker = createMarker(point,icon,"Poland","Schwiebus","<h4>Poland<BR>Schwiebus </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8000,9.7833);
+var marker = createMarker(point,icon,"Germany","Schwäbisch Gmünd","<h4>Germany<BR>Schwäbisch Gmünd </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.1000,9.7333);
+var marker = createMarker(point,icon,"Germany","Schwäbisch Hall","<h4>Germany<BR>Schwäbisch Hall </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.25,12.4167);
+var marker = createMarker(point,icon,"Czech Republic","Schönbach b/Eger","<h4>Czech Republic<BR>Schönbach b/Eger </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.0167,11.75);
+var marker = createMarker(point,icon,"Germany","Schönebeck Elbe","<h4>Germany<BR>Schönebeck Elbe </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9,14.5167);
+var marker = createMarker(point,icon,"Czech Republic","Schönlinde","<h4>Czech Republic<BR>Schönlinde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9333,10.2833);
+var marker = createMarker(point,icon,"Germany","Segeberg","<h4>Germany<BR>Segeberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8667,8.0333);
+var marker = createMarker(point,icon,"Germany","Siegen","<h4>Germany<BR>Siegen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5833,8.1167);
+var marker = createMarker(point,icon,"Germany","Soest","<h4>Germany<BR>Soest </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (42.6667,23.3000);
+var marker = createMarker(point,icon,"Bulgaria","Sofia","<h4>Bulgaria<BR>Sofia </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1667,7.0833);
+var marker = createMarker(point,icon,"Germany","Solingen","<h4>Germany<BR>Solingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.4167,7.5833);
+var marker = createMarker(point,icon,"Switzerland","Solothurn","<h4>Switzerland<BR>Solothurn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8167,14.9833);
+var marker = createMarker(point,icon,"Poland","Sommerfeld","<h4>Poland<BR>Sommerfeld </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,10.8667);
+var marker = createMarker(point,icon,"Germany","Sondershausen","<h4>Germany<BR>Sondershausen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8667,16.4667);
+var marker = createMarker(point,icon,"Austria","Sonneberg","<h4>Austria<BR>Sonneberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6667,15.1667);
+var marker = createMarker(point,icon,"Poland","Sorau Lausitz","<h4>Poland<BR>Sorau Lausitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5500,13.2000);
+var marker = createMarker(point,icon,"Germany","Spandau","<h4>Germany<BR>Spandau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.3167,8.4333);
+var marker = createMarker(point,icon,"Germany","Speyer","<h4>Germany<BR>Speyer </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.55,14.3667);
+var marker = createMarker(point,icon,"Germany","Spremberg","<h4>Germany<BR>Spremberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (38.6167,-90.1833);
+var marker = createMarker(point,icon,"United States","St. Louis, Mo","<h4>United States<BR>St. Louis, Mo </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.6000,9.4667);
+var marker = createMarker(point,icon,"Germany","Stade","<h4>Germany<BR>Stade </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.6333,22.5667);
+var marker = createMarker(point,icon,"Russian Federation","Stallupönen","<h4>Russian Federation<BR>Stallupönen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.3500,15.0167);
+var marker = createMarker(point,icon,"Poland","Stargard","<h4>Poland<BR>Stargard </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8667,11.5833);
+var marker = createMarker(point,icon,"Germany","Stassfurt","<h4>Germany<BR>Stassfurt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8667,11.5833);
+var marker = createMarker(point,icon,"Germany","Stassfurth","<h4>Germany<BR>Stassfurth </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8833,7.7333);
+var marker = createMarker(point,icon,"Germany","Staufen","<h4>Germany<BR>Staufen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.6000,11.8500);
+var marker = createMarker(point,icon,"Germany","Stendal","<h4>Germany<BR>Stendal </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.4167,14.5333);
+var marker = createMarker(point,icon,"Poland","Stettin","<h4>Poland<BR>Stettin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.0667,14.4167);
+var marker = createMarker(point,icon,"Austria","Steyr","<h4>Austria<BR>Steyr </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (59.3333,18.0833);
+var marker = createMarker(point,icon,"Sweden","Stockholm","<h4>Sweden<BR>Stockholm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.767,6.233);
+var marker = createMarker(point,icon,"Germany","Stolberg","<h4>Germany<BR>Stolberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.4667,17.0000);
+var marker = createMarker(point,icon,"Poland","Stolp","<h4>Poland<BR>Stolp </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.3000,13.1000);
+var marker = createMarker(point,icon,"Germany","Stralsund","<h4>Germany<BR>Stralsund </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5833,7.7500);
+var marker = createMarker(point,icon,"France","Strassburg","<h4>France<BR>Strassburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8833,12.5833);
+var marker = createMarker(point,icon,"Germany","Straubing","<h4>Germany<BR>Straubing </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8,17.05);
+var marker = createMarker(point,icon,"Poland","Strehlen","<h4>Poland<BR>Strehlen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9833,16.3333);
+var marker = createMarker(point,icon,"Poland","Striegau","<h4>Poland<BR>Striegau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1833,18.3667);
+var marker = createMarker(point,icon,"Hungary","Stuhlweissenburg","<h4>Hungary<BR>Stuhlweissenburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7833,9.2000);
+var marker = createMarker(point,icon,"Germany","Stuttgart","<h4>Germany<BR>Stuttgart </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0833,11.6167);
+var marker = createMarker(point,icon,"Germany","Sulza","<h4>Germany<BR>Sulza </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.8833,14.2333);
+var marker = createMarker(point,icon,"Poland","Swinemünde","<h4>Poland<BR>Swinemünde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.2500,20.1500);
+var marker = createMarker(point,icon,"Hungary","Szegedin","<h4>Hungary<BR>Szegedin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5500,11.9500);
+var marker = createMarker(point,icon,"Germany","Tangermünde","<h4>Germany<BR>Tangermünde </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.5833,25.6500);
+var marker = createMarker(point,icon,"Ukraine","Tarnopol","<h4>Ukraine<BR>Tarnopol </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0167,20.9833);
+var marker = createMarker(point,icon,"Poland","Tarnow","<h4>Poland<BR>Tarnow </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4667,18.6667);
+var marker = createMarker(point,icon,"Poland","Tarnowitz","<h4>Poland<BR>Tarnowitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6167,9.6667);
+var marker = createMarker(point,icon,"Germany","Tauberbischofsheim","<h4>Germany<BR>Tauberbischofsheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.75,21.25);
+var marker = createMarker(point,icon,"Romania","Temesvar","<h4>Romania<BR>Temesvar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6667,13.8167);
+var marker = createMarker(point,icon,"Czech Republic","Teplitz","<h4>Czech Republic<BR>Teplitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.75,18.5833);
+var marker = createMarker(point,icon,"Poland","Teschen","<h4>Poland<BR>Teschen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.7833,12.5833);
+var marker = createMarker(point,icon,"Germany","Teterow","<h4>Germany<BR>Teterow </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9333,11.7500);
+var marker = createMarker(point,icon,"Germany","Thalbürgel","<h4>Germany<BR>Thalbürgel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.7500,11.0500);
+var marker = createMarker(point,icon,"Germany","Thale","<h4>Germany<BR>Thale </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.0167,18.5833);
+var marker = createMarker(point,icon,"Poland","Thorn","<h4>Poland<BR>Thorn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.7667,7.6333);
+var marker = createMarker(point,icon,"Switzerland","Thun","<h4>Switzerland<BR>Thun </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5667,5.0833);
+var marker = createMarker(point,icon,"Netherlands","Tilburg","<h4>Netherlands<BR>Tilburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9333,37.6500);
+var marker = createMarker(point,icon,"Russian Federation","Tilsit","<h4>Russian Federation<BR>Tilsit </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.45,14.717);
+var marker = createMarker(point,icon,"Czech Republic","Tirnau","<h4>Czech Republic<BR>Tirnau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.95,8.8833);
+var marker = createMarker(point,icon,"Denmark","Tondern","<h4>Denmark<BR>Tondern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5667,13.0000);
+var marker = createMarker(point,icon,"Germany","Torgau","<h4>Germany<BR>Torgau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5667,15.9167);
+var marker = createMarker(point,icon,"Czech Republic","Trautenau","<h4>Czech Republic<BR>Trautenau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.217,15.883);
+var marker = createMarker(point,icon,"Czech Republic","Trebitsch","<h4>Czech Republic<BR>Trebitsch </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.0500,15.2500);
+var marker = createMarker(point,icon,"Poland","Treptow Rega","<h4>Poland<BR>Treptow Rega </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.7500,6.6500);
+var marker = createMarker(point,icon,"Germany","Trier","<h4>Germany<BR>Trier </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.6500,13.7833);
+var marker = createMarker(point,icon,"Italy","Triest","<h4>Italy<BR>Triest </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9667,17.9167);
+var marker = createMarker(point,icon,"Czech Republic","Troppau","<h4>Czech Republic<BR>Troppau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.0667,7.6667);
+var marker = createMarker(point,icon,"Italy","Turin","<h4>Italy<BR>Turin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.3833,17.5833);
+var marker = createMarker(point,icon,"Slovakia","Tyrnau","<h4>Slovakia<BR>Tyrnau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.7500,11.5667);
+var marker = createMarker(point,icon,"Germany","Tölz","<h4>Germany<BR>Tölz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.5333,9.0500);
+var marker = createMarker(point,icon,"Germany","Tübingen","<h4>Germany<BR>Tübingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.0667,10.6333);
+var marker = createMarker(point,icon,"Germany","Türkheim","<h4>Germany<BR>Türkheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.4000,10.0000);
+var marker = createMarker(point,icon,"Germany","Ulm","<h4>Germany<BR>Ulm </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5333,7.6833);
+var marker = createMarker(point,icon,"Germany","Unna","<h4>Germany<BR>Unna </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1000,5.1167);
+var marker = createMarker(point,icon,"Netherlands","Utrecht","<h4>Netherlands<BR>Utrecht </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.4333,12.3333);
+var marker = createMarker(point,icon,"Italy","Venedig","<h4>Italy<BR>Venedig </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.9333,9.2333);
+var marker = createMarker(point,icon,"Germany","Verden","<h4>Germany<BR>Verden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.4333,11.0000);
+var marker = createMarker(point,icon,"Italy","Verona","<h4>Italy<BR>Verona </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.1000,17.9000);
+var marker = createMarker(point,icon,"Hungary","Veszprim","<h4>Hungary<BR>Veszprim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.4667,6.8500);
+var marker = createMarker(point,icon,"Switzerland","Vevey","<h4>Switzerland<BR>Vevey </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.1000,9.3500);
+var marker = createMarker(point,icon,"Germany","Wabern","<h4>Germany<BR>Wabern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.9000,19.4833);
+var marker = createMarker(point,icon,"Poland","Wadowice","<h4>Poland<BR>Wadowice </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8333,9.3000);
+var marker = createMarker(point,icon,"Germany","Waiblingen","<h4>Germany<BR>Waiblingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8000,16.3167);
+var marker = createMarker(point,icon,"Poland","Waldenburg Schlesien","<h4>Poland<BR>Waldenburg Schlesien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0667,13.0167);
+var marker = createMarker(point,icon,"Germany","Waldheim","<h4>Germany<BR>Waldheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.9167,9.7667);
+var marker = createMarker(point,icon,"Germany","Waldsee","<h4>Germany<BR>Waldsee </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.3000,16.3500);
+var marker = createMarker(point,icon,"Croatia","Warasdin","<h4>Croatia<BR>Warasdin </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5000,9.1667);
+var marker = createMarker(point,icon,"Germany","Warburg","<h4>Germany<BR>Warburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9500,7.9833);
+var marker = createMarker(point,icon,"Germany","Warendorf","<h4>Germany<BR>Warendorf </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.8630,15.6770);
+var marker = createMarker(point,icon,"Poland","Warmbrunn","<h4>Poland<BR>Warmbrunn </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.2500,21.0000);
+var marker = createMarker(point,icon,"Poland","Warschau","<h4>Poland<BR>Warschau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.0500,12.2500);
+var marker = createMarker(point,icon,"Germany","Wasserburg","<h4>Germany<BR>Wasserburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7667,12.0667);
+var marker = createMarker(point,icon,"Germany","Weida","<h4>Germany<BR>Weida </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.4833,8.2500);
+var marker = createMarker(point,icon,"Germany","Weilburg","<h4>Germany<BR>Weilburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9833,11.3167);
+var marker = createMarker(point,icon,"Germany","Weimar","<h4>Germany<BR>Weimar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.5167,8.6833);
+var marker = createMarker(point,icon,"Germany","Weinheim","<h4>Germany<BR>Weinheim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.5000,13.0500);
+var marker = createMarker(point,icon,"Czech Republic","Weipert","<h4>Czech Republic<BR>Weipert </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.2000,11.9667);
+var marker = createMarker(point,icon,"Germany","Weissenfels","<h4>Germany<BR>Weissenfels </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (42.2833,-71.2833);
+var marker = createMarker(point,icon,"United States","Wellesley, Mass","<h4>United States<BR>Wellesley, Mass </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.1667,14.0333);
+var marker = createMarker(point,icon,"Austria","Wels","<h4>Austria<BR>Wels </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,12.3833);
+var marker = createMarker(point,icon,"Germany","Werdau","<h4>Germany<BR>Werdau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.5500,7.9167);
+var marker = createMarker(point,icon,"Germany","Werl","<h4>Germany<BR>Werl </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8333,10.7833);
+var marker = createMarker(point,icon,"Germany","Wernigerode","<h4>Germany<BR>Wernigerode </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.1167,21.3167);
+var marker = createMarker(point,icon,"Serbia and Montenegro","Werschetz","<h4>Serbia and Montenegro<BR>Werschetz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.6667,6.6167);
+var marker = createMarker(point,icon,"Germany","Wesel","<h4>Germany<BR>Wesel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.2167,16.3667);
+var marker = createMarker(point,icon,"Austria","Wien","<h4>Austria<BR>Wien </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.2333,16.3500);
+var marker = createMarker(point,icon,"Austria","Wien-Währing","<h4>Austria<BR>Wien-Währing </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.8167,16.2500);
+var marker = createMarker(point,icon,"Austria","Wiener-Neustadt","<h4>Austria<BR>Wiener-Neustadt </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.0833,8.2333);
+var marker = createMarker(point,icon,"Germany","Wiesbaden","<h4>Germany<BR>Wiesbaden </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.5333,8.1167);
+var marker = createMarker(point,icon,"Germany","Wilhelmshaven","<h4>Germany<BR>Wilhelmshaven </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (54.6833,25.3167);
+var marker = createMarker(point,icon,"Lithuania","Wilna","<h4>Lithuania<BR>Wilna </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.5000,8.7500);
+var marker = createMarker(point,icon,"Switzerland","Winterthur","<h4>Switzerland<BR>Winterthur </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.9000,11.4667);
+var marker = createMarker(point,icon,"Germany","Wismar","<h4>Germany<BR>Wismar </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4333,7.3333);
+var marker = createMarker(point,icon,"Germany","Witten","<h4>Germany<BR>Witten </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.8833,12.6500);
+var marker = createMarker(point,icon,"Germany","Wittenberg","<h4>Germany<BR>Wittenberg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (53.1500,12.5000);
+var marker = createMarker(point,icon,"Germany","Wittstock","<h4>Germany<BR>Wittstock </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1667,10.5500);
+var marker = createMarker(point,icon,"Germany","Wolfenbüttel","<h4>Germany<BR>Wolfenbüttel </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.4167,10.3667);
+var marker = createMarker(point,icon,"Germany","Worbis","<h4>Germany<BR>Worbis </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.6333,8.3500);
+var marker = createMarker(point,icon,"Germany","Worms","<h4>Germany<BR>Worms </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.7167,14.1333);
+var marker = createMarker(point,icon,"Germany","Wriezen","<h4>Germany<BR>Wriezen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.3667,12.7333);
+var marker = createMarker(point,icon,"Germany","Wurzen","<h4>Germany<BR>Wurzen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.2333,8.6833);
+var marker = createMarker(point,icon,"Switzerland","Wädensweil","<h4>Switzerland<BR>Wädensweil </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.8000,9.9333);
+var marker = createMarker(point,icon,"Germany","Würzburg","<h4>Germany<BR>Würzburg </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (46.7833,6.6333);
+var marker = createMarker(point,icon,"Switzerland","Yverdon","<h4>Switzerland<BR>Yverdon </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.7500,7.3667);
+var marker = createMarker(point,icon,"France","Zabern","<h4>France<BR>Zabern </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (45.8000,15.9667);
+var marker = createMarker(point,icon,"Croatia","Zagreb","<h4>Croatia<BR>Zagreb </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (44.1167,15.2333);
+var marker = createMarker(point,icon,"Croatia","Zara","<h4>Croatia<BR>Zara </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.0500,12.1500);
+var marker = createMarker(point,icon,"Germany","Zeitz","<h4>Germany<BR>Zeitz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (51.9667,12.0833);
+var marker = createMarker(point,icon,"Germany","Zerbst","<h4>Germany<BR>Zerbst </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.6500,11.9833);
+var marker = createMarker(point,icon,"Germany","Zeulenroda","<h4>Germany<BR>Zeulenroda </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3333,17.3833);
+var marker = createMarker(point,icon,"Poland","Ziegenhals","<h4>Poland<BR>Ziegenhals </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.9000,14.7500);
+var marker = createMarker(point,icon,"Germany","Zittau","<h4>Germany<BR>Zittau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.8667,16.0667);
+var marker = createMarker(point,icon,"Czech Republic","Znaim","<h4>Czech Republic<BR>Znaim </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3000,7.9500);
+var marker = createMarker(point,icon,"Switzerland","Zofingen","<h4>Switzerland<BR>Zofingen </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7500,13.0667);
+var marker = createMarker(point,icon,"Germany","Zschopau","<h4>Germany<BR>Zschopau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (49.2500,7.3667);
+var marker = createMarker(point,icon,"Germany","Zweibrücken","<h4>Germany<BR>Zweibrücken </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (48.6167,15.1667);
+var marker = createMarker(point,icon,"Austria","Zwettl","<h4>Austria<BR>Zwettl </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.7333,12.5000);
+var marker = createMarker(point,icon,"Germany","Zwickau","<h4>Germany<BR>Zwickau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.5167,6.1000);
+var marker = createMarker(point,icon,"Netherlands","Zwolle","<h4>Netherlands<BR>Zwolle </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (52.1000,15.6167);
+var marker = createMarker(point,icon,"Poland","Züllichau","<h4>Poland<BR>Züllichau </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (50.3833,17.65);
+var marker = createMarker(point,icon,"Poland","Zülz","<h4>Poland<BR>Zülz </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3833,8.5500);
+var marker = createMarker(point,icon,"Switzerland","Zürich","<h4>Switzerland<BR>Zürich </h4>")
+map.addOverlay(marker,icon);
+
+var point = new GLatLng (47.3833,8.5500);
+var marker = createMarker(point,icon,"Switzerland","Zürich-Oberstrass","<h4>Switzerland<BR>Zürich-Oberstrass </h4>")
+map.addOverlay(marker,icon);
+
+
+ //map.clearOverlays(marker);
+ //=== 
+ 
+ 
+ 
+ 
+ 
+ // put the assembled side_bar_html contents into the side_bar div
+ document.getElementById("combo_1").innerHTML = '<option value="-1" SELECTED> \n'+data_1;
+ document.getElementById("combo_0").innerHTML = data_2;
+ 
+ 
+  //  ======== Add a map overview ==========
+       map.addControl(new GOverviewMapControl(new GSize(200,200)));
+ 
+       //  ======== A function to adjust the positioning of the overview ========
+       function positionOverview(x,y) {
+         var omap=document.getElementById("map_overview");
+         omap.style.left = x+"px";
+         omap.style.top = y+"px";
+         
+         // == restyling ==
+         omap.firstChild.style.border = "1px solid gray";
+ 
+         omap.firstChild.firstChild.style.left="4px";
+         omap.firstChild.firstChild.style.top="4px";
+         omap.firstChild.firstChild.style.width="190px";
+         omap.firstChild.firstChild.style.height="190px";
+         setTimeout("ovmap.setMapType(G_SATELLITE_MAP);",1);
+       }
+       
+ }
+ else {
+ alert("Sorry, the Google Maps API is not compatible with this browser");
+ }
+ 
+ </script>
+ 		
+ 	</body>
+ </html>
+

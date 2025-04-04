@@ -1,0 +1,917 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_fileBase.dtd">
+<authorityList month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003" id="AL_fileBase">
+  <header>
+    <title>Filebase for Hofmeister</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+        <li>
+          <label>group</label>
+          <con>This groups elements according to the directories on the web-site. 'group' elements
+            can now have a 'print' attribute, because each NG is given a group element, before being
+            broken down into individual webpages, but the PDFs are for the whole NG.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body>
+    <rhcontent/>
+    <group id="g0" default="p0" level="0">
+      <groupHead>
+        <groupTitle>Home</groupTitle>
+        <groupFolder/>
+        <rhcontent/>
+      </groupHead>
+      <item id="p0">
+        <router/>
+        <fileName>index</fileName>
+        <fileTitle>Home</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="map">
+        <router/>
+        <fileName>pubPlaces_maps</fileName>
+        <fileTitle>Map of Publisher Places</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g1">
+      <groupHead>
+        <groupTitle>About</groupTitle>
+        <groupFolder>content/about/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <item id="p1">
+        <router> </router>
+        <fileName>about</fileName>
+        <fileTitle>Introduction</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_1">
+        <router> </router>
+        <fileName>project</fileName>
+        <fileTitle>Project</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_2">
+        <router> </router>
+        <fileName>hofmeister</fileName>
+        <fileTitle>Hofmeister biography</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+ <group id="g7">
+        <groupHead>
+          <groupTitle>articles</groupTitle>
+          <groupFolder>content/articles/</groupFolder>
+          <rhcontent/>
+        </groupHead>
+        <item id="beer_ger">
+          <router/>
+          <fileName>beer_ger</fileName>
+          <fileTitle>Hofmeister biography (German)</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="beer_eng">
+          <router/>
+          <fileName>beer_eng</fileName>
+          <fileTitle>Hofmeister biography (German)</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+       
+      </group>
+      <item id="p1_3">
+        <router> </router>
+        <fileName>team</fileName>
+        <fileTitle>Project team</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_4">
+        <router> </router>
+        <fileName>copyright</fileName>
+        <fileTitle>Copyright</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_5">
+        <router> </router>
+        <fileName>citation</fileName>
+        <fileTitle>Citation</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_6">
+        <router> </router>
+        <fileName>death_notice</fileName>
+        <fileTitle>Death Notice</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_7">
+        <router> </router>
+        <fileName>individuals</fileName>
+        <fileTitle>Individuals</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g2">
+      <groupHead>
+        <groupTitle>Database</groupTitle>
+        <groupFolder>content/database/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <item id="p2">
+        <router/>
+        <fileName>database</fileName>
+        <fileTitle>Database</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_1">
+        <router/>
+        <fileName>browse</fileName>
+        <fileTitle>Browse</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_2">
+        <router/>
+        <fileName>idcs</fileName>
+        <fileTitle>Indices</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <group id="g2_2">
+        <groupHead>
+          <groupTitle>indices</groupTitle>
+          <groupFolder>content/database/indices/</groupFolder>
+          <rhcontent/>
+        </groupHead>
+        <item id="index_composers">
+          <router/>
+          <fileName>composers/Aa-Ad</fileName>
+          <fileTitle>Composer index</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="index_pubPlaces">
+          <router/>
+          <fileName>pubPlaces/Aa-Az</fileName>
+          <fileTitle>Publisher Places index</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="index_publishers">
+          <router/>
+          <fileName>publishers/Aa-Af</fileName>
+          <fileTitle>Publishers index</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="index_hofclasses">
+          <router/>
+          <fileName>hofclasses/Aa-Az</fileName>
+          <fileTitle>Hofmeister classification index</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="index_countries">
+          <router/>
+          <fileName>countries</fileName>
+          <fileTitle>Countries index</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+      </group>
+      <item id="p2_3">
+        <router> </router>
+        <fileName>search</fileName>
+        <fileTitle>Search</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <group id="g2_3">
+        <groupHead>
+          <groupTitle>Search</groupTitle>
+          <groupFolder>content/database/search/</groupFolder>
+          <rhcontent/>
+        </groupHead>
+        <item id="search_basic">
+          <router/>
+          <fileName>basic</fileName>
+          <fileTitle>Basic Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="search_advanced">
+          <router/>
+          <fileName>advanced</fileName>
+          <fileTitle>Advanced Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="search_free_text">
+          <router/>
+          <fileName>free_text</fileName>
+          <fileTitle>Free Text Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="search_list">
+          <router/>
+          <fileName>list</fileName>
+          <fileTitle>List Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+      </group>
+    </group>
+    <group id="monatshefte">
+      <groupHead>
+        <groupTitle>browse</groupTitle>
+        <groupFolder>content/monatshefte/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+    </group>
+    <group id="g3">
+      <groupHead>
+        <groupTitle>help</groupTitle>
+        <groupFolder>content/help/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <item id="p3">
+        <router/>
+        <fileName>help</fileName>
+        <fileTitle>Help page</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <!--<item id="p3_1">
+                <router/>
+                <fileName>intro</fileName>
+                <fileTitle>Introduction</fileTitle>
+                <rhcontent/>
+                <relations>
+                    <rel/>
+                </relations>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p/>
+                </internal>
+            </item>-->
+      <item id="p3_2">
+        <router/>
+        <fileName>classes_help</fileName>
+        <fileTitle>Classes</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p3_3">
+        <router/>
+        <fileName>browsing</fileName>
+        <fileTitle>Browse</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p3_4">
+        <router/>
+        <fileName>indices</fileName>
+        <fileTitle>Indices</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p3_5">
+        <router/>
+        <fileName>search</fileName>
+        <fileTitle>Search</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p3_1_1">
+        <router/>
+        <fileName>whistling</fileName>
+        <fileTitle>Whistling</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <group id="g3_1">
+        <groupHead>
+          <groupTitle>search</groupTitle>
+          <groupFolder>content/help/search/</groupFolder>
+          <rhcontent/>
+        </groupHead>
+
+        <item id="p3_5_1">
+          <router/>
+          <fileName>basic</fileName>
+          <fileTitle>Basic Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="p3_5_2">
+          <router/>
+          <fileName>advanced</fileName>
+          <fileTitle>Advanced Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="p3_5_3">
+          <router/>
+          <fileName>freetext</fileName>
+          <fileTitle>Free Text Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+        <item id="p3_5_4">
+          <router/>
+          <fileName>list</fileName>
+          <fileTitle>List Search</fileTitle>
+          <rhcontent/>
+          <relations>
+            <rel/>
+          </relations>
+          <notes>
+            <p/>
+          </notes>
+          <internal>
+            <p/>
+          </internal>
+        </item>
+      </group>
+      <item id="p3_6">
+        <router/>
+        <fileName>browsers</fileName>
+        <fileTitle>Browsers</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      
+      <item id="p3_8">
+        <router/>
+        <fileName>thesauri_help</fileName>
+        <fileTitle>Thesauri Help</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <!--<item id="p3_9">
+        <router/>
+        <fileName>thesaurus_download</fileName>
+        <fileTitle>Thesauri Download</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>-->
+    </group>
+
+    <group id="g4">
+      <groupHead>
+        <groupTitle>Map</groupTitle>
+        <groupFolder>content/map/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <item id="p4">
+        <router/>
+        <fileName>map</fileName>
+        <fileTitle>Maps</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g5">
+      <groupHead>
+        <groupTitle>Reference pages</groupTitle>
+        <groupFolder>content/reference/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <item id="p5">
+        <router/>
+        <fileName>reference</fileName>
+        <fileTitle>Reference</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p5_1">
+        <router/>
+        <fileName>statistics</fileName>
+        <fileTitle>Statistics</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p5_2">
+        <router/>
+        <fileName>thesaurus_download</fileName>
+        <fileTitle>Thesaurus Download</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <!--<item id="p5_2">
+        <router/>
+        <fileName>report</fileName>
+        <fileTitle>Reports</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>-->
+      <item id="p5_3">
+        <router> </router>
+        <fileName>biblio</fileName>
+        <fileTitle>Bibliography</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p5_4">
+        <router> </router>
+        <fileName>thesauri</fileName>
+        <fileTitle>Thesauri</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p5_5">
+        <router> </router>
+        <fileName>classes</fileName>
+        <fileTitle>Classes</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p5_6">
+        <router> </router>
+        <fileName>analysis</fileName>
+        <fileTitle>Analysis</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+<item id="p5_7">
+        <router/>
+        <fileName>technical</fileName>
+        <fileTitle>Technical</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g6">
+      <groupHead>
+        <groupTitle>contact</groupTitle>
+        <groupFolder>content/contact/</groupFolder>
+        <rhcontent/>
+      </groupHead>
+      <!--<item id="p4"><router>	</router><fileName>encoding</fileName><fileTitle>Encoding</fileTitle><rhcontent/><relations><rel></rel></relations><notes><p></p></notes><internal><p></p></internal></item>-->
+      <!--<item id="p5"><router>	</router><fileName>database</fileName><fileTitle>Database</fileTitle><rhcontent/><relations><rel></rel></relations><notes><p></p></notes><internal><p></p></internal></item>-->
+
+
+      <item id="p6">
+        <router/>
+        <fileName>contact</fileName>
+        <fileTitle>Contact Us</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item><item id="p6_1">
+        <router/>
+        <fileName>correction</fileName>
+        <fileTitle>Correction</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item><item id="p6_2">
+        <router/>
+        <fileName>comment</fileName>
+        <fileTitle>Comment</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+
+<item id="p6_3">
+        <router/>
+        <fileName>thanks</fileName>
+        <fileTitle>Thank you</fileTitle>
+        <rhcontent/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+
+  </body>
+</authorityList>

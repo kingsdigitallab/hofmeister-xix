@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Copyright</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt><sourceDesc>
+                <p/>
+            </sourceDesc></fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content: Creative Commons </item>
+            </change>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content </item>
+            </change>
+            <change>
+                <date>2007-05-03</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>Provisional content provided</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><hi rend="bold">Hofmeister XIX</hi> is publicly available and free at the point of
+                access. All academic content of this site is registered under a <hi rend="bold"
+                    >Creative Commons</hi> license: <xref type="external"
+                    url="http://creativecommons.org/licenses/by-nc-sa/3.0/"
+                    >Attribution-Noncommercial-Share Alike 3.0</xref>, provided this publication is
+                acknowledged. Guidance is given <xref type="internal" from="p1_5">here</xref> on the
+                form this acknowledgement should take.</p>
+            <p>We are keen for <hi rend="italic">Hofmeister XIX</hi> to be used in the widest
+                possible range of educational and research contexts. If you have any doubts about
+                the use to which you wish to put the material in the context of this license, please
+                contact the project team.</p>
+        </body>
+    </text>
+</TEI.2>

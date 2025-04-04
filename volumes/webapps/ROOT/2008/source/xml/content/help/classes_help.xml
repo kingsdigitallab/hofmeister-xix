@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Classes</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-19</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (title, link)</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>Except during the first two years of publication, the Hofmeister <title level="m"
+                    >Monatsberichte</title> were divided into what we call Hofmeister
+                classifications or more simply Classes: these are a mixture of instrumental/vocal
+                and generic classifications, such as 'Music for mandolin', Music for solo piano',
+                'Overtures and entr'actes for piano, 4 hands', or 'Part songs with or without
+                accompaniment for orchestra, one or several instruments'. (In the first two years
+                alphabetical codes were used, broadly mapping onto the later divisions.) This should in
+                principle be an extremely valuable means of access to the individual bibliographical
+                items, and accordingly we have implemented both Class indices and searches.</p>
+            <p>In practice, however, these classifications are less useful and convenient to work
+                with than they might have been, for several reasons. As the examples just cited
+                indicate, the headings are often unwieldy and sometimes maddeningly inconsistent.
+                Moreover they changed over the period covered by Hofmeister XIX, and the various
+                classifications used at different times do not map perfectly onto one another. For
+                example, the heading 'Music for cello' disappears in January 1872, but the music is
+                still there: it is now under 'Music for wind and string instruments'.</p>
+            <p>In order to reduce the 800 or so distinct headings found in the <title level="m"
+                    >Monatsberichte</title> to a more manageable number, we have created a thesaurus
+                that links obviously equivalent headings, but because we have wished to minimize the
+                loss of information present in the original, the thesaurus still contains nearly 300
+                entries. Moreover, for technical reasons it is only possible for these to be
+                displayed in the Class thesaurus window as an alphabetical listing in German, in
+                which form entirely different instrumental/vocal and generic classifications are
+                mixed up with one another.</p>
+            <p>To make it easier to find the Classes you want we have prepared a list of Class
+                thesaurus headings, organized according to broader instrumental/vocal categories
+                than Hofmeister's, and with English translations. There are also alphabetical
+                listings in both English and German. You can download these as either a <xref type="redist"
+                    from="pdf/HofmeisterMonatsberichteClasses.pdf">PDF</xref> or an <xref
+                        type="redist" from="xls/HofmeisterMonatsberichteClasses.xls">Excel</xref>
+                file.</p>
+
+
+        </body>
+    </text>
+</TEI.2>

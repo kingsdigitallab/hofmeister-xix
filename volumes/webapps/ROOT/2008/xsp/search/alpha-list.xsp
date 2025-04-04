@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Returns an alphabetical list for the indices.
+  
+  @author miguel jose.m.vieira@kcl.ac.uk
+  @version $Id$ 
+-->
+<xsp:page create-session="true" language="java" xmlns:xsp="http://apache.org/xsp" xmlns:xsp-request="http://apache.org/xsp/request/2.0"
+  xmlns:xsp-session="http://apache.org/xsp/session/2.0">
+
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.cocoon.helpers.IndexSearcherHelper</xsp:include>
+  </xsp:structure>
+
+  <alpha-list>
+    <xsp:expr>IndexSearcherHelper.alphaList(request, context, request.getSession(false))</xsp:expr>
+  </alpha-list>
+</xsp:page>

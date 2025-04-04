@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statistics>
+
+  <item name="album" thesaurus="-" total="1629" unique="-" />
+
+  <item name="artist" thesaurus="-" total="826" unique="468" />
+
+  <item name="author" thesaurus="-" total="4491" unique="2624" />
+
+  <item name="bibl" thesaurus="-" total="286280" unique="-" />
+
+  <item name="composer" thesaurus="38387" total="266006" unique="55653" />
+
+
+  <item name="edition" thesaurus="-" total="18655" unique="5202" />
+
+  <item name="format" thesaurus="-" total="66535" unique="1738" />
+
+  <item name="key" thesaurus="46" total="49355" unique="137" />
+
+  <item name="opus" thesaurus="4797" total="229025" unique="6698" />
+
+  <item name="pb" thesaurus="-" total="19451" unique="-" />
+
+  <item name="publisher" thesaurus="4553" total="297736" unique="5844" />
+
+  <item name="pubPlace" thesaurus="768" total="298507" unique="1100" />
+
+  <item name="regNumber" thesaurus="4491" total="6120" unique="4483" />
+
+  <item name="subject" thesaurus="-" total="2050" unique="1342" />
+
+
+  <item name="title" thesaurus="-" total="509448" unique="-" />
+
+  <item name="wip" thesaurus="-" total="45257" unique="-" />
+
+  <item name="hofclass" thesaurus="310" total="20437" unique="-" />
+
+  <item name="countries" thesaurus="34" total="NA" unique="NA" />
+</statistics>

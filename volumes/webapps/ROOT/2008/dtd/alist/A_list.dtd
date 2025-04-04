@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % hofClass "regName,variants, notes?">
+
+<!ELEMENT A_list (publisher+|composer+|pubPlace+|hofClass+|countryCode+|opus+) >
+<!ELEMENT publisher (regName,variants, notes?) >
+<!ATTLIST publisher id ID #REQUIRED >
+<!ELEMENT regName (#PCDATA|supplied)*>
+<!ELEMENT variants (variant*) >
+<!ELEMENT variant (name, instances?) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT instances (#PCDATA) >
+<!ELEMENT notes (note*)>
+<!ELEMENT note (#PCDATA) >
+<!ELEMENT composer (regName, variants, notes?) >
+<!ATTLIST composer id ID #REQUIRED >
+<!ELEMENT pubPlace (regName, country, coordinates, variants, notes?)>
+<!ATTLIST pubPlace id ID #REQUIRED>
+<!ELEMENT country (#PCDATA) >
+<!ELEMENT hofClass (%hofClass;, sublevel*)>
+<!ATTLIST hofClass id ID #REQUIRED >
+<!ELEMENT coordinates (latitude, longitude) >
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT supplied (#PCDATA) >
+<!ELEMENT sublevel (%hofClass;)>
+<!ATTLIST  sublevel
+id ID #REQUIRED>
+<!ELEMENT countryCode (codeISO, internal, full) >
+<!ATTLIST countryCode id ID #REQUIRED >
+<!ELEMENT codeISO (#PCDATA)>
+<!ELEMENT internal (#PCDATA)>
+<!ELEMENT full (#PCDATA)>
+<!ELEMENT opus (regName,variants, notes?) >
+<!ATTLIST opus id ID #REQUIRED>

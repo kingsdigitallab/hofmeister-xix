@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6_1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correction form</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>King's College London</publisher>
+        <pubPlace>London</pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>2007-05-01</date>
+        <respStmt>
+          <name>Zaneta Au</name>
+        </respStmt>
+        <item>divGen added</item>
+      </change>
+      <change>
+        <date>2007-04-03</date>
+        <respStmt>
+          <name>Raffaele Viglianti</name>
+        </respStmt>
+        <item>Created</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <divGen id="form_corr"/>
+    </body>
+  </text>
+</TEI.2>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_4">		
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thesauri</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>     
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <head>Thesaurus tables</head>
+            <p>These downloadable PDFs provide full listings of the equivalences on which the thesauri are based.</p>
+            <list>
+                <item><xref type="redist" from="pdf/">Composer</xref></item>
+                <item><xref type="redist" from="pdf/">Opus</xref></item>
+                <item><xref type="redist" from="pdf/">Key</xref></item>
+                <item><xref type="redist" from="pdf/">Publisher</xref></item>
+                <item><xref type="redist" from="pdf/">Place of publication</xref></item>
+                <item><xref type="redist" from="pdf/">Hofmeister classification</xref></item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

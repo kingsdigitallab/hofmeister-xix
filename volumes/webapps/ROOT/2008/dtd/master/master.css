@@ -1,0 +1,621 @@
+
+/* Use Times New Roman for default font */
+$DOCUMENT {
+  font-family: "Arial Unicode MS";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+accMat {
+  display: block;
+}
+
+acquisition {
+  display: block;
+}
+
+additional {
+  display: block;
+}
+
+additions {
+  display: block;
+}
+
+adminInfo {
+  display: block;
+}
+
+altName {
+  display: block;
+}
+
+argument {
+  display: block;
+}
+
+author {
+  display: block;
+}
+
+authority {
+  display: block;
+}
+
+availability {
+  display: block;
+}
+
+back {
+  display: block;
+}
+
+bibl {
+  display: block;
+}
+
+biblScope {
+  display: block;
+}
+
+binding {
+  display: block;
+}
+
+bindingDesc {
+  display: block;
+}
+
+birth {
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+catDesc {
+  display: block;
+}
+
+category {
+  display: block;
+}
+
+cell {
+  display: block;
+}
+
+change {
+  display: block;
+}
+
+classCode {
+  display: block;
+}
+
+classDecl {
+  display: block;
+}
+
+closer {
+  display: block;
+}
+
+collation {
+  display: block;
+}
+
+collection {
+  display: block;
+}
+
+colophon {
+  display: block;
+}
+
+condition {
+  display: block;
+}
+
+country {
+  display: block;
+}
+
+creation {
+  display: block;
+}
+
+custEvent {
+  display: block;
+}
+
+custodialHist {
+  display: block;
+}
+
+date {
+  display: block;
+}
+
+dateline {
+  display: block;
+}
+
+death {
+  display: block;
+}
+
+decoNote {
+  display: block;
+}
+
+decoration {
+  display: block;
+}
+
+distributor {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+docAuthor {
+  display: block;
+}
+
+docDate {
+  display: block;
+}
+
+docTitle {
+  display: block;
+}
+
+edition {
+  display: block;
+}
+
+editionStmt {
+  display: block;
+}
+
+editor {
+  display: block;
+}
+
+editorialDecl {
+  display: block;
+}
+
+encodingDesc {
+  display: block;
+}
+
+epigraph {
+  display: block;
+}
+
+explicit {
+  display: block;
+}
+
+extent {
+  display: block;
+}
+
+figDesc {
+  display: block;
+}
+
+figure {
+  display: block;
+}
+
+fileDesc {
+  display: block;
+}
+
+foliation {
+  display: block;
+}
+
+form {
+  display: block;
+}
+
+front {
+  display: block;
+}
+
+funder {
+  display: block;
+}
+
+handDesc {
+  display: block;
+}
+
+handList {
+  display: block;
+}
+
+head {
+  display: block;
+}
+
+history {
+  display: block;
+}
+
+idno {
+  display: block;
+}
+
+imprint {
+  display: block;
+}
+
+incipit {
+  display: block;
+}
+
+institution {
+  display: block;
+}
+
+item {
+  display: block;
+}
+
+keywords {
+  display: block;
+}
+
+l {
+  display: block;
+  font-family: "Arial Unicode MS";
+}
+
+label {
+  display: block;
+}
+
+language {
+  display: block;
+}
+
+langUsage {
+  display: block;
+}
+
+layout {
+  display: block;
+}
+
+lg {
+  display: block;
+  margin-left: 10pt;
+}
+
+lb:before {
+  	color: red;
+  	font-family: Arial, sans-serif;
+  	font-weight: normal;
+  	content: attr(n);
+}
+
+list {
+  display: block;
+}
+
+listBibl {
+  display: block;
+}
+
+listPerson {
+  display: block;
+}
+
+locus {
+  display: block;
+}
+
+msContents {
+  display: block;
+}
+
+msDescription {
+  display: block;
+}
+
+msHeading {
+  display: block;
+}
+
+msIdentifier {
+  display: block;
+}
+
+msItem {
+  display: block;
+}
+
+msPart {
+  display: block;
+}
+
+msWriting {
+  display: block;
+}
+
+musicNotation {
+  display: block;
+}
+
+name {
+  display: block;
+}
+
+note {
+  display: block;
+}
+
+notesStmt {
+  display: block;
+}
+
+occupation {
+  display: block;
+}
+
+opener {
+  display: block;
+}
+
+origin {
+  display: block;
+}
+
+overview {
+  display: block;
+}
+
+p {
+  display: block;
+  font-family: "Arial Unicode MS";
+}
+
+persName {
+  display: block;
+}
+
+person {
+  display: block;
+}
+
+physDesc {
+  display: block;
+}
+
+principal {
+  display: block;
+}
+
+profileDesc {
+  display: block;
+}
+
+projectDesc {
+  display: block;
+}
+
+provenance {
+  display: block;
+}
+
+publicationStmt {
+  display: block;
+}
+
+publisher {
+  display: block;
+}
+
+pubPlace {
+  display: block;
+}
+
+q {
+  display: block;
+}
+
+recordHist {
+  display: block;
+}
+
+region {
+  display: block;
+}
+
+remarks {
+  display: block;
+}
+
+rendition {
+  display: block;
+}
+
+repository {
+  display: block;
+}
+
+residence {
+  display: block;
+}
+
+resp {
+  display: block;
+}
+
+respStmt {
+  display: block;
+}
+
+revisionDesc {
+  display: block;
+}
+
+row {
+  display: block;
+}
+
+rubric {
+  display: block;
+}
+
+salute {
+  display: block;
+}
+
+samplingDecl {
+  display: block;
+}
+
+seriesStmt {
+  display: block;
+}
+
+settlement {
+  display: block;
+}
+
+signed {
+  display: block;
+}
+
+source {
+  display: block;
+}
+
+sourceDesc {
+  display: block;
+}
+
+sponsor {
+  display: block;
+}
+
+stdVals {
+  display: block;
+}
+
+summary {
+  display: block;
+}
+
+support {
+  display: block;
+}
+
+surrogates {
+  display: block;
+}
+
+table {
+  display: block;
+}
+
+tagsDecl {
+  display: block;
+}
+
+tagUsage {
+  display: block;
+}
+
+taxonomy {
+  display: block;
+}
+
+TEI\.2 {
+  display: block;
+  font-family: "Arial Unicode MS";
+}
+
+teiHeader {
+  display: block;
+  color: #FFFFFF;
+  background-color: #000099;
+}
+
+term {
+  display: block;
+}
+
+text {
+  display: block;
+  font-family: "Arial Unicode MS";
+  font-size: 12pt;
+  color: #FFFFFF;
+  background-color: #FF9900;
+}
+
+textClass {
+  display: block;
+}
+
+textLang {
+  display: block;
+}
+
+title {
+  display: block;
+  font-family: "Arial Unicode MS";
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: center;
+}
+
+titlePage {
+  display: block;
+}
+
+titlePart {
+  display: block;
+}
+
+titleStmt {
+  display: block;
+}
+
+trailer {
+  display: block;
+}
+
+watermarks {
+  display: block;
+}
+
+text:before {
+  content: attr(n);
+}
+
+lg:before {
+  content: attr(n);
+color:#FF0000;
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_5_2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - Advanced search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <change>
+                    <date>2008-07-39</date>
+                    <respStmt>
+                        <name>EP</name>
+                    </respStmt>
+                    <item>modified content (typo) </item>
+                </change>
+                <date>2007-11-14</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Modified content </item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (title)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>Advanced search allows searching using up to three fields, selectable through
+                drop-down lists. Within each field you may specify whether results should match just
+                one or all of the search terms, and in the latter case whether or not they should be
+                in the specified sequence; it is also possible to specify logical relations (AND,
+                OR, and NOT) between the different fields. <xref type="internal" from="p3_8"
+                    >Thesauri</xref> are available for all fields other than Title and Registration
+                number, and only thesaurus searching is available for Key (click on the 'Thesaurus'
+                icon). For the remaining fields (Composer, Opus, Publisher, Publication place, Country, and
+                Class) it is possible to search by either using the thesaurus or typing in your
+                search terms.</p>
+            <p>For textual input, searching is neither case nor accent sensitive (thus 'marsche'
+                will find 'Märsche'), and wildcard characters (?, *) may be used: ? substitutes for
+                a single character, while * substitutes for any number of characters. Other
+                non-alphanumerical characters (e.g. ', +, -) are ignored. For cyrillic entries it is
+                possible to paste cyrillic characters into the search box, but it is more reliable
+                to use the thesaurus when searching for composers, and transliterations for titles
+                (the system adopted is that used in the <title>New Grove Dictionary of Music and
+                    Musicians</title>). Results may be limited to a specified range of months and
+                years: to select just one year, enter it in the 'From' field and leave 'To' blank.
+                If the 'Month' field is not filled in, the whole of the relevant year will be
+                searched.</p>
+            <p>Results may be sorted by up to three keys selected from the drop-down lists near the
+                bottom of the screen (Composer, Date, Opus, Publication place, Publisher, Title; note that
+                sorting does not use thesauri but is based on what is in the actual entries). You
+                may also specify the maximum total of results to be returned, and the maximum number
+                of results to be displayed per page; be careful of choosing 'All' if there is likely
+                to be a very large number of results. From any individual item there are links to
+                the <title level="m">Monatsbericht</title> page in which it is found, in the form of
+                either transcription or facsimile; these will open in a new window. If you wish to
+                amend your search rather than start a new one, select 'Back to search' on the
+                results page.</p>
+            <p>A note on Registration numbers: probably of interest only to specialist users, these
+                are found in certain <title level="m">Monatsbericht</title> entries between January
+                1831 and April 1838. Not all entries during this period have registration numbers,
+                and not all registration numbers are unique. They appear to have been assigned to
+                groups of items 'processed' or 'registered' at one time, possibly in connection with
+                the Verein der deutschen Musikalienhändler (of which Friedrich Hofmeister was
+                Secretary). Items with the same number, and therefore apparently registered at the
+                same time, sometimes appear scattered over two or three issues of the <title
+                    level="m">Monatsberichte</title>, which suggests that material was not being
+                entered into the Monatsberichte in an entirely systematic way.</p>
+
+
+        </body>
+    </text>
+</TEI.2>

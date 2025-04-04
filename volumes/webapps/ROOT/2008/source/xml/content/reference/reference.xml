@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reference</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-21</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content</item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added / modified content</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <p>This area of the website contains a variety of resources relevant to Hofmeister XIX
+                and its use.</p>
+            <list>
+                <item>
+                    <xref type="internal" from="p5_1">Basic statistics for this version of
+                        Hofmeister XIX</xref>
+                </item>
+                <item>Currency abbreviations found in Hofmeister XIX (<xref type="redist" from="pdf/currency.pdf">PDF</xref>)</item>
+                <item>Registration numbers found in Hofmeister XIX (<xref type="redist"
+                        from="xls/Registration_numbers.xls"
+                        >Excel</xref>)</item>
+                <!--<item>Publishers with places and dates of activity, listed by publisher or place
+                    (<xref type="redist" from="">Excel</xref>)</item>-->
+                <item><xref type="internal" from="p5_2">Download page</xref></item>
+                <item>
+                    <xref type="internal" from="p5_3">Bibliography</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="p5_7">Technical information</xref>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

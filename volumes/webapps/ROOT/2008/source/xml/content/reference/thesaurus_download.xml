@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Download page</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+
+            <change>
+                <date>2007-11-22</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>Texts download</head>
+                <p>Here you can download the XML files that compose the Hofmeister XIX corpus. The
+                    relevant XML elements have been added by a <hi rend="bold">key</hi> attribute to
+                    run together with the thesauri.</p>
+                <p>The XML files are available as a single <xref type="redist"
+                        from="zip/monatshefte.zip">ZIP file</xref> (24 MB)</p>
+                <p>The Hofmeister XIX DTD (a <xref type="external" url="http://www.tei-c.org/Guidelines/P4/index.xml">TEI P4</xref> 
+                    customization) is also available as a <xref type="redist" from="zip/hofmesiter_tei.zip">ZIP
+                        archive</xref>, as well as the TEI extensions files (<xref type="redist" from="zip/hofmeisterExt.zip">ZIP archive</xref>). </p>
+            </div>
+            <div>
+                <head>Thesaurus download</head>
+                <p>Here you can download the thesauri built into Hofmeister XIX, which both document
+                    the equivalences we have adopted and provide a listing of the variants found in
+                    the <title level="m">Monatsberichte</title>. In some cases we have included
+                    annotations to make the listings more useful: the Key thesaurus includes
+                    equivalent German, English, French, and Italian terms as well as the codes used
+                    in Hofmeister XIX, while the Class (Hofmeister classification) thesaurus
+                    includes both broader categorisations and translations. Some files include
+                    several listings (e.g. Classes listed alphabetically in German and English as
+                    well as by category, Places sorted by town or country). Excel files are
+                    generally preferred because they allow you to manipulate the data for your own
+                    purposes.</p>
+                <p>As the Composer thesaurus is extremely large, we provide the option of
+                    downloading just the thesaurus entries, without the variants.</p>
+                <list>
+                    <item>Composers, full (3 <xref type="redist" from="zip/composers_full.zip"
+                        >Excel</xref> files zipped or one <xref type="redist"
+                            from="zip/AL_composers.zip">XML</xref> file zipped) or <xref
+                            type="redist" from="xls/composersAll_simple.xls ">thesaurus entries
+                        only</xref> (Excel)</item>
+                    <item>Opus numbers (<xref type="redist" from="pdf/Opus_thesaurus.pdf"
+                        >PDF</xref>, <xref type="redist" from="xls/Opus_thesaurus.xls">Excel</xref>
+                        or XML in a <xref from="zip/AL_opuses.zip" type="redist">ZIP</xref> archive)</item>
+                    <item>Keys (<xref type="redist" from="pdf/key_codes.pdf">PDF</xref> or <xref
+                            type="redist" from="xls/key_codes.xls">Excel</xref>)</item>
+                    <item>Publishers (<xref type="redist" from="xls/Publisher_thesaurus.xls"
+                        >Excel</xref> or XML in a <xref from="zip/AL_publishers.zip" type="redist"
+                            >ZIP</xref> archive)</item>
+                    <item>Publication places, <xref type="redist" from="xls/Place_thesaurus.xls"
+                            >full</xref>, <xref type="redist" from="xls/countriesPlaces.xls"
+                            >headings</xref> (by place/country) only (Excel) or XML in a <xref
+                            from="zip/AL_pubPlaces.zip" type="redist">ZIP</xref> archive</item>
+                    <item>Hofmeister classifications, including broad categorisation (<xref
+                            type="redist" from="pdf/HofmeisterMonatsberichteClasses.pdf">PDF</xref>,
+                            <xref type="redist" from="xls/HofmeisterMonatsberichteClasses.xls"
+                        >Excel</xref> or XML in a <xref from="zip/AL_hofclasses.zip" type="redist"
+                            >ZIP</xref> archive)</item>
+                </list>
+            </div>
+
+        </body>
+    </text>
+</TEI.2>

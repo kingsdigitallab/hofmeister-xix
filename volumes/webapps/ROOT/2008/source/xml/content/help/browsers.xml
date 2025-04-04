@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_7">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Browsers</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-11-14</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>Content modified</item>
+            </change>
+            <change>
+                <date>2007-05-02</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>Content added</item>
+            </change>
+            <change>
+                <date>2007-03-20</date>
+                <respStmt>
+                    <name>Zaneta Au</name>
+                </respStmt>
+                <item>Dummy page</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+
+            <p>For this website to be accessible, it must be as easy to use and understand for as
+                many visitors as possible. We strive to ensure accessibility by complying with or
+                exceeding the recommendations of appropriate industry standards and applicable
+                legislation, and we are committed to continually reviewing and improving our levels
+                of compliance.</p>
+            <div>
+                <head>Font Control </head>
+
+                <p>This website offers the option for it to be viewed in different text sizes</p>
+
+                <p>You can  alter the size of the screen fonts using the tools built in to most
+                    modern web browsers: </p>
+                <list>
+                    <item>Internet Explorer (all Windows versions): Go to the 'View' menu, 'Text
+                        Size', and select your desired setting. The default is medium.
+                        Alternatively, if you have a mouse with a wheel you can hold the CTRL key on
+                        your keyboard whilst scrolling up or down with the wheel to alter the text
+                        size.</item>
+                    <item>Mozilla (i.e. Firefox / Camino, Mac and PC): Go to the 'View' menu and
+                        either click the 'Increase Text Size' or 'Decrease Text Size' menu items, or
+                        alternatively you can use the CTRL key with the mouse wheel or plus and
+                        minus keys to increase or decrease the size.</item>
+                    <item>Internet Explorer 5.1 (Mac): Go to the View menu and use the 'Text Zoom'
+                        feature.</item>
+                    <item>Apple Safari: Go the 'View' menu and use the 'Make Text Bigger' and 'Make
+                        Text Smaller' menu items. Alternatively you can use the option key with + or
+                        - to increase or decrease the text size.</item>
+                    <item>Netscape 7 + (Mac and PC): Go to the 'View' menu and use the 'Text Zoom'
+                        feature to change text size. Alternatively you can use the CTRL key with the
+                        plus or minus to increase or decrease the size.</item>
+                </list>
+            </div>
+            <div>
+                <head>Screen Size</head>
+
+                <p>This website will look best at a screen resolution of 1024 x 768 pixels or
+                    greater, at a colour depth of 16bit or better. Most laptops, and desktops with a
+                    screen size of 17" or larger, will run at this sort of resolution and colour
+                    depth. You can find instructions for changing the screen settings of the most
+                    popular operating systems below:</p>
+                <list>
+                    <item>
+                        <xref type="external"
+                            url="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/display_change_screen_resolution.mspx"
+                            >Windows XP</xref>
+                    </item>
+                    <item>
+                        <xref type="external"
+                            url="http://windowshelp.microsoft.com/Windows/en-US/help/0386b009-5f30-45c7-80c8-ff0395cc24091033.mspx"
+                            >Windows Vista</xref>
+                    </item>
+                    <item>
+                        <xref type="external" url="http://www.apple.com/support/mac101/customize/4/"
+                            >Apple Mac</xref>
+                    </item>
+                </list>
+            </div>
+
+            <div>
+                <head>Screen Reader Compatibility</head>
+
+                <p>The website supports screen reader programs. We recommend Browsealoud, an
+                    application for Mac and PC which can be used with most modern browsers. Once
+                    installed, simply click on the logo to switch on the reader and follow the set
+                    up instructions. If you have any problems, there is a page which sets out full
+                    instructions on installing and uninstalling Browsealoud. When installed,
+                    position your cursor at the start of a paragraph and it will start to read
+                    automatically. To stop the reader at any point, simply press the Ctrl key.</p>
+
+                <list>
+                    <item>
+                        <xref type="external" url="http://www.browsealoud.com/page.asp?pg_id=70004"
+                            >Browsealoud</xref>
+                    </item>
+                    <item>
+                        <xref type="external" url="http://www.browsealoud.com/page.asp?pg_id=70059"
+                            >Browsealoud full instructions</xref>
+                    </item>
+                </list>
+            </div>
+            <div>
+                <head>Print Version</head>
+
+                <p>This website is designed to print well by default. When you print the website it
+                    will automatically be reformatted for a clearer appearance on paper.</p>
+            </div>
+            <div>
+                <head>Standards</head>
+
+                <p>This site fully complies with the W3C XHTML 1.0 Standard and will validate.</p>
+
+                <p>The Cascading Style Sheets (CSS) on this site are essentially written according
+                    to W3C standards, but we have included additional formatting information which
+                    will cause the CSS not to validate. Unfortunately, different web browsers
+                    interpret the CSS standard in different ways - often incorrectly - meaning that
+                    it is difficult to create stylesheets which both validate against the
+                    appropriate standards, but which also allow users to see the website as intended
+                    across a wide variety of web browsers and platforms (i.e. Windows, Mac, Linux,
+                    etc). We have tried hard to ensure that our users have the best possible
+                    experience when browsing this website, irrespective of the sort of browser or
+                    computer they prefer to use, but this has meant that we have had to accommodate
+                    various browser inconsistencies in our CSS, at the expense of validation.</p>
+            </div>
+            <div>
+                <head>Plugins and Javascript</head>
+
+                <p>No additional plugins are required to use this website. However you will need to
+                    make sure Javascript is enabled in your browser:</p>
+
+                <div>
+                    <head>Internet Explorer</head>
+
+                    <list type="ordered">
+                        <item> Select 'Tools' from the top menu</item>
+                        <item>Choose 'Internet Options'</item>
+                        <item>Click on the 'Security' tab</item>
+                        <item>Click on 'Custom Level'</item>
+                        <item>Scroll down until you see section labled 'Scripting'</item>
+                        <item>Under 'Active Scripting', select 'Enable' and click OK</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Mozilla Firefox</head>
+                    <list type="ordered">
+
+                        <item>Select 'Tools' from the top menu</item>
+                        <item>Choose 'Options'</item>
+                        <item>Choose 'Content' from the top navigation (or 'Web Features' in Firefox
+                            1.0)</item>
+                        <item>Select the checkbox next to 'Enable JavaScript' and click OK</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Apple Safari</head>
+                    <list type="ordered">
+
+                        <item>Select 'Safari' from the top menu</item>
+                        <item>Choose 'Preferences'</item>
+                        <item>Choose 'Security'</item>
+                        <item>Select the checkbox next to 'Enable JavaScript'</item>
+                    </list>
+                </div>
+            </div>
+            <div>
+                <head>Browsers</head>
+
+                <p>In order to provide good accessibility some compromises have unfortunately had to
+                    be made in terms of full support for certain older browsers which do not support
+                    web standards, or support them unreliably or unpredictably. We strongly
+                    recommend that you use only the following browsers:</p>
+
+                <div>
+                    <head>Windows</head>
+
+                    <list>
+                        <item>Internet Explorer 7 (or 6) - available at <xref type="external"
+                                url="http://www.microsoft.com/windows/ie/default.asp"
+                                >http://www.microsoft.com/windows/ie/default.asp</xref>. Most people
+                            have this on their Windows-based PCs already. If you don't have Internet
+                            Explorer, or if you have a version earlier than version 6, you should
+                            consider obtaining one of the Mozilla browsers (see below) instead,
+                            because they are small and quick to download.</item>
+                        <item>Mozilla Firefox - available at <xref type="external"
+                            url="http://www.mozilla.org/"
+                                >http://www.mozilla.org/</xref></item>
+                        <item>Netscape 8 (in Internet Explorer or Firefox rendering mode)</item>
+                        <item>Opera 8 or above</item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Apple Mac</head>
+
+                    <list>
+                        <item>Apple Safari - available at <xref type="external"
+                                url="http://www.apple.com/safari/"
+                            >http://www.apple.com/safari/</xref></item>
+                        <item>Mozilla Camino / Firefox - all available at <xref type="external"
+                                url="http://www.mozilla.org/">http://www.mozilla.org/</xref></item>
+                    </list>
+                </div>
+                <div>
+                    <head>Linux</head>
+
+                    <list>
+                        <item>Mozilla Firefox - available at <xref type="esternal"
+                                url="http://www.mozilla.org/">http://www.mozilla.org</xref>/</item>
+                    </list>
+
+                    <p>The following browsers are not recommended on any platform - they will show
+                        the website but may not display the pages optimally:</p>
+                    <list>
+                        <item>Internet Explorer &lt; 6 (Not supported on the Mac)</item>
+                        <item>Opera &lt; v8 (Mac or PC)</item>
+                        <item>Netscape &lt; v8 (Mac or PC)</item>
+                        <item>Konqueror (Linux, any version)</item>
+                    </list>
+
+                    <p>We appreciate that it might not seem easy or desirable to have constantly to
+                        upgrade your browser! If you do have an older browser, or one not on the
+                        list above, and you are unable or unwilling to change it, rest assured you
+                        will still be able to use the site, but you will not have the best viewing
+                        experience. Additionally most accessibility enhancements will not be
+                        available to you. Netscape 4 users may only view the site in text-only mode.
+                        We therefore again strongly recommend you upgrade your browser. If you'd
+                        like to read more about why this is a good idea more generally, visit the
+                        Web Standards Project.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI.2>

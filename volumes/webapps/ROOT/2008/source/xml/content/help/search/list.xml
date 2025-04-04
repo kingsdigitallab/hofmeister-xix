@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p3_5_4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Help - List search</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>King's College London</publisher>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-07-39</date>
+                <respStmt>
+                    <name>EP</name>
+                </respStmt>
+                <item>modified content (typo) </item>
+            </change>
+            <change>
+                <date>2007-11-20</date>
+                <respStmt>
+                    <name>LK</name>
+                </respStmt>
+                <item>modified content </item>
+            </change>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Modified content (links, title)</item>
+            </change>
+            <change>
+                <date>2007-04-02</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>List search is different from the other kinds of search in that its primary purpose
+                is not to locate individual bibliographical items; instead, as its name indicates,
+                it creates lists of terms appearing in certain fields under certain conditions. You
+                could, for example, use it to list all the composers whose music was published in
+                Leipzig between 1830 and 1849, except those published by Hofmeister: this would
+                translate into 'List all <hi rend="italic">composers</hi> where <hi rend="italic"
+                    >Publication place</hi> is <hi rend="italic">Leipzig</hi>, except where <hi
+                    rend="italic">publisher</hi> is <hi rend="italic">Hofmeister</hi>', together
+                with the appropriate date ranges. There is no facility for listing titles, as such
+                searches are better carried out using Advanced search <xref type="internal"
+                    from="p3_8">Thesauri</xref> are available for all fields other than Title and
+                Registration number, and only thesaurus searching is available for Key (click on the
+                'Thesaurus' icon). For the remaining fields (Publication place, Publisher, Country,
+                Class, and Registration number) it is possible to search by either using the
+                thesaurus or typing in your search terms.</p>
+            <p>For textual input, searching is neither case nor accent sensitive (thus 'marsche'
+                will find 'Märsche'), and wildcard characters (?, *) may be used: ? substitutes for
+                a single character, while * substitutes for any number of characters. Other
+                non-alphanumerical characters (e.g. ', +, -) are ignored. For cyrillic entries it is
+                possible to paste cyrillic characters into the search box, but it is more reliable
+                to use the thesaurus when searching for composers, and transliterations for titles
+                (the system adopted is that used in the <title level="m">New Grove Dictionary of
+                    Music and Musicians</title>). Results may be limited to a specified range of
+                months and years: to select just one year, enter it in the 'From' field and leave
+                'To' blank. If the 'Month' field is not filled in, the whole of the relevant year
+                will be searched.</p>
+            <p>You can sort the results by one key (Date, Opus, Publisher, Publication place, or Country; note
+                that sorting does not use thesauri but is based on what is in the actual entries).
+                You may also specify the maximum total of results to be returned, and the maximum
+                number of results to be displayed per page; be careful of choosing 'All' if there is
+                likely to be a very large number of results. If you have set the maximum number of
+                results per page, use the 'Next' button to see more results, or choose a specific
+                range. In addition to the listing of items in the specified field (e.g. composers),
+                the results will give the number of matches, and you can view the individual
+                bibliographic items represented by these matches, in the same format as the results
+                from Basic, Advanced, and Free text searches.</p>
+            <p>It is important to be aware of inherent limitations in the use of matches to generate
+                statistical information. In addition to the general problems in using Hofmeister XIX
+                as a source of statistics, as explained in the <xref type="internal" from="p3">Help
+                    Introduction</xref>, it is necessary to understand how List search handles
+                composite items (albums and works in parts): if there is a match in any of the
+                individual bibliographic items contained with an album or work in parts, then all
+                individual items contained with it will be retrieved and included in the number of
+                matches, whether those individual items match or not. As always, <hi rend="bold"
+                    >care must be taken when using Hofmeister XIX as a source of statistical
+                data</hi>. </p>
+
+
+        </body>
+    </text>
+</TEI.2>

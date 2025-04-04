@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Returns a page with all the terms for the thesaurus.
+  
+  @author
+  @version $Id$ 
+-->
+<xsp:page language="java" 
+  xmlns:xsp="http://apache.org/xsp" 
+  xmlns:xsp-request="http://apache.org/xsp/request/2.0"
+  xmlns:xsp-session="http://apache.org/xsp/session/2.0"
+  create-session="true">
+  
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.cocoon.helpers.IndexSearcherHelper</xsp:include>
+  </xsp:structure>
+  
+  <thesaurus>
+    <names>
+      <xsp:expr>IndexSearcherHelper.browse(request, context, request.getSession(false))</xsp:expr>
+    </names>
+  </thesaurus>
+</xsp:page>

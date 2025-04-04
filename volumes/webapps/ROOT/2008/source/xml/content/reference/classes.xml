@@ -1,0 +1,1653 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Class list</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2007-04-30</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Added divisions</item>
+            </change>
+            <change>
+                <date>2007-04-03</date>
+                <respStmt>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <item>Created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+           
+            <div>
+                <head>Strings (bowed)</head>
+                <table>
+
+                    <!--<row>
+<cell role="label" cols="2">Strings (bowed)</cell>
+<cell/>
+</row>-->
+                    <row>
+                        <cell>Music for violin.</cell>
+                        <cell>Musik für die Violine.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for viola.</cell>
+                        <cell>Musik für die Bratsche (Viola).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for viola and cello.</cell>
+                        <cell>Musik für die Bratsche und das Violoncell.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for viola, cello and bass.</cell>
+                        <cell>Musik für die Bratsche, Violoncell und Bass.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for cello.</cell>
+                        <cell>Musik für das Violoncell.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for cello and double bass.</cell>
+                        <cell>Musik für das Violoncell und den Contrabass.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for double bass.</cell>
+                        <cell>Musik für den Contrabass.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Strings (plucked)</head>
+
+                <table>
+                    <!--<row>
+<cell role="label" cols="2">Strings (plucked)</cell>
+<cell/>
+</row>-->
+                    <row>
+                        <cell>Music for banjo.</cell>
+                        <cell>Musik für das Banjo.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for autoharp.</cell>
+                        <cell>Musik für die Akkord-Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for autoharp.</cell>
+                        <cell>Musik für die Autoharp (Akkord-Zither). </cell>
+                    </row>
+                    <row>
+                        <cell>Music for autoharp.</cell>
+                        <cell>Musik für die Autoharp.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for folk zither.</cell>
+                        <cell>Musik für die Volks-Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for guitar.</cell>
+                        <cell>Musik für die Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for guitar zither.</cell>
+                        <cell>Musik für die Guitarre-Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harp.</cell>
+                        <cell>Musik für die Harfe.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for lute.</cell>
+                        <cell>Musik für die Laute.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for mandolin.</cell>
+                        <cell>Musik für die Mandoline.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for tamburitza.</cell>
+                        <cell>Musik für die Tamburitza.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for Thuringian zither.</cell>
+                        <cell>Musik für die Thüringer Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for table harp.</cell>
+                        <cell>Musik für die Tischharfe.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for zither.</cell>
+                        <cell>Musik für die Zither.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+
+                <head>Strings (general)</head>
+                <table>
+                    <!--<row>
+<cell role="label" cols="2">Strings (general)</cell>
+<cell/>
+</row>
+-->
+                    <row>
+                        <cell>Music for cembalom.</cell>
+                        <cell>Musik für das Cymbal.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for string instruments.</cell>
+                        <cell>Musik für Streichinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for string orchestra.</cell>
+                        <cell>Musik für Streichorchester.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Wind (woodwind)</head>
+                <table>
+                    <!--<row>
+
+<cell role="label" cols="2">Wind (woodwind)</cell>
+<cell/>
+</row>-->
+                    <row>
+                        <cell>Music for flute.</cell>
+                        <cell>Musik für die Flöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for flute and clarinet.</cell>
+                        <cell>Musik für die Flöte und Clarinette.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for cane flute. </cell>
+                        <cell>Musik für den Csakan.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute.</cell>
+                        <cell>Musik für die Harmoniflöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute.</cell>
+                        <cell>Musik für die Flötenharmonika (Armoniflauto).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute.</cell>
+                        <cell>Musik für die Flötenharmonika (Harmoniflöte).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute.</cell>
+                        <cell>Musik für die Flötenharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute and single-action accordion.</cell>
+                        <cell>Musik für die Harmonieflöte und Handharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for flageolet.</cell>
+                        <cell>Musik für das Flageolet.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for double flageolet.</cell>
+                        <cell>Musik für das Doppelflageolet.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for oboe</cell>
+                        <cell>Musik für die Oboe.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for ocarina.</cell>
+                        <cell>Musik für die Ocarina.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for clarinet.</cell>
+                        <cell>Musik für die Clarinette.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for basset horn. </cell>
+                        <cell>Musik für das Bassethorn.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bassoon.</cell>
+                        <cell>Musik für den Fagott.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Wind (brass)</head>
+                <table>
+                    <!--<row>
+<cell role="label" cols="2">Wind (brass)</cell>
+<cell/>
+</row>
+-->
+                    <row>
+                        <cell>Music for Brass.</cell>
+                        <cell>Blechmusik.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for trumpet.</cell>
+                        <cell>Musik für die Trompete.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for cornet.</cell>
+                        <cell>Musik für Cornet à Pistons.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for trombone.</cell>
+                        <cell>Musik für die Posaune.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for horn.</cell>
+                        <cell>Musik für das Horn.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for post-horn.</cell>
+                        <cell>Musik für das Posthorn.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Wind (free reed)</head>
+                <table>
+                    <!--<row>
+<cell role="label" cols="2">Wind (free reed)</cell>
+<cell/>
+</row>
+-->
+                    <row>
+                        <cell>Music for accordion.</cell>
+                        <cell>Musik für die Harmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion.</cell>
+                        <cell>Musik für das Accordion.</cell>
+                    </row>
+                    <row>
+                        <cell>Musik for accordion.</cell>
+                        <cell>Musik für das Handharmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion (bandoneon).</cell>
+                        <cell>Musik für das Accordion (Bandonion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion (bandoneon, concertina).</cell>
+                        <cell>Musik für das Accordion (Bandonion, Concertina).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion (harmonica).</cell>
+                        <cell>Musik für das Accordion (Harmonika).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion (concertina).</cell>
+                        <cell>Musik für das Accordion (Ziehharmonika).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for accordion and harmonic flute.</cell>
+                        <cell>Musik für das Accordion und Harmonieflöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for single-action accordion.</cell>
+                        <cell>Musik für die Handharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for single-action accordion.</cell>
+                        <cell>Musik für die Handharmonika (Accordion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for single-action accordion (bandoneon).</cell>
+                        <cell>Musik für die Handharmonika (Bandonion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for single-action accordion (bandoneon, concertina).</cell>
+                        <cell>Musik für die Handharmonika (Bandonion, Concertina).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonic flute and single-action accordion.</cell>
+                        <cell>Musik für die Harmonieflöte und Handharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica, harmonic flute and accordion.</cell>
+                        <cell>Musik für die Physharmonika, Harmonieflöte und Accordion.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon.</cell>
+                        <cell>Musik für das Bandonion.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon (accordion).</cell>
+                        <cell>Musik für das Bandonion (Accordion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon (concertina).</cell>
+                        <cell>Musik für das Bandonion (Concertina).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon (concertina, harmonica).</cell>
+                        <cell>Musik für das Bandonion (Concertina, Harmonika).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon (single-action accordion, accordion).</cell>
+                        <cell>Musik für das Bandonion (Handharmonika, Accordion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for bandoneon (harmonica).</cell>
+                        <cell>Musik für das Bandonion (Harmonika).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for concertina.</cell>
+                        <cell>Musik für die Concertina.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonica (accordion).</cell>
+                        <cell>Musik für die Harmonika (Accordion).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonica (concertina).</cell>
+                        <cell>Musik für die Harmonika (Concertina).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for mouth organ.</cell>
+                        <cell>Musik für die Mundharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for mouth organ.</cell>
+                        <cell>Musik für die Aura.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Wind (general)</head>
+                <table>
+                    <!--<row>
+<cell role="label" cols="2">Wind (general)</cell>
+<cell/>
+</row>-->
+                    <row>
+                        <cell>Music for wind instruments.</cell>
+                        <cell>Musik für Blasinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for various wind instruments.</cell>
+                        <cell>Musik für verschiedene Blasinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for wind instruments.</cell>
+                        <cell>Harmoniemusik für Blasinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Military music for wind instruments. </cell>
+                        <cell>Harmoniemusik (Militär) für Blasinstrumente.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Percussion</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Percussion</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for drum.</cell>
+                        <cell>Musik für die Trommel.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for timpani.</cell>
+                        <cell>Musik für die Pauken.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for percussion.</cell>
+                        <cell>Musik für Schlaginstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for xylophone.</cell>
+                        <cell>Musik für das Xylophon.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Orchestra</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Orchestra</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for orchestra.</cell>
+                        <cell>Musik für das Orchester.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for salon orchestra.</cell>
+                        <cell>Musik für das Salon-Orchester.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for salon orchestra (Parisian or American instrumentation).</cell>
+                        <cell>Musik für das Salon-Orchester (Pariser oder Amerikanische
+                        Besetzung).</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Piano (solo)</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Piano (solo)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for solo piano.</cell>
+                        <cell>Musik für das Pianoforte allein.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 1 hand. </cell>
+                        <cell>Musik für das Pianoforte zu 1 Hand.</cell>
+                    </row>
+                    <row>
+                        <cell>Dances for piano.</cell>
+                        <cell>Tänze für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Dances and ballet music for piano.</cell>
+                        <cell>Tänze und Balletmusik für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Dances and marches for piano.</cell>
+                        <cell>Tänze und Märsche für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 1 hand.</cell>
+                        <cell>Musik für eine Hand.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for the left hand.</cell>
+                        <cell>Musik für die linke Hand.</cell>
+                    </row>
+                    <row>
+                        <cell>Dramatic music for concert performance in piano arrangement.</cell>
+                        <cell>Dramatische Concertmusik im Klavierauszuge.</cell>
+                    </row>
+                    <row>
+                        <cell>Marches for piano.</cell>
+                        <cell>Märsche für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Operas in piano arrangement.</cell>
+                        <cell>Opern im Klavierauszuge.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera music in piano arrangement.</cell>
+                        <cell>Opernmusik im Klavierauszuge.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano.</cell>
+                        <cell>Ouvertüren für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano solo and with accompaniment.</cell>
+                        <cell>Ouvertüren für das Pianoforte allein und mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano with accompaniment</cell>
+                        <cell>Ouvertüren für das Pianoforte mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano, 4 hands. </cell>
+                        <cell>Ouvertüren für das Pianoforte zu 4 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures and entr'actes for piano.</cell>
+                        <cell>Ouvertüren und Entre-Actes für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures and entr'actes for piano, 4 hands.</cell>
+                        <cell>Ouvertüren und Entre-Actes für das Pianoforte zu 4 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Variations for piano.</cell>
+                        <cell>Variationen für das Pianoforte.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Piano (multiple)</head>
+                <table>
+                    <!--<row>
+
+                        <cell role="label" cols="2">Piano (multiple)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for piano, 3 hands. </cell>
+                        <cell>Musik für das Pianoforte zu 3 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 4 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 4 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 4 hands with accompaniment.</cell>
+                        <cell>Musik für das Pianoforte zu 4 Händen mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 4 and 8 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 4 und 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano, 4 hands.</cell>
+                        <cell>Ouvertüren für das Pianoforte zu 4 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 6 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 6 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 6 hands with accompaniment.</cell>
+                        <cell>Musik für das Pianoforte zu 6 Händen mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 6 hands and 2 pianos, 4 and 8 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 6 Händen und für 2 Pianoforte zu 4 und 8
+                            Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 6 and 3 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 6 und zu 3 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 8 and 6 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 8 und 6 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for piano, 8 hands.</cell>
+                        <cell>Musik für das Pianoforte zu 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos.</cell>
+                        <cell>Musik für 2 Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, and for 4 hands with accompaniment.</cell>
+                        <cell>Musik für 2 Pianoforte, und für Pianoforte zu 4 Händen mit
+                        Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos with accompaniment.</cell>
+                        <cell>Musik für 2 Pianoforte mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos with or without accompaniment.</cell>
+                        <cell>Musik für 2 Pianoforte mit und ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 4 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 4 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 4 and 8 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 4 und zu 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 4 and 8 hands, and for 4 hands with acompaniment.</cell>
+                        <cell>Musik für 2 Pianoforte zu 4 und zu 8 Händen, sowie für Pianoforte zu 4
+                            Händen mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 4 and 8 hands, and piano, 6 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 4 und zu 8 Händen und für Pianoforte zu 6
+                            Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 8 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 8 hands and piano, 6 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 8 Händen und für Pianoforte zu 6
+                        Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 and 3 pianos.</cell>
+                        <cell>Musik für 2 und 3 Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 and 3 pianos and for piano, 8 hands.</cell>
+                        <cell>Musik für 2 und 3 Pianoforte und für Pianoforte zu 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 and 4 pianos.</cell>
+                        <cell>Musik für 2 und 4 Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos and for piano, 3 hands.</cell>
+                        <cell>Musik für 2 Pianoforte und für Pianoforte zu 3 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos and for piano, 3, 5 and 6 hands.</cell>
+                        <cell>Musik für 2 Pianoforte und für Pianoforte zu 3, 5 und 6 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos and for piano, 6 hands.</cell>
+                        <cell>Musik für 2 Pianoforte und für Pianoforte zu 6 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos and for piano, 6 and 3 hands.</cell>
+                        <cell>Musik für 2 Pianoforte und für Pianoforte zu 6 und 3 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos, 8 hands and for piano, 6 hands.</cell>
+                        <cell>Musik für 2 Pianoforte zu 8 Händen und für Pianoforte zu 6
+                        Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 2 pianos and 2 pianos, 8 hands.</cell>
+                        <cell>Musik für 2 Pianoforte und für 2 Pianoforte zu 8 Händen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 3 pianos.</cell>
+                        <cell>Musik für 3 Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 3 pianos with accompaniment.</cell>
+                        <cell>Musik für 3 Pianoforte mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for 8 pianos.</cell>
+                        <cell>Musik für 8 Pianoforte.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Piano (ensemble)</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Piano (ensemble)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for piano with accompaniment.</cell>
+                        <cell>Musik für das Pianoforte mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano with accompaniment</cell>
+                        <cell>Ouvertüren für das Pianoforte mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures for piano solo and with accompaniment.</cell>
+                        <cell>Ouvertüren für das Pianoforte allein und mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures and entre-acts for piano, and with accompaniment.</cell>
+                        <cell>Ouvertüren und Entre-Actes für das Pianoforte, und mit
+                        Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Overtures and entre-acts for piano, 4 hands.</cell>
+                        <cell>Ouvertüren und Entre-Actes für das Pianoforte zu 4 Händen..</cell>
+                    </row>
+                    <row>
+                        <cell>Variations for piano and violin (or another accompanying instrument).</cell>
+                        <cell>Variationen für Pianoforte und Violine (oder ein anderes begleitendes
+                            Instrument).</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Keyboard (other)</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Keyboard (other)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Music for enharmonium</cell>
+                        <cell>Musik für das Enharmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for Jankó piano.</cell>
+                        <cell>Musik für das Jankó-Klavier.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for pedal piano.</cell>
+                        <cell>Musik für das Pedal-Klavier.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ.</cell>
+                        <cell>Musik für die Orgel.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ with accompaniment.</cell>
+                        <cell>Musik für die Orgel mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ with or without accompaniment.</cell>
+                        <cell>Musik für die Orgel mit oder ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ and harmonium.</cell>
+                        <cell>Musik für die Orgel und Harmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ and physharmonica.</cell>
+                        <cell>Musik für die Orgel und Physharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonium.</cell>
+                        <cell>Musik für das Harmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonium (cabinet organ) and harmonic flute.</cell>
+                        <cell>Musik für das Harmonium (Orgel-Melodium) und Flötenharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonium (orgue expressif).</cell>
+                        <cell>Musik für das Harmonium (Orgue expressif).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for harmonium and harmonic flute.</cell>
+                        <cell>Musik für das Harmonium und Flötenharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for organ melodion.</cell>
+                        <cell>Musik für die Orgelmelodium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica.</cell>
+                        <cell>Musik für die Physharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica (harmonium).</cell>
+                        <cell>Musik für die Physharmonika (Harmonium).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica (harmonium, orgue expressif).</cell>
+                        <cell>Musik für die Physharmonika (Harmonium, Orgue expressif).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica (orgue moderne).</cell>
+                        <cell>Musik für die Physharmonika (Orgue moderne).</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica and harmonium.</cell>
+                        <cell>Musik für die Physharmonika und Harmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica, harmonium and harmonic flute.</cell>
+                        <cell>Musik für die Physharmonika, Harmonium und Flötenharmonika.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica, harmonium and harmonic flute.</cell>
+                        <cell>Musik für die Physharmonika, Harmonium und Harmonieflöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica and harmonic flute.</cell>
+                        <cell>Musik für die Physharmonika und Harmonieflöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica, harmonic flute and accordion.</cell>
+                        <cell>Musik für die Physharmonika, Harmonieflöte und Accordion.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for physharmonica and cabinet organ.</cell>
+                        <cell>Musik für die Physharmonika und Orgel-Melodium.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Voice (solo)</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Voice (solo)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Songs without accompaniment.</cell>
+                        <cell>Gesänge ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for concert performance with orchestral accompaniment and
+                            another instrument.</cell>
+                        <cell>Gesänge für Concertmusik mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for concert performance with accompaniment for orchestra and
+                            another instrument.</cell>
+                        <cell>Gesänge für Concertmusik mit Begleitung des Orchesters, sowie eines
+                            anderen Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with harmonium accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Harmoniums.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with piano accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with piano accompaniment and other instruments.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Pianoforte und anderen
+                            Instrumenten.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with piano accompaniment and another instrument.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Pianoforte und eines
+                            anderen Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with autoharp accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Akkord-Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with guitar accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung der Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with organ accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung der Orgel.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with zither accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung der Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with accompaniment for one instrument.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung eines anderen
+                        Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with accompaniment for one string instrument.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung eines
+                        Streichinstrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with accompaniment for orchestra or several
+                            instruments.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Orchesters oder mehrerer
+                            Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with accompaniment for piano and string
+                            instruments.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Pianoforte und
+                            Streichinstrumenten.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with accompaniment for several instruments.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with orchestral accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for one voice with organ or harmonium accompaniment.</cell>
+                        <cell>Gesänge für eine Stimme mit Begleitung der Orgel oder des
+                        Harmoniums.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with struck zither accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Schlag-Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with guitar accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with guitar or zither accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Guitarre oder Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with harmonium or organ accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung des Harmonium oder der Orgel.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with harp accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Harfe.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with organ accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Orgel.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with organ or harmonium accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Orgel oder des Harmoniums.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with zither accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with bandoneon accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung des Bandoneon.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with harmonium accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung des Harmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with orchestral accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with zither or guitar accompaniment.</cell>
+                        <cell>Gesänge mit Begleitung der Zither oder Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with accompaniment for orchestra or several instruments. </cell>
+                        <cell>Gesänge mit Begleitung des Orchesters oder mehrerer
+                        Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with accompaniment for orchestra or several instruments. </cell>
+                        <cell>Gesänge mit Begleitung des Orchesters oder mehrer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with accompaniment for orchestra and several instruments. </cell>
+                        <cell>Gesänge mit Begleitung des Orchesters und mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with piano accompaniment and another instrument.</cell>
+                        <cell>Gesänge mit Begleitung des Pianofortes und eines anderen
+                        Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with piano accompaniment and another instrument.</cell>
+                        <cell>Gesänge mit Begleitung des Pianoforte und eines andern
+                        Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs with accompaniment for several instruments.</cell>
+                        <cell>Gesänge mit Begleitung mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder and Songs for one voice with piano accompaniment.</cell>
+                        <cell>Lieder und Gesänge für eine Stimme mit Begleitung des
+                        Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder for one voice with accompaniment for several instruments.</cell>
+                        <cell>Lieder für eine Stimme mit Begleitung mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder for one voice with piano accompaniment.</cell>
+                        <cell>Lieder für eine Stimme mit Begleitung des Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder for one voice with zither accompaniment.</cell>
+                        <cell>Lieder für eine Stimme mit Begleitung der Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works for one voice with piano accompaniment.</cell>
+                        <cell>Gesangstücke für eine Stimme mit Begleitung des Pianoforte.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Voice (multiple)</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Voice (multiple)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>2-part choral works.</cell>
+                        <cell>Zweistimmige Chöre.</cell>
+                    </row>
+                    <row>
+                        <cell>Choral works with accompaniment and declamation.</cell>
+                        <cell>Chorwerke mit Begleitung und Deklamation.</cell>
+                    </row>
+                    <row>
+                        <cell>Choral works with connecting declamation.</cell>
+                        <cell>Chorwerke mit verbindender Deklamation.</cell>
+                    </row>
+                    <row>
+                        <cell>Chorale collections and liturgies.</cell>
+                        <cell>Choralsammlungen und Liturgien.</cell>
+                    </row>
+                    <row>
+                        <cell>Songs for male choir with accompaniment for one wind instrument.</cell>
+                        <cell>Gesänge für Männerchor mit Begleitung eines Blasinstrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Monophonic and part songs with accompaniment for orchestra or several
+                            instruments.</cell>
+                        <cell>Ein- und mehrstimmige Gesänge mit Begleitung des Orchesters oder
+                            mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Monophonic choral works.</cell>
+                        <cell>Einstimmige Chorwerke.</cell>
+                    </row>
+                    <row>
+                        <cell>Monophonic choral works with accompaniment.</cell>
+                        <cell>Einstimmige Chorwerke mit Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Monophonic songs with orchestral accompaniment.</cell>
+                        <cell>Einstimmige Gesänge mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Monophonic songs without orchestral accompaniment.</cell>
+                        <cell>Einstimmige Gesänge ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs.</cell>
+                        <cell>Mehrstimmige Gesänge.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with and without piano.</cell>
+                        <cell>Mehrstimmige Gesänge mit und ohne Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with orchestral accompaniment.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for orchestra or several instruments.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung des Orchesters oder mehrerer
+                            Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for orchestra and several instruments.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung des Orchesters und mehrerer
+                            Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for piano and one string instrument.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung des Pianoforte und einem
+                            Streichinstrument.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with piano accompaniment and another instrument.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung des Pianoforte und eines anderen
+                            Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for one wind instrument.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung eines Blasinstrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for one instrument.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung eines Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for one or several instruments.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung eines oder mehrerer
+                        Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for one string instrument.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung eines Streichinstrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with accompaniment for several instruments.</cell>
+                        <cell>Mehrstimmige Gesänge mit Begleitung mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with or without accompaniment.</cell>
+                        <cell>Mehrstimmige Gesänge mit oder ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with or without accompaniment for orchestra, one or several
+                            instruments.</cell>
+                        <cell>Mehrstimmige Gesänge mit oder ohne Begleitung des Orchesters, eines
+                            oder mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with or without piano accompaniment.</cell>
+                        <cell>Mehrstimmige Gesänge mit oder ohne Begleitung des Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Part songs with and without accompaniment.</cell>
+                        <cell>Mehrstimmige Gesänge mit und ohne Begleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works with accompaniment for several instruments.</cell>
+                        <cell>Gesangstücke mit Begleitung mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works for concert performance with accompaniment for several
+                            instruments.</cell>
+                        <cell>Gesangstücke für Concertmusik mit Begleitung mehrerer
+                        Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works with accompaniment for piano and other instruments.</cell>
+                        <cell>Gesangstücke mit Begleitung des Pianoforte und anderer
+                        Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works with orchestral accompaniment.</cell>
+                        <cell>Gesangstücke mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works with accompaniment for orchestra or several instruments.</cell>
+                        <cell>Gesangstücke mit Begleitung des Orchesters oder mehrerer
+                        Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works for concert performance with orchestral accompaniment.</cell>
+                        <cell>Gesangstücke für Concertmusik mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works for concert performance with accompaniment for orchestra
+                            or several instruments.</cell>
+                        <cell>Gesangstücke für Concertmusik mit Begleitung des Orchesters oder
+                            mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal works for concert performance with orchestral accompaniment and
+                            another instrument.</cell>
+                        <cell>Gesangstücke für Concertmusik mit Begleitung des Orchesters und eines
+                            anderen Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal works etc. for concert performance.</cell>
+                        <cell>Grössere Gesangsstücke etc. zu Concert-Auführungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal works for concert performance.</cell>
+                        <cell>Grössere Gesangsstücke zu Concert-Auführungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal works with orchestral accompaniment.</cell>
+                        <cell>Grössere Gesangstücke mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal work with accompaniment for orchestra, one or several
+                            instruments.</cell>
+                        <cell>Grössere Gesangsstücke mit Begleitung des Orchesters, eines oder
+                            mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal works with accompaniment for orchestra or another
+                            instrument.</cell>
+                        <cell>Grössere Gesangstücke mit Begleitung des Orchesters oder eines anderen
+                            Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Larger vocal works with accompaniment for orchestra or several
+                            instruments.</cell>
+                        <cell>Grössere Gesangstücke mit Begleitung des Orchesters oder mehrerer
+                            Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Male choirs with accompaniment for one wind instrument.</cell>
+                        <cell>Männerchöre mit Begleitung eines Blasinstrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Masses, cantatas, hymns with piano.</cell>
+                        <cell>Messen, Cantaten, Hymnen mit Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Masses, oratorios in vocal score.</cell>
+                        <cell>Messen, Oratorien im Klavierauszuge.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera songs.</cell>
+                        <cell>Operngesänge.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera music.</cell>
+                        <cell>Opernmusik.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera music with orchestral accompaniment.</cell>
+                        <cell>Opernmusik mit Begleitung des Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera music with piano accompaniment.</cell>
+                        <cell>Opernmusik mit Pianofortebegleitung.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and ballet music.</cell>
+                        <cell>Opern- und Ballettmusik.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and concert pieces for concert performance with accompaniment
+                            for orchestra or another instrument.</cell>
+                        <cell>Opern und Concertstücke für Concertmusik mit Begleitung des Orchesters
+                            (oder eines anderen Instrumentes).</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and concert pieces with orchestra.</cell>
+                        <cell>Opern und Concertstücke mit Orchester.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and concert music with accompaniment for orchestra or several
+                            instruments.</cell>
+                        <cell>Opern- und Concertmusik mit Orchesterbegleitung oder mehrere
+                            Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with orchestral
+                            accompaniment.</cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit Begleitung des
+                        Orchesters</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with orchestral
+                            accompaniment.</cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit Begleitung des
+                        Orchesters.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with accompaniment for
+                            orchestra or several instruments.</cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters
+                            oder mehrerer Instrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with accompaniment for
+                            orchestra and another instrument.</cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters
+                            und eines anderen Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with orchestral
+                            accompaniment, and songs with accompaniment for piano and another
+                            instrument. </cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit Begleitung des Orchesters
+                            und Gesänge mit Begleitung des Pianoforte und eines anderen
+                            Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and vocal works for concert performance with or without
+                            accompaniment for piano or another instrument.</cell>
+                        <cell>Opern und Gesangstücke für Concertmusik mit oder ohne Begleitung des
+                            Pianoforte oder eines anderen Instrumentes.</cell>
+                    </row>
+                    <row>
+                        <cell>Opera and songs for concert performance with accompaniment for
+                            orchestra or several instruments.</cell>
+                        <cell>Opern und Gesänge für Concertmusik mit Begleitung des Orchesters oder
+                            mehrerer Instrumente.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Voice (unspecified)</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Voice (unspecified)</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Declamation with piano accompaniment.</cell>
+                        <cell>Deklamation mit Begleitung des Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Declamatory music.</cell>
+                        <cell>Deklamatorische Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder collections.</cell>
+                        <cell>Liedersammlungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder with guitar accompaniment.</cell>
+                        <cell>Lieder mit Begleitung der Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder with zither accompaniment.</cell>
+                        <cell>Lieder mit Begleitung der Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Melodramas.</cell>
+                        <cell>Melodramatische Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Melodramas.</cell>
+                        <cell>Melodramen.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for declamation with piano accompaniment.</cell>
+                        <cell>Musik für Deklamation mit Begleitung des Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for declamation with or without piano accompaniment.</cell>
+                        <cell>Musik für Deklamation mit und ohne Begleitung des Pianoforte.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Miscellaneous</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Miscellaneous</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Concertos for orchestra.</cell>
+                        <cell>Concertanten für Orchester.</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with orchestra.</cell>
+                        <cell>Concertanten mit Orchester.</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with orchestra (string quintet, string quartet).</cell>
+                        <cell>Concertanten mit Orchester (Streichquintett, Streichquartett).</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with orchestra or string quartet.</cell>
+                        <cell>Concertanten mit Orchester oder Streichquartett.</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with orchestra or quintett.</cell>
+                        <cell>Concertanten mit Orchester (oder Quintett).</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with quintet.</cell>
+                        <cell>Concertanten mit Quintett.</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with string quartet.</cell>
+                        <cell>Concertanten mit Streichquartett.</cell>
+                    </row>
+                    <row>
+                        <cell>Concertos with string quintet.</cell>
+                        <cell>Concertanten mit Streichquintett.</cell>
+                    </row>
+                    <row>
+                        <cell>Dramatic music.</cell>
+                        <cell>Dramatische Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Military Music.</cell>
+                        <cell>Militärmusik.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for children's instruments.</cell>
+                        <cell>Musik für Kinderinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for string, wind and percussion instruments.</cell>
+                        <cell>Musik für Streich-, Blas- und Schlaginstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for string and wind instruments.</cell>
+                        <cell>Musik für Streich- und Blasinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Music for wind and string instruments.</cell>
+                        <cell>Musik für Blas- und Streichinstrumente.</cell>
+                    </row>
+                    <row>
+                        <cell>Collections.</cell>
+                        <cell>Sammlungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Collections of mixed works.</cell>
+                        <cell>Sammlungen vermischter Werke.</cell>
+                    </row>
+                    <row>
+                        <cell>Theatrical Music.</cell>
+                        <cell>Theatralische Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Church music.</cell>
+                        <cell>Kirchenmusik.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Pedagogical</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Pedagogical</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Lieder collections for schools.</cell>
+                        <cell>Liedersammlungen für Schulen.</cell>
+                    </row>
+                    <row>
+                        <cell>Lieder collections for schools etc.</cell>
+                        <cell>Liedersammlungen für Schulen etc.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for flute.</cell>
+                        <cell>Lehrbücher für die Flöte.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for cane flute.</cell>
+                        <cell>Lehrbücher für den Csakan.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for flageolet.</cell>
+                        <cell>Lehrbücher für das Flageolet.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for clarinet.</cell>
+                        <cell>Lehrbücher für die Clarinette.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for bassoon.</cell>
+                        <cell>Lehrbücher für den Fagott.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for horn.</cell>
+                        <cell>Lehrbücher für das Horn.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for concertina.</cell>
+                        <cell>Lehrbücher für die Concertina.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for violin.</cell>
+                        <cell>Lehrbücher für die Violine.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for cello and bass.</cell>
+                        <cell>Lehrbücher für das Violoncell und den Bass.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for double bass.</cell>
+                        <cell>Lehrbücher für den Contrabass.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for guitar.</cell>
+                        <cell>Lehrbücher für die Guitarre.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for harp.</cell>
+                        <cell>Lehrbücher für die Harfe.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for zither.</cell>
+                        <cell>Lehrbücher für die Zither.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for piano.</cell>
+                        <cell>Lehrbücher für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for organ.</cell>
+                        <cell>Lehrbücher für die Orgel.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for harmonium.</cell>
+                        <cell>Lehrbücher für das Harmonium.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for voice.</cell>
+                        <cell>Lehrbücher für den Gesang.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods and studies for voice.</cell>
+                        <cell>Lehrbücher und Übungen für den Gesang.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods and studies for piano.</cell>
+                        <cell>Lehrbücher und Übungen für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Methods for voice.</cell>
+                        <cell>Anweisungen zum Singen.</cell>
+                    </row>
+                    <row>
+                        <cell>Studies for piano.</cell>
+                        <cell>Übungen für das Pianoforte.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal studies.</cell>
+                        <cell>Übungen für den Gesang.</cell>
+                    </row>
+                    <row>
+                        <cell>Vocal studies.</cell>
+                        <cell>Uebungen für Gesang.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Texts</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Texts</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Song books and vocal studies.</cell>
+                        <cell>Lehrbücher und Uebungen für den Gesang.</cell>
+                    </row>
+                    <row>
+                        <cell>Song books.</cell>
+                        <cell>Liederbücher.</cell>
+                    </row>
+                    <row>
+                        <cell>Song books and libretti.</cell>
+                        <cell>Lieder- und Textbücher.</cell>
+                    </row>
+                    <row>
+                        <cell>Choirbooks.</cell>
+                        <cell>Choralbücher.</cell>
+                    </row>
+                    <row>
+                        <cell>Libretti.</cell>
+                        <cell>Textbücher.</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi>Literature</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Books and writings of musical interest.</cell>
+                        <cell>Bücher und Schriften von musikalischem Interesse.</cell>
+                    </row>
+                    <row>
+                        <cell>Books and writings on music.</cell>
+                        <cell>Bücher und Schriften über Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Literature on music.</cell>
+                        <cell>Literatur der Musik.</cell>
+                    </row>
+                    <row>
+                        <cell>Writings of musical interest.</cell>
+                        <cell>Schriften von musikalischen Interesse.</cell>
+                    </row>
+                    <row>
+                        <cell>Works of musical interest</cell>
+                        <cell>Werke von musikalischem Interesse.</cell>
+                    </row>
+                    <row>
+                        <cell>Theoretical works. </cell>
+                        <cell>Theoretische Werke.</cell>
+                    </row>
+                    <row>
+                        <cell>Theoretical works and writings of musical interest.</cell>
+                        <cell>Theoretische Werke und Schriften von musikalischem Interesse.</cell>
+                    </row>
+                    <row>
+                        <cell>Theoretical works and periodicals.</cell>
+                        <cell>Theoretische Werke und Zeitschriften.</cell>
+                    </row>
+                    <row>
+                        <cell>Music periodicals.</cell>
+                        <cell>Musikalische Zeitschriften.</cell>
+                    </row>
+                    <row>
+                        <cell>Periodicals.</cell>
+                        <cell>Zeitschriften.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Graphical</head>
+                <table>
+                    <!--<row>
+                        <cell role="label" cols="2">Graphical</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Portraits.</cell>
+                        <cell>Portraits.</cell>
+                    </row>
+                    <row>
+                        <cell>Portraits and busts.</cell>
+                        <cell>Portraits und Büsten.</cell>
+                    </row>
+                    <row>
+                        <cell>Portraits and other illustrations.</cell>
+                        <cell>Portraits und andere Abbildungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Illustrations.</cell>
+                        <cell>Abbildungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Photographs in visiting card format.</cell>
+                        <cell>Photographien in Visitenkartenformat.</cell>
+                    </row>
+                    <row>
+                        <cell>Busts.</cell>
+                        <cell>Büsten.</cell>
+                    </row>
+                    <row>
+                        <cell>Sculptures.</cell>
+                        <cell>Plastische Abbildungen.</cell>
+                    </row>
+                    <row>
+                        <cell>Sculptures.</cell>
+                        <cell>Plastische Darstellungen.</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Not classified</head>
+                <table>
+                   <!-- <row>
+                        <cell role="label" cols="2">Not classified</cell>
+                        <cell/>
+                    </row>-->
+                    <row>
+                        <cell>Not classified</cell>
+                        <cell>Nicht klassifiziert</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI.2>

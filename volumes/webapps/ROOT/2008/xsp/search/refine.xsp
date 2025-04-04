@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Refines basic search.
+  
+  @author
+  @version $Id$ 
+-->
+<xsp:page language="java" 
+  xmlns:xsp="http://apache.org/xsp" 
+  xmlns:xsp-request="http://apache.org/xsp/request/2.0"
+  xmlns:xsp-session="http://apache.org/xsp/session/2.0"
+  create-session="true">
+  
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.HofmeisterIndexConstants</xsp:include>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.cocoon.helpers.IndexSearcherHelper</xsp:include>
+  </xsp:structure>
+  
+  <refine>
+    <session-id><xsp:expr>request.getSession(true).getId()</xsp:expr></session-id>
+    <xsp:logic>
+      boolean listParams = false;
+      
+      try {
+        String lp = parameters.getParameter("search");
+        
+        if (lp != null &amp;&amp; lp.equals("list")) {
+          listParams = true;
+        }
+      } catch (Exception e) {
+      e.printStackTrace();
+      }
+    </xsp:logic>
+    <xsp:expr>IndexSearcherHelper.getParameters(listParams, context, request.getSession(false))</xsp:expr>
+  </refine>
+</xsp:page>

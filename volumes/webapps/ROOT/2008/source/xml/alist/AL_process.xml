@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../dtd/alist/AL_process.dtd">
+<authorityList month="_unspecified" day="_unknown" resp="PJS" year="2006" id="AL_process">
+    <header>
+        <title>Authority list for xMod XSLT process</title>
+        <changeNotes>
+            <changeItem>
+                <name><?xm-replace_text {name}?></name>
+                <p><?xm-replace_text {p}?></p>
+            </changeItem>
+        </changeNotes>
+        <comments> </comments>
+    </header>
+    <body>
+        <group id="output">
+            <groupHead>
+                <groupTitle>Output parameters</groupTitle>
+                <groupInfo />
+            </groupHead>
+            <item id="outputroot">
+                <param>c:\user_output\hofmeister_xmod\01_output</param>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p />
+                </internal>
+            </item>
+            <item id="outswitch">
+                <param />
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p />
+                </internal>
+            </item>
+        </group>
+        <group id="link">
+            <groupHead>
+                <groupTitle>Linking</groupTitle>
+                <groupInfo><?xm-replace_text {groupInfo}?></groupInfo>
+            </groupHead>
+            <item id="linkroot">
+                <param>file:///c:/user_output/hofmeister_xmod/01_output</param>
+                <notes>
+                    <p>file:///c:/user_output/hofmeister_xmod/01_output/</p>
+                    <p>http://maple.cc.kcl.ac.uk/ps/hofmeister_xmod/web/</p>
+                </notes>
+                <internal>
+                    <p />
+                </internal>
+            </item>
+            <!--<item id="linkswitch">
+    <param>final</param><notes><p></p></notes><internal><p></p></internal>
+  </item>-->
+        </group>
+        <group id="servers">
+            <groupHead>
+                <groupTitle>Images and scripts</groupTitle>
+                <groupInfo />
+            </groupHead>
+            <item id="imgroot">
+                <param>file:///c:/user_output/hofmeister_xmod/01_output</param>
+                <notes>
+                    <p>Pulls in images ....</p>
+                    <p>file:///c:/user_output/hofmeister_xmod/01_output/</p>
+                    <p>http://maple.cc.kcl.ac.uk/ps/hofmeister_xmod/web/</p>
+                </notes>
+                <internal>
+                    <p>Root of location from which images are served. </p>
+                </internal>
+            </item>
+            <item id="genimgswitch">
+                <param>/coocon/hofmeister/Assets/l</param>
+                <notes>
+                    <p>Pulls in images ....</p>
+                </notes>
+                <internal>
+                    <p>Switch and image folder must be included HERE.</p>
+                </internal>
+            </item>
+            <item id="pubimgswitch">
+                <param>/coocon/hofmeister/images/pubimg/</param>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p>Location from which publication images are found, after imgroot, switch etc.</p>
+                </internal>
+            </item>
+            <item id="scriptroot">
+                <param>file:///c:/user_output/hofmeister_xmod/01_output</param>
+                <notes>
+                    <p>Pulls in scripts ....</p>
+                    <p>file:///c:/user_output/hofmeister_xmod/01_output/</p>
+                    <p>http://maple.cc.kcl.ac.uk/ps/hofmeister_xmod/web/</p>
+                </notes>
+                <internal>
+                    <p>Root of location from which images are served. <b>Switch must be included HERE, it's not added
+                            later.</b><i>c:\user_output\hofmeister_xmod\01_output\</i></p>
+                </internal>
+            </item>
+            <item id="scriptswitch">
+                <param>Assets/g</param>
+                <notes>
+                    <p>Pulls in scripts ....</p>
+                </notes>
+                <internal>
+                    <p>Location from which javascripts are served.</p>
+                </internal>
+            </item>
+            <item id="scriptpers">
+              <param>Assets/p/06</param>
+                <notes>
+                    <p>Defines the personality pack number</p>
+                </notes>
+                <internal>
+                    <p>Location where the personality pack is served: /Assets/p/04</p>
+                </internal>
+            </item>
+        </group>
+        <group id="checking">
+            <groupHead>
+                <groupTitle>Checking pages information</groupTitle>
+                <groupInfo />
+            </groupHead>
+            <item id="chqroot">
+                <param>file:///c:/user_output/hofmeister_xmod/01_docsite</param>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p>Root location from which the CSS for the checking pages are served</p>
+                </internal>
+            </item>
+            <item id="chqswitch">
+                <param>css/</param>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p>Switch applied here.</p>
+                </internal>
+            </item>
+        </group>
+        <group id="docsite">
+            <groupHead>
+                <groupTitle>Documentary site</groupTitle>
+                <groupInfo />
+            </groupHead>
+            <item id="docsiteroot">
+                <param>c:\user_output\hofmeister_xmod\01_docsite</param>
+                <notes>
+                    <p>c:\user_output\hofmeister_xmod\01_output\docsite</p>
+                    <p>http://maple.cc.kcl.ac.uk/ps/hofmeister_xmod/ref/</p>
+                </notes>
+                <internal>
+                    <p>Location where docsite materials is output</p>
+                </internal>
+            </item>
+        </group>
+        <!--    <group id="global">
+      <groupHead>
+        <groupTitle>New global parameters in xMod1.3</groupTitle>
+        <groupInfo/>
+      </groupHead>
+      <item id="rhcontent">
+        <param>on</param>
+        <notes>
+          <p>Two values are possible: 'off' and 'on'. Default is 'off'.</p>
+          <p>See documentation</p>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>-->
+    </body>
+</authorityList>

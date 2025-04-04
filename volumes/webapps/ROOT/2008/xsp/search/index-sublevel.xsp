@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Returns a page of the search results.
+  
+  @author
+  @version $Id$ 
+-->
+<xsp:page language="java" 
+  xmlns:xsp="http://apache.org/xsp" 
+  xmlns:xsp-request="http://apache.org/xsp/request/2.0"
+  xmlns:xsp-session="http://apache.org/xsp/session/2.0"
+  create-session="true">
+  
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.HofmeisterIndexConstants</xsp:include>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.hofmeister.cocoon.helpers.IndexSearcherHelper</xsp:include>
+  </xsp:structure>
+  
+  <index>
+    <session-id><xsp:expr>request.getSession(true).getId()</xsp:expr></session-id>
+    <nav>
+      <xsp:expr>IndexSearcherHelper.index(request, context, request.getSession(false))</xsp:expr>
+    </nav>
+    <xsp:logic>
+      int hits = IndexSearcherHelper.advancedSearch(request, context, request.getSession(false));
+      
+      Integer max = (Integer) request.getSession(false).getAttribute(HofmeisterIndexConstants.MAX_RESULTS);
+      int maxResults = HofmeisterIndexConstants.MAX_RESULTS_DEFAULT;
+      
+      if (max != null) {
+        maxResults = max.intValue();
+      }
+    </xsp:logic>
+    
+    <xsp:expr>IndexSearcherHelper.getParameters(false, context, request.getSession(false))</xsp:expr>
+    <total><xsp:expr>hits</xsp:expr></total>
+    <xsp:expr>IndexSearcherHelper.pageAll(maxResults, context, request.getSession(false))</xsp:expr>
+  </index>
+</xsp:page>

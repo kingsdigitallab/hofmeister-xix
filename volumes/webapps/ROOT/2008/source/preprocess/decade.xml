@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intermed id="decade">
+   <list>
+      <item id="hofm_1829_01" pb="4">Januar 1829</item>
+      <item id="hofm_1829_02" pb="12">Februar 1829</item>
+      <item id="hofm_1829_03" pb="19">März, 1829</item>
+      <item id="hofm_1829_04" pb="27">April, 1829</item>
+      <item id="hofm_1829_05" pb="40">May und Juny, 1829</item>
+      <item id="hofm_1829_07" pb="56">July und August, 1829</item>
+      <item id="hofm_1829_09" pb="70">September und October, 1829</item>
+      <item id="hofm_1829_11" pb="87">November und December, 1829</item>
+      <item id="hofm_1830_01" pb="5">Januar und Februar 1830</item>
+      <item id="hofm_1830_03" pb="19">März und April 1830</item>
+      <item id="hofm_1830_05" pb="35">May und Juny 1830</item>
+      <item id="hofm_1830_07" pb="50">July, August 1830</item>
+      <item id="hofm_1830_09" pb="66">September, October 1830</item>
+      <item id="hofm_1830_11" pb="82">November, December 1830</item>
+      <item id="hofm_1831_01" pb="2">Januar, Februar 1831</item>
+      <item id="hofm_1831_03" pb="18">März, April 1831</item>
+      <item id="hofm_1831_05" pb="35">Mai, Juni 1831</item>
+      <item id="hofm_1831_07" pb="53">Juli, August 1831</item>
+      <item id="hofm_1831_09" pb="73">September, October 1831</item>
+      <item id="hofm_1831_11" pb="91">November, December 1831</item>
+      <item id="hofm_1832_01" pb="2">Januar, Februar 1832</item>
+      <item id="hofm_1832_03" pb="19">März, April 1832</item>
+      <item id="hofm_1832_05" pb="34">Mai, Juni 1832</item>
+      <item id="hofm_1832_07" pb="50">Juli, August 1832</item>
+      <item id="hofm_1832_09" pb="68">September, October 1832</item>
+      <item id="hofm_1832_11" pb="84">November, December 1832</item>
+      <item id="hofm_1833_01" pb="2">Januar, Februar 1833</item>
+      <item id="hofm_1833_03" pb="18">März, April 1833</item>
+      <item id="hofm_1833_05" pb="34">Mai, Juni 1833</item>
+      <item id="hofm_1833_07" pb="50">Juli, August 1833</item>
+      <item id="hofm_1833_09" pb="66">September, October 1833</item>
+      <item id="hofm_1833_11" pb="86">November, December 1833</item>
+      <item id="hofm_1834_01" pb="2">Januar, Februar 1834</item>
+      <item id="hofm_1834_03" pb="18">März, April 1834</item>
+      <item id="hofm_1834_05" pb="34">Mai, Juni 1834</item>
+      <item id="hofm_1834_07" pb="52">Juli, August 1834</item>
+      <item id="hofm_1834_09" pb="70">September, October 1834</item>
+      <item id="hofm_1834_11" pb="88">November, December 1834</item>
+      <item id="hofm_1835_01" pb="2">Januar, Februar 1835</item>
+      <item id="hofm_1835_03" pb="18">März, April 1835</item>
+      <item id="hofm_1835_05" pb="34">Mai 1835</item>
+      <item id="hofm_1835_06" pb="50">Juni 1835</item>
+      <item id="hofm_1835_07" pb="66">Juli, August 1835</item>
+      <item id="hofm_1835_09" pb="82">September 1835</item>
+      <item id="hofm_1835_10" pb="98">October, November 1835</item>
+      <item id="hofm_1835_12" pb="114">December 1835</item>
+      <item id="hofm_1836_01" pb="2">Januar und Februar 1836</item>
+      <item id="hofm_1836_03" pb="18">März 1836</item>
+      <item id="hofm_1836_04" pb="34">April und Mai 1836</item>
+      <item id="hofm_1836_06" pb="50">Juni 1836</item>
+      <item id="hofm_1836_07" pb="66">Juli und August 1836</item>
+      <item id="hofm_1836_09" pb="82">September 1836</item>
+      <item id="hofm_1836_10" pb="98">October 1836</item>
+      <item id="hofm_1836_11" pb="114">November 1836</item>
+      <item id="hofm_1836_12" pb="129">December 1836</item>
+      <item id="hofm_1837_01" pb="2">Januar 1837</item>
+      <item id="hofm_1837_02" pb="18">Februar 1837</item>
+      <item id="hofm_1837_03" pb="34">März, April 1837</item>
+      <item id="hofm_1837_05" pb="50">Mai 1837</item>
+      <item id="hofm_1837_06" pb="66">Juni 1837</item>
+      <item id="hofm_1837_07" pb="82">Juli 1837</item>
+      <item id="hofm_1837_08" pb="98">August 1837</item>
+      <item id="hofm_1837_09" pb="114">September und October 1837</item>
+      <item id="hofm_1837_11" pb="130">November und December 1837</item>
+      <item id="hofm_1838_01" pb="2">Januar 1838</item>
+      <item id="hofm_1838_02" pb="18">Februar 1838</item>
+      <item id="hofm_1838_03" pb="34">März 1838</item>
+      <item id="hofm_1838_04" pb="50">April 1838</item>
+      <item id="hofm_1838_05" pb="66">Mai 1838</item>
+      <item id="hofm_1838_06" pb="82">Juni 1838</item>
+      <item id="hofm_1838_07" pb="98">Juli 1838</item>
+      <item id="hofm_1838_08" pb="114">August, September 1838</item>
+      <item id="hofm_1838_10" pb="130">October 1838</item>
+      <item id="hofm_1838_11" pb="146">November 1838</item>
+      <item id="hofm_1838_12" pb="178">December 1838</item>
+      <item id="hofm_1839_01" pb="2">Januar 1839</item>
+      <item id="hofm_1839_02" pb="18">Februar, März 1839</item>
+      <item id="hofm_1839_04" pb="34">April 1839</item>
+      <item id="hofm_1839_05" pb="50">Mai 1839</item>
+      <item id="hofm_1839_06" pb="66">Juni 1839</item>
+      <item id="hofm_1839_07" pb="82">Juli 1839</item>
+      <item id="hofm_1839_08" pb="98">August 1839</item>
+      <item id="hofm_1839_09" pb="114">September 1839</item>
+      <item id="hofm_1839_10" pb="130">October, November 1839</item>
+      <item id="hofm_1839_12" pb="146">December 1839</item>
+   </list>
+   <list>
+      <item id="hofm_1840_01" pb="2">Januar 1840</item>
+      <item id="hofm_1840_02" pb="18">Februar 1840</item>
+      <item id="hofm_1840_03" pb="34">März 1840</item>
+      <item id="hofm_1840_04" pb="50">April 1840</item>
+      <item id="hofm_1840_05" pb="66">Mai 1840</item>
+      <item id="hofm_1840_06" pb="82">Juni, Juli 1840</item>
+      <item id="hofm_1840_08" pb="98">August 1840</item>
+      <item id="hofm_1840_09" pb="114">September 1840</item>
+      <item id="hofm_1840_10" pb="130">October 1840</item>
+      <item id="hofm_1840_11" pb="146">November 1840</item>
+      <item id="hofm_1840_12" pb="162">December 1840</item>
+      <item id="hofm_1841_01" pb="2">Januar 1841</item>
+      <item id="hofm_1841_02" pb="18">Februar 1841</item>
+      <item id="hofm_1841_03" pb="34">März 1841</item>
+      <item id="hofm_1841_04" pb="50">April 1841</item>
+      <item id="hofm_1841_05" pb="66">Mai 1841</item>
+      <item id="hofm_1841_06" pb="82">Juni 1841</item>
+      <item id="hofm_1841_07" pb="98">Juli 1841</item>
+      <item id="hofm_1841_08" pb="114">August 1841</item>
+      <item id="hofm_1841_09" pb="130">September 1841</item>
+      <item id="hofm_1841_10" pb="146">October 1841</item>
+      <item id="hofm_1841_11" pb="162">November 1841</item>
+      <item id="hofm_1841_12" pb="178">December 1841</item>
+      <item id="hofm_1842_01" pb="2">Januar 1842</item>
+      <item id="hofm_1842_02" pb="18">Februar 1842</item>
+      <item id="hofm_1842_03" pb="34">März 1842</item>
+      <item id="hofm_1842_04" pb="50">April 1842</item>
+      <item id="hofm_1842_05" pb="70">Mai 1842</item>
+      <item id="hofm_1842_06" pb="86">Juni 1842</item>
+      <item id="hofm_1842_07" pb="102">Juli 1842</item>
+      <item id="hofm_1842_08" pb="118">August 1842</item>
+      <item id="hofm_1842_09" pb="134">September 1842</item>
+      <item id="hofm_1842_10" pb="150">October 1842</item>
+      <item id="hofm_1842_11" pb="166">November 1842</item>
+      <item id="hofm_1842_12" pb="186">December 1842</item>
+      <item id="hofm_1843_01" pb="2">Januar 1843</item>
+      <item id="hofm_1843_02" pb="18">Februar 1843</item>
+      <item id="hofm_1843_03" pb="34">März 1843</item>
+      <item id="hofm_1843_04" pb="50">April 1843</item>
+      <item id="hofm_1843_05" pb="66">Mai 1843</item>
+      <item id="hofm_1843_06" pb="82">Juni 1843</item>
+      <item id="hofm_1843_07" pb="98">Juli 1843</item>
+      <item id="hofm_1843_08" pb="114">August 1843</item>
+      <item id="hofm_1843_09" pb="130">September 1843</item>
+      <item id="hofm_1843_10" pb="146">October 1843</item>
+      <item id="hofm_1843_11" pb="162">November 1843</item>
+      <item id="hofm_1843_12" pb="178">December 1843</item>
+      <item id="hofm_1844_01" pb="2">Januar 1844</item>
+      <item id="hofm_1844_02" pb="18">Februar 1844</item>
+      <item id="hofm_1844_03" pb="34">März 1844</item>
+      <item id="hofm_1844_04" pb="50">April 1844</item>
+      <item id="hofm_1844_05" pb="66">Mai 1844</item>
+      <item id="hofm_1844_06" pb="82">Juni 1844</item>
+      <item id="hofm_1844_07" pb="98">Juli 1844</item>
+      <item id="hofm_1844_08" pb="114">August 1844</item>
+      <item id="hofm_1844_09" pb="130">September 1844</item>
+      <item id="hofm_1844_10" pb="146">October 1844</item>
+      <item id="hofm_1844_11" pb="162">November 1844</item>
+      <item id="hofm_1844_12" pb="178">December 1844</item>
+      <item id="hofm_1845_01" pb="2">Januar 1845</item>
+      <item id="hofm_1845_02" pb="18">Februar 1845</item>
+      <item id="hofm_1845_03" pb="34">März 1845</item>
+      <item id="hofm_1845_04" pb="50">April 1845</item>
+      <item id="hofm_1845_05" pb="66">Mai 1845</item>
+      <item id="hofm_1845_06" pb="82">Juni 1845</item>
+      <item id="hofm_1845_07" pb="98">Juli 1845</item>
+      <item id="hofm_1845_08" pb="114">August 1845</item>
+      <item id="hofm_1845_09" pb="130">September 1845</item>
+      <item id="hofm_1845_10" pb="146">October 1845</item>
+      <item id="hofm_1845_11" pb="162">November 1845</item>
+      <item id="hofm_1845_12" pb="178">December 1845</item>
+      <item id="hofm_1846_01" pb="2">Januar 1846</item>
+      <item id="hofm_1846_02" pb="18">Februar 1846</item>
+      <item id="hofm_1846_03" pb="38">März 1846</item>
+      <item id="hofm_1846_04" pb="54">April 1846</item>
+      <item id="hofm_1846_05" pb="70">Mai 1846</item>
+      <item id="hofm_1846_06" pb="86">Juni 1846</item>
+      <item id="hofm_1846_07" pb="102">Juli 1846</item>
+      <item id="hofm_1846_08" pb="118">August 1846</item>
+      <item id="hofm_1846_09" pb="134">September 1846</item>
+      <item id="hofm_1846_10" pb="154">October 1846</item>
+      <item id="hofm_1846_11" pb="170">November 1846</item>
+      <item id="hofm_1846_12" pb="186">December 1846</item>
+      <item id="hofm_1847_01" pb="2">Januar 1847</item>
+      <item id="hofm_1847_02" pb="26">Februar 1847</item>
+      <item id="hofm_1847_03" pb="42">März 1847</item>
+      <item id="hofm_1847_04" pb="58">April 1847</item>
+      <item id="hofm_1847_05" pb="74">Mai 1847</item>
+      <item id="hofm_1847_06" pb="94">Juni 1847</item>
+      <item id="hofm_1847_07" pb="110">Juli 1847</item>
+      <item id="hofm_1847_08" pb="126">August 1847</item>
+      <item id="hofm_1847_09" pb="142">September, October 1847</item>
+      <item id="hofm_1847_11" pb="166">November 1847</item>
+      <item id="hofm_1847_12" pb="190">December 1847</item>
+      <item id="hofm_1848_01" pb="2">Januar 1848</item>
+      <item id="hofm_1848_02" pb="22">Februar 1848</item>
+      <item id="hofm_1848_03" pb="38">März 1848</item>
+      <item id="hofm_1848_04" pb="54">April 1848</item>
+      <item id="hofm_1848_05" pb="70">Mai 1848</item>
+      <item id="hofm_1848_06" pb="86">Juni 1848</item>
+      <item id="hofm_1848_07" pb="102">Juli 1848</item>
+      <item id="hofm_1848_08" pb="118">August 1848</item>
+      <item id="hofm_1848_09" pb="134">September 1848</item>
+      <item id="hofm_1848_10" pb="150">October 1848</item>
+      <item id="hofm_1848_11" pb="166">November 1848</item>
+      <item id="hofm_1848_12" pb="182">December 1848</item>
+      <item id="hofm_1849_01" pb="3">Januar 1849</item>
+      <item id="hofm_1849_02" pb="18">Februar 1849</item>
+      <item id="hofm_1849_03" pb="34">März und April 1849</item>
+      <item id="hofm_1849_05" pb="50">Mai und Juni 1849</item>
+      <item id="hofm_1849_07" pb="66">Juli 1849</item>
+      <item id="hofm_1849_08" pb="82">August 1849</item>
+      <item id="hofm_1849_09" pb="98">September, October 1849</item>
+      <item id="hofm_1849_11" pb="122">November 1849</item>
+      <item id="hofm_1849_12" pb="142">December 1849</item>
+   </list>
+   <list>
+      <item id="hofm_1850_01" pb="2">Januar 1850</item>
+      <item id="hofm_1850_02" pb="22">Februar 1850</item>
+      <item id="hofm_1850_03" pb="38">März 1850</item>
+      <item id="hofm_1850_04" pb="54">April 1850</item>
+      <item id="hofm_1850_05" pb="70">Mai u. Juni 1850</item>
+      <item id="hofm_1850_07" pb="94">Juli 1850</item>
+      <item id="hofm_1850_08" pb="114">August 1850</item>
+      <item id="hofm_1850_09" pb="130">September 1850</item>
+      <item id="hofm_1850_10" pb="146">October 1850</item>
+      <item id="hofm_1850_11" pb="162">November 1850</item>
+      <item id="hofm_1850_12" pb="178">December 1850</item>
+      <item id="hofm_1851_01" pb="2">Januar 1851</item>
+      <item id="hofm_1851_02" pb="22">Februar 1851</item>
+      <item id="hofm_1851_03" pb="42">März 1851</item>
+      <item id="hofm_1851_04" pb="58">April 1851</item>
+      <item id="hofm_1851_05" pb="78">Mai 1851</item>
+      <item id="hofm_1851_06" pb="110">Juni 1851</item>
+      <item id="hofm_1851_07" pb="130">Juli 1851</item>
+      <item id="hofm_1851_08" pb="146">August 1851</item>
+      <item id="hofm_1851_09" pb="162">September 1851</item>
+      <item id="hofm_1851_10" pb="186">October 1851</item>
+      <item id="hofm_1851_11" pb="210">November 1851</item>
+      <item id="hofm_1851_12" pb="234">December 1851</item>
+      <item id="hofm_1852_01" pb="2">Januar 1852</item>
+      <item id="hofm_1852_02" pb="22">Februar 1852</item>
+      <item id="hofm_1852_03" pb="42">März 1852</item>
+      <item id="hofm_1852_04" pb="58">April 1852</item>
+      <item id="hofm_1852_05" pb="78">Mai 1852</item>
+      <item id="hofm_1852_06" pb="94">Juni 1852</item>
+      <item id="hofm_1852_07" pb="110">Juli 1852</item>
+      <item id="hofm_1852_08" pb="130">August 1852</item>
+      <item id="hofm_1852_09" pb="146">September 1852</item>
+      <item id="hofm_1852_10" pb="170">October 1852</item>
+      <item id="hofm_1852_11" pb="194">November 1852</item>
+      <item id="hofm_1852_12" pb="218">December 1852</item>
+      <item id="hofm_1853_01" pb="238">Januar
+1853</item>
+      <item id="hofm_1853_02" pb="262">Februar 1853</item>
+      <item id="hofm_1853_03" pb="282">März 1853</item>
+      <item id="hofm_1853_04" pb="298">April 1853</item>
+      <item id="hofm_1853_05" pb="318">Mai 1853</item>
+      <item id="hofm_1853_06" pb="334">Juni 1853</item>
+      <item id="hofm_1853_07" pb="354">Juli 1853</item>
+      <item id="hofm_1853_08" pb="374">August 1853</item>
+      <item id="hofm_1853_09" pb="406">September 1853</item>
+      <item id="hofm_1853_10" pb="422">October 1853</item>
+      <item id="hofm_1853_11" pb="438">November 1853</item>
+      <item id="hofm_1853_12" pb="458">December 1853</item>
+      <item id="hofm_1854_01" pb="478">Januar 1854</item>
+      <item id="hofm_1854_02" pb="494">Februar 1854</item>
+      <item id="hofm_1854_03" pb="510">März 1854</item>
+      <item id="hofm_1854_04" pb="526">April 1854</item>
+      <item id="hofm_1854_05" pb="542">Mai 1854</item>
+      <item id="hofm_1854_06" pb="558">Juni 1854</item>
+      <item id="hofm_1854_07" pb="570">Juli 1854</item>
+      <item id="hofm_1854_08" pb="586">August 1854</item>
+      <item id="hofm_1854_09" pb="602">September 1854</item>
+      <item id="hofm_1854_10" pb="620">October 1854</item>
+      <item id="hofm_1854_11" pb="644">November 1854</item>
+      <item id="hofm_1854_12" pb="660">December 1854</item>
+      <item id="hofm_1855_01" pb="680">Januar 1855</item>
+      <item id="hofm_1855_02" pb="700">Februar 1855</item>
+      <item id="hofm_1855_03" pb="720">März 1855</item>
+      <item id="hofm_1855_04" pb="736">April 1855</item>
+      <item id="hofm_1855_05" pb="752">Mai 1855</item>
+      <item id="hofm_1855_06" pb="768">Juni 1855</item>
+      <item id="hofm_1855_07" pb="788">Juli 1855</item>
+      <item id="hofm_1855_08" pb="804">August 1855</item>
+      <item id="hofm_1855_09" pb="820">September 1855</item>
+      <item id="hofm_1855_10" pb="840">October 1855</item>
+      <item id="hofm_1855_11" pb="856">November 1855</item>
+      <item id="hofm_1855_12" pb="880">December 1855</item>
+      <item id="hofm_1856_01" pb="908">Januar 1856</item>
+      <item id="hofm_1856_02" pb="928">Februar 1856</item>
+      <item id="hofm_1856_03" pb="948">März 1856</item>
+      <item id="hofm_1856_04" pb="964">April 1856</item>
+      <item id="hofm_1856_05" pb="976">Mai 1856</item>
+      <item id="hofm_1856_06" pb="992">Juni 1856</item>
+      <item id="hofm_1856_07" pb="1008">Juli 1856</item>
+      <item id="hofm_1856_08" pb="1024">August 1856</item>
+      <item id="hofm_1856_09" pb="1040">September und October 1856</item>
+      <item id="hofm_1856_11" pb="1074">November 1856</item>
+      <item id="hofm_1856_12" pb="1090">December 1856</item>
+      <item id="hofm_1857_01" pb="2">Januar 1857</item>
+      <item id="hofm_1857_02" pb="18">Februar 1857</item>
+      <item id="hofm_1857_03" pb="34">März 1857</item>
+      <item id="hofm_1857_04" pb="50">April 1857</item>
+      <item id="hofm_1857_05" pb="66">Mai 1857</item>
+      <item id="hofm_1857_06" pb="82">Juni 1857</item>
+      <item id="hofm_1857_07" pb="98">Juli 1857</item>
+      <item id="hofm_1857_08" pb="114">August 1857</item>
+      <item id="hofm_1857_09" pb="134">September und October 1857</item>
+      <item id="hofm_1857_11" pb="158">November 1857</item>
+      <item id="hofm_1857_12" pb="174">December 1857</item>
+      <item id="hofm_1858_01" pb="2">Januar 1858</item>
+      <item id="hofm_1858_02" pb="18">Februar 1858</item>
+      <item id="hofm_1858_03" pb="34">März 1858</item>
+      <item id="hofm_1858_04" pb="50">April 1858</item>
+      <item id="hofm_1858_05" pb="66">Mai 1858</item>
+      <item id="hofm_1858_06" pb="82">Juni 1858</item>
+      <item id="hofm_1858_07" pb="98">Juli 1858</item>
+      <item id="hofm_1858_08" pb="114">August 1858</item>
+      <item id="hofm_1858_09" pb="130">September und October 1858</item>
+      <item id="hofm_1858_11" pb="162">November 1858</item>
+      <item id="hofm_1858_12" pb="182">December 1858</item>
+      <item id="hofm_1859_01" pb="2">Januar 1859</item>
+      <item id="hofm_1859_02" pb="22">Februar 1859</item>
+      <item id="hofm_1859_03" pb="38">März 1859</item>
+      <item id="hofm_1859_04" pb="54">April 1859</item>
+      <item id="hofm_1859_05" pb="70">Mai 1859</item>
+      <item id="hofm_1859_06" pb="86">Juni 1859</item>
+      <item id="hofm_1859_07" pb="110">Juli 1859</item>
+      <item id="hofm_1859_08" pb="126">August 1859</item>
+      <item id="hofm_1859_09" pb="142">September und October 1859</item>
+      <item id="hofm_1859_11" pb="174">November 1859</item>
+      <item id="hofm_1859_12" pb="194">December 1859</item>
+   </list>
+   <list>
+      <item id="hofm_1860_01" pb="2">Januar 1860</item>
+      <item id="hofm_1860_02" pb="22">Februar 1860</item>
+      <item id="hofm_1860_03" pb="42">März 1860</item>
+      <item id="hofm_1860_04" pb="62">April 1860</item>
+      <item id="hofm_1860_05" pb="82">Mai 1860</item>
+      <item id="hofm_1860_06" pb="98">Juni 1860</item>
+      <item id="hofm_1860_07" pb="112">Juli 1860</item>
+      <item id="hofm_1860_08" pb="128">August 1860</item>
+      <item id="hofm_1860_09" pb="148">September und Oktober 1860</item>
+      <item id="hofm_1860_11" pb="172">November 1860</item>
+      <item id="hofm_1860_12" pb="200">Dezember 1860</item>
+      <item id="hofm_1861_01" pb="2">Januar 1861</item>
+      <item id="hofm_1861_02" pb="22">Februar 1861</item>
+      <item id="hofm_1861_03" pb="42">März 1861</item>
+      <item id="hofm_1861_04" pb="62">April 1861</item>
+      <item id="hofm_1861_05" pb="78">Mai 1861</item>
+      <item id="hofm_1861_06" pb="94">Juni 1861</item>
+      <item id="hofm_1861_07" pb="114">Juli 1861</item>
+      <item id="hofm_1861_08" pb="138">August 1861</item>
+      <item id="hofm_1861_09" pb="158">September und October 1861</item>
+      <item id="hofm_1861_11" pb="194">November 1861</item>
+      <item id="hofm_1861_12" pb="218">December 1861</item>
+      <item id="hofm_1862_01" pb="2">Januar 1862</item>
+      <item id="hofm_1862_02" pb="26">Februar 1862</item>
+      <item id="hofm_1862_03" pb="42">März 1862</item>
+      <item id="hofm_1862_04" pb="58">April 1862</item>
+      <item id="hofm_1862_05" pb="78">Mai 1862</item>
+      <item id="hofm_1862_06" pb="98">Juni 1862</item>
+      <item id="hofm_1862_07" pb="122">Juli 1862</item>
+      <item id="hofm_1862_08" pb="142">August 1862</item>
+      <item id="hofm_1862_09" pb="162">September 1862</item>
+      <item id="hofm_1862_10" pb="190">Oktober 1862</item>
+      <item id="hofm_1862_11" pb="210">November 1862</item>
+      <item id="hofm_1862_12" pb="230">Dezember 1862</item>
+      <item id="hofm_1863_01" pb="2">Januar 1863</item>
+      <item id="hofm_1863_02" pb="18">Februar 1863</item>
+      <item id="hofm_1863_03" pb="34">März 1863</item>
+      <item id="hofm_1863_04" pb="54">April 1863</item>
+      <item id="hofm_1863_05" pb="70">Mai 1863</item>
+      <item id="hofm_1863_06" pb="94">Juni 1863</item>
+      <item id="hofm_1863_07" pb="114">Juli 1863</item>
+      <item id="hofm_1863_08" pb="134">August 1863</item>
+      <item id="hofm_1863_09" pb="154">September 1863</item>
+      <item id="hofm_1863_10" pb="178">Oktober 1863</item>
+      <item id="hofm_1863_11" pb="202">November 1863</item>
+      <item id="hofm_1863_12" pb="226">Dezember 1863</item>
+      <item id="hofm_1864_01" pb="2">Januar 1864</item>
+      <item id="hofm_1864_02" pb="22">Februar 1864</item>
+      <item id="hofm_1864_03" pb="38">März 1864</item>
+      <item id="hofm_1864_04" pb="62">April 1864</item>
+      <item id="hofm_1864_05" pb="86">Mai 1864</item>
+      <item id="hofm_1864_06" pb="110">Juni 1864</item>
+      <item id="hofm_1864_07" pb="130">Juli 1864</item>
+      <item id="hofm_1864_08" pb="150">August 1864</item>
+      <item id="hofm_1864_09" pb="174">September 1864</item>
+      <item id="hofm_1864_10" pb="194">Oktober 1864</item>
+      <item id="hofm_1864_11" pb="214">November 1864</item>
+      <item id="hofm_1864_12" pb="238">Dezember 1864</item>
+      <item id="hofm_1865_01" pb="2">Januar 1865</item>
+      <item id="hofm_1865_02" pb="22">Februar 1865</item>
+      <item id="hofm_1865_03" pb="38">März 1865</item>
+      <item id="hofm_1865_04" pb="54">April 1865</item>
+      <item id="hofm_1865_05" pb="70">Mai 1865</item>
+      <item id="hofm_1865_06" pb="90">Juni 1865</item>
+      <item id="hofm_1865_07" pb="106">Juli 1865</item>
+      <item id="hofm_1865_08" pb="126">August 1865</item>
+      <item id="hofm_1865_09" pb="146">September, Oktober 1865</item>
+      <item id="hofm_1865_11" pb="186">November 1865</item>
+      <item id="hofm_1865_12" pb="206">December 1865</item>
+      <item id="hofm_1866_01" pb="2">Januar 1866</item>
+      <item id="hofm_1866_02" pb="18">Februar 1866</item>
+      <item id="hofm_1866_03" pb="34">März 1866</item>
+      <item id="hofm_1866_04" pb="50">April 1866</item>
+      <item id="hofm_1866_05" pb="70">Mai 1866</item>
+      <item id="hofm_1866_06" pb="86">Juni 1866</item>
+      <item id="hofm_1866_07" pb="106">Juli 1866</item>
+      <item id="hofm_1866_08" pb="122">August 1866</item>
+      <item id="hofm_1866_09" pb="130">September 1866</item>
+      <item id="hofm_1866_10" pb="146">October 1866</item>
+      <item id="hofm_1866_11" pb="162">November 1866</item>
+      <item id="hofm_1866_12" pb="186">December 1866</item>
+      <item id="hofm_1867_01" pb="2">Januar 1867</item>
+      <item id="hofm_1867_02" pb="18">Februar 1867</item>
+      <item id="hofm_1867_03" pb="38">März 1867</item>
+      <item id="hofm_1867_04" pb="54">April 1867</item>
+      <item id="hofm_1867_05" pb="70">Mai 1867</item>
+      <item id="hofm_1867_06" pb="90">Juni 1867</item>
+      <item id="hofm_1867_07" pb="106">Juli 1867</item>
+      <item id="hofm_1867_08" pb="124">August 1867</item>
+      <item id="hofm_1867_09" pb="140">September 1867</item>
+      <item id="hofm_1867_10" pb="154">October 1867</item>
+      <item id="hofm_1867_11" pb="174">November 1867</item>
+      <item id="hofm_1867_12" pb="194">December 1867</item>
+      <item id="hofm_1868_01" pb="2">Januar 1868</item>
+      <item id="hofm_1868_02" pb="18">Februar 1868</item>
+      <item id="hofm_1868_03" pb="30">März 1868</item>
+      <item id="hofm_1868_04" pb="50">April 1868</item>
+      <item id="hofm_1868_05" pb="66">Mai 1868</item>
+      <item id="hofm_1868_06" pb="92">Juni 1868</item>
+      <item id="hofm_1868_07" pb="110">Juli 1868</item>
+      <item id="hofm_1868_08" pb="126">August 1868</item>
+      <item id="hofm_1868_09" pb="144">September 1868</item>
+      <item id="hofm_1868_10" pb="164">October 1868</item>
+      <item id="hofm_1868_11" pb="182">November 1868</item>
+      <item id="hofm_1868_12" pb="200">December 1868</item>
+      <item id="hofm_1869_01" pb="2">Januar 1869</item>
+      <item id="hofm_1869_02" pb="26">Februar 1869</item>
+      <item id="hofm_1869_03" pb="46">März 1869</item>
+      <item id="hofm_1869_04" pb="62">April 1869</item>
+      <item id="hofm_1869_05" pb="82">Mai 1869</item>
+      <item id="hofm_1869_06" pb="98">Juni 1869</item>
+      <item id="hofm_1869_07" pb="116">Juli 1869</item>
+      <item id="hofm_1869_08" pb="134">August 1869</item>
+      <item id="hofm_1869_09" pb="150">September 1869</item>
+      <item id="hofm_1869_10" pb="166">October 1869</item>
+      <item id="hofm_1869_11" pb="182">November 1869</item>
+      <item id="hofm_1869_12" pb="200">December 1869</item>
+   </list>
+   <list>
+      <item id="hofm_1870_01" pb="2">Januar 1870</item>
+      <item id="hofm_1870_02" pb="18">Februar 1870</item>
+      <item id="hofm_1870_03" pb="30">März 1870</item>
+      <item id="hofm_1870_04" pb="46">April 1870</item>
+      <item id="hofm_1870_05" pb="60">Mai 1870</item>
+      <item id="hofm_1870_06" pb="80">Juni 1870</item>
+      <item id="hofm_1870_07" pb="96">Juli 1870</item>
+      <item id="hofm_1870_08" pb="116">August 1870</item>
+      <item id="hofm_1870_09" pb="132">September und October 1870</item>
+      <item id="hofm_1870_11" pb="156">November 1870</item>
+      <item id="hofm_1870_12" pb="176">December 1870</item>
+      <item id="hofm_1871_01" pb="2">Januar 1871</item>
+      <item id="hofm_1871_02" pb="26">Februar 1871</item>
+      <item id="hofm_1871_03" pb="38">März 1871</item>
+      <item id="hofm_1871_04" pb="62">April 1871</item>
+      <item id="hofm_1871_05" pb="82">Mai 1871</item>
+      <item id="hofm_1871_06" pb="106">Juni 1871</item>
+      <item id="hofm_1871_07" pb="130">Juli 1871</item>
+      <item id="hofm_1871_08" pb="158">August 1871</item>
+      <item id="hofm_1871_09" pb="182">September 1871</item>
+      <item id="hofm_1871_10" pb="210">October 1871</item>
+      <item id="hofm_1871_11" pb="242">November 1871</item>
+      <item id="hofm_1871_12" pb="266">December 1871</item>
+      <item id="hofm_1872_01" pb="2">Januar 1872</item>
+      <item id="hofm_1872_02" pb="26">Februar 1872</item>
+      <item id="hofm_1872_03" pb="42">März 1872</item>
+      <item id="hofm_1872_04" pb="66">April 1872</item>
+      <item id="hofm_1872_05" pb="98">Mai 1872</item>
+      <item id="hofm_1872_06" pb="122">Juni 1872</item>
+      <item id="hofm_1872_07" pb="140">Juli 1872</item>
+      <item id="hofm_1872_08" pb="156">August u. September 1872</item>
+      <item id="hofm_1872_10" pb="200">October 1872</item>
+      <item id="hofm_1872_11" pb="228">November u. December 1872</item>
+      <item id="hofm_1873_01" pb="2">Januar 1873</item>
+      <item id="hofm_1873_02" pb="18">Februar 1873</item>
+      <item id="hofm_1873_03" pb="78">März 1873</item>
+      <item id="hofm_1873_04" pb="110">April 1873</item>
+      <item id="hofm_1873_05" pb="146">Mai 1873</item>
+      <item id="hofm_1873_06" pb="162">Juni 1873</item>
+      <item id="hofm_1873_07" pb="178">Juli 1873</item>
+      <item id="hofm_1873_08" pb="226">August 1873</item>
+      <item id="hofm_1873_09" pb="266">September 1873</item>
+      <item id="hofm_1873_10" pb="302">October 1873</item>
+      <item id="hofm_1873_11" pb="362">November 1873</item>
+      <item id="hofm_1873_12" pb="406">December 1873</item>
+      <item id="hofm_1874_01" pb="2">Januar 1874</item>
+      <item id="hofm_1874_02" pb="18">Februar 1874</item>
+      <item id="hofm_1874_03" pb="50">März 1874</item>
+      <item id="hofm_1874_04" pb="68">April 1874</item>
+      <item id="hofm_1874_05" pb="92">Mai 1874</item>
+      <item id="hofm_1874_06" pb="112">Juni 1874</item>
+      <item id="hofm_1874_07" pb="136">Juli 1874</item>
+      <item id="hofm_1874_08" pb="152">August 1874</item>
+      <item id="hofm_1874_09" pb="168">September 1874</item>
+      <item id="hofm_1874_10" pb="184">October 1874</item>
+      <item id="hofm_1874_11" pb="224">November 1874</item>
+      <item id="hofm_1874_12" pb="260">December 1874</item>
+      <item id="hofm_1875_01" pb="2">Januar 1875</item>
+      <item id="hofm_1875_02" pb="26">Februar 1875</item>
+      <item id="hofm_1875_03" pb="54">März 1875</item>
+      <item id="hofm_1875_04" pb="82">April 1875</item>
+      <item id="hofm_1875_05" pb="98">Mai 1875</item>
+      <item id="hofm_1875_06" pb="116">Juni 1875</item>
+      <item id="hofm_1875_07" pb="140">Juli 1875</item>
+      <item id="hofm_1875_08" pb="164">August 1875</item>
+      <item id="hofm_1875_09" pb="188">September 1875</item>
+      <item id="hofm_1875_10" pb="206">October 1875</item>
+      <item id="hofm_1875_11" pb="234">November 1875</item>
+      <item id="hofm_1875_12" pb="282">December 1875</item>
+      <item id="hofm_1876_01" pb="2">Januar 1876</item>
+      <item id="hofm_1876_02" pb="14">Februar 1876</item>
+      <item id="hofm_1876_03" pb="38">März u. April 1876</item>
+      <item id="hofm_1876_05" pb="98">Mai 1876</item>
+      <item id="hofm_1876_06" pb="122">Juni 1876</item>
+      <item id="hofm_1876_07" pb="158">Juli und August 1876</item>
+      <item id="hofm_1876_09" pb="196">September 1876</item>
+      <item id="hofm_1876_10" pb="248">October und November 1876</item>
+      <item id="hofm_1876_12" pb="306">December 1876</item>
+      <item id="hofm_1877_01" pb="2">Januar 1877</item>
+      <item id="hofm_1877_02" pb="26">Februar 1877</item>
+      <item id="hofm_1877_03" pb="54">März 1877</item>
+      <item id="hofm_1877_04" pb="98">April 1877</item>
+      <item id="hofm_1877_05" pb="138">Mai und Juni 1877</item>
+      <item id="hofm_1877_07" pb="186">Juli 1877</item>
+      <item id="hofm_1877_08" pb="210">August 1877</item>
+      <item id="hofm_1877_09" pb="234">September 1877</item>
+      <item id="hofm_1877_10" pb="278">Oktober 1877</item>
+      <item id="hofm_1877_11" pb="318">November 1877</item>
+      <item id="hofm_1877_12" pb="342">December 1877</item>
+      <item id="hofm_1878_01" pb="2">Januar 1878</item>
+      <item id="hofm_1878_02" pb="30">Februar 1878</item>
+      <item id="hofm_1878_03" pb="74">März 1878</item>
+      <item id="hofm_1878_04" pb="98">April 1878</item>
+      <item id="hofm_1878_05" pb="138">Mai und Juni 1878</item>
+      <item id="hofm_1878_07" pb="186">Juli 1878</item>
+      <item id="hofm_1878_08" pb="218">August 1878</item>
+      <item id="hofm_1878_09" pb="258">September 1878</item>
+      <item id="hofm_1878_10" pb="286">Oktober 1878</item>
+      <item id="hofm_1878_11" pb="318">November 1878</item>
+      <item id="hofm_1878_12" pb="374">December 1878</item>
+      <item id="hofm_1879_01" pb="2">Januar 1879</item>
+      <item id="hofm_1879_02" pb="38">Februar 1879</item>
+      <item id="hofm_1879_03" pb="62">März 1879</item>
+      <item id="hofm_1879_04" pb="102">April 1879</item>
+      <item id="hofm_1879_05" pb="142">Mai 1879</item>
+      <item id="hofm_1879_06" pb="166">Juni 1879</item>
+      <item id="hofm_1879_07" pb="194">Juli 1879</item>
+      <item id="hofm_1879_08" pb="234">August 1879</item>
+      <item id="hofm_1879_09" pb="262">September 1879</item>
+      <item id="hofm_1879_10" pb="290">Oktober 1879</item>
+      <item id="hofm_1879_11" pb="318">November 1879</item>
+      <item id="hofm_1879_12" pb="362">December 1879</item>
+   </list>
+   <list>
+      <item id="hofm_1880_01" pb="2">Januar 1880</item>
+      <item id="hofm_1880_02" pb="50">Februar 1880</item>
+      <item id="hofm_1880_03" pb="74">März 1880</item>
+      <item id="hofm_1880_04" pb="114">April 1880</item>
+      <item id="hofm_1880_05" pb="138">Mai 1880</item>
+      <item id="hofm_1880_06" pb="162">Juni 1880</item>
+      <item id="hofm_1880_07" pb="190">Juli 1880</item>
+      <item id="hofm_1880_08" pb="214">August 1880</item>
+      <item id="hofm_1880_09" pb="242">September 1880</item>
+      <item id="hofm_1880_10" pb="268">Oktober 1880</item>
+      <item id="hofm_1880_11" pb="316">November 1880</item>
+      <item id="hofm_1880_12" pb="360">December 1880</item>
+      <item id="hofm_1881_01" pb="2">Januar 1881</item>
+      <item id="hofm_1881_02" pb="22">Februar 1881</item>
+      <item id="hofm_1881_03" pb="50">März 1881</item>
+      <item id="hofm_1881_04" pb="70">April 1881</item>
+      <item id="hofm_1881_05" pb="106">Mai 1881</item>
+      <item id="hofm_1881_06" pb="134">Juni 1881</item>
+      <item id="hofm_1881_07" pb="158">Juli 1881</item>
+      <item id="hofm_1881_08" pb="190">August 1881</item>
+      <item id="hofm_1881_09" pb="214">September 1881</item>
+      <item id="hofm_1881_10" pb="246">Oktober 1881</item>
+      <item id="hofm_1881_11" pb="274">November u. Dezember 1881</item>
+      <item id="hofm_1882_01" pb="2">Januar 1882</item>
+      <item id="hofm_1882_02" pb="30">Februar 1882</item>
+      <item id="hofm_1882_03" pb="66">März 1882</item>
+      <item id="hofm_1882_04" pb="106">April 1882</item>
+      <item id="hofm_1882_05" pb="130">Mai 1882</item>
+      <item id="hofm_1882_06" pb="162">Juni 1882</item>
+      <item id="hofm_1882_07" pb="186">Juli 1882</item>
+      <item id="hofm_1882_08" pb="210">August 1882</item>
+      <item id="hofm_1882_09" pb="252">September 1882</item>
+      <item id="hofm_1882_10" pb="292">Oktober 1882</item>
+      <item id="hofm_1882_11" pb="336">	November 1882</item>
+      <item id="hofm_1882_12" pb="376">Dezember 1882</item>
+      <item id="hofm_1883_01" pb="2">Januar 1883</item>
+      <item id="hofm_1883_02" pb="18">Februar 1883</item>
+      <item id="hofm_1883_03" pb="52">März u. April 1883</item>
+      <item id="hofm_1883_05" pb="80">Mai 1883</item>
+      <item id="hofm_1883_06" pb="114">Juni 1883</item>
+      <item id="hofm_1883_07" pb="154">Juli 1883</item>
+      <item id="hofm_1883_08" pb="182">August 1883</item>
+      <item id="hofm_1883_09" pb="206">September 1883</item>
+      <item id="hofm_1883_10" pb="242">Oktober 1883</item>
+      <item id="hofm_1883_11" pb="282">November 1883</item>
+      <item id="hofm_1883_12" pb="315">Dezember 1883</item>
+      <item id="hofm_1884_01" pb="2">Januar 1884</item>
+      <item id="hofm_1884_02" pb="18">Februar 1884</item>
+      <item id="hofm_1884_03" pb="46">März 1884</item>
+      <item id="hofm_1884_04" pb="84">April 1884</item>
+      <item id="hofm_1884_05" pb="108">Mai 1884</item>
+      <item id="hofm_1884_06" pb="146">Juni 1884</item>
+      <item id="hofm_1884_07" pb="174">Juli 1884</item>
+      <item id="hofm_1884_08" pb="206">August 1884</item>
+      <item id="hofm_1884_09" pb="234">September 1884</item>
+      <item id="hofm_1884_10" pb="258">Oktober 1884</item>
+      <item id="hofm_1884_11" pb="292">November 1884</item>
+      <item id="hofm_1884_12" pb="334">Dezember 1884</item>
+      <item id="hofm_1885_01" pb="2">Januar 1885</item>
+      <item id="hofm_1885_02" pb="26">Februar 1885</item>
+      <item id="hofm_1885_03" pb="54">März 1885</item>
+      <item id="hofm_1885_04" pb="86">April 1885</item>
+      <item id="hofm_1885_05" pb="118">Mai 1885</item>
+      <item id="hofm_1885_06" pb="142">Juni 1885</item>
+      <item id="hofm_1885_07" pb="166">Juli 1885</item>
+      <item id="hofm_1885_08" pb="190">August 1885</item>
+      <item id="hofm_1885_09" pb="234">September 1885</item>
+      <item id="hofm_1885_10" pb="274">Oktober 1885</item>
+      <item id="hofm_1885_11" pb="314">November 1885</item>
+      <item id="hofm_1885_12" pb="350">Dezember 1885</item>
+      <item id="hofm_1886_01" pb="2">Januar 1886</item>
+      <item id="hofm_1886_02" pb="34">Februar 1886</item>
+      <item id="hofm_1886_03" pb="62">März u. April 1886</item>
+      <item id="hofm_1886_05" pb="100">Mai 1886</item>
+      <item id="hofm_1886_06" pb="502">Juni 1886</item>
+      <item id="hofm_1886_07" pb="188">Juli 1886</item>
+      <item id="hofm_1886_08" pb="236">August 1886</item>
+      <item id="hofm_1886_09" pb="284">September 1886</item>
+      <item id="hofm_1886_10" pb="348">Oktober 1886</item>
+      <item id="hofm_1886_11" pb="404">November 1886</item>
+      <item id="hofm_1886_12" pb="468">Dezember 1886</item>
+      <item id="hofm_1887_01" pb="2">Januar 1887</item>
+      <item id="hofm_1887_02" pb="74">Februar 1887</item>
+      <item id="hofm_1887_03" pb="138">März 1887</item>
+      <item id="hofm_1887_04" pb="178">April 1887</item>
+      <item id="hofm_1887_05" pb="210">Mai 1887</item>
+      <item id="hofm_1887_06" pb="266">Juni 1887</item>
+      <item id="hofm_1887_07" pb="298">Juli 1887</item>
+      <item id="hofm_1887_08" pb="334">August 1887</item>
+      <item id="hofm_1887_09" pb="390">September 1887</item>
+      <item id="hofm_1887_10" pb="454">Oktober 1887</item>
+      <item id="hofm_1887_11" pb="522">November 1887</item>
+      <item id="hofm_1887_12" pb="570">Dezember 1887</item>
+      <item id="hofm_1888_01" pb="2">Januar 1888</item>
+      <item id="hofm_1888_02" pb="42">Februar 1888</item>
+      <item id="hofm_1888_03" pb="90">März 1888</item>
+      <item id="hofm_1888_04" pb="146">April 1888</item>
+      <item id="hofm_1888_05" pb="178">Mai 1888</item>
+      <item id="hofm_1888_06" pb="226">Juni 1888</item>
+      <item id="hofm_1888_07" pb="258">Juli 1888</item>
+      <item id="hofm_1888_08" pb="298">August 1888</item>
+      <item id="hofm_1888_09" pb="354">September 1888</item>
+      <item id="hofm_1888_10" pb="394">Oktober 1888</item>
+      <item id="hofm_1888_11" pb="458">November 1888</item>
+      <item id="hofm_1888_12" pb="522">Dezember 1888</item>
+      <item id="hofm_1889_01" pb="2">Januar 1889</item>
+      <item id="hofm_1889_02" pb="50">Februar 1889</item>
+      <item id="hofm_1889_03" pb="98">März 1889</item>
+      <item id="hofm_1889_04" pb="146">April 1889</item>
+      <item id="hofm_1889_05" pb="178">Mai 1889</item>
+      <item id="hofm_1889_06" pb="218">Juni 1889</item>
+      <item id="hofm_1889_07" pb="258">Juli 1889</item>
+      <item id="hofm_1889_08" pb="290">August 1889</item>
+      <item id="hofm_1889_09" pb="346">September 1889</item>
+      <item id="hofm_1889_10" pb="394">Oktober 1889</item>
+      <item id="hofm_1889_11" pb="466">November 1889.</item>
+      <item id="hofm_1889_12" pb="530">Dezember 1889</item>
+   </list>
+   <list>
+      <item id="hofm_1890_01" pb="2">Januar 1890</item>
+      <item id="hofm_1890_02" pb="34">February 1890</item>
+      <item id="hofm_1890_03" pb="98">März 1890</item>
+      <item id="hofm_1890_04" pb="154">April 1890</item>
+      <item id="hofm_1890_05" pb="194">Mai 1890</item>
+      <item id="hofm_1890_06" pb="234">Juni 1890</item>
+      <item id="hofm_1890_07" pb="274">Juli 1890</item>
+      <item id="hofm_1890_08" pb="306">August 1890</item>
+      <item id="hofm_1890_09" pb="354">September 1890</item>
+      <item id="hofm_1890_10" pb="402">Oktober 1890</item>
+      <item id="hofm_1890_11" pb="466">November 1890</item>
+      <item id="hofm_1890_12" pb="522">Dezember 1890</item>
+      <item id="hofm_1891_01" pb="2">Januar 1891</item>
+      <item id="hofm_1891_02" pb="42">Februar 1891</item>
+      <item id="hofm_1891_03" pb="74">März 1891</item>
+      <item id="hofm_1891_04" pb="114">April 1891</item>
+      <item id="hofm_1891_05" pb="170">Mai 1891</item>
+      <item id="hofm_1891_06" pb="202">Juni 1891</item>
+      <item id="hofm_1891_07" pb="250">Juli 1891.</item>
+      <item id="hofm_1891_08" pb="298">August 1891</item>
+      <item id="hofm_1891_09" pb="338">September 1891</item>
+      <item id="hofm_1891_10" pb="394">Oktober 1891</item>
+      <item id="hofm_1891_11" pb="446">November 1891</item>
+      <item id="hofm_1891_12" pb="518">Dezember 1891</item>
+      <item id="hofm_1892_01" pb="2">Januar 1892</item>
+      <item id="hofm_1892_02" pb="38">Februar 1892</item>
+      <item id="hofm_1892_03" pb="74">März 1892</item>
+      <item id="hofm_1892_04" pb="122">April 1892</item>
+      <item id="hofm_1892_05" pb="178">Mai 1892</item>
+      <item id="hofm_1892_06" pb="218">Juni 1892</item>
+      <item id="hofm_1892_07" pb="242">Juli 1892</item>
+      <item id="hofm_1892_08" pb="274">August 1892</item>
+      <item id="hofm_1892_09" pb="322">September 1892</item>
+      <item id="hofm_1892_10" pb="378">Oktober 1892</item>
+      <item id="hofm_1892_11" pb="426">November 1892</item>
+      <item id="hofm_1892_12" pb="506">Dezember 1892</item>
+      <item id="hofm_1893_01" pb="2">Januar 1893</item>
+      <item id="hofm_1893_02" pb="34">Februar 1893</item>
+      <item id="hofm_1893_03" pb="74">März 1893</item>
+      <item id="hofm_1893_04" pb="120">April 1893</item>
+      <item id="hofm_1893_05" pb="156">Mai 1893</item>
+      <item id="hofm_1893_06" pb="196">Juni 1893</item>
+      <item id="hofm_1893_07" pb="248">Juli 1893</item>
+      <item id="hofm_1893_08" pb="280">August 1893</item>
+      <item id="hofm_1893_09" pb="316">September 1893</item>
+      <item id="hofm_1893_10" pb="372">Oktober 1893</item>
+      <item id="hofm_1893_11" pb="444">November 1893</item>
+      <item id="hofm_1893_12" pb="508">Dezember 1893</item>
+      <item id="hofm_1894_01" pb="2">Januar 1894</item>
+      <item id="hofm_1894_02" pb="58">Februar 1894</item>
+      <item id="hofm_1894_03" pb="98">März 1894</item>
+      <item id="hofm_1894_04" pb="146">April 1894</item>
+      <item id="hofm_1894_05" pb="194">Mai 1894</item>
+      <item id="hofm_1894_06" pb="234">Juni 1894</item>
+      <item id="hofm_1894_07" pb="282">Juli 1894</item>
+      <item id="hofm_1894_08" pb="330">August 1894</item>
+      <item id="hofm_1894_09" pb="362">September 1894</item>
+      <item id="hofm_1894_10" pb="426">Oktober 1894</item>
+      <item id="hofm_1894_11" pb="474">November 1894</item>
+      <item id="hofm_1894_12" pb="530">Dezember 1894</item>
+      <item id="hofm_1895_01" pb="2">Januar 1895</item>
+      <item id="hofm_1895_02" pb="34">Februar 1895</item>
+      <item id="hofm_1895_03" pb="82">März 1895</item>
+      <item id="hofm_1895_04" pb="122">April 1895</item>
+      <item id="hofm_1895_05" pb="178">Mai 1895</item>
+      <item id="hofm_1895_06" pb="218">Juni 1895</item>
+      <item id="hofm_1895_07" pb="262">Juli 1895</item>
+      <item id="hofm_1895_08" pb="298">August 1895</item>
+      <item id="hofm_1895_09" pb="346">September 1895</item>
+      <item id="hofm_1895_10" pb="394">Oktober 1895</item>
+      <item id="hofm_1895_11" pb="450">November 1895</item>
+      <item id="hofm_1895_12" pb="514">Dezember 1895</item>
+      <item id="hofm_1896_01" pb="2">Januar 1896</item>
+      <item id="hofm_1896_02" pb="42">Februar 1896</item>
+      <item id="hofm_1896_03" pb="90">März 1896</item>
+      <item id="hofm_1896_04" pb="154">April 1896</item>
+      <item id="hofm_1896_05" pb="218">Mai 1896</item>
+      <item id="hofm_1896_06" pb="266">Juni 1896</item>
+      <item id="hofm_1896_07" pb="314">Juli 1896</item>
+      <item id="hofm_1896_08" pb="362">August 1896</item>
+      <item id="hofm_1896_09" pb="410">September 1896</item>
+      <item id="hofm_1896_10" pb="474">Oktober 1896</item>
+      <item id="hofm_1896_11" pb="546">November 1896</item>
+      <item id="hofm_1896_12" pb="594">Dezember 1896</item>
+      <item id="hofm_1897_01" pb="2">Januar 1897</item>
+      <item id="hofm_1897_02" pb="42">Februar 1897</item>
+      <item id="hofm_1897_03" pb="90">März 1897</item>
+      <item id="hofm_1897_04" pb="146">April 1897</item>
+      <item id="hofm_1897_05" pb="198">Mai 1897</item>
+      <item id="hofm_1897_06" pb="242">Juni 1897</item>
+      <item id="hofm_1897_07" pb="286">Juli 1897</item>
+      <item id="hofm_1897_08" pb="318">August 1897</item>
+      <item id="hofm_1897_09" pb="358">September 1897</item>
+      <item id="hofm_1897_10" pb="422">Oktober 1897</item>
+      <item id="hofm_1897_11" pb="474">November 1897</item>
+      <item id="hofm_1897_12" pb="530">Dezember 1897</item>
+      <item id="hofm_1898_01" pb="2">Januar 1898</item>
+      <item id="hofm_1898_02" pb="34">Februar 1898</item>
+      <item id="hofm_1898_03" pb="74">März 1898</item>
+      <item id="hofm_1898_04" pb="138">April 1898</item>
+      <item id="hofm_1898_05" pb="178">Mai 1898</item>
+      <item id="hofm_1898_06" pb="234">Juni 1898</item>
+      <item id="hofm_1898_07" pb="282">Juli 1898</item>
+      <item id="hofm_1898_08" pb="330">August 1898</item>
+      <item id="hofm_1898_09" pb="386">September 1898</item>
+      <item id="hofm_1898_10" pb="442">Oktober 1898</item>
+      <item id="hofm_1898_11" pb="514">November 1898</item>
+      <item id="hofm_1898_12" pb="586">Dezember 1898</item>
+      <item id="hofm_1899_01" pb="2">Januar 1899</item>
+      <item id="hofm_1899_02" pb="42">Februar 1899</item>
+      <item id="hofm_1899_03" pb="90">März 1899</item>
+      <item id="hofm_1899_04" pb="138">April 1899</item>
+      <item id="hofm_1899_05" pb="186">Mai 1899</item>
+      <item id="hofm_1899_06" pb="238">Juni 1899</item>
+      <item id="hofm_1899_07" pb="290">Juli 1899</item>
+      <item id="hofm_1899_08" pb="334">August 1899</item>
+      <item id="hofm_1899_09" pb="374">September 1899</item>
+      <item id="hofm_1899_10" pb="446">Oktober 1899</item>
+      <item id="hofm_1899_11" pb="502">November 1899</item>
+      <item id="hofm_1899_12" pb="562">Dezember 1899</item>
+      <item id="hofm_1900_01" pb="2">Januar 1900</item>
+      <item id="hofm_1900_02" pb="54">Februar 1900</item>
+      <item id="hofm_1900_03" pb="98">März 1900</item>
+      <item id="hofm_1900_04" pb="146">April 1900</item>
+      <item id="hofm_1900_05" pb="194">Mai 1900</item>
+      <item id="hofm_1900_06" pb="254">Juni 1900</item>
+      <item id="hofm_1900_07" pb="326">Juli 1900</item>
+      <item id="hofm_1900_08" pb="374">August 1900</item>
+      <item id="hofm_1900_09" pb="430">September 1900</item>
+      <item id="hofm_1900_10" pb="494">Oktober 1900</item>
+      <item id="hofm_1900_11" pb="582">November 1900</item>
+      <item id="hofm_1900_12" pb="654">Dezember 1900</item>
+   </list>
+</intermed>

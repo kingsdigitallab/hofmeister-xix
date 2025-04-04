@@ -1,0 +1,1049 @@
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+ab {
+  display: block;
+}
+
+activity {
+  display: block;
+}
+
+address {
+  display: block;
+}
+
+addrLine {
+  display: block;
+}
+
+admin {
+  display: block;
+}
+
+affiliation {
+  display: block;
+}
+
+altGrp {
+  display: block;
+}
+
+analytic {
+  display: block;
+}
+
+app {
+  display: block;
+}
+
+argument {
+  display: block;
+}
+
+author {
+  display: block;
+font-family:Arial Unicode MS;
+font-style:italic;
+font-size:16pt;
+}
+
+authority {
+  display: block;
+}
+
+availability {
+  display: block;
+}
+
+back {
+  display: block;
+}
+
+bibl {
+  display: block;
+}
+
+biblFull {
+  display: block;
+}
+
+biblScope {
+  display: block;
+}
+
+biblStruct {
+  display: block;
+}
+
+birth {
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+broadcast {
+  display: block;
+}
+
+byline {
+  display: block;
+}
+
+camera {
+  display: block;
+}
+
+caption {
+  display: block;
+}
+
+case {
+  display: block;
+}
+
+castGroup {
+  display: block;
+}
+
+castItem {
+  display: block;
+}
+
+castList {
+  display: block;
+}
+
+catDesc {
+  display: block;
+}
+
+category {
+  display: block;
+}
+
+cell {
+  display: block;
+}
+
+change {
+  display: block;
+}
+
+channel {
+  display: block;
+}
+
+cit {
+  display: block;
+}
+
+classCode {
+  display: block;
+}
+
+classDecl {
+  display: block;
+}
+
+closer {
+  display: block;
+}
+
+colloc {
+  display: block;
+}
+
+constitution {
+  display: block;
+}
+
+correction {
+  display: block;
+}
+
+creation {
+  display: block;
+}
+
+date {
+  display: block;
+font-family:Arial Unicode MS;
+font-size:14pt;
+color:#990099;
+}
+
+dateline {
+  display: block;
+}
+
+dateStruct {
+  display: block;
+}
+
+def {
+  display: block;
+}
+
+derivation {
+  display: block;
+}
+
+descrip {
+  display: block;
+}
+
+dictScrap {
+  display: block;
+}
+
+distributor {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+div0 {
+  display: block;
+}
+
+div1 {
+  display: block;
+}
+
+div2 {
+  display: block;
+}
+
+div3 {
+  display: block;
+}
+
+div4 {
+  display: block;
+}
+
+div5 {
+  display: block;
+}
+
+div6 {
+  display: block;
+}
+
+div7 {
+  display: block;
+}
+
+docAuthor {
+  display: block;
+}
+
+docDate {
+  display: block;
+}
+
+docEdition {
+  display: block;
+}
+
+docImprint {
+  display: block;
+}
+
+docTitle {
+  display: block;
+}
+
+domain {
+  display: block;
+}
+
+edition {
+  display: block;
+}
+
+editionStmt {
+  display: block;
+}
+
+editor {
+  display: block;
+}
+
+editorialDecl {
+  display: block;
+}
+
+education {
+  display: block;
+}
+
+eg {
+  display: block;
+}
+
+encodingDesc {
+  display: block;
+}
+
+entry {
+  display: block;
+}
+
+entryFree {
+  display: block;
+}
+
+epigraph {
+  display: block;
+}
+
+epilogue {
+  display: block;
+}
+
+equipment {
+  display: block;
+}
+
+eTree {
+  display: block;
+}
+
+etym {
+  display: block;
+}
+
+extent {
+  display: block;
+}
+
+f {
+  display: block;
+}
+
+factuality {
+  display: block;
+}
+
+fAlt {
+  display: block;
+}
+
+figDesc {
+  display: block;
+}
+
+figure {
+  display: block;
+}
+
+fileDesc {
+  display: block;
+}
+
+firstLang {
+  display: block;
+}
+
+fLib {
+  display: block;
+}
+
+forest {
+  display: block;
+}
+
+forestGrp {
+  display: block;
+}
+
+form {
+  display: block;
+}
+
+front {
+  display: block;
+}
+
+fs {
+  display: block;
+}
+
+fsLib {
+  display: block;
+}
+
+funder {
+  display: block;
+}
+
+fvLib {
+  display: block;
+}
+
+fw {
+  display: block;
+}
+
+gen {
+  display: block;
+}
+
+gram {
+  display: block;
+}
+
+gramGrp {
+  display: block;
+}
+
+graph {
+  display: block;
+}
+
+group {
+  display: block;
+}
+
+handList {
+  display: block;
+}
+
+head {
+  display: block;
+}
+
+headItem {
+  display: block;
+}
+
+headLabel {
+  display: block;
+}
+
+hom {
+  display: block;
+}
+
+hyph {
+  display: block;
+}
+
+hyphenation {
+  display: block;
+}
+
+idno {
+  display: block;
+}
+
+imprimatur {
+  display: block;
+}
+
+imprint {
+  display: block;
+}
+
+interaction {
+  display: block;
+}
+
+interpGrp {
+  display: block;
+}
+
+interpretation {
+  display: block;
+}
+
+item {
+  display: block;
+font-family:Arial Unicode MS;
+font-size:13pt;
+}
+
+itype {
+  display: block;
+}
+
+joinGrp {
+  display: block;
+}
+
+keywords {
+  display: block;
+}
+
+l {
+  display: block;
+}
+
+label {
+  display: block;
+font-family:Arial Unicode MS;
+font-size:14pt;
+color:#990099;
+}
+
+langKnown {
+  display: block;
+}
+
+language {
+  display: block;
+}
+
+langUsage {
+  display: block;
+}
+
+lbl {
+  display: block;
+}
+
+lem {
+  display: block;
+}
+
+lg {
+  display: block;
+}
+
+lg1 {
+  display: block;
+}
+
+lg2 {
+  display: block;
+}
+
+lg3 {
+  display: block;
+}
+
+lg4 {
+  display: block;
+}
+
+lg5 {
+  display: block;
+}
+
+linkGrp {
+  display: block;
+}
+
+list {
+  display: block;
+}
+
+listBibl {
+  display: block;
+}
+
+locale {
+  display: block;
+}
+
+meeting {
+  display: block;
+}
+
+metDecl {
+  display: block;
+}
+
+monogr {
+  display: block;
+}
+
+mood {
+  display: block;
+}
+
+name {
+  display: block;
+}
+
+normalization {
+  display: block;
+}
+
+note {
+  display: block;
+}
+
+notesStmt {
+  display: block;
+}
+
+number {
+  display: block;
+}
+
+occupation {
+  display: block;
+}
+
+ofig {
+  display: block;
+}
+
+opener {
+  display: block;
+}
+
+orth {
+  display: block;
+}
+
+otherForm {
+  display: block;
+}
+
+oVar {
+  display: block;
+}
+
+p {
+  display: block;
+font-family:Arial Unicode MS;
+font-size:13pt;
+}
+
+particDesc {
+  display: block;
+}
+
+particLinks {
+  display: block;
+}
+
+per {
+  display: block;
+}
+
+performance {
+  display: block;
+}
+
+persName {
+  display: block;
+}
+
+person {
+  display: block;
+}
+
+personGrp {
+  display: block;
+}
+
+pos {
+  display: block;
+}
+
+postBox {
+  display: block;
+}
+
+postCode {
+  display: block;
+}
+
+preparedness {
+  display: block;
+}
+
+principal {
+  display: block;
+}
+
+profileDesc {
+  display: block;
+}
+
+projectDesc {
+  display: block;
+}
+
+prologue {
+  display: block;
+}
+
+pron {
+  display: block;
+}
+
+publicationStmt {
+  display: block;
+}
+
+publisher {
+  display: block;
+}
+
+pubPlace {
+  display: block;
+}
+
+purpose {
+  display: block;
+}
+
+pVar {
+  display: block;
+}
+
+q {
+  display: block;
+}
+
+quotation {
+  display: block;
+}
+
+quote {
+  display: block;
+}
+
+rdg {
+  display: block;
+}
+
+rdgGrp {
+  display: block;
+}
+
+re {
+  display: block;
+}
+
+recording {
+  display: block;
+}
+
+recordingStmt {
+  display: block;
+}
+
+ref {
+  display: block;
+}
+
+refsDecl {
+  display: block;
+}
+
+rendition {
+  display: block;
+}
+
+residence {
+  display: block;
+}
+
+resp {
+  display: block;
+}
+
+respStmt {
+  display: block;
+}
+
+revisionDesc {
+  display: block;
+}
+
+row {
+  display: block;
+}
+
+salute {
+  display: block;
+}
+
+samplingDecl {
+  display: block;
+}
+
+scriptStmt {
+  display: block;
+}
+
+seg {
+  display: block;
+}
+
+segmentation {
+  display: block;
+}
+
+sense {
+  display: block;
+}
+
+series {
+  display: block;
+}
+
+seriesStmt {
+  display: block;
+}
+
+set {
+  display: block;
+}
+
+setting {
+  display: block;
+}
+
+settingDesc {
+  display: block;
+}
+
+signed {
+  display: block;
+}
+
+socecStatus {
+  display: block;
+}
+
+sound {
+  display: block;
+}
+
+sourceDesc {
+  display: block;
+}
+
+sp {
+  display: block;
+}
+
+spanGrp {
+  display: block;
+}
+
+speaker {
+  display: block;
+}
+
+sponsor {
+  display: block;
+}
+
+stage {
+  display: block;
+}
+
+stdVals {
+  display: block;
+}
+
+str {
+  display: block;
+}
+
+street {
+  display: block;
+}
+
+stress {
+  display: block;
+}
+
+subc {
+  display: block;
+}
+
+superEntry {
+  display: block;
+}
+
+syll {
+  display: block;
+}
+
+symbol {
+  display: block;
+}
+
+table {
+  display: block;
+}
+
+tagsDecl {
+  display: block;
+}
+
+tagUsage {
+  display: block;
+}
+
+taxonomy {
+  display: block;
+}
+
+tech {
+  display: block;
+}
+
+TEI\.2 {
+  display: block;
+}
+
+teiCorpus\.2 {
+  display: block;
+}
+
+teiHeader {
+  display: block;
+background-color:#FFFFCC;
+}
+
+term {
+  display: block;
+}
+
+termEntry {
+  display: block;
+}
+
+text {
+  display: block;
+}
+
+textClass {
+  display: block;
+}
+
+textDesc {
+  display: block;
+}
+
+tig {
+  display: block;
+}
+
+time {
+  display: block;
+}
+
+timeline {
+  display: block;
+}
+
+title {
+  display: block;
+font-family:Arial Unicode MS;
+font-weight:bold;
+font-size:16pt;
+}
+
+titlePage {
+  display: block;
+}
+
+titlePart {
+  display: block;
+}
+
+titleStmt {
+  display: block;
+}
+
+tns {
+  display: block;
+}
+
+tr {
+  display: block;
+}
+
+trailer {
+  display: block;
+}
+
+trans {
+  display: block;
+}
+
+tree {
+  display: block;
+}
+
+triangle {
+  display: block;
+}
+
+u {
+  display: block;
+}
+
+usg {
+  display: block;
+}
+
+vAlt {
+  display: block;
+}
+
+view {
+  display: block;
+}
+
+wit {
+  display: block;
+}
+
+witDetail {
+  display: block;
+}
+
+witList {
+  display: block;
+}
+
+witness {
+  display: block;
+}
+
+writing {
+  display: block;
+}
+
+xr {
+  display: block;
+}
+
+xref {
+  display: block;
+}
+
